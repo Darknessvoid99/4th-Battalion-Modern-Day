@@ -1,0 +1,4 @@
+# .gitignore
+@dm_4thmd/
+.vs/
+.vscode/

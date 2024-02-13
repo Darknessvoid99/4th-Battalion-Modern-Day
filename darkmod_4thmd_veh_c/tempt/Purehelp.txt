@@ -1,0 +1,4 @@
+fnc_changeCamo
+params [ "_object"]
+
+_object setObjectTextureGlobal [0,"path_to_tex_file"]

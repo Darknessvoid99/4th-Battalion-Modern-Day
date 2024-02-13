@@ -1,0 +1,24 @@
+_action = 
+[
+    "VulcanPinch",          //Name
+    "Vulcan Pinch",         //Display Name
+    "",                     //Icon
+    {_target setDamage 1;}, //Statement
+    {true},                 //Condition
+    {},                     //Children Code [Optional from here down]
+    [parameters],           //Action Parameters
+    [0,0,0],                //Position
+    100                     //Distance
+                            //Other Parameters [showDisabled,enableInside,canCollapse,runOnHover,doNotCheckLOS]
+                            //Modifier Function
+] call ace_interact_menu_fnc_createAction;
+
+[
+    cursorTarget,               //TypeOf of the class. Target classname
+     0,                         //Type of Action, 0 Action, 1 Self-Action
+    ["ACE_TapShoulderRight"],   //Parent Path of the new action
+    _action                     //Action
+] call ace_interact_menu_fnc_addActionToObject;
+
+
+

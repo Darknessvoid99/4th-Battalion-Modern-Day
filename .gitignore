@@ -3,5 +3,6 @@
 /@dm_4thmd_dev
 .vs/
 .vscode/
+/Storage
 
 *.pbo

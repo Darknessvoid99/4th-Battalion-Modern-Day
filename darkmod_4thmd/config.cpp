@@ -7,9 +7,19 @@ class CfgPatches {
             "4thmd_u_unif1_ar1_ss",
             "4thmd_u_unif1_ar1_tt",
             "4thmd_u_unif1_ar1_sw",
+            "4thmd_u_unif1_ar1_gh",
             "4thmd_u_ghil1_ar1",
             "4thmd_u_ghil1_ar1_a",
-            "4thmd_u_ghil1_ar1_l"
+            "4thmd_u_ghil1_ar1_l",
+
+            "4thmd_u_unif1_wd1",
+            "4thmd_u_unif1_wd1_ss",
+            "4thmd_u_unif1_wd1_tt",
+            "4thmd_u_unif1_wd1_sw",
+            "4thmd_u_unif1_wd1_gh",
+            "4thmd_u_ghil1_wd1",
+            "4thmd_u_ghil1_wd1_a",
+            "4thmd_u_ghil1_wd1_l"
         };
         units[] = 
         {
@@ -17,13 +27,27 @@ class CfgPatches {
             "4thmd_u_unif1_ar1_ss_f",
             "4thmd_u_unif1_ar1_tt_f",
             "4thmd_u_unif1_ar1_sw_f",
+            "4thmd_u_unif1_ar1_gh_f",
             "4thmd_u_ghil1_ar1_f",
             "4thmd_u_ghil1_ar1_a_f",
             "4thmd_u_ghil1_ar1_l_f",
-            "4thmd_b_pac1_ar11",
+            "4thmd_b_pac1_ar1",
             "4thmd_b_pac2_ar1",
             "4thmd_b_pac3_ar1",
             "4thmd_b_pac5_ar1",
+
+            "4thmd_u_unif1_wd1_f",
+            "4thmd_u_unif1_wd1_ss_f",
+            "4thmd_u_unif1_wd1_tt_f",
+            "4thmd_u_unif1_wd1_sw_f",
+            "4thmd_u_unif1_wd1_gh_f",
+            "4thmd_u_ghil1_wd1_f",
+            "4thmd_u_ghil1_wd1_a_f",
+            "4thmd_u_ghil1_wd1_l_f",
+            "4thmd_b_pac1_wd1",
+            "4thmd_b_pac2_wd1",
+            "4thmd_b_pac3_wd1",
+            "4thmd_b_pac5_wd1",
         };
         magazines[] = {};
         requiredAddons[] = 
@@ -191,6 +215,7 @@ class CfgWeapons
 /*
     #include "CfgW_equ_de.hpp"
     #include "CfgW_equ_bl.hpp"
+    #include "CfgW_equ_sb.hpp"
     #include "CfgW_equ_ac.hpp"
     #include "CfgW_equ_ju.hpp"
 */

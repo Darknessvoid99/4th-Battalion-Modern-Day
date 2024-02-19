@@ -45,6 +45,7 @@ class CfgPatches
             "4thmd_s_pod4_cargo_wd1",
             "4thmd_s_pod4_ammo_wd1",
             "4thmd_s_pod4_fuel_wd1",
+            "4thmd_s_pod4_medevac_wd1",
             "4thmd_s_pod4_repair_wd1",
             "4thmd_s_pod4_repair_ar1",
             "4thmd_v_lt1_ca_wd1",
@@ -70,6 +71,13 @@ class CfgPatches
             "4thmd_v_mrap3_wd1",
             "4thmd_v_mrap3_hmg_wd1",
             "4thmd_v_mrap3_gmg_wd1",
+
+            "4thmd_s_ft1_forest",
+            "4thmd_s_ft1_sand",
+            "4thmd_s_ft1_vic_forest",
+            "4thmd_s_ft1_vic_sand",
+            "4thmd_s_val_wood",
+            "4thmd_s_va1_std",
         };
 
         magazines[] = {};
@@ -571,6 +579,8 @@ class CfgVehicles
         };
         textureList[] = {"Arid_4th",1,};
 
+        ace_cargo_space = 30;
+
         class TextureSources
         {
             class Arid_4th
@@ -607,6 +617,8 @@ class CfgVehicles
         };
         textureList[] = {"Arid_4th",1,};
 
+        ace_rearm_defaultSupply = 9000;
+
         class TextureSources
         {
             class Arid_4th
@@ -640,6 +652,8 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\arid\dm_pod4_fuel_ar1.paa"
         };
         textureList[] = {"Arid_4th",1,};
+
+        ace_refuel_fuelCargo = 8000;
 
         class TextureSources
         {
@@ -710,6 +724,10 @@ class CfgVehicles
         };
         textureList[] = {"Arid_4th",1,};
 
+        ace_cargo_space = 12;
+        ace_refuel_fuelCargo = 4000;
+        ace_rearm_defaultSupply = 4000;
+
         class TextureSources
         {
             class Arid_4th
@@ -743,7 +761,6 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"          //Slat
         };
         textureList[] = {"Arid_4th",1,};
-
     
         class TextureSources
         {
@@ -1361,10 +1378,9 @@ class CfgVehicles
 
         ace_cargo_space = 8;
         ace_repair_canRepair = 1;
-        ace_rearm_defaultSupply = 1600;
-        ace_refuel_fuelCargo = 1200;
-        ace_refuel_hooks[] = {[-1.08,-4.81,-0.8]};
-
+        ace_rearm_defaultSupply = 4000;
+        ace_refuel_fuelCargo = 3000;
+        ace_refuel_hooks[] = {{-0.801,-0.920,-0.55},{1.536,-0.920,-0.55}};
         hiddenSelectionsTextures[] = 
         {
             "darkmod_4thmd_veh\data\arid\dm_apc3w_body_e_ar1.paa",
@@ -1586,7 +1602,11 @@ class CfgVehicles
     class 4thmd_v_apc2t_e_ar1 : 4thmd_v_apc2t_u_ar1
     {
         displayName = "TPC-2 Stalker (Engineer)";
-        attendant = 1;
+        ace_cargo_space = 12;
+        ace_repair_canRepair = 1;
+        ace_rearm_defaultSupply = 4000;
+        ace_refuel_fuelCargo = 3000;
+        ace_refuel_hooks[] = {{-0.845,-0.980,-0.55},{0.845,-0.980,-0.55}};
         hiddenSelectionsTextures[] = 
         {
             "darkmod_4thmd_veh\data\arid\dm_apc2t_body_e_ar1.paa",
@@ -2172,4 +2192,28 @@ class CfgVehicles
     #include "CfgVeh_ac.hpp"
     #include "CfgVeh_ju.hpp"
 */
+
+    class 4thmd_s_ft1_forest;
+    class 4thmd_s_ft1_vic_forest : 4thmd_s_ft1_forest
+    {
+        scope = DEBUG;
+        scopeCurator = DEBUG;
+        displayName = "Vehicle Fuel Valve";
+        ace_refuel_fuelCargo = 1500;
+        ace_cargo_canLoad = 0;
+        ace_dragging_canCarry = 0;
+        ace_dragging_canDrag = 0;
+    };
+
+    class 4thmd_s_ft1_sand;
+    class 4thmd_s_ft1_vic_sand : 4thmd_s_ft1_sand
+    {
+        scope = DEBUG;
+        scopeCurator = DEBUG;
+        displayName = "Vehicle Fuel Valve";
+        ace_refuel_fuelCargo = 1500;
+        ace_cargo_canLoad = 0;
+        ace_dragging_canCarry = 0;
+        ace_dragging_canDrag = 0;
+    };
 };

@@ -93,6 +93,19 @@ class CfgEditorCategories
     };
 };
 
+class CfgEditorSubcategories
+{
+    class 4thmd_comp
+    {
+        displayName = "ARMCO 4th Battalion";
+    };
+
+    class 4thmd_lgs
+    {
+        displayName = "Logistics";
+    };
+};
+
 class CfgWeapons
 {
     class Uniform_Base;
@@ -356,4 +369,121 @@ class CfgVehicles
     #include "CfgV_equ_ac.hpp"
     #include "CfgV_equ_ju.hpp"
 */
+
+    class Box_NATO_Ammo_F;
+    class dmlib_cgo_e_1 : Box_NATO_Ammo_F
+    {
+        displayName = "Empty Crate (1)";
+        maximumLoad = 800;
+        ace_cargo_size = 1;
+        class TransportBackpacks{};
+        class TransportItems{};
+        class TransportMagazines{};
+        class TransportWeapons{};
+    };
+
+    class Box_NATO_WpsSpecial_F;
+    class dmlib_cgo_e_2 : Box_NATO_WpsSpecial_F
+    {
+        displayName = "Empty Crate (2)";
+        maximumLoad = 1200;
+        ace_cargo_size = 2;
+        class TransportBackpacks{};
+        class TransportItems{};
+        class TransportMagazines{};
+        class TransportWeapons{};
+    };
+
+    class Box_NATO_Equip_F;
+    class dmlib_cgo_e_3 : Box_NATO_Equip_F
+    {
+        displayName = "Empty Crate (3)";
+        maximumLoad = 1600;
+        ace_cargo_size = 3;
+        class TransportBackpacks{};
+        class TransportItems{};
+        class TransportMagazines{};
+        class TransportWeapons{};
+    };
+
+    class B_supplyCrate_F;
+    class dmlib_cgo_e_6 : B_supplyCrate_F
+    {
+        displayName = "Empty Crate (6)";
+        maximumLoad = 4000;
+        ace_cargo_size = 6;
+        class TransportBackpacks{};
+        class TransportItems{};
+        class TransportMagazines{};
+        class TransportWeapons{};
+        
+    };
+
+    class FlexibleTank_01_forest_F;
+    class 4thmd_s_ft1_forest : FlexibleTank_01_forest_F
+    {
+        editorCategory="4thmd_supplies";
+        editorSubcategory="4thmd_lgs";
+        ace_refuel_fuelCargo = 400;
+    };
+
+    class FlexibleTank_01_sand_F;
+    class 4thmd_s_ft1_sand : FlexibleTank_01_sand_F
+    {
+        editorCategory="4thmd_supplies";
+        editorSubcategory="4thmd_lgs";
+        ace_refuel_fuelCargo = 400;
+    };
+
+    class Constructions_base_F;
+    class Land_WoodenBox_F : Constructions_base_F
+    {
+        class EventHandlers;
+    };
+    class 4thmd_s_val_wood : Land_WoodenBox_F
+    {
+        displayName = "Vehicle Light Ammo";
+        editorCategory="4thmd_supplies";
+        editorSubcategory="4thmd_lgs";
+
+        class EventHandlers : EventHandlers
+        {
+            init="[(_this select 0), 800] call ace_rearm_fnc_makeSource;";
+        };
+
+        ace_cargo_size = 3;
+        //ace_rearm_defaultSupply = 800;
+        ace_cargo_canLoad = 1;
+        ace_dragging_canCarry = 1;
+        ace_dragging_canDrag = 1;
+        ace_cargo_hasCargo = 0;
+        ace_cargo_space = 0;
+        maximumLoad = 0;
+    };
+
+/*
+    class Box_NATO_Equip_F;
+    class 4thmd_s_val_wd : Box_NATO_Equip_F
+    {
+        ace_cargo_size = 3;
+        editorCategory="4thmd_supplies";
+        editorSubcategory="4thmd_lgs";
+        ace_rearm_defaultSupply = 800;
+        ace_cargo_canLoad = 1;
+        ace_dragging_canCarry = 1;
+        ace_dragging_canDrag = 1;
+        ace_cargo_hasCargo = 0;
+        ace_cargo_space = 0;
+        maximumLoad = 0;
+    };
+*/
+
+    class Box_NATO_AmmoVeh_F;
+    class 4thmd_s_va1_std : Box_NATO_AmmoVeh_F
+    {
+        ace_cargo_size = 6;
+        editorCategory="4thmd_supplies";
+        editorSubcategory="4thmd_lgs";
+        ace_rearm_defaultSupply = 2000;
+    };
 };

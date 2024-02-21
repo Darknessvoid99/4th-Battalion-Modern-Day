@@ -57,11 +57,11 @@
         };
     };
 
-    class 4thmd_u_ghil1_wd1_l : 4thmd_u_unif1_wd1
+    class 4thmd_u_ghil1_wd1_b : 4thmd_u_ghil1_wd1
     {
         displayName = "4Bt. Woodland Ghillie (Lush)";
         class ItemInfo : ItemInfo
         {
-            uniformClass = "4thmd_u_ghil1_wd1_l_f"
+            uniformClass = "4thmd_u_ghil1_wd1_b_f"
         };
     };

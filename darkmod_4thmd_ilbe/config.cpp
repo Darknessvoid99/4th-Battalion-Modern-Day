@@ -4,10 +4,15 @@ class CfgPatches {
         weapons[] = {};
         units[] = 
         {
-            "4thmd_rad1_DD",
-            "4thmd_rad1_blade",
-            "4thmd_rad1_whip",
-            "4thmd_rad1_whipext"
+            "4thmd_rad1_DD_ar1",
+            "4thmd_rad1_blade_ar1",
+            "4thmd_rad1_whip_ar1",
+            "4thmd_rad1_whipext_ar1",
+
+            "4thmd_rad1_DD_wd1",
+            "4thmd_rad1_blade_wd1",
+            "4thmd_rad1_whip_wd1",
+            "4thmd_rad1_whipext_wd1"
         };
         magazines[] = {};
         requiredAddons[] = 

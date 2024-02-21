@@ -8,18 +8,17 @@ class CfgPatches {
             "4thmd_u_unif1_ar1_tt",
             "4thmd_u_unif1_ar1_sw",
             "4thmd_u_unif1_ar1_gh",
-            "4thmd_u_ghil1_ar1",
             "4thmd_u_ghil1_ar1_a",
-            "4thmd_u_ghil1_ar1_l",
+            "4thmd_u_ghil1_ar1_b",
+            "4thmd_u_ghil1_ar1_c",
 
             "4thmd_u_unif1_wd1",
             "4thmd_u_unif1_wd1_ss",
             "4thmd_u_unif1_wd1_tt",
             "4thmd_u_unif1_wd1_sw",
             "4thmd_u_unif1_wd1_gh",
-            "4thmd_u_ghil1_wd1",
             "4thmd_u_ghil1_wd1_a",
-            "4thmd_u_ghil1_wd1_l"
+            "4thmd_u_ghil1_wd1_b"
         };
         units[] = 
         {
@@ -193,21 +192,21 @@ class CfgWeapons
         };
     };
 
-    class 4thmd_u_ghil1_ar1_a : 4thmd_u_unif1_ar1
+    class 4thmd_u_ghil1_ar1_b : 4thmd_u_unif1_ar1
     {
         displayName = "4Bt. Arid Ghillie (Arid)";
         class ItemInfo : ItemInfo
         {
-            uniformClass = "4thmd_u_ghil1_ar1_a_f"
+            uniformClass = "4thmd_u_ghil1_ar1_b_f"
         };
     };
 
-    class 4thmd_u_ghil1_ar1_l : 4thmd_u_unif1_ar1
+    class 4thmd_u_ghil1_ar1_c : 4thmd_u_unif1_ar1
     {
         displayName = "4Bt. Arid Ghillie (Lush)";
         class ItemInfo : ItemInfo
         {
-            uniformClass = "4thmd_u_ghil1_ar1_l_f"
+            uniformClass = "4thmd_u_ghil1_ar1_c_f"
         };
     };
 
@@ -316,10 +315,10 @@ class CfgVehicles
         };
     };
 
-    class 4thmd_u_ghil1_ar1_a_f : 4thmd_u_ghil1_ar1_f
+    class 4thmd_u_ghil1_ar1_b_f : 4thmd_u_ghil1_ar1_f
     {
         displayName = "[DEBUG] 4Bt. Arid Ghillie (Arid)";
-        uniformClass = "4thmd_u_ghil1_ar1_a";
+        uniformClass = "4thmd_u_ghil1_ar1_b";
         hiddenSelectionsTextures[] = 
         {
             "darkmod_4thmd\data\arid\dm_ghil1_ar1.paa",
@@ -328,10 +327,10 @@ class CfgVehicles
         };
     };
 
-    class 4thmd_u_ghil1_ar1_l_f : 4thmd_u_ghil1_ar1_f
+    class 4thmd_u_ghil1_ar1_c_f : 4thmd_u_ghil1_ar1_f
     {
         displayName = "[DEBUG] 4Bt. Arid Ghillie (Lush)";
-        uniformClass = "4thmd_u_ghil1_ar1_l";
+        uniformClass = "4thmd_u_ghil1_ar1_c";
         hiddenSelectionsTextures[] = 
         {
             "darkmod_4thmd\data\arid\dm_ghil1_ar1.paa",

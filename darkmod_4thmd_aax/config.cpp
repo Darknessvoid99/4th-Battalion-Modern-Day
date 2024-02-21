@@ -77,28 +77,73 @@ class XtdGearInfos
             camo = "gca";
         };
 
-        class 4thmd_u_ghil1_ar1_a
+        class 4thmd_u_ghil1_ar1_b
         {
             Model = "4thmd_u_ghil1";
             color = "ar";
             camo = "gcb";
         };
 
-        class 4thmd_u_ghil1_ar1_l
+        class 4thmd_u_ghil1_ar1_c
         {
             Model = "4thmd_u_ghil1";
             color = "ar";
             camo = "gcc";
         };
 
-        #include "XtdI_equ_wd.hpp"
+        #include "XtdI_CfgW_equ_wd.hpp"
 
     /*
-        #include "XtdI_equ_de.hpp"
-        #include "XtdI_equ_bl.hpp"
-        #include "XtdI_equ_sb.hpp"
-        #include "XtdI_equ_ac.hpp"
-        #include "XtdI_equ_ju.hpp"
+        #include "XtdI_CfgW_equ_de.hpp"
+        #include "XtdI_CfgW_equ_bl.hpp"
+        #include "XtdI_CfgW_equ_sb.hpp"
+        #include "XtdI_CfgW_equ_ac.hpp"
+        #include "XtdI_CfgW_equ_ju.hpp"
+    */
+    };
+
+    class CfgVehicles
+    {
+        class 4thmd_b_pac1_ar1
+        {
+            Model = "4thmd_b_pac1";
+            color = "ar";
+            camo = "mc0";
+            role = "std";
+        };
+
+        class 4thmd_b_pac2_ar1
+        {
+            Model = "4thmd_b_pac2";
+            color = "ar";
+            camo = "mc0";
+            role = "std";
+        };
+
+        class 4thmd_b_pac3_ar1
+        {
+            Model = "4thmd_b_pac3";
+            color = "ar";
+            camo = "mc0";
+            role = "std";
+        };
+
+        class 4thmd_b_pac5_ar1
+        {
+            Model = "4thmd_b_pac5";
+            color = "ar";
+            camo = "mc0";
+            role = "std";
+        };
+
+        #include "XtdI_CfgV_equ_wd.hpp"
+
+    /*
+        #include "XtdI_CfgV_equ_de.hpp"
+        #include "XtdI_CfgV_equ_bl.hpp"
+        #include "XtdI_CfgV_equ_sb.hpp"
+        #include "XtdI_CfgV_equ_ac.hpp"
+        #include "XtdI_CfgV_equ_ju.hpp"
     */
     };
 };

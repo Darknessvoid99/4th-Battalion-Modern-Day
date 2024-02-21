@@ -86,22 +86,10 @@
         };
     };
 
-    class 4thmd_u_ghil1_wd1_a_f : 4thmd_u_ghil1_wd1_f
+    class 4thmd_u_ghil1_wd1_b_f : 4thmd_u_ghil1_wd1_f
     {
         displayName = "[DEBUG] 4Bt. Woodland Ghillie (Woodland)";
-        uniformClass = "4thmd_u_ghil1_wd1_a";
-        hiddenSelectionsTextures[] = 
-        {
-            "darkmod_4thmd\data\woodland\dm_ghil1_wd1.paa",
-			"\A3\Characters_F_Mark\Common\Data\ghillie_threads_ard_ca.paa",
-			"\A3\Characters_F_Mark\Common\Data\ghillie_threads_5LOD_ard_co.paa"
-        };
-    };
-
-    class 4thmd_u_ghil1_wd1_l_f : 4thmd_u_ghil1_wd1_f
-    {
-        displayName = "[DEBUG] 4Bt. Woodland Ghillie (Lush)";
-        uniformClass = "4thmd_u_ghil1_wd1_l";
+        uniformClass = "4thmd_u_ghil1_wd1_b";
         hiddenSelectionsTextures[] = 
         {
             "darkmod_4thmd\data\woodland\dm_ghil1_wd1.paa",

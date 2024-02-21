@@ -54,16 +54,9 @@
             camo = "gca";
         };
 
-        class 4thmd_u_ghil1_wd1_a
+        class 4thmd_u_ghil1_wd1_b
         {
             Model = "4thmd_u_ghil1";
             color = "wd";
             camo = "gcb";
-        };
-
-        class 4thmd_u_ghil1_wd1_l
-        {
-            Model = "4thmd_u_ghil1";
-            color = "wd";
-            camo = "gcc";
         };

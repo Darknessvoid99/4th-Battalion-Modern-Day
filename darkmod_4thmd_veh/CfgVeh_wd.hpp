@@ -1,10 +1,22 @@
 /*
 
 */
+    class 4thmd_u_crew_wd1 : 4thmd_u_crew_ar1
+    {};
+
+    class 4thmd_u_crew_h_wd1 : 4thmd_u_crew_h_ar1
+    {};
+
+    class 4thmd_u_crew_a_wd1 : 4thmd_u_crew_a_ar1
+    {};
+
+    class 4thmd_u_pilot_wd1 : 4thmd_u_pilot_ar1
+    {};
+
 
     class 4thmd_v_mbt3_wd1 : 4thmd_v_mbt3_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -18,7 +30,7 @@
 
     class 4thmd_v_heli4_wd1 : 4thmd_v_heli4_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_h_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -112,7 +124,7 @@
 
     class 4thmd_v_lt1_ca_wd1 : 4thmd_v_lt1_ca_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -126,7 +138,7 @@
 
     class 4thmd_v_lt1_at_wd1 : 4thmd_v_lt1_at_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -140,7 +152,7 @@
 
     class 4thmd_v_lt1_aa_wd1 : 4thmd_v_lt1_aa_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -154,7 +166,7 @@
 
     class 4thmd_v_lt1_rc_wd1 : 4thmd_v_lt1_rc_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -168,7 +180,7 @@
 
     class 4thmd_v_afv1_wd1 : 4thmd_v_afv1_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -183,7 +195,7 @@
 
     class 4thmd_v_afv1_up_wd1 : 4thmd_v_afv1_up_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -200,7 +212,7 @@
 
     class 4thmd_v_apc3w_wd1 : 4thmd_v_apc3w_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -216,7 +228,7 @@
 
     class 4thmd_v_apc3w_u_wd1 : 4thmd_v_apc3w_u_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -232,7 +244,7 @@
 
     class 4thmd_v_apc3w_m_wd1 : 4thmd_v_apc3w_m_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -248,7 +260,7 @@
 
     class 4thmd_v_apc3w_e_wd1 : 4thmd_v_apc3w_e_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -264,7 +276,7 @@
 
     class 4thmd_v_apc2t_wd1 : 4thmd_v_apc2t_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -279,7 +291,7 @@
 
     class 4thmd_v_apc2t_u_wd1 : 4thmd_v_apc2t_u_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -294,7 +306,7 @@
 
     class 4thmd_v_apc2t_m_wd1 : 4thmd_v_apc2t_m_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -309,7 +321,7 @@
 
     class 4thmd_v_apc2t_e_wd1 : 4thmd_v_apc2t_e_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -336,7 +348,7 @@
 
     class 4thmd_v_apc2t_aa_wd1 : 4thmd_v_apc2t_aa_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -351,7 +363,7 @@
 
     class 4thmd_v_heli2_wd1 : 4thmd_v_heli2_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_h_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -363,7 +375,7 @@
 
     class 4thmd_v_jet4_wd1 : 4thmd_v_jet4_ar1 // ALPHA Texture
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_pilot_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -379,7 +391,21 @@
 
     class 4thmd_v_mbt2_wd1 : 4thmd_v_mbt2_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
+        faction = "4thmd_wd_faction";
+        hiddenSelectionsTextures[] = 
+        {
+            "darkmod_4thmd_veh\data\woodland\dm_mbt2_body_wd1.paa",
+            "darkmod_4thmd_veh\data\woodland\dm_mbt2_turret_wd1.paa",
+            "darkmod_4thmd_veh\data\woodland\dm_mbt2_extra_wd1.paa",
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_fs1.paa"
+        };
+        textureList[] = {"Woodland_4th",1,};
+    };
+
+    class 4thmd_v_mbt2_rgun_wd1 : 4thmd_v_mbt2_rgun_ar1
+    {
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -393,7 +419,7 @@
 
     class 4thmd_v_mbt2_tart_wd1 : 4thmd_v_mbt2_tart_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -408,7 +434,7 @@
 
     class 4thmd_v_mrap3_wd1 : 4thmd_v_mrap3_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -420,7 +446,7 @@
 
     class 4thmd_v_mrap3_hmg_wd1 : 4thmd_v_mrap3_hmg_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {
@@ -432,7 +458,7 @@
 
     class 4thmd_v_mrap3_gmg_wd1 : 4thmd_v_mrap3_gmg_ar1
     {
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_wd1";
         faction = "4thmd_wd_faction";
         hiddenSelectionsTextures[] = 
         {

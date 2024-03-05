@@ -132,13 +132,40 @@ class CfgEditorSubcategories
 
 class CfgVehicles
 {
+    class B_crew_F;
+    class B_helicrew_F;
+    class B_Pilot_F;
+
+    class 4thmd_u_crew_ar1 : B_crew_F
+    {
+        scope = 1;
+        displayName = "Crewman";
+    };
+
+    class 4thmd_u_crew_h_ar1 : B_helicrew_F
+    {
+        scope = 1;
+        displayName = "Heli Crew";
+    };
+
+    class 4thmd_u_crew_a_ar1 : 4thmd_u_crew_h_ar1
+    {
+        displayName = "Air Crew";
+    };
+
+    class 4thmd_u_pilot_ar1 : B_Pilot_F
+    {
+        scope = 1;
+        displayName = "Pilot";
+    };
+
     class I_MBT_03_cannon_F;
     class 4thmd_v_mbt3_ar1 : I_MBT_03_cannon_F
     {
         _generalMacro = "4thmd_v_mbt3_ar1";
         author = "Darknessvoid99";
         side = 1;
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_ar1";
         faction = "4thmd_ar_faction";
         editorSubcategory = "EdSubcat_Tanks";
         displayName = "MBT-3RV Leopard";
@@ -147,7 +174,7 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\arid\dm_mbt3_body_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_mbt3_turret_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_mbt3_extra_ar1.paa",
-            "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa"
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa"
         };
         textureList[] = {"Arid_4th",1,};
 
@@ -156,14 +183,14 @@ class CfgVehicles
             class Arid_4th
             {
                 author = Darknessvoid99
-                displayName = "Arid (Oasis)";
+                displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_mbt3_body_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_mbt3_turret_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_mbt3_extra_ar1.paa",
-                    "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa"
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa"
                 };
             };
 
@@ -268,14 +295,14 @@ class CfgVehicles
             class Desert_4th_os
             {
                 author = Darknessvoid99
-                displayName = "Desert (Oasis)";
+                displayName = "Desert (Pine)";
                 factions[] = {"4thmd_de_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\desert\dm_mbt3_body_de1.paa",
                     "darkmod_4thmd_veh\data\desert\dm_mbt3_turret_de1.paa",
                     "darkmod_4thmd_veh\data\desert\dm_mbt3_extra_de1.paa",
-                    "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa"
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa"
                 };
             };
 
@@ -400,7 +427,7 @@ class CfgVehicles
         _generalMacro = "4thmd_v_heli4_ar1";
         author = "Darknessvoid99";
         side = 1;
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_h_ar1";
         faction = "4thmd_ar_faction";
         editorSubcategory = "EdSubcat_Helicopters";
         displayName = "CH-290 Taru";
@@ -749,7 +776,7 @@ class CfgVehicles
     {
         author = "Darknessvoid99";
         side = 1;
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_ar1";
         faction = "4thmd_ar_faction";
         editorSubcategory = "4thmd_tankettes";
         displayName = "AAV-2 Weasel II (MK20)";
@@ -757,7 +784,7 @@ class CfgVehicles
         {
             "darkmod_4thmd_veh\data\arid\dm_lt1_main_ar1.paa",        //Main
             "darkmod_4thmd_veh\data\arid\dm_lt1_cannon_ar1.paa",      //Specialised
-            "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",  //Camo
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",  //Camo
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"          //Slat
         };
         textureList[] = {"Arid_4th",1,};
@@ -767,13 +794,13 @@ class CfgVehicles
             class Arid_4th
             {
                 author = Darknessvoid99
-                displayName = "Arid (Oasis)";
+                displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_lt1_main_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_lt1_cannon_ar1.paa",
-                    "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
                 };
             };
@@ -813,7 +840,7 @@ class CfgVehicles
     {
         author = "Darknessvoid99";
         side = 1;
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_ar1";
         faction = "4thmd_ar_faction";
         editorSubcategory = "4thmd_tankettes";
         displayName = "AAV-2A Weasel II (AT)";
@@ -821,7 +848,7 @@ class CfgVehicles
         {
             "darkmod_4thmd_veh\data\arid\dm_lt1_main_ar1.paa",     //Main
             "darkmod_4thmd_veh\data\arid\dm_lt1_ataa_ar1.paa",     //Specialised
-            "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",  //Camo
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",  //Camo
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"     //Slat
         };
         textureList[] = {"Arid_4th",1,};
@@ -832,13 +859,13 @@ class CfgVehicles
             class Arid_4th
             {
                 author = Darknessvoid99
-                displayName = "Arid (Oasis)";
+                displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_lt1_main_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_lt1_ataa_ar1.paa",
-                    "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
                 };
             };
@@ -878,7 +905,7 @@ class CfgVehicles
     {
         author = "Darknessvoid99";
         side = 1;
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_ar1";
         faction = "4thmd_ar_faction";
         editorSubcategory = "4thmd_tankettes";
         displayName = "AAV-2B Weasel II (AA)";
@@ -886,7 +913,7 @@ class CfgVehicles
         {
             "darkmod_4thmd_veh\data\arid\dm_lt1_main_ar1.paa",        //Main
             "darkmod_4thmd_veh\data\arid\dm_lt1_ataa_ar1.paa",      //Specialised
-            "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",  //Camo
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",  //Camo
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"          //Slat
         };
         textureList[] = {"Arid_4th",1,};
@@ -897,13 +924,13 @@ class CfgVehicles
             class Arid_4th
             {
                 author = Darknessvoid99
-                displayName = "Arid (Oasis)";
+                displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_lt1_main_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_lt1_ataa_ar1.paa",
-                    "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
                 };
             };
@@ -944,7 +971,7 @@ class CfgVehicles
     {
         author = "Darknessvoid99";
         side = 1;
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_ar1";
         faction = "4thmd_ar_faction";
         editorSubcategory = "4thmd_tankettes";
         displayName = "AAV-2C Weasel II (RFCV)";
@@ -952,7 +979,7 @@ class CfgVehicles
         {
             "darkmod_4thmd_veh\data\arid\dm_lt1_main_ar1.paa",        //Main
             "darkmod_4thmd_veh\data\arid\dm_lt1_radar_ar1.paa",      //Specialised
-            "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",  //Camo
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",  //Camo
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"          //Slat
         };
         textureList[] = {"Arid_4th",1,};
@@ -963,13 +990,13 @@ class CfgVehicles
             class Arid_4th
             {
                 author = Darknessvoid99
-                displayName = "Arid (Oasis)";
+                displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_lt1_main_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_lt1_radar_ar1.paa",
-                    "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
                 };
             };
@@ -1009,7 +1036,7 @@ class CfgVehicles
     {
         author = "Darknessvoid99";
         side = 1;
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_ar1";
         faction = "4thmd_ar_faction";
         editorSubcategory = "EdSubcat_Tanks";
         displayName = "WTD-4 Rooikat";
@@ -1018,7 +1045,7 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\arid\dm_afv1_body_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_afv1_turret_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_afv1_wheel_ar1.paa",
-            "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
             "darkmod_4thmd_veh\data\arid\dm_afv1_extra_ar1.paa"
         };
         textureList[] = {"Arid_4th",1,};
@@ -1028,14 +1055,14 @@ class CfgVehicles
             class Arid_4th
             {
                 author = Darknessvoid99
-                displayName = "Arid (Oasis)";
+                displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_afv1_body_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_afv1_turret_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_afv1_wheel_ar1.paa",
-                    "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_afv1_extra_ar1.paa"
                 };
             };
@@ -1077,10 +1104,10 @@ class CfgVehicles
     {
         author = "Darknessvoid99";
         side = 1;
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_ar1";
         faction = "4thmd_ar_faction";
         editorSubcategory = "EdSubcat_Tanks";
-        displayName = "WTD-4UP Rooikat";
+        displayName = "WLT-4 Rooikat";
         hiddenSelectionsTextures[] = 
         {
             "darkmod_4thmd_veh\data\arid\dm_afv1_body_ar1.paa",
@@ -1088,7 +1115,7 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\arid\dm_afv1_wheel_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_afv1_extra_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_afv1_cmdt_ar1.paa",
-            "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
             "darkmod_4thmd_veh\data\arid\dm_afv1_extra_ar1.paa"
         };
         textureList[] = {"Arid_4th",1,};
@@ -1098,7 +1125,7 @@ class CfgVehicles
             class Arid_4th
             {
                 author = Darknessvoid99
-                displayName = "Arid (Oasis)";
+                displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
@@ -1107,7 +1134,7 @@ class CfgVehicles
                     "darkmod_4thmd_veh\data\arid\dm_afv1_wheel_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_afv1_extra_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_afv1_cmdt_ar1.paa",
-                    "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_afv1_extra_ar1.paa"
                 };
             };
@@ -1153,7 +1180,7 @@ class CfgVehicles
     {
         author = "Darknessvoid99";
         side = 1;
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_ar1";
         faction = "4thmd_ar_faction";
         editorSubcategory = "EdSubcat_APCs";
         displayName = "WFV-9 Pandur II";
@@ -1164,7 +1191,7 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_ar1.paa",
             "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
-            "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
         };
         textureList[] = {"Arid_4th",1,};
@@ -1174,7 +1201,7 @@ class CfgVehicles
             class Arid_4th
             {
                 author = Darknessvoid99
-                displayName = "Arid (Oasis)";
+                displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
@@ -1182,7 +1209,7 @@ class CfgVehicles
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_ar1.paa",
                     "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
-                    "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
                 };
             };
@@ -1250,7 +1277,7 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_ar1.paa",
             "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
-            "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
         };
 
@@ -1259,7 +1286,7 @@ class CfgVehicles
             class Arid_4th
             {
                 author = Darknessvoid99
-                displayName = "Arid (Oasis)";
+                displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
@@ -1267,7 +1294,7 @@ class CfgVehicles
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_ar1.paa",
                     "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
-                    "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
                 };
             };
@@ -1316,7 +1343,7 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_m_ar1.paa",
             "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
-            "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
         };
 
@@ -1325,7 +1352,7 @@ class CfgVehicles
             class Arid_4th
             {
                 author = Darknessvoid99
-                displayName = "Arid (Oasis)";
+                displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
@@ -1333,7 +1360,7 @@ class CfgVehicles
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_m_ar1.paa",
                     "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
-                    "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
                 };
             };
@@ -1387,7 +1414,7 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_e_ar1.paa",
             "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
-            "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
         };
 
@@ -1396,7 +1423,7 @@ class CfgVehicles
             class Arid_4th
             {
                 author = Darknessvoid99
-                displayName = "Arid (Oasis)";
+                displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
@@ -1404,7 +1431,7 @@ class CfgVehicles
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_e_ar1.paa",
                     "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
-                    "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
                 };
             };
@@ -1448,7 +1475,7 @@ class CfgVehicles
     {
         author = "Darknessvoid99";
         side = 1;
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_ar1";
         faction = "4thmd_ar_faction";
         editorSubcategory = "EdSubcat_APCs";
         displayName = "TFV-2T Stalker";
@@ -1458,7 +1485,7 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\arid\dm_apc2t_body_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_apc2t_extra_ar1.paa",
             "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
-            "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
         };
         textureList[] = {"Arid_4th",1,};
@@ -1468,14 +1495,14 @@ class CfgVehicles
             class Arid_4th
             {
                 author = Darknessvoid99
-                displayName = "Arid (Oasis)";
+                displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_apc2t_body_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_apc2t_extra_ar1.paa",
                     "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
-                    "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
                 };
             };
@@ -1546,7 +1573,7 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\arid\dm_apc2t_body_m_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_apc2t_extra_ar1.paa",
             "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
-            "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
         };
 
@@ -1555,14 +1582,14 @@ class CfgVehicles
             class Arid_4th
             {
                 author = Darknessvoid99
-                displayName = "Arid (Oasis)";
+                displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_apc2t_body_m_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_apc2t_extra_ar1.paa",
                     "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
-                    "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
                 };
             };
@@ -1612,7 +1639,7 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\arid\dm_apc2t_body_e_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_apc2t_extra_ar1.paa",
             "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
-            "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
         };
 
@@ -1621,14 +1648,14 @@ class CfgVehicles
             class Arid_4th
             {
                 author = Darknessvoid99
-                displayName = "Arid (Oasis)";
+                displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_apc2t_body_e_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_apc2t_extra_ar1.paa",
                     "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
-                    "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
                 };
             };
@@ -1685,7 +1712,7 @@ class CfgVehicles
     {
         author = "Darknessvoid99";
         side = 1;
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_ar1";
         faction = "4thmd_ar_faction";
         displayName = "TAA-2 Tigris";
         hiddenSelectionsTextures[] = 
@@ -1693,7 +1720,7 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\arid\dm_apc2t_body_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_apc2t_extra_ar1.paa",
             "darkmod_4thmd_veh\data\turrets\dm_apcaa_ar1.paa",
-            "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
         };
         textureList[] = {"Arid_4th",1,};
@@ -1703,14 +1730,14 @@ class CfgVehicles
             class Arid_4th
             {
                 author = Darknessvoid99
-                displayName = "Arid (Oasis)";
+                displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_apc2t_body_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_apc2t_extra_ar1.paa",
                     "darkmod_4thmd_veh\data\turrets\dm_apcaa_ar1.paa",
-                    "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
                 };
             };
@@ -1752,7 +1779,7 @@ class CfgVehicles
     {
         author = "Darknessvoid99";
         side = 1;
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_h_ar1";
         faction = "4thmd_ar_faction";
         editorSubcategory = "EdSubcat_Helicopters";
         displayName = "AH-48 Kajiman";
@@ -1874,7 +1901,7 @@ class CfgVehicles
     {
         author = "Darknessvoid99";
         side = 1;
-        crew = "B_crew_F";
+        crew = "4thmd_u_pilot_ar1";
         faction = "4thmd_ar_faction";
         editorSubcategory = "EdSubcat_Planes";
         displayName = "F/A-39 Gryphon";
@@ -1957,12 +1984,12 @@ class CfgVehicles
         };
     };
 
-    class O_T_MBT_02_cannon_ghex_F;
-    class 4thmd_v_mbt2_ar1 : O_T_MBT_02_cannon_ghex_F
+    class O_MBT_02_cannon_F;
+    class 4thmd_v_mbt2_ar1 : O_MBT_02_cannon_F
     {
         author = "Darknessvoid99";
         side = 1;
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_ar1";
         faction = "4thmd_ar_faction";
         editorSubcategory = "EdSubcat_Tanks";
         displayName = "MBT-10 Black Eagle";
@@ -1971,7 +1998,7 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\arid\dm_mbt2_body_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_mbt2_turret_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_mbt2_extra_ar1.paa",
-            "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa"
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa"
         };
         textureList[] = {"Arid_4th",1,};
 
@@ -1980,14 +2007,78 @@ class CfgVehicles
             class Arid_4th
             {
                 author = Darknessvoid99
-                displayName = "Arid (Oasis)";
+                displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_mbt2_body_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_mbt2_turret_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_mbt2_extra_ar1.paa",
-                    "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa"
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa"
+                };
+            };
+
+            class Arid_4th_sd
+            {
+                author = Darknessvoid99
+                displayName = "Arid (Sand)";
+                factions[] = {"4thmd_ar_faction"};
+                textures[] = 
+                {
+                    "darkmod_4thmd_veh\data\arid\dm_mbt2_body_ar1.paa",
+                    "darkmod_4thmd_veh\data\arid\dm_mbt2_turret_ar1.paa",
+                    "darkmod_4thmd_veh\data\arid\dm_mbt2_extra_ar1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_sd1.paa"
+                };
+            };
+
+            class Arid_4th_gs
+            {
+                author = Darknessvoid99
+                displayName = "Arid (Grass)";
+                factions[] = {"4thmd_ar_faction"};
+                textures[] = 
+                {
+                    "darkmod_4thmd_veh\data\arid\dm_mbt2_body_ar1.paa",
+                    "darkmod_4thmd_veh\data\arid\dm_mbt2_turret_ar1.paa",
+                    "darkmod_4thmd_veh\data\arid\dm_mbt2_extra_ar1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gs1.paa"
+                };
+            };
+        };
+    };
+
+    class O_MBT_02_railgun_F;
+    class 4thmd_v_mbt2_rgun_ar1 : O_MBT_02_railgun_F
+    {
+        author = "Darknessvoid99";
+        side = 1;
+        crew = "4thmd_u_crew_ar1";
+        faction = "4thmd_ar_faction";
+        editorSubcategory = "EdSubcat_Tanks";
+        displayName = "MBT-10X Futura";
+        hiddenSelectionsTextures[] = 
+        {
+            "darkmod_4thmd_veh\data\arid\dm_mbt2_body_ar1.paa",
+            "darkmod_4thmd_veh\data\arid\dm_mbt2_turret_ar1.paa",
+            "darkmod_4thmd_veh\data\arid\dm_mbt2_extra_ar1.paa",
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa"
+        };
+        textureList[] = {"Arid_4th",1,};
+
+        class TextureSources
+        {
+            class Arid_4th
+            {
+                author = Darknessvoid99
+                displayName = "Arid (Pine)";
+                factions[] = {"4thmd_ar_faction"};
+                textures[] = 
+                {
+                    "darkmod_4thmd_veh\data\arid\dm_mbt2_body_ar1.paa",
+                    "darkmod_4thmd_veh\data\arid\dm_mbt2_turret_ar1.paa",
+                    "darkmod_4thmd_veh\data\arid\dm_mbt2_extra_ar1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa"
                 };
             };
 
@@ -2026,7 +2117,7 @@ class CfgVehicles
     {
         author = "Darknessvoid99";
         side = 1;
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_ar1";
         faction = "4thmd_ar_faction";
         editorSubcategory = "EdSubcat_artillery";
         displayName = "SPG-10 Sochor";
@@ -2036,7 +2127,7 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\arid\dm_mbt2_tart_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_mbt2_extra_ar1.paa",
             "darkmod_4thmd_veh\data\turrets\dm_rcws1240_ar1.paa",
-            "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa"
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa"
         };
         textureList[] = {"Arid_4th",1,};
 
@@ -2045,7 +2136,7 @@ class CfgVehicles
             class Arid_4th
             {
                 author = Darknessvoid99
-                displayName = "Arid (Oasis)";
+                displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
@@ -2053,7 +2144,7 @@ class CfgVehicles
                     "darkmod_4thmd_veh\data\arid\dm_mbt2_tart_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_mbt2_extra_ar1.paa",
                     "darkmod_4thmd_veh\data\turrets\dm_rcws1240_ar1.paa",
-                    "darkmod_4thmd_veh\data\camonet\dm_camonet_os1.paa"
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa"
                 };
             };
 
@@ -2094,7 +2185,7 @@ class CfgVehicles
     {
         author = "Darknessvoid99";
         side = 1;
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_ar1";
         faction = "4thmd_ar_faction";
         editorSubcategory = "EdSubcat_Cars";
         displayName = "MTV-18 Fennek";
@@ -2126,7 +2217,7 @@ class CfgVehicles
     {
         author = "Darknessvoid99";
         side = 1;
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_ar1";
         faction = "4thmd_ar_faction";
         editorSubcategory = "EdSubcat_Cars";
         displayName = "MTV-18 Fennek (HMG)";
@@ -2158,7 +2249,7 @@ class CfgVehicles
     {
         author = "Darknessvoid99";
         side = 1;
-        crew = "B_crew_F";
+        crew = "4thmd_u_crew_ar1";
         faction = "4thmd_ar_faction";
         editorSubcategory = "EdSubcat_Cars";
         displayName = "MTV-18 Fennek (GMG)";

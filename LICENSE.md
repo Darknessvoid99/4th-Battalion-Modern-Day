@@ -13,6 +13,6 @@ Visit [Bohemia.net](https://www.bohemia.net/community/licenses/arma-public-licen
 **Redistributions of this material should be:
     a. Clearly labeled as a adapted or redistrubuted material to not be confused for the original material.
     b. Include a link back to the original repository or distrubution of the material, ie:**
-        - [Github](https://github.com/Darknessvoid99/4th-Battalion-Modern-Day) 
+        [Github](https://github.com/Darknessvoid99/4th-Battalion-Modern-Day) 
         or
-        - [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3159206065) 
+        [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3159206065) 

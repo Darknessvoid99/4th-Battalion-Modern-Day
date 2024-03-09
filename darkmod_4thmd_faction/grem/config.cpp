@@ -18,8 +18,15 @@ class CfgPatches {
         };
         requiredAddons[] = 
             {   
-            "darkmod_4thmd_faction",
-            "greenmag_main"
+            "darkmod_4thmd",
+            "darkmod_4thmd_ilbe",
+            "darkmod_4thmd_mgp",
+            "darkmod_4thmd_veh",
+            "hlcweapons_SCAR",
+            "niaweapons_226",
+            "ace_ballistics",
+            "greenmag_main",
+            "DONOTLOADUNDERANYCIRCUMSTANCESDARKMOD"
             };
 
         skipWhenMissingDependencies = 1;
@@ -33,8 +40,8 @@ class CfgPatches {
 class CfgMagazines
 {
 //7.62x51mm 100rnd
-    class 4thmd_m_76251_b100_b_so_t3;
-    class 4thmd_m_76251_b100_bb_so_t3_rb : 4thmd_m_76251_b100_b_so_t3
+    class 4thmd_m_76251_b100_bb_so_t3;
+    class 4thmd_m_76251_b100_bb_so_t3_rb : 4thmd_m_76251_b100_bb_so_t3
     {
         descriptionShort = "M80A1 Enhanced Preformance Rounds<br/>M62A1 Enhanced Tracer Rounds<br/>Tracer every 3, 10 End Tracers<br/>Non-Disentegrating, Replacable Belt";
 
@@ -44,8 +51,8 @@ class CfgMagazines
 		greenmag_basicammo="greenmag_beltlinked_762x51_basic";
     };
 
-    class 4thmd_m_76251_b100_b_so_t;
-    class 4thmd_m_76251_b100_bb_so_t_rb : 4thmd_m_76251_b100_b_so_t
+    class 4thmd_m_76251_b100_bb_so_t;
+    class 4thmd_m_76251_b100_bb_so_t_rb : 4thmd_m_76251_b100_bb_so_t
     {
         descriptionShort = "M62A1 Enhanced Tracer Rounds<br/>All Tracers<br/>Non-Disentegrating, Replacable Belt";
 
@@ -55,8 +62,8 @@ class CfgMagazines
 		greenmag_basicammo="greenmag_beltlinked_762x51_basic";
     };
 
-    class 4thmd_m_76251_b100_b_so_nt;
-    class 4thmd_m_76251_b100_bb_so_nt_rb : 4thmd_m_76251_b100_b_so_nt
+    class 4thmd_m_76251_b100_bb_so_nt;
+    class 4thmd_m_76251_b100_bb_so_nt_rb : 4thmd_m_76251_b100_bb_so_nt
     {
 		descriptionShort = "M80A1 Enhanced Preformance Rounds<br/>No Tracers<br/>Non-Disentegrating, Replacable Belt";
 
@@ -161,24 +168,6 @@ class CfgMagazineWells
             "4thmd_m_76251_b50_ad_apo_nt_rb",
             "4thmd_m_76251_b50_ad_lro_t6_rb",
             "4thmd_m_76251_b50_ad_lro_nt_rb"
-        };
-    };
-};
-
-class CfgWeapons
-{
-    class hlc_MG42_base;
-    class hlc_lmg_MG3 : hlc_MG42_base
-    {
-        class nia_magSwitch
-        {
-            4thmd_m_76251_b50_ad_so_t3_rb = "hlc_lmg_MG3KWS_b";
-            4thmd_m_76251_b50_ad_so_t_rb = "hlc_lmg_MG3KWS_b";
-            4thmd_m_76251_b50_ad_so_nt_rb = "hlc_lmg_MG3KWS_b";
-            4thmd_m_76251_b50_ad_apo_t6_rb = "hlc_lmg_MG3KWS_b";
-            4thmd_m_76251_b50_ad_apo_nt_rb = "hlc_lmg_MG3KWS_b";
-            4thmd_m_76251_b50_ad_lro_t6_rb = "hlc_lmg_MG3KWS_b";
-            4thmd_m_76251_b50_ad_lro_nt_rb = "hlc_lmg_MG3KWS_b";
         };
     };
 };

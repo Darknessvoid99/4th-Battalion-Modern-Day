@@ -2,16 +2,24 @@
 
 */
     class 4thmd_u_crew_wd1 : 4thmd_u_crew_ar1
-    {};
+    {
+        scope = 1;
+    };
 
     class 4thmd_u_crew_h_wd1 : 4thmd_u_crew_h_ar1
-    {};
+    {
+        scope = 1;
+    };
 
     class 4thmd_u_crew_a_wd1 : 4thmd_u_crew_a_ar1
-    {};
+    {
+        scope = 1;
+    };
 
     class 4thmd_u_pilot_wd1 : 4thmd_u_pilot_ar1
-    {};
+    {
+        scope = 1;
+    };
 
 
     class 4thmd_v_mbt3_wd1 : 4thmd_v_mbt3_ar1

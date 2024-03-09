@@ -6,8 +6,15 @@ class CfgPatches {
         magazines[] = {};
         requiredAddons[] = 
             {   
-            "darkmod_4thmd_faction",
-            "kat_main"
+            "darkmod_4thmd",
+            "darkmod_4thmd_ilbe",
+            "darkmod_4thmd_mgp",
+            "darkmod_4thmd_veh",
+            "hlcweapons_SCAR",
+            "niaweapons_226",
+            "ace_ballistics",
+            "kat_main",
+            "DONOTLOADUNDERANYCIRCUMSTANCESDARKMOD"
             };
 
         skipWhenMissingDependencies = 1;

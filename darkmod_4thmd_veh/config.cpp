@@ -78,6 +78,15 @@ class CfgPatches
             "4thmd_s_ft1_vic_sand",
             "4thmd_s_val_wood",
             "4thmd_s_va1_std",
+
+            "4thmd_u_crew_ar1",
+            "4thmd_u_crew_h_ar1",
+            "4thmd_u_crew_a_ar1",
+            "4thmd_u_pilot_ar1",
+            "4thmd_u_crew_wd1",
+            "4thmd_u_crew_h_wd1",
+            "4thmd_u_crew_a_wd1",
+            "4thmd_u_pilot_wd1"
         };
 
         magazines[] = {};

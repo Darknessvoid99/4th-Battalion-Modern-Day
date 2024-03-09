@@ -3,6 +3,7 @@ class CfgPatches {
 	{
         weapons[] = 
         {
+            /*
             "4thmd_w_r_55645_scar_st_mb_a_4x",
             "4thmd_w_r_55645_scar_st_mb_a_4xt",
             "4thmd_w_r_55645_scar_st_mb_a_1x",
@@ -15,11 +16,75 @@ class CfgPatches {
             "4thmd_w_r_76251_scar_st_sb_a_4x",
             "4thmd_w_p_90119_p226r_a_1x",
             "4thmd_w_l_84mis_mraws_st_a_ls",
-            " ",
+            "4thmd_w_ra_55645_scar_st_a_1x",
+            "4thmd_w_p_76251_mg3_bk_a_4x",
+            "4thmd_w_p_76251_mg3_bk_a_6x",
+            "4thmd_w_r_55645_scar_st_mb_gl_a_4x",
+            "4thmd_w_r_55645_scar_st_sb_gl_a_4x",
+            "4thmd_w_rm_76251_scar_st_a_8x",
+            "4thmd_w_m_86070_badnews_bk_a_12x",
+            "4thmd_w_rc_55645_scar_st_a_1x",
+            "4thmd_w_rc_55645_scar_st_a_2x",
+            */
+            "4thmd_h_hc1_ar1"
         };
         units[] = 
         {
-            " ",
+            /*
+            "4thmd_b_mgb2_ar1_rm",
+            "4thmd_b_mgb4_ar1_mr",
+            "4thmd_b_mgb4_ar1_sr",
+            "4thmd_b_mgb4_ar1_ch_baf",
+            "4thmd_b_mgb4_ar1_ch",
+            "4thmd_b_pac1_ar1_ar",
+            "4thmd_b_pac1_ar1_gr_baf",
+            "4thmd_b_pac1_ar1_gr",
+            "4thmd_b_pac1_ar1_grtl_baf",
+            "4thmd_b_pac1_ar1_grtl",
+            "4thmd_b_pac1_ar1_eng",
+            "4thmd_b_mgb3_ar1_tl",
+            "4thmd_b_pac3_ar1_mat",
+            "4thmd_b_pac3_ar1_mat_a",
+            "4thmd_b_pac3_ar1_ab",
+            "4thmd_b_pac5_ar1_hat",
+            "4thmd_b_pac5_ar1_hat_a",
+            "4thmd_b_pac5_ar1_aa",
+            "4thmd_b_pac2_ar1_mg",
+            "4thmd_b_pac2_ar1_mg_a",
+            "4thmd_b_pac2_ar1_m_med",
+            "4thmd_b_pac3_ar1_m_med",
+            "4thmd_rad1_blade_ar1_sl",
+            "4thmd_rad1_whipext_ar1_pl",
+            "4thmd_rad1_DD_ar1m_med",
+            "4thmd_b_mgb3_ar1_rmv",
+            "4thmd_b_mgb3_ar1_rmvat",
+            "4thmd_u_base_ar1",
+            "4thmd_u_rifleman_ar1",
+            "4thmd_u_rifleman_vet_ar1",
+            "4thmd_u_rifleman_at_ar1",
+            "4thmd_u_rifleman_vat_ar1",
+            "4thmd_u_medic_ar1",
+            "4thmd_u_doctor_ar1",
+            "4thmd_u_docldr_ar1",
+            "4thmd_u_specialist_mat_ar1",
+            "4thmd_u_specialist_hat_ar1",
+            "4thmd_u_specialist_haa_ar1",
+            "4thmd_u_assistant_ab_ar1",
+            "4thmd_u_assistant_mat_ar1",
+            "4thmd_u_assistant_hat_ar1",
+            "4thmd_u_assistant_aa_ar1",
+            "4thmd_u_assistant_mg_ar1",
+            "4thmd_u_lgunner_ar1",
+            "4thmd_u_mgunner_ar1",
+            "4thmd_u_grenadier_ar1",
+            "4thmd_u_tleader_ar1",
+            "4thmd_u_tleader_gl_ar1",
+            "4thmd_u_sleader_ar1",
+            "4thmd_u_pleader_ar1",
+            "4thmd_u_marksman_ar1",
+            "4thmd_u_sniper_ar1",
+            "4thmd_u_engineer_ar1"
+            */
         };
         magazines[] =
         {
@@ -49,7 +114,7 @@ class CfgPatches {
             "4thmd_m_76251_m20_scarp_slr_nt",
 
             "4thmd_m_76251_b100_bb_so_t3",
-            "4thmd_m_76251_b100_bb_so_t3",
+            "4thmd_m_76251_b100_bb_so_t",
             "4thmd_m_76251_b100_bb_so_nt",
             "4thmd_m_76251_b50_ad_so_t3",
             "4thmd_m_76251_b50_ad_so_t",
@@ -121,6 +186,7 @@ class CfgAmmo
         caliber = 0.869565;
         hit = 9;
 
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
 		tracerColor[] = {1,0.9,0.5,0.1};
         tracerColorR[] = {1,0.9,0.5,0.1};
 		tracerScale = 1.6;
@@ -132,6 +198,7 @@ class CfgAmmo
         caliber = 1.9999995;    //2.3x AP
         hit = 7.2;              //0.8x AP
 
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
         tracerColor[] = {1,0.9,0.5,0.1};
         tracerColorR[] = {1,0.9,0.5,0.1};
 		tracerScale = 1.6;
@@ -143,6 +210,7 @@ class CfgAmmo
         caliber = 0.869565;     //1x LR
         hit = 11.25;             //1.25x LR
 
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
         tracerColor[] = {1,0.9,0.5,0.1};
         tracerColorR[] = {1,0.9,0.5,0.1};
 		tracerScale = 1.6;
@@ -189,7 +257,7 @@ class CfgAmmo
     class HLC_9x19_Ball;
     class 4thmd_a_90119_fmj_o : HLC_9x19_Ball
     {
-        model = "\rhsusf\addons\rhsusf_weapons\tracer\tracer_orange";
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
         tracerColor[] = {1,0.9,0.5,0.1};
         tracerColorR[] = {1,0.9,0.5,0.1};
 		tracerScale = 2.5;
@@ -198,7 +266,7 @@ class CfgAmmo
     class HLC_9x19_JHP;
     class 4thmd_a_90119_epr_o : HLC_9x19_JHP
     {
-        model = "\rhsusf\addons\rhsusf_weapons\tracer\tracer_orange";
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
         tracerColor[] = {1,0.9,0.5,0.1};
         tracerColorR[] = {1,0.9,0.5,0.1};
 		tracerScale = 2.5;
@@ -710,6 +778,7 @@ class CfgMagazineWells
 
 class CfgWeapons
 {
+    /*
     class hlc_wp_SCARL_STD; //4thmd_w_r_55645_scar_st_mb
     class hlc_WP_SCARL_CQC; //4thmd_w_r_55645_scar_st_sb
     class hlc_WP_SCARH_CQC; //4thmd_w_r_76251_scar_st_sb
@@ -963,21 +1032,6 @@ class CfgWeapons
 		};
     };
 
-    class hlc_MG42_base;
-    class hlc_lmg_MG3 : hlc_MG42_base
-    {
-        class nia_magSwitch
-        {
-            4thmd_m_76251_b50_ad_so_t3 = "hlc_lmg_MG3KWS_b";
-            4thmd_m_76251_b50_ad_so_t = "hlc_lmg_MG3KWS_b";
-            4thmd_m_76251_b50_ad_so_nt = "hlc_lmg_MG3KWS_b";
-            4thmd_m_76251_b50_ad_apo_t6 = "hlc_lmg_MG3KWS_b";
-            4thmd_m_76251_b50_ad_apo_nt = "hlc_lmg_MG3KWS_b";
-            4thmd_m_76251_b50_ad_lro_t6 = "hlc_lmg_MG3KWS_b";
-            4thmd_m_76251_b50_ad_lro_nt = "hlc_lmg_MG3KWS_b";
-        };
-    };
-
     class hlc_lmg_MG3KWS_b;
     class 4thmd_w_p_76251_mg3_bk_a_4x : hlc_lmg_MG3KWS_b
     {
@@ -1189,13 +1243,11 @@ class CfgWeapons
 			};
 		};
     };
+    */
 
     class H_HelmetCrew_I;
     class 4thmd_h_hc1_ar1 : H_HelmetCrew_I
     {
-        scope = 1;
-        scopeArsenal = 1;
-
         ace_hearing_lowerVolume = 0.4;
         ace_hearing_protection = 1;
 
@@ -1210,7 +1262,7 @@ class CfgWeapons
     #include "CfgW_weap_ju.hpp"
 */
 };
-
+/*
 #define mag_xx(a,b) class _xx_##a {magazine = a; count = b;}
 #define weap_xx(a,b) class _xx_##a {weapon = a; count = b;}
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
@@ -1292,7 +1344,7 @@ class CfgVehicles
         };
     };
 
-    class 4thmd_b_mgb4_ar1_ch_baf : 4thmd_b_mgb4_ar1
+    class 4thmd_b_mgb4_ar1_ch_baf : 4thmd_b_mgb3_ar1
     {
         scope = 1;
         scopeArsenal = 1;
@@ -1308,9 +1360,6 @@ class CfgVehicles
 
     class 4thmd_b_mgb4_ar1_ch : 4thmd_b_mgb4_ar1_ch_baf
     {
-        scope = 1;
-        scopeArsenal = 1;
-
         class TransportMagazines
         {
             mag_xx(SmokeShellYellow,2);
@@ -1366,6 +1415,9 @@ class CfgVehicles
 
     class 4thmd_b_pac1_ar1_eng : 4thmd_b_pac1_ar1
     {
+        scope = 1;
+        scopeArsenal = 1;
+
         class TransportItems
         {
             item_xx(ACE_DefusalKit,1);
@@ -1953,11 +2005,13 @@ class CfgVehicles
         linkedItems[] = {"H_PilotHelmetFighter_O","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"H_PilotHelmetFighter_O","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
     };
+*/
 /*
     #include "CfgV_men_wd.hpp"
     #include "CfgV_men_de.hpp"
     #include "CfgV_men_bl.hpp"
     #include "CfgV_men_ac.hpp"
     #include "CfgV_men_ju.hpp"
-*/
+
 };
+*/

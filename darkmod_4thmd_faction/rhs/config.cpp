@@ -6,7 +6,13 @@ class CfgPatches {
         magazines[] = {};
         requiredAddons[] = 
             {   
-            "darkmod_4thmd_faction",
+            "darkmod_4thmd",
+            "darkmod_4thmd_ilbe",
+            "darkmod_4thmd_mgp",
+            "darkmod_4thmd_veh",
+            "hlcweapons_SCAR",
+            "niaweapons_226",
+            "ace_ballistics",
             "rhsusf_weapons",
             "rhsusf_weapons2",
             "rhsusf_weapons3",
@@ -33,7 +39,7 @@ class CfgMagazines
     class rhsusf_200Rnd_556x45_soft_pouch_coyote;
     class 4thmd_m_55645_b200_bar_so_t3 : rhsusf_200Rnd_556x45_soft_pouch_coyote {};
 };
-
+/*
 class CfgWeapons
 {
     class hlc_wp_SCARL_STD;
@@ -222,3 +228,4 @@ class CfgVehicles
 		respawnLinkedItems[] = {"rhsusf_hgu56p_visor_mask_green","4thmd_v_mgv2_lt_ar1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
     };
 };
+*/

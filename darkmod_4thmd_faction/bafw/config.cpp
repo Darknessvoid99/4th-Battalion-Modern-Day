@@ -6,9 +6,16 @@ class CfgPatches {
         magazines[] = {};
         requiredAddons[] = 
             {   
-            "darkmod_4thmd_faction",
+            "darkmod_4thmd",
+            "darkmod_4thmd_ilbe",
+            "darkmod_4thmd_mgp",
+            "darkmod_4thmd_veh",
+            "hlcweapons_SCAR",
+            "niaweapons_226",
+            "ace_ballistics",
             "RKSL_Attachments_core",
-            "UK3CB_BAF_Weapons_Accessories"
+            "UK3CB_BAF_Weapons_Accessories",
+            "DONOTLOADUNDERANYCIRCUMSTANCESDARKMOD"
             };
 
         skipWhenMissingDependencies = 1;
@@ -190,8 +197,8 @@ class CfgVehicles
 	class 4thmd_u_base_ar1;
     class 4thmd_u_rifleman_ar1 : 4thmd_u_base_ar1
 	{
-		magazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),tx_3("4thmd_m_55645_m30_scarp_apo_t3"),"HandGrenade","UK3CB_BAF_SmokeShellYellow"};
-		respawnMagazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),tx_3("4thmd_m_55645_m30_scarp_apo_t3"),"HandGrenade","UK3CB_BAF_SmokeShellYellow"};
+		magazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),tx_3("4thmd_m_55645_m30_scarp_apo_t5"),"HandGrenade","UK3CB_BAF_SmokeShellYellow"};
+		respawnMagazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),tx_3("4thmd_m_55645_m30_scarp_apo_t5"),"HandGrenade","UK3CB_BAF_SmokeShellYellow"};
 	};
 
     class 4thmd_u_rifleman_vet_ar1 : 4thmd_u_rifleman_ar1

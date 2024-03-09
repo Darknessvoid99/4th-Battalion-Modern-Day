@@ -18,8 +18,8 @@ class CfgPatches
         magazines[] = {};
         requiredAddons[] = 
         {
-            "darkmod_arm_md",
-            "darkmod_4th_vehicles_captured",
+            "darkmod_4thmd",
+            "darkmod_4thmd_veh_c",
             "IP_CSAT_ST"
         };
         skipWhenMissingDependencies = 1;

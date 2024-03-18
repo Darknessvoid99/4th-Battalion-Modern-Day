@@ -289,8 +289,8 @@ class CfgMagazines
 		tracersEvery = 3;
 		greenmag_canSpeedload=1;
 		greenmag_needBelt=0;
-		greenmag_ammo="greenmag_ammo_545x45_basic_1Rnd";
-		greenmag_basicammo="greenmag_ammo_545x45_basic_1Rnd";
+		greenmag_ammo="greenmag_ammo_556x45_basic_1Rnd";
+		greenmag_basicammo="greenmag_ammo_556x45_basic_1Rnd";
     };
 
     class 4thmd_m_55645_m30_scarp_so_nt : 4thmd_m_55645_m30_scarp_so_t3
@@ -320,7 +320,7 @@ class CfgMagazines
 		ammo = "4thmd_a_55645_ap_o";
         tracersEvery = 5;
 
-        greenmag_ammo="greenmag_ammo_545x45_basic_1Rnd";
+        greenmag_ammo="greenmag_ammo_556x45_basic_1Rnd";
     };
 
     class 4thmd_m_55645_m30_scarp_apo_nt : 4thmd_m_55645_m30_scarp_apo_t5
@@ -355,8 +355,8 @@ class CfgMagazines
 		tracersEvery = 3;
 		greenmag_canSpeedload=1;
 		greenmag_needBelt=0;
-		greenmag_ammo="greenmag_ammo_545x45_basic_1Rnd";
-		greenmag_basicammo="greenmag_ammo_545x45_basic_1Rnd";
+		greenmag_ammo="greenmag_ammo_556x45_basic_1Rnd";
+		greenmag_basicammo="greenmag_ammo_556x45_basic_1Rnd";
     };
 
     class 4thmd_m_55645_m50_xar_so_t : 4thmd_m_55645_m50_xar_so_t3
@@ -384,8 +384,8 @@ class CfgMagazines
 
 		greenmag_canSpeedload=1;
 		greenmag_needBelt=0;
-		greenmag_ammo="greenmag_ammo_545x45_basic_1Rnd";
-		greenmag_basicammo="greenmag_ammo_545x45_basic_1Rnd";
+		greenmag_ammo="greenmag_ammo_556x45_basic_1Rnd";
+		greenmag_basicammo="greenmag_ammo_556x45_basic_1Rnd";
     };
     class 4thmd_m_55645_m100_car_so_t : 4thmd_m_55645_m100_car_so_t3
     {
@@ -411,8 +411,8 @@ class CfgMagazines
 
 		greenmag_canSpeedload=1;
 		greenmag_needBelt=0;
-		greenmag_ammo="greenmag_ammo_545x45_basic_1Rnd";
-		greenmag_basicammo="greenmag_ammo_545x45_basic_1Rnd";
+		greenmag_ammo="greenmag_ammo_556x45_basic_1Rnd";
+		greenmag_basicammo="greenmag_ammo_556x45_basic_1Rnd";
     };
     class 4thmd_m_55645_b100_bar_so_t : 4thmd_m_55645_b100_bar_so_t3
     {
@@ -446,8 +446,8 @@ class CfgMagazines
 
 		greenmag_canSpeedload=1;
 		greenmag_needBelt=0;
-		greenmag_ammo="greenmag_ammo_545x45_tracer_1Rnd";
-		greenmag_basicammo="greenmag_ammo_545x45_basic_1Rnd";
+		greenmag_ammo="greenmag_ammo_556x45_tracer_1Rnd";
+		greenmag_basicammo="greenmag_ammo_556x45_basic_1Rnd";
     };
     class 4thmd_m_55645_b200_bar_so_t : 4thmd_m_55645_b200_bar_so_t3
     {
@@ -681,8 +681,8 @@ class CfgMagazines
 
 		greenmag_canSpeedload=1;
 		greenmag_needBelt=0;
-		greenmag_ammo="greenmag_ammo_545x45_tracer_1Rnd";
-		greenmag_basicammo="greenmag_ammo_545x45_basic_1Rnd";
+		greenmag_ammo="greenmag_ammo_556x45_tracer_1Rnd";
+		greenmag_basicammo="greenmag_ammo_556x45_basic_1Rnd";
     };
 };
 

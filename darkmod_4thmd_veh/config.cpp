@@ -24,6 +24,7 @@ class CfgPatches
             "4thmd_v_apc3w_u_ar1",
             "4thmd_v_apc3w_m_ar1",
             "4thmd_v_apc3w_e_ar1",
+            "4thmd_v_apc3w_es_ar1",
             "4thmd_v_apc2t_ar1",
             "4thmd_v_apc2t_u_ar1",
             "4thmd_v_apc2t_m_ar1",
@@ -33,6 +34,7 @@ class CfgPatches
             "4thmd_v_heli2_ar1",
             "4thmd_v_jet4_ar1",
             "4thmd_v_mbt2_ar1",
+            "4thmd_v_mbt2_rgun_ar1",
             "4thmd_v_mbt2_tart_ar1",
             "4thmd_v_mrap3_ar1",
             "4thmd_v_mrap3_hmg_ar1",
@@ -67,6 +69,7 @@ class CfgPatches
             "4thmd_v_heli2_wd1",
             "4thmd_v_jet4_wd1",
             "4thmd_v_mbt2_wd1",
+            "4thmd_v_mbt2_rgun_wd1",
             "4thmd_v_mbt2_tart_wd1",
             "4thmd_v_mrap3_wd1",
             "4thmd_v_mrap3_hmg_wd1",
@@ -92,7 +95,8 @@ class CfgPatches
         magazines[] = {};
         requiredAddons[] = 
         {
-            "darkmod_4thmd"
+            "darkmod_4thmd",
+            "ace_hellfire"
         };
         author = "Darknessvoid99";
         version = "0.1.0.2402120315";
@@ -101,41 +105,81 @@ class CfgPatches
 
 #define DEBUG 1 // 1 = OFF, 2 = ON
 
+class cfgMagazines
+{
+    class 6Rnd_ACE_Hellfire_AGM114K;
+    class PylonRack_Missile_AGM_02_x1;
+    class PylonRack_Missile_AGM_02_x2;
+
+    
+    class PylonRack_4Rnd_ACE_Hellfire_AGM114K : 6Rnd_ACE_Hellfire_AGM114K
+    {
+        hardpoints[] =
+        {
+            "UNI_SCALPEL",
+            "CUP_NATO_HELO_LARGE",
+            "RHS_HP_HELLFIRE_RACK",
+            "RHS_HP_LONGBOW_RACK",
+            "DM_ACE_4AGM114_Pylon"
+        };
+    };
+
+    class ace_maverick_L_PylonRack_x1 : PylonRack_Missile_AGM_02_x1
+    {
+        hardpoints[] =
+        {
+            "B_AGM65_RAIL",
+            "I_AGM65_RAIL",
+            "DM_AGM65_RAIL"
+        };
+    };
+
+    class ace_maverick_L_PylonRack_x2 : PylonRack_Missile_AGM_02_x2
+    {
+        hardpoints[] =
+        {
+            "B_AGM65_DUAL_RAIL",
+            "I_AGM65_DUAL_RAIL",
+            "DM_AGM65_RAIL"
+        };
+    };
+};
+
 class CfgEditorSubcategories
 {
     class 4thmd_ar_containers
     {
-        displayName = "Containers (Arid)"
+        displayName = "Containers (Arid)";
     };
 
     class 4thmd_wd_containers
     {
-        displayName = "Containers (Woodland)"
+        displayName = "Containers (Woodland)";
     };
 
     class 4thmd_de_containers
     {
-        displayName = "Containers (Desert)"
+        displayName = "Containers (Desert)";
     };
 
     class 4thmd_bl_containers
     {
-        displayName = "Containers (Boreal)"
+        displayName = "Containers (Boreal)";
     };
 
     class 4thmd_ac_containers
     {
-        displayName = "Containers (Artic)"
+        displayName = "Containers (Artic)";
     };
 
     class 4thmd_ju_containers
     {
-        displayName = "Containers (Jungle)"
+        displayName = "Containers (Jungle)";
     };
 
     class 4thmd_tankettes
     {
-        displayName = "Tankettes"
+        displayName = "Tankettes";
     };
 };
 
@@ -191,7 +235,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -205,7 +249,7 @@ class CfgVehicles
 
             class Arid_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Sand)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -219,7 +263,7 @@ class CfgVehicles
 
             class Arid_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Grass)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -233,7 +277,7 @@ class CfgVehicles
         
             class Woodland_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Woodland (Forest)";
                 factions[] = {"4thmd_wd_faction"};
                 textures[] = 
@@ -247,7 +291,7 @@ class CfgVehicles
         
             class Woodland_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Woodland (Grass)";
                 factions[] = {"4thmd_wd_faction"};
                 textures[] = 
@@ -261,7 +305,7 @@ class CfgVehicles
 
             class Woodland_4th_sn
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Woodland (Snow)";
                 factions[] = {"4thmd_wd_faction"};
                 textures[] = 
@@ -275,7 +319,7 @@ class CfgVehicles
         /*
             class Desert_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Desert (Canyon)";
                 factions[] = {"4thmd_de_faction"};
                 textures[] = 
@@ -289,7 +333,7 @@ class CfgVehicles
 
             class Desert_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Desert (Sand)";
                 factions[] = {"4thmd_de_faction"};
                 textures[] = 
@@ -303,7 +347,7 @@ class CfgVehicles
 
             class Desert_4th_os
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Desert (Pine)";
                 factions[] = {"4thmd_de_faction"};
                 textures[] = 
@@ -317,7 +361,7 @@ class CfgVehicles
 
             class Boreal_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Boreal (Tiaga)";
                 factions[] = {"4thmd_bl_faction"};
                 textures[] = 
@@ -331,7 +375,7 @@ class CfgVehicles
 
             class Boreal_4th_tn
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Boreal (Tundra)";
                 factions[] = {"4thmd_bl_faction"};
                 textures[] = 
@@ -345,7 +389,7 @@ class CfgVehicles
 
             class Boreal_4th_cr
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Boreal (Conifier)";
                 factions[] = {"4thmd_bl_faction"};
                 textures[] = 
@@ -359,7 +403,7 @@ class CfgVehicles
 
             class Boreal_4th_sn
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Boreal (Snow)";
                 factions[] = {"4thmd_bl_faction"};
                 textures[] = 
@@ -373,7 +417,7 @@ class CfgVehicles
 
             class Artic_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Artic (Snow)";
                 factions[] = {"4thmd_ac_faction"};
                 textures[] = 
@@ -387,7 +431,7 @@ class CfgVehicles
 
             class Artic_4th_tn
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Artic (Tundra)";
                 factions[] = {"4thmd_ac_faction"};
                 textures[] = 
@@ -401,7 +445,7 @@ class CfgVehicles
 
             class Jungle_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Jungle (Canopy)";
                 factions[] = {"4thmd_ju_faction"};
                 textures[] = 
@@ -415,7 +459,7 @@ class CfgVehicles
 
             class Jungle_4th_to
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Jungle (Tropical)";
                 factions[] = {"4thmd_ju_faction"};
                 textures[] = 
@@ -455,7 +499,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -467,7 +511,7 @@ class CfgVehicles
         
             class Woodland_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Woodland";
                 factions[] = {"4thmd_wd_faction"};
                 textures[] = 
@@ -479,7 +523,7 @@ class CfgVehicles
         /*
             class Desert_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Desert";
                 factions[] = {"4thmd_de_faction"};
                 textures[] = 
@@ -491,7 +535,7 @@ class CfgVehicles
 
             class Boreal_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Boreal";
                 factions[] = {"4thmd_bl_faction"};
                 textures[] = 
@@ -503,7 +547,7 @@ class CfgVehicles
 
             class Artic_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Artic";
                 factions[] = {"4thmd_ac_faction"};
                 textures[] = 
@@ -515,7 +559,7 @@ class CfgVehicles
 
             class Jungle_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Jungle";
                 factions[] = {"4thmd_ju_faction"};
                 textures[] = 
@@ -550,7 +594,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -584,7 +628,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -621,7 +665,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -659,7 +703,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -695,7 +739,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -729,7 +773,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -768,7 +812,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -802,7 +846,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -816,7 +860,7 @@ class CfgVehicles
 
             class Arid_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Sand)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -830,7 +874,7 @@ class CfgVehicles
 
             class Arid_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Grass)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -867,7 +911,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -881,7 +925,7 @@ class CfgVehicles
 
             class Arid_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Sand)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -895,7 +939,7 @@ class CfgVehicles
 
             class Arid_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Grass)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -932,7 +976,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -946,7 +990,7 @@ class CfgVehicles
 
             class Arid_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Sand)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -960,7 +1004,7 @@ class CfgVehicles
 
             class Arid_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Grass)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -998,7 +1042,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1012,7 +1056,7 @@ class CfgVehicles
 
             class Arid_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Sand)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1026,7 +1070,7 @@ class CfgVehicles
 
             class Arid_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Grass)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1063,7 +1107,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1078,7 +1122,7 @@ class CfgVehicles
 
             class Arid_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Sand)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1093,7 +1137,7 @@ class CfgVehicles
 
             class Arid_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Grass)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1133,7 +1177,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1150,7 +1194,7 @@ class CfgVehicles
 
             class Arid_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Sand)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1167,7 +1211,7 @@ class CfgVehicles
 
             class Arid_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Grass)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1209,7 +1253,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1225,7 +1269,7 @@ class CfgVehicles
 
             class Arid_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Sand)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1241,7 +1285,7 @@ class CfgVehicles
 
             class Arid_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Grass)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1284,7 +1328,7 @@ class CfgVehicles
         {
             "darkmod_4thmd_veh\data\arid\dm_apc3w_body_u_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_ar1.paa",
-            "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
+            "",
             "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
             "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
@@ -1294,14 +1338,14 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_body_u_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_ar1.paa",
-                    "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
+                    "",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
                     "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
@@ -1310,14 +1354,14 @@ class CfgVehicles
 
             class Arid_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Sand)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_body_u_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_ar1.paa",
-                    "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
+                    "",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
                     "darkmod_4thmd_veh\data\camonet\dm_camonet_sd1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
@@ -1326,14 +1370,14 @@ class CfgVehicles
 
             class Arid_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Grass)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_body_u_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_ar1.paa",
-                    "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
+                    "",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
                     "darkmod_4thmd_veh\data\camonet\dm_camonet_gs1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
@@ -1350,7 +1394,7 @@ class CfgVehicles
         {
             "darkmod_4thmd_veh\data\arid\dm_apc3w_body_m_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_m_ar1.paa",
-            "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
+            "",
             "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
             "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
@@ -1360,14 +1404,14 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_body_m_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_m_ar1.paa",
-                    "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
+                    "",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
                     "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
@@ -1376,14 +1420,14 @@ class CfgVehicles
 
             class Arid_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Sand)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_body_m_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_m_ar1.paa",
-                    "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
+                    "",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
                     "darkmod_4thmd_veh\data\camonet\dm_camonet_sd1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
@@ -1392,14 +1436,14 @@ class CfgVehicles
 
             class Arid_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Grass)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_body_m_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_m_ar1.paa",
-                    "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
+                    "",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
                     "darkmod_4thmd_veh\data\camonet\dm_camonet_gs1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
@@ -1417,11 +1461,14 @@ class CfgVehicles
         ace_rearm_defaultSupply = 4000;
         ace_refuel_fuelCargo = 3000;
         ace_refuel_hooks[] = {{-0.801,-0.920,-0.55},{1.536,-0.920,-0.55}};
+
+        class EventHandlers;
+
         hiddenSelectionsTextures[] = 
         {
             "darkmod_4thmd_veh\data\arid\dm_apc3w_body_e_ar1.paa",
             "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_e_ar1.paa",
-            "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
+            "",
             "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
             "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
@@ -1431,14 +1478,14 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_body_e_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_e_ar1.paa",
-                    "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
+                    "",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
                     "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
@@ -1447,14 +1494,14 @@ class CfgVehicles
 
             class Arid_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Sand)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_body_e_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_e_ar1.paa",
-                    "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
+                    "",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
                     "darkmod_4thmd_veh\data\camonet\dm_camonet_sd1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
@@ -1463,20 +1510,35 @@ class CfgVehicles
 
             class Arid_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Grass)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
                 {
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_body_e_ar1.paa",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext1_e_ar1.paa",
-                    "darkmod_4thmd_veh\data\turrets\dm_rcws30_ar1.paa",
+                    "",
                     "darkmod_4thmd_veh\data\arid\dm_apc3w_ext2_ar1.paa",
                     "darkmod_4thmd_veh\data\camonet\dm_camonet_gs1.paa",
                     "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
                 };
             };
         };
+    };
+
+    class 4thmd_v_apc3w_es_ar1 : 4thmd_v_apc3w_e_ar1
+    {
+        displayName = "WEV-9 Pandur II";
+
+        ace_refuel_fuelCargo = -1;
+
+        class EventHandlers: EventHandlers
+		{
+			class 4thmd_eng
+            {
+                init="_veh = _this select 0;_fuel1 = '4thmd_s_ft1_forest' createVehicle position _veh;_fuel1 attachTo [_veh, [1.327,-0.795,-0.7]];_fuel2 = '4thmd_s_ft1_forest' createVehicle position _veh;_fuel2 attachTo [_veh, [-0.512,-0.752,-0.7]];_trac1 = 'Land_TankTracks_01_short_F' createVehicle position _veh;_trac1 attachTo [_veh, [1.224,-1.948,-0.275]];_trac2 = 'Land_TankTracks_01_short_F' createVehicle position _veh;_trac2 attachTo [_veh, [-0.286,-2.178,-0.275]];_trac2 setDir 270;_trac2 setPosWorld getPosWorld _trac2;_spok1 = 'Land_TankRoadWheels_01_single_F' createVehicle position _veh;_spok1 attachTo [_veh, [0.394,-0.652,-0.152]];_spok2 = 'Land_TankRoadWheels_01_single_F' createVehicle position _veh;_spok2 attachTo [_veh, [-0.533,-1.502,-0.152]];";
+            };
+		};
     };
 
     class O_APC_Tracked_02_cannon_F;
@@ -1503,7 +1565,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1518,7 +1580,7 @@ class CfgVehicles
 
             class Arid_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Sand)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1533,7 +1595,7 @@ class CfgVehicles
 
             class Arid_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Grass)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1590,7 +1652,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1605,7 +1667,7 @@ class CfgVehicles
 
             class Arid_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Sand)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1620,7 +1682,7 @@ class CfgVehicles
 
             class Arid_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Grass)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1656,7 +1718,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1671,7 +1733,7 @@ class CfgVehicles
 
             class Arid_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Sand)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1686,7 +1748,7 @@ class CfgVehicles
 
             class Arid_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Grass)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1738,7 +1800,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1753,7 +1815,7 @@ class CfgVehicles
 
             class Arid_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Sand)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1768,7 +1830,7 @@ class CfgVehicles
 
             class Arid_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Grass)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1807,7 +1869,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1819,95 +1881,25 @@ class CfgVehicles
         };
     };
 
-    class Plane;
-    class Plane_Base_F: Plane
+    class I_Plane_Fighter_04_F;
+    class 4thmd_v_jet4_base1 : I_Plane_Fighter_04_F
 	{
+        scope = 0;
+
 		class Components;
 	};
 
-    class Plane_Fighter_04_Base_F: Plane_Base_F
+    class 4thmd_v_jet4_base2 : 4thmd_v_jet4_base1
     {
         class Components : Components
 		{
-			class TransportPylonsComponent
-			{
-				class pylons
-				{
-					class pylon1;
-					class pylon2;
-					class pylon3;
-					class pylon4;
-					class pylon5;
-					class pylon6;
-				};
-			};
+			class TransportPylonsComponent;
 		};
     };
-    class I_Plane_Fighter_04_F : Plane_Fighter_04_Base_F
-    {
-        class Components : Components
-        {
-            class TransportPylonsComponent : TransportPylonsComponent
-			{
-				class pylons : pylons
-				{
-					class pylon1 : pylon1 {};
-					class pylon2 : pylon2 {};
-					class pylon3 : pylon3
-					{
-						hardpoints[]=
-						{
-							"I_BIM9X_RAIL",
-							"I_AMRAAM_C_RAIL",
-							"I_AGM65_RAIL",
-                            "UNI_Scalpel"
-						};
-					};
-					class pylon4: pylon4
-					{
-						hardpoints[]=
-						{
-							"I_BIM9X_RAIL",
-							"I_AMRAAM_C_RAIL",
-							"I_AGM65_RAIL",
-                            "UNI_Scalpel"
-						};
-					};
-					class pylon5 : pylon5
-					{
-						hardpoints[]=
-						{
-							"I_BIM9X_RAIL",
-							"I_BIM9X_DUAL_RAIL",
-							"I_AMRAAM_C_RAIL",
-							"I_AMRAAM_C_DUAL_RAIL",
-							"I_AGM65_RAIL",
-							"I_AGM65_DUAL_RAIL",
-							"I_GBU12",
-                            "UNI_Scalpel"
-						};
-					};
-					class Pylon6: pylon6
-					{
-						hardpoints[]=
-						{
-							"I_BIM9X_RAIL",
-							"I_BIM9X_DUAL_RAIL",
-							"I_AMRAAM_C_RAIL",
-							"I_AMRAAM_C_DUAL_RAIL",
-							"I_AGM65_RAIL",
-							"I_AGM65_DUAL_RAIL",
-							"I_GBU12",
-                            "UNI_Scalpel"
-						};
-					};
-				};
-			};
-        };
-    };
 
-    class 4thmd_v_jet4_ar1 : I_Plane_Fighter_04_F // ALPHA Texture
+    class 4thmd_v_jet4_ar1 : 4thmd_v_jet4_base2 // ALPHA Texture
     {
+        scope = 2;
         author = "Darknessvoid99";
         side = 1;
         crew = "4thmd_u_pilot_ar1";
@@ -1933,7 +1925,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -1949,7 +1941,7 @@ class CfgVehicles
 
             class Woodland_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Woodland";
                 factions[] = {"4thmd_wd_faction"};
                 textures[] = 
@@ -1968,28 +1960,76 @@ class CfgVehicles
         {
             class TransportPylonsComponent : TransportPylonsComponent
 			{
-				class pylons : pylons
+				class pylons
 				{
-                    class pylon1 : pylon1 {};
-					class pylon2 : pylon2 {};
-					class pylon3 : pylon3
+					class Pylon1            //Light / Wingtip
+                    {
+                        attachment="PylonMissile_Missile_BIM9X_x1";
+                        hardpoints[] =
+                        {
+                            "I_BIM9X_RAIL",
+							"I_AMRAAM_C_RAIL",
+                        };
+
+						priority=5;
+						maxweight=300;
+						UIposition[]={0.55000001,0.40000001};
+                    };
+					class pylon2 : pylon1
+                    {
+                        UIposition[]={0.1,0.40000001};
+						mirroredMissilePos=1;
+                    };
+
+					class pylon3            //Medium
 					{
                         attachment = "PylonRack_4Rnd_ACE_Hellfire_AGM114N";
+                        hardpoints[] =
+                        {
+                            "I_BIM9X_RAIL",
+                            "I_BIM9X_DUAL_RAIL",
+							"I_AMRAAM_C_RAIL",
+							"I_AGM65_RAIL",
+                            "DM_ACE_4AGM114_Pylon"
+                        };
+
+                        priority=4;
+						maxweight=750;
+						UIposition[]={0.5,0.34999999};
 					};
-					class pylon4: pylon4
+					class pylon4 : pylon3
 					{
                         attachment = "PylonRack_4Rnd_ACE_Hellfire_AGM114L";
+                        UIposition[]={0.15000001,0.34999999};
+						mirroredMissilePos=3;
 					};
-					class pylon5 : pylon5
+
+					class pylon5            //Heavy
 					{
                         attachment = "PylonRack_4Rnd_ACE_Hellfire_AGM114L";
+                        hardpoints[]=
+						{
+							"I_BIM9X_RAIL",
+							"I_BIM9X_DUAL_RAIL",
+							"I_AMRAAM_C_RAIL",
+							"I_AMRAAM_C_DUAL_RAIL",
+							"I_AGM65_RAIL",
+							"I_AGM65_DUAL_RAIL",
+							"I_GBU12",
+                            "DM_ACE_4AGM114_Pylon"
+						};
+
+						priority=3;
+						maxweight=1200;
+						UIposition[]={0.44999999,0.30000001};
 					};
-					class Pylon6: pylon6
+					class Pylon6 : pylon5
 					{
-                        attachment = "PylonRack_4Rnd_ACE_Hellfire_AGM114L";
+						UIposition[]={0.2,0.30000001};
+						mirroredMissilePos=5;
 					};
 				};
-			};
+            };
         };
     };
 
@@ -2015,7 +2055,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -2029,7 +2069,7 @@ class CfgVehicles
 
             class Arid_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Sand)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -2043,7 +2083,7 @@ class CfgVehicles
 
             class Arid_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Grass)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -2079,7 +2119,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -2093,7 +2133,7 @@ class CfgVehicles
 
             class Arid_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Sand)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -2107,7 +2147,7 @@ class CfgVehicles
 
             class Arid_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Grass)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -2144,7 +2184,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Pine)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -2159,7 +2199,7 @@ class CfgVehicles
 
             class Arid_4th_sd
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Sand)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -2174,7 +2214,7 @@ class CfgVehicles
 
             class Arid_4th_gs
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid (Grass)";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -2209,7 +2249,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -2241,7 +2281,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 
@@ -2273,7 +2313,7 @@ class CfgVehicles
         {
             class Arid_4th
             {
-                author = Darknessvoid99
+                author = "Darknessvoid99";
                 displayName = "Arid";
                 factions[] = {"4thmd_ar_faction"};
                 textures[] = 

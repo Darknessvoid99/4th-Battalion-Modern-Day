@@ -17,17 +17,10 @@ class CfgPatches {
             "4thmd_m_76251_b50_ad_lro_nt_rb"
         };
         requiredAddons[] = 
-            {   
-            "darkmod_4thmd",
-            "darkmod_4thmd_ilbe",
-            "darkmod_4thmd_mgp",
-            "darkmod_4thmd_veh",
-            "hlcweapons_SCAR",
-            "niaweapons_226",
-            "ace_ballistics",
-            "greenmag_main",
-            "DONOTLOADUNDERANYCIRCUMSTANCESDARKMOD"
-            };
+        {   
+            "darkmod_4thmd_faction",
+            "greenmag_main"
+        };
 
         skipWhenMissingDependencies = 1;
         author = "Darknessvoid99";

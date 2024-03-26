@@ -17,8 +17,8 @@ class CfgPatches {
             "4thmd_w_p_90119_p226r_a_1x",
             "4thmd_w_l_84mis_mraws_st_a_ls",
             "4thmd_w_ra_55645_scar_st_a_1x",
-            "4thmd_w_p_76251_mg3_bk_a_4x",
-            "4thmd_w_p_76251_mg3_bk_a_6x",
+            "4thmd_w_a_76251_mg3_bk_a_4x",
+            "4thmd_w_a_76251_mg3_bk_a_6x",
             "4thmd_w_r_55645_scar_st_mb_gl_a_4x",
             "4thmd_w_r_55645_scar_st_sb_gl_a_4x",
             "4thmd_w_rm_76251_scar_st_a_8x",
@@ -30,7 +30,6 @@ class CfgPatches {
         };
         units[] = 
         {
-            /*
             "4thmd_b_mgb2_ar1_rm",
             "4thmd_b_mgb4_ar1_mr",
             "4thmd_b_mgb4_ar1_sr",
@@ -58,7 +57,7 @@ class CfgPatches {
             "4thmd_rad1_DD_ar1m_med",
             "4thmd_b_mgb3_ar1_rmv",
             "4thmd_b_mgb3_ar1_rmvat",
-            "4thmd_u_base_ar1",
+            "4thmd_u_base_run_ar1",
             "4thmd_u_rifleman_ar1",
             "4thmd_u_rifleman_vet_ar1",
             "4thmd_u_rifleman_at_ar1",
@@ -72,7 +71,7 @@ class CfgPatches {
             "4thmd_u_assistant_ab_ar1",
             "4thmd_u_assistant_mat_ar1",
             "4thmd_u_assistant_hat_ar1",
-            "4thmd_u_assistant_aa_ar1",
+            "4thmd_u_assistant_haa_ar1",
             "4thmd_u_assistant_mg_ar1",
             "4thmd_u_lgunner_ar1",
             "4thmd_u_mgunner_ar1",
@@ -84,7 +83,6 @@ class CfgPatches {
             "4thmd_u_marksman_ar1",
             "4thmd_u_sniper_ar1",
             "4thmd_u_engineer_ar1"
-            */
         };
         magazines[] =
         {
@@ -124,7 +122,8 @@ class CfgPatches {
             "4thmd_m_76251_b50_ad_lro_t6",
             "4thmd_m_76251_b50_ad_lro_nt",
 
-            "4thmd_m_90119_m15_hkp_s_nt"
+            "4thmd_m_90119_m15_psm_c_nt",
+            "4thmd_m_90119_m15_psm_s_nt"
         };
         requiredAddons[] = 
         {   
@@ -142,38 +141,39 @@ class CfgPatches {
         version = "1.0.0";
     };
 };
-#define DEBUG 2 // 1 = OFF, 2 = ON
+
+#define DEBUG 2 //On = 2, Off = 1
 
 class CfgEditorSubcategories
 {
     class 4thmd_esc_rec
     {
-        displayName = "Men (Recon)"
+        displayName = "Men (Recon)";
     };
 
     class 4thmd_esc_rec_g
     {
-        displayName = "Men (Recon/Ghillie)"
+        displayName = "Men (Recon/Ghillie)";
     };
 
     class 4thmd_esc_air
     {
-        displayName = "Men (Airborne)"
+        displayName = "Men (Airborne)";
     };
 
     class 4thmd_esc_sf
     {
-        displayName = "Men (Spec Ops)"
+        displayName = "Men (Spec Ops)";
     };
 
     class 4thmd_esc_sf_g
     {
-        displayName = "Men (Spec Ops/Ghillie)"
+        displayName = "Men (Spec Ops/Ghillie)";
     };
 
     class 4thmd_esc_sf_d
     {
-        displayName = "Men (Spec Ops/Diver)"
+        displayName = "Men (Spec Ops/Diver)";
     };
 };
 
@@ -255,7 +255,7 @@ class CfgAmmo
 
 //9x19mm
     class HLC_9x19_Ball;
-    class 4thmd_a_90119_fmj_o : HLC_9x19_Ball
+    class 4thmd_a_90119_jhp_o : HLC_9x19_Ball
     {
         model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
         tracerColor[] = {1,0.9,0.5,0.1};
@@ -264,7 +264,7 @@ class CfgAmmo
     };
 
     class HLC_9x19_JHP;
-    class 4thmd_a_90119_epr_o : HLC_9x19_JHP
+    class 4thmd_a_90119_fmj_o : HLC_9x19_JHP
     {
         model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
         tracerColor[] = {1,0.9,0.5,0.1};
@@ -668,21 +668,32 @@ class CfgMagazines
 
 //9x19mm
     class hlc_15Rnd_9x19_B_P226;
-    class 4thmd_m_90119_m15_hkp_s_nt : hlc_15Rnd_9x19_B_P226
+    class 4thmd_m_90119_m15_psm_c_nt : hlc_15Rnd_9x19_B_P226
     {
-        displayName = "15rnd 5.56x45mm EPR(NT) SIGMAG";
-		displayNameShort = "EPR NT";
-		descriptionShort = "M855A1 Enhanced Preformance Rounds<br/>No Tracers";
+        displayName = "15rnd 9x19mm JHP(NT) SIGMAG";
+		displayNameShort = "JHP NT";
+		descriptionShort = "CenAuth Jacketed Hollow Points<br/>No Tracers";
 
         mass = 3.5;
-		ammo = "4thmd_a_90119_epr_o";
-		lastRoundsTracer = 3;
-		tracersEvery = 3;
+		ammo = "4thmd_a_90119_jhp_o";
+		lastRoundsTracer = 0;
+		tracersEvery = 0;
 
 		greenmag_canSpeedload=1;
 		greenmag_needBelt=0;
-		greenmag_ammo="greenmag_ammo_556x45_tracer_1Rnd";
+		greenmag_ammo="greenmag_ammo_556x45_basic_1Rnd";
 		greenmag_basicammo="greenmag_ammo_556x45_basic_1Rnd";
+    };
+
+    class 4thmd_m_90119_m15_psm_s_nt : 4thmd_m_90119_m15_psm_c_nt
+    {
+        displayName = "15rnd 9x19mm FMJ(NT) SIGMAG";
+		displayNameShort = "FMJ NT";
+		descriptionShort = "NATO Full Metal Jacket<br/>No Tracers";
+
+		ammo = "4thmd_a_90119_fmj_o";
+
+		greenmag_ammo="greenmag_ammo_556x45_basic_1Rnd";
     };
 };
 
@@ -750,225 +761,16 @@ class CfgMagazineWells
 
     class CBA_9x19_P226
     {
-        4thmd_mags[] = {"4thmd_m_90119_m15_hkp_s_nt"};
-    };
-
-    class CBA_40mm_EGLM
-    {
-        bafdoyourjob[] =
+        4thmd_mags[] =
         {
-            "UK3CB_BAF_1Rnd_HE_Grenade_Shell",
-            "UK3CB_BAF_1Rnd_HEDP_Grenade_Shell",
-            "UK3CB_BAF_1Rnd_Blank_Grenade_Shell",
-            "UK3CB_BAF_UGL_FlareWhite_F",
-            "UK3CB_BAF_UGL_FlareRed_F",
-            "UK3CB_BAF_UGL_FlareGreen_F",
-            "UK3CB_BAF_UGL_FlareYellow_F",
-            "UK3CB_BAF_UGL_FlareCIR_F",
-            "UK3CB_BAF_1Rnd_Smoke_Grenade_shell",
-            "UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell",
-            "UK3CB_BAF_1Rnd_SmokeGreen_Grenade_shell",
-            "UK3CB_BAF_1Rnd_SmokeYellow_Grenade_shell",
-            "UK3CB_BAF_1Rnd_SmokePurple_Grenade_shell",
-            "UK3CB_BAF_1Rnd_SmokeBlue_Grenade_shell",
-            "UK3CB_BAF_1Rnd_SmokeOrange_Grenade_shell"
+            "4thmd_m_90119_m15_psm_c_nt",
+            "4thmd_m_90119_m15_psm_s_nt"
         };
     };
 };
 
 class CfgWeapons
 {
-    /*
-    class hlc_wp_SCARL_STD; //4thmd_w_r_55645_scar_st_mb
-    class hlc_WP_SCARL_CQC; //4thmd_w_r_55645_scar_st_sb
-    class hlc_WP_SCARH_CQC; //4thmd_w_r_76251_scar_st_sb
-
-    class 4thmd_w_r_55645_scar_st_mb_a_4x : hlc_wp_SCARL_STD          //Standard + RCO
-    {
-        scope = 1;
-        scopeArsenal = 1;
-		class LinkedItems
-		{
-            class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "optic_arco_blk_f";
-			};
-
-            class LinkedItemsAcc
-			{
-				slot = "PointerSlot";
-				item = "acc_flashlight";
-			};
-
-			class LinkedItemsMuzzle
-			{
-				slot = "MuzzleSlot";
-				item = "hlc_muzzle_snds_ROTEX3P";
-			};
-		};
-    };
-
-    class 4thmd_w_r_55645_scar_st_mb_a_4xt : 4thmd_w_r_55645_scar_st_mb_a_4x      //Standard + RCO(tan)
-    {
-		class LinkedItems : LinkedItems
-		{
-            class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "optic_arco";
-			};
-		};
-    };
-
-    class 4thmd_w_r_55645_scar_st_mb_a_1x : 4thmd_w_r_55645_scar_st_mb_a_4x       //Standard + XPS3+3x
-    {
-		class LinkedItems : LinkedItems
-		{
-            class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "optic_Holosight_blk_F";
-			};
-			
-			class LinkedItemsUnder
-            {
-                slot = "UnderBarrelSlot";
-                item = "hlc_grip_pmvfg_black";
-            };
-		};
-    };
-
-    class 4thmd_w_r_55645_scar_st_mb_a_1xt : 4thmd_w_r_55645_scar_st_mb_a_1x     //Standard + XPS3+3x (Tan)
-    {
-		class LinkedItems : LinkedItems
-		{
-            class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "optic_Holosight";
-			};
-		};
-    };
-
-    class 4thmd_w_r_55645_scar_st_mb_a_2x : 4thmd_w_r_55645_scar_st_mb_a_4x      //Standard + T1+3x
-    {
-		class LinkedItems : LinkedItems
-		{
-            class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "optic_MRCO";
-			};
-
-            class LinkedItemsUnder
-            {
-                slot = "UnderBarrelSlot";
-                item = "hlc_grip_AFG2";
-            };
-		};
-    };
-
-    class 4thmd_w_r_55645_scar_st_sb_a_1x : hlc_WP_SCARL_CQC
-    {
-        scope = 1;
-        scopeArsenal = 1;
-        class LinkedItems
-		{
-            class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "optic_holosight_blk_f";
-			};
-
-            class LinkedItemsAcc
-			{
-				slot = "PointerSlot";
-				item = "acc_flashlight";
-			};
-
-			class LinkedItemsMuzzle
-			{
-				slot = "MuzzleSlot";
-				item = "hlc_muzzle_snds_rotex3p";
-			};
-
-            class LinkedItemsUnder
-            {
-                slot = "UnderBarrelSlot";
-                item = "hlc_grip_pmvfg_black";
-            };
-		};
-    };
-
-    class 4thmd_w_r_55645_scar_st_sb_a_1xt : 4thmd_w_r_55645_scar_st_sb_a_1x   //Short Std + XPS3 (Tan)
-    {
-		class LinkedItems : LinkedItems
-		{
-            class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "optic_holosight";
-			};
-		};
-    };
-
-    class 4thmd_w_r_55645_scar_st_sb_a_2x : 4thmd_w_r_55645_scar_st_sb_a_1x   //Short Std + T1
-    {
-		class LinkedItems : LinkedItems
-		{
-            class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "optic_MRCO";
-			};
-
-            class LinkedItemsUnder
-            {
-                slot = "UnderBarrelSlot";
-                item = "hlc_grip_AFG2";
-            };
-		};
-    };
-
-    class 4thmd_w_r_55645_scar_st_sb_a_1xc : 4thmd_w_r_55645_scar_st_sb_a_2x   //Short Std + compM4
-    {
-		class LinkedItems : LinkedItems
-		{
-            class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "optic_Aco";
-			};
-		};
-    };
-
-    class 4thmd_w_r_76251_scar_st_sb_a_4x : hlc_WP_SCARH_CQC          //Standard + RCO
-    {
-        scope = 1;
-        scopeArsenal = 1;
-		class LinkedItems
-		{
-            class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "optic_ACO_grn";
-			};
-
-            class LinkedItemsAcc
-			{
-				slot = "PointerSlot";
-				item = "acc_flashlight";
-			};
-
-			class LinkedItemsMuzzle
-			{
-				slot = "MuzzleSlot";
-				item = "hlc_muzzle_Miter18T";
-			};
-		};
-    };
-
     class hlc_pistol_P226R_Combat;
     class 4thmd_w_p_90119_p226r_a_1x : hlc_pistol_P226R_Combat
     {
@@ -999,41 +801,8 @@ class CfgWeapons
 		};
     };
 
-    class hlc_wp_SCARL_STD_SRX;
-    class 4thmd_w_ra_55645_scar_st_a_1x : hlc_wp_SCARL_STD_SRX
-    {
-        scope = 1;
-        scopeArsenal = 1;
-        class LinkedItems
-		{
-            class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "optic_holosight_blk_f";
-			};
-
-            class LinkedItemsAcc
-			{
-				slot = "PointerSlot";
-				item = "acc_flashlight";
-			};
-
-			class LinkedItemsMuzzle
-			{
-				slot = "MuzzleSlot";
-				item = "hlc_muzzle_snds_rotex3p";
-			};
-
-            class LinkedItemsUnder
-            {
-                slot = "UnderBarrelSlot";
-                item = "bipod_01_F_blk";
-            };
-		};
-    };
-
-    class hlc_lmg_MG3KWS_b;
-    class 4thmd_w_p_76251_mg3_bk_a_4x : hlc_lmg_MG3KWS_b
+    class hlc_lmg_MG3KWS_b_100rnd;
+    class 4thmd_w_a_76251_mg3_bk_a_4x : hlc_lmg_MG3KWS_b_100rnd
     {
         scope = 1;
         scopeArsenal = 1;
@@ -1050,107 +819,6 @@ class CfgWeapons
 				slot = "PointerSlot";
 				item = "ACE_DBAL_A3_Red";
 			};
-		};
-    };
-
-    class 4thmd_w_p_76251_mg3_bk_a_6x : 4thmd_w_p_76251_mg3_bk_a_4x
-    {
-        scope = 1;
-        scopeArsenal = 1;
-        class LinkedItems : LinkedItems
-		{
-            class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "hlc_optic_ATACR";
-			};
-		};
-    };
-
-    class hlc_wp_SCARL_STD_EGLM;
-    class 4thmd_w_r_55645_scar_st_mb_gl_a_4x : hlc_wp_SCARL_STD_EGLM          //Standard + RCO
-    {
-        scope = 1;
-        scopeArsenal = 1;
-		class LinkedItems
-		{
-            class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "optic_Arco";
-			};
-
-            class LinkedItemsAcc
-			{
-				slot = "PointerSlot";
-				item = "acc_flashlight";
-			};
-
-			class LinkedItemsMuzzle
-			{
-				slot = "MuzzleSlot";
-				item = "hlc_muzzle_snds_ROTEX3P";
-			};
-		};
-    };
-
-    class hlc_wp_SCARL_CQC_EGLM;
-    class 4thmd_w_r_55645_scar_st_sb_gl_a_4x : hlc_wp_SCARL_CQC_EGLM          //Standard + RCO
-    {
-        scope = 1;
-        scopeArsenal = 1;
-		class LinkedItems
-		{
-            class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "optic_Holosight";
-			};
-
-            class LinkedItemsAcc
-			{
-				slot = "PointerSlot";
-				item = "acc_flashlight";
-			};
-
-			class LinkedItemsMuzzle
-			{
-				slot = "MuzzleSlot";
-				item = "hlc_muzzle_snds_ROTEX3P";
-			};
-		};
-    };
-
-    class hlc_WP_SSR;
-    class 4thmd_w_rm_76251_scar_st_a_8x : hlc_WP_SSR
-    {
-        scope = 1;
-        scopeArsenal = 1;
-		class LinkedItems
-		{
-            class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "optic_KHS_tan";
-			};
-
-            class LinkedItemsAcc
-			{
-				slot = "PointerSlot";
-				item = "ACE_DBAL_A3_Red";
-			};
-
-			class LinkedItemsMuzzle
-			{
-				slot = "MuzzleSlot";
-				item = "hlc_muzzle_Miter18T";
-			};
-
-            class LinkedItemsUnder
-            {
-                slot = "UnderBarrelSlot";
-                item = "HLC_bipod_UTGShooters";
-            };
 		};
     };
 
@@ -1187,64 +855,6 @@ class CfgWeapons
 		};
     };
 
-    class hlc_wp_SCAR_PDW;
-    class 4thmd_w_rc_55645_scar_st_a_1x : hlc_wp_SCAR_PDW
-    {
-        scope = 1;
-        scopeArsenal = 1;
-        class LinkedItems
-		{
-            class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "optic_Holosight";
-			};
-
-            class LinkedItemsAcc
-			{
-				slot = "PointerSlot";
-				item = "HLC_Panel_Side_SCAR_2xXTME_Desert";
-			};
-
-			class LinkedItemsMuzzle
-			{
-				slot = "MuzzleSlot";
-				item = "hlc_muzzle_snds_rotex3p";
-			};
-
-            class LinkedItemsUnder
-            {
-                slot = "UnderBarrelSlot";
-                item = "HLC_Panel_Under_MagpulXT_Desert";
-            };
-		};
-    };
-
-    class 4thmd_w_rc_55645_scar_st_a_2x : 4thmd_w_rc_55645_scar_st_a_1x
-    {
-        class LinkedItems : LinkedItems
-		{
-            class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "optic_MRCO";
-			};
-
-            class LinkedItemsAcc
-			{
-				slot = "PointerSlot";
-				item = "ACE_DBAL_A3_Red";
-			};
-
-			class LinkedItemsMuzzle
-			{
-				slot = "MuzzleSlot";
-				item = "muzzle_snds_m_snd_F";
-			};
-		};
-    };
-    */
-
     class H_HelmetCrew_I;
     class 4thmd_h_hc1_ar1 : H_HelmetCrew_I
     {
@@ -1262,7 +872,7 @@ class CfgWeapons
     #include "CfgW_weap_ju.hpp"
 */
 };
-/*
+
 #define mag_xx(a,b) class _xx_##a {magazine = a; count = b;}
 #define weap_xx(a,b) class _xx_##a {weapon = a; count = b;}
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
@@ -1293,8 +903,8 @@ class CfgWeapons
                 "ACE_CableTie",         \
                 "ACE_EntrenchingTool",  \
                 "ACE_Canteen"
-#define stdmag  "4thmd_m_90119_m15_hkp_s_nt",    \
-                "4thmd_m_90119_m15_hkp_s_nt"
+#define stdmag  "4thmd_m_90119_m15_psm_s_nt",    \
+                "4thmd_m_90119_m15_psm_s_nt"
 
 class CfgVehicles
 {
@@ -1669,6 +1279,8 @@ class CfgVehicles
         scope = DEBUG;
 		side = 1;
 
+        class EventHandlers;
+
 		author = "Darknessvoid99";
 		displayName = "base";
 		icon = "iconMan";
@@ -1687,14 +1299,38 @@ class CfgVehicles
 		respawnLinkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_rm_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
 	};
 
-    class 4thmd_u_rifleman_ar1 : 4thmd_u_base_ar1
+    class 4thmd_u_base_run_ar1 : 4thmd_u_base_ar1
+	{
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_unifrun
+            {
+                init = "_unit = _this select 0;_unif = ['4thmd_u_unif1_ar1','4thmd_u_unif1_ar1','4thmd_u_unif1_ar1_ss','4thmd_u_unif1_ar1_tt','4thmd_u_unif1_ar1_sw'];_unifrnd = _unif call BIS_fnc_selectRandom;_unit forceAddUniform _unifrnd;_unit addItemToUniform 'ACE_fieldDressing';_unit addItemToUniform 'ACE_fieldDressing';_unit addItemToUniform 'ACE_fieldDressing';_unit addItemToUniform 'ACE_fieldDressing';_unit addItemToUniform 'ACE_elasticBandage';_unit addItemToUniform 'ACE_elasticBandage';_unit addItemToUniform 'ACE_elasticBandage';_unit addItemToUniform 'ACE_elasticBandage';_unit addItemToUniform 'ACE_packingBandage';_unit addItemToUniform 'ACE_packingBandage';_unit addItemToUniform 'ACE_quikclot';_unit addItemToUniform 'ACE_quikclot';_unit addItemToUniform 'ACE_epinephrine';_unit addItemToUniform 'ACE_splint';_unit addItemToUniform 'ACE_tourniquet';_unit addItemToUniform 'ACE_morphine';_unit addItemToUniform 'ACE_salineIV_250';_unit addItemToUniform 'ACE_EarPlugs';_unit addItemToUniform 'ACE_CableTie';_unit addItemToUniform 'ACE_EntrenchingTool';_unit addItemToUniform 'ACE_Canteen';_unit addItemToUniform '4thmd_m_90119_m15_psm_s_nt';_unit addItemToUniform '4thmd_m_90119_m15_psm_s_nt';_unit addItemToUniform '4thmd_m_90119_m15_psm_s_nt';";
+            };
+
+            class 4thmd_helmrun
+            {
+                init = "_unit = _this select 0;_helm = ['4thmd_h_mgh2_3_ar1','4thmd_h_mgh2_3_ar1','4thmd_h_mgh2_3_ar1','4thmd_h_mgh2_3_ar1','4thmd_h_mgh2_3_ar1_g','4thmd_h_mgh2_2_ar1','4thmd_h_mgh2_2_ar1','4thmd_h_mgh2_2_ar1_g','4thmd_h_mgh2_1_ar1','4thmd_h_mgh2_1_ar1','4thmd_h_mgh2_1_ar1_g'];_helmrnd = _helm call BIS_fnc_selectRandom;_unit addHeadgear _helmrnd;";
+            };
+        };
+	};
+
+    class 4thmd_u_rifleman_ar1 : 4thmd_u_base_run_ar1
 	{
         scope = 2;
 		displayName = "Rifleman";
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_Holosight_blk_F';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'hlc_grip_pmvfg_black';";
+            };
+        };
+
         backpack = "4thmd_b_mgb2_ar1_rm";
-		weapons[] = {"4thmd_w_r_55645_scar_st_mb_a_1x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_r_55645_scar_st_mb_a_1x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		weapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		respawnWeapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
 		magazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),tx_3("4thmd_m_55645_m30_scarp_apo_t5"),"HandGrenade","SmokeShellYellow"};
 		respawnMagazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),tx_3("4thmd_m_55645_m30_scarp_apo_t5"),"HandGrenade","SmokeShellYellow"};
 	};
@@ -1704,9 +1340,17 @@ class CfgVehicles
         scope = DEBUG;
         displayName = "Rifleman (Veteran)";
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_arco';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_Miter18T';_unit addPrimaryWeaponItem 'HLC_Panel_Under_MagpulXT_OD';";
+            };
+        };
+
         backpack = "4thmd_b_mgb3_ar1_rmv";
-        weapons[] = {"4thmd_w_r_76251_scar_st_sb_a_4x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_r_76251_scar_st_sb_a_4x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+        weapons[] = {"hlc_WP_SCARH_CQC","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		respawnWeapons[] = {"hlc_WP_SCARH_CQC","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
         magazines[] = {stdmag,tx_10("4thmd_m_76251_m20_scarp_so_t3"),tx_5("4thmd_m_76251_m20_scarp_apo_t4"),"HandGrenade","SmokeShellYellow"};
 		respawnMagazines[] = {stdmag,tx_10("4thmd_m_76251_m20_scarp_so_t3"),tx_5("4thmd_m_76251_m20_scarp_apo_t4"),"HandGrenade","SmokeShellYellow"};
     };
@@ -1716,8 +1360,16 @@ class CfgVehicles
         displayName = "Rifleman (AT)";
         icon = "iconManAT";
 
-        weapons[] = {"4thmd_w_r_55645_scar_st_mb_a_1xt","4thmd_w_p_90119_p226r_a_1x","launch_NLAW_F","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_r_55645_scar_st_mb_a_1xt","4thmd_w_p_90119_p226r_a_1x","launch_NLAW_F","Throw","Put"};
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_Holosight';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'hlc_grip_pmvfg_black';";
+            };
+        };
+
+        weapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","launch_NLAW_F","Throw","Put"};
+		respawnWeapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","launch_NLAW_F","Throw","Put"};
     };
 
     class 4thmd_u_rifleman_vat_ar1 : 4thmd_u_rifleman_at_ar1
@@ -1725,9 +1377,17 @@ class CfgVehicles
         scope = DEBUG;
         displayName = "Rifleman (AT/Vet.)";
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_arco';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'HLC_Panel_Under_MagpulXT_OD';";
+            };
+        };
+
         backpack = "4thmd_b_mgb3_ar1_rmvat";
-        weapons[] = {"4thmd_w_r_55645_scar_st_mb_a_2x","4thmd_w_p_90119_p226r_a_1x","launch_NLAW_F","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_r_55645_scar_st_mb_a_2x","4thmd_w_p_90119_p226r_a_1x","launch_NLAW_F","Throw","Put"};
+        weapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","launch_NLAW_F","Throw","Put"};
+		respawnWeapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","launch_NLAW_F","Throw","Put"};
     };
 
     class 4thmd_u_medic_ar1 : 4thmd_u_rifleman_ar1
@@ -1735,10 +1395,19 @@ class CfgVehicles
         displayName = "Corpsman";
         icon = "iconManMedic";
         attendant = 1;
+
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_MRCO';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'hlc_grip_AFG2';";
+            };
+        };
+
         uniformClass = "4thmd_u_unif1_ar1_ss";
         backpack = "4thmd_b_pac2_ar1_m_med";
-        weapons[] = {"4thmd_w_r_55645_scar_st_sb_a_2x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_r_55645_scar_st_sb_a_2x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+        weapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		respawnWeapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
         linkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_me_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
 		respawnLinkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_me_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
     };
@@ -1747,6 +1416,14 @@ class CfgVehicles
     {
         displayName = "Combat Medic";
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_Holosight_blk_F';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'HLC_Panel_Under_MagpulXT_OD';";
+            };
+        };
+
         backpack = "4thmd_b_pac3_ar1_m_med";
     };
 
@@ -1754,18 +1431,32 @@ class CfgVehicles
     {
         displayName = "Platoon Medic";
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_Holosight';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'HLC_Panel_Under_MagpulXT_OD';";
+            };
+        };
+
         backpack = "4thmd_rad1_DD_ar1m_med";
-        weapons[] = {"4thmd_w_r_55645_scar_st_sb_a_1xc","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_r_55645_scar_st_sb_a_1xc","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
     };
 
     class 4thmd_u_specialist_mat_ar1 : 4thmd_u_rifleman_at_ar1
     {
         displayName = "Light AT Specialist";
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_MRCO';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'hlc_grip_AFG2';";
+            };
+        };
+
         backpack = "4thmd_b_pac3_ar1_mat";
-        weapons[] = {"4thmd_w_r_55645_scar_st_sb_a_1x","4thmd_w_p_90119_p226r_a_1x","4thmd_w_l_84mis_mraws_st_a_ls","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_r_55645_scar_st_sb_a_1x","4thmd_w_p_90119_p226r_a_1x","4thmd_w_l_84mis_mraws_st_a_ls","Throw","Put"};
+        weapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","4thmd_w_l_84mis_mraws_st_a_ls","Throw","Put"};
+		respawnWeapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","4thmd_w_l_84mis_mraws_st_a_ls","Throw","Put"};
         magazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),"MRAWS_HEAT55_F"};
 		respawnMagazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),"MRAWS_HEAT55_F"};
     };
@@ -1774,9 +1465,17 @@ class CfgVehicles
     {
         displayName = "AT Specialist";
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_Holosight_blk_F';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'HLC_Panel_Under_MagpulXT_OD';";
+            };
+        };
+
         backpack = "4thmd_b_pac5_ar1_hat";
-        weapons[] = {"4thmd_w_r_55645_scar_st_sb_a_1xc","4thmd_w_p_90119_p226r_a_1x","launch_I_Titan_short_F","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_r_55645_scar_st_sb_a_1xc","4thmd_w_p_90119_p226r_a_1x","launch_I_Titan_short_F","Throw","Put"};
+        weapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","launch_I_Titan_short_F","Throw","Put"};
+		respawnWeapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","launch_I_Titan_short_F","Throw","Put"};
         magazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),"Titan_AT"};
 		respawnMagazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),"Titan_AT"};
     };
@@ -1785,9 +1484,17 @@ class CfgVehicles
     {
         displayName = "AA Specialist";
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_Holosight';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'HLC_Panel_Under_MagpulXT_OD';";
+            };
+        };
+
         backpack = "4thmd_b_pac5_ar1_aa";
-        weapons[] = {"4thmd_w_r_55645_scar_st_sb_a_1xc","4thmd_w_p_90119_p226r_a_1x","launch_B_Titan_olive_F","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_r_55645_scar_st_sb_a_1xc","4thmd_w_p_90119_p226r_a_1x","launch_B_Titan_olive_F","Throw","Put"};
+        weapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","launch_B_Titan_olive_F","Throw","Put"};
+		respawnWeapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","launch_B_Titan_olive_F","Throw","Put"};
         magazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),"Titan_AA"};
 		respawnMagazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),"Titan_AA"};
     };
@@ -1796,30 +1503,64 @@ class CfgVehicles
 	{
 		displayName = "Ammo Bearer";
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_MRCO';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'hlc_grip_AFG2';";
+            };
+        };
+
         backpack = "4thmd_b_pac3_ar1_ab";
-		weapons[] = {"4thmd_w_r_55645_scar_st_mb_a_1xt","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_r_55645_scar_st_mb_a_1xt","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		weapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		respawnWeapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
 	};
 
     class 4thmd_u_assistant_mat_ar1 : 4thmd_u_assistant_ab_ar1
 	{
 		displayName = "Light AT Assistant";
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_MRCO';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'HLC_Panel_Under_MagpulXT_OD';";
+            };
+        };
+
         backpack = "4thmd_b_pac3_ar1_mat_a";
-        weapons[] = {"4thmd_w_r_55645_scar_st_mb_a_1xt","4thmd_w_p_90119_p226r_a_1x","Throw","Put","Binocular"};
-		respawnWeapons[] = {"4thmd_w_r_55645_scar_st_mb_a_1xt","4thmd_w_p_90119_p226r_a_1x","Throw","Put","Binocular"};
+        weapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","Throw","Put","ACE_Vector"};
+		respawnWeapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","Throw","Put","ACE_Vector"};
 	};
 
     class 4thmd_u_assistant_hat_ar1 : 4thmd_u_assistant_ab_ar1
 	{
 		displayName = "AT Assistant";
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_MRCO';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'HLC_Panel_Under_MagpulXT_OD';";
+            };
+        };
+        
         backpack = "4thmd_b_pac5_ar1_hat_a";
+        weapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		respawnWeapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
 	};
 
-    class 4thmd_u_assistant_aa_ar1 : 4thmd_u_assistant_ab_ar1
+    class 4thmd_u_assistant_haa_ar1 : 4thmd_u_assistant_hat_ar1
 	{
 		displayName = "AA Assistant";
+
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_MRCO';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'HLC_Panel_Under_MagpulXT_OD';";
+            };
+        };
 
         backpack = "4thmd_b_pac5_ar1_aa";
 	};
@@ -1827,6 +1568,14 @@ class CfgVehicles
     class 4thmd_u_assistant_mg_ar1 : 4thmd_u_assistant_mat_ar1
 	{
 		displayName = "MG Assistant";
+
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_Holosight_blk_F';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'hlc_grip_pmvfg_black';";
+            };
+        };
 
         backpack = "4thmd_b_pac2_ar1_mg_a";
 	};
@@ -1836,33 +1585,54 @@ class CfgVehicles
 		displayName = "Autorifleman";
 		icon = "iconManMG";
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_MRCO';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'bipod_01_F_blk';";
+            };
+        };
+
         backpack = "4thmd_b_pac1_ar1_ar";
-		weapons[] = {"4thmd_w_ra_55645_scar_st_a_1x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_ra_55645_scar_st_a_1x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		weapons[] = {"hlc_wp_SCARL_STD_SRX","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		respawnWeapons[] = {"hlc_wp_SCARL_STD_SRX","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
 		magazines[] = {stdmag,"4thmd_m_55645_m100_car_so_t3",tx_5("4thmd_m_55645_m50_xar_so_t3"),"HandGrenade","SmokeShellYellow"};
 		respawnMagazines[] = {stdmag,"4thmd_m_55645_m100_car_so_t3",tx_5("4thmd_m_55645_m50_xar_so_t3"),"HandGrenade","SmokeShellYellow"};
 		linkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mg_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
 		respawnLinkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mg_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
 	};
 
-    class 4thmd_u_mgunner_ar1 : 4thmd_u_lgunner_ar1
+    class 4thmd_u_mgunner_ar1 : 4thmd_u_base_run_ar1
 	{
+        scope = 2;
+
 		displayName = "Machinegunner";
+        icon = "iconManMG";
 
         backpack = "4thmd_b_pac2_ar1_mg";
-		weapons[] = {"4thmd_w_p_76251_mg3_bk_a_4x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_p_76251_mg3_bk_a_4x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		magazines[] = {stdmag,tx_2("4thmd_m_76251_b100_bb_so_t3"),tx_2("4thmd_m_76251_b50_ad_apo_t6_rb"),tx_2("4thmd_m_90119_m15_hkp_s_nt"),"HandGrenade","SmokeShellYellow"};
-		respawnMagazines[] = {stdmag,tx_2("4thmd_m_76251_b100_bb_so_t3"),tx_2("4thmd_m_76251_b50_ad_apo_t6_rb"),tx_2("4thmd_m_90119_m15_hkp_s_nt"),"HandGrenade","SmokeShellYellow"};
+		weapons[] = {"4thmd_w_a_76251_mg3_bk_a_4x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		respawnWeapons[] = {"4thmd_w_a_76251_mg3_bk_a_4x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		magazines[] = {stdmag,tx_2("4thmd_m_76251_b100_bb_so_t3"),tx_2("4thmd_m_76251_b50_ad_apo_t6"),tx_2("4thmd_m_90119_m15_psm_s_nt"),"HandGrenade","SmokeShellYellow"};
+		respawnMagazines[] = {stdmag,tx_2("4thmd_m_76251_b100_bb_so_t3"),tx_2("4thmd_m_76251_b50_ad_apo_t6"),tx_2("4thmd_m_90119_m15_psm_s_nt"),"HandGrenade","SmokeShellYellow"};
+        linkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mg_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
+		respawnLinkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mg_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
 	};
 
     class 4thmd_u_grenadier_ar1 : 4thmd_u_rifleman_ar1
 	{
 		displayName = "Grenadier";
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_Holosight_blk_F';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';";
+            };
+        };
+
         backpack = "4thmd_b_pac1_ar1_gr";
-		weapons[] = {"4thmd_w_r_55645_scar_st_sb_gl_a_4x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_r_55645_scar_st_sb_gl_a_4x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		weapons[] = {"hlc_wp_SCARL_CQC_EGLM","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		respawnWeapons[] = {"hlc_wp_SCARL_CQC_EGLM","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
 		magazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_10("1Rnd_HE_Grenade_shell"),tx_5("4thmd_m_55645_m30_scarp_so_t")};
 		respawnMagazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_10("1Rnd_HE_Grenade_shell"),tx_5("4thmd_m_55645_m30_scarp_so_t")};
 		linkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_gr_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
@@ -1874,9 +1644,22 @@ class CfgVehicles
 		displayName = "Team Leader";
 		icon = "iconManLeader";
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_helmrun
+            {
+                init = "_unit = _this select 0;_helm = ['4thmd_h_mgh2_4_ar1','4thmd_h_mgh2_4_ar1','4thmd_h_mgh2_4_ar1','4thmd_h_mgh2_4_ar1_g','4thmd_h_mgh2_5_ar1','4thmd_h_mgh2_5_ar1_g','4thmd_h_mgh2_6_ar1','4thmd_h_mgh2_6_ar1_g'];_helmrnd = _helm call BIS_fnc_selectRandom;_unit addHeadgear _helmrnd;";
+            };
+
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_arco_blk_f';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'hlc_grip_AFG2';";
+            };
+        };
+
         backpack = "4thmd_b_mgb3_ar1_tl";
-		weapons[] = {"4thmd_w_r_55645_scar_st_mb_a_4x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_r_55645_scar_st_mb_a_4x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		weapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		respawnWeapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
         Items[] = {stditem,"ItemRadio","ACE_MapTools","ACE_microDAGR","ACE_Flashlight_XL50"};
 		RespawnItems[] = {stditem,"ItemRadio","ACE_MapTools","ACE_microDAGR","ACE_Flashlight_XL50"};
 		magazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),tx_2("HandGrenade"),tx_2("SmokeShellBlue"),tx_2("SmokeShellYellow")};
@@ -1890,9 +1673,17 @@ class CfgVehicles
         scope = DEBUG;
 		displayName = "Team Leader (GL)";
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_arco_blk_f';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';";
+            };
+        };
+
         backpack = "4thmd_b_pac1_ar1_grtl";
-		weapons[] = {"4thmd_w_r_55645_scar_st_mb_gl_a_4x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_r_55645_scar_st_mb_gl_a_4x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		weapons[] = {"hlc_wp_SCARL_STD_EGLM","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		respawnWeapons[] = {"hlc_wp_SCARL_STD_EGLM","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
 		magazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),"SmokeShellYellow",tx_5("1Rnd_HE_Grenade_shell")};
 		respawnMagazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),"SmokeShellYellow",tx_5("1Rnd_HE_Grenade_shell")};
 		linkedItems[] = {"4thmd_h_mgh2_4_ar1","4thmd_v_mgv2_gr_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
@@ -1903,18 +1694,32 @@ class CfgVehicles
 	{
 		displayName = "Section Leader";
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_arco_blk_f';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'HLC_Panel_Under_MagpulXT_OD';";
+            };
+        };
+
         backpack = "4thmd_rad1_blade_ar1_sl";
-		weapons[] = {"4thmd_w_r_55645_scar_st_mb_a_4x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_r_55645_scar_st_mb_a_4x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
 	};
 
     class 4thmd_u_pleader_ar1 : 4thmd_u_sleader_ar1
 	{
 		displayName = "Platoon Leader";
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_Holosight';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'HLC_Panel_Under_MagpulXT_OD';";
+            };
+        };
+
         backpack = "4thmd_rad1_whipext_ar1_pl";
-		weapons[] = {"4thmd_w_r_55645_scar_st_sb_a_1x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_r_55645_scar_st_sb_a_1x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		weapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		respawnWeapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
         linkedItems[] = {"4thmd_h_mgh2_4_ar1","4thmd_v_mgv2_rm_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
 		respawnLinkedItems[] = {"4thmd_h_mgh2_4_ar1","4thmd_v_mgv2_rm_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
 	};
@@ -1923,9 +1728,17 @@ class CfgVehicles
 	{
 		displayName = "Marksman";
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_KHS_tan';_unit addPrimaryWeaponItem 'ACE_DBAL_A3_Red';_unit addPrimaryWeaponItem 'hlc_muzzle_Miter18T';_unit addPrimaryWeaponItem 'HLC_bipod_UTGShooters';";
+            };
+        };
+
         backpack = "4thmd_b_mgb4_ar1_mr";
-		weapons[] = {"4thmd_w_rm_76251_scar_st_a_8x","4thmd_w_p_90119_p226r_a_1x","Throw","Put","ACE_Vector"};
-		respawnWeapons[] = {"4thmd_w_rm_76251_scar_st_a_8x","4thmd_w_p_90119_p226r_a_1x","Throw","Put","ACE_Vector"};
+		weapons[] = {"hlc_WP_SSR","4thmd_w_p_90119_p226r_a_1x","Throw","Put","ACE_Vector"};
+		respawnWeapons[] = {"hlc_WP_SSR","4thmd_w_p_90119_p226r_a_1x","Throw","Put","ACE_Vector"};
         Items[] = {stditem,"ACE_RangeCard"};
 		RespawnItems[] = {stditem,"ACE_RangeCard"};
 		magazines[] = {stdmag,tx_5("4thmd_m_76251_m20_scarp_lro_nt"),tx_5("4thmd_m_76251_m20_scarp_apo_nt"),tx_5("4thmd_m_76251_m20_scarp_so_t3"),"HandGrenade","SmokeShellYellow"};
@@ -1934,8 +1747,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mr_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
 	};
 
-    class 4thmd_u_sniper_ar1 : 4thmd_u_marksman_ar1
+    class 4thmd_u_sniper_ar1 : 4thmd_u_base_run_ar1
 	{
+        scope = 2;
+
 		displayName = "Sharpshooter";
 
         backpack = "4thmd_b_mgb4_ar1_sr";
@@ -1943,8 +1758,10 @@ class CfgVehicles
 		respawnWeapons[] = {"4thmd_w_m_86070_badnews_bk_a_12x","4thmd_w_p_90119_p226r_a_1x","Throw","Put","ACE_Vector"};
         Items[] = {stditem,"ACE_RangeCard","ACE_Kestrel4500"};
 		RespawnItems[] = {stditem,"ACE_RangeCard","ACE_Kestrel4500"};
-		magazines[] = {stdmag,tx_5("10Rnd_338_Mag"),tx_3("10Rnd_338_Mag"),tx_4("ace_10rnd_338_api526_mag"),"HandGrenade","4thmd_m_90119_m15_hkp_s_nt"};
-		respawnMagazines[] = {stdmag,tx_5("10Rnd_338_Mag"),tx_3("10Rnd_338_Mag"),tx_4("ace_10rnd_338_api526_mag"),"HandGrenade","4thmd_m_90119_m15_hkp_s_nt"};
+		magazines[] = {stdmag,tx_5("10Rnd_338_Mag"),tx_3("10Rnd_338_Mag"),tx_4("ace_10rnd_338_api526_mag"),"HandGrenade","4thmd_m_90119_m15_psm_s_nt"};
+		respawnMagazines[] = {stdmag,tx_5("10Rnd_338_Mag"),tx_3("10Rnd_338_Mag"),tx_4("ace_10rnd_338_api526_mag"),"HandGrenade","4thmd_m_90119_m15_psm_s_nt"};
+        linkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mr_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
+		respawnLinkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mr_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
 	};
 
     class 4thmd_u_engineer_ar1 : 4thmd_u_rifleman_ar1
@@ -1953,65 +1770,108 @@ class CfgVehicles
         icon = "iconManEngineer";
         engineer = 1;
 
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_MRCO';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_rotex3p';_unit addPrimaryWeaponItem 'hlc_grip_AFG2';";
+            };
+        };
+
         backpack = "4thmd_b_pac1_ar1_eng";
-        weapons[] = {"4thmd_w_r_55645_scar_st_sb_a_1xt","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_r_55645_scar_st_sb_a_1xt","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+        weapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		respawnWeapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
     };
 
-    class 4thmd_u_crew_ar1 : 4thmd_u_base_ar1
+    class 4thmd_u_crew_a_ar1 : 4thmd_u_base_ar1
     {
         scope = 2;
 
-		icon = "iconManVirtual";
+        icon = "iconManVirtual";
 
-		weapons[] = {"4thmd_w_rc_55645_scar_st_a_1x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_rc_55645_scar_st_a_1x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		magazines[] = {stdmag,tx_5("4thmd_m_55645_m30_scarp_so_t"),tx_2("SmokeShellYellow")};
-		respawnMagazines[] = {stdmag,tx_5("4thmd_m_55645_m30_scarp_so_t"),tx_2("SmokeShellYellow")};
-		linkedItems[] = {"4thmd_h_hc1_ar1","4thmd_v_mgv2_lt_ar1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"4thmd_h_hc1_ar1","4thmd_v_mgv2_lt_ar1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-    };
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_unifrun
+            {
+                init = "_unit = _this select 0;_unif = ['4thmd_u_unif1_ar1','4thmd_u_unif1_ar1','4thmd_u_unif1_ar1_ss','4thmd_u_unif1_ar1_tt','4thmd_u_unif1_ar1_sw'];_unifrnd = _unif call BIS_fnc_selectRandom;_unit forceAddUniform _unifrnd;_unit addItemToUniform 'ACE_fieldDressing';_unit addItemToUniform 'ACE_fieldDressing';_unit addItemToUniform 'ACE_fieldDressing';_unit addItemToUniform 'ACE_fieldDressing';_unit addItemToUniform 'ACE_elasticBandage';_unit addItemToUniform 'ACE_elasticBandage';_unit addItemToUniform 'ACE_elasticBandage';_unit addItemToUniform 'ACE_elasticBandage';_unit addItemToUniform 'ACE_packingBandage';_unit addItemToUniform 'ACE_packingBandage';_unit addItemToUniform 'ACE_quikclot';_unit addItemToUniform 'ACE_quikclot';_unit addItemToUniform 'ACE_epinephrine';_unit addItemToUniform 'ACE_splint';_unit addItemToUniform 'ACE_tourniquet';_unit addItemToUniform 'ACE_morphine';_unit addItemToUniform 'ACE_salineIV_250';_unit addItemToUniform 'ACE_EarPlugs';_unit addItemToUniform 'ACE_CableTie';_unit addItemToUniform 'ACE_EntrenchingTool';_unit addItemToUniform 'ACE_Canteen';_unit addItemToUniform '4thmd_m_90119_m15_psm_s_nt';_unit addItemToUniform '4thmd_m_90119_m15_psm_s_nt';_unit addItemToUniform '4thmd_m_90119_m15_psm_s_nt';";
+            };
+        };
 
-    class 4thmd_u_crew_h_ar1 : 4thmd_u_crew_ar1
-    {
-        scope = 2;
-
-        backpack = "4thmd_b_mgb4_ar1_ch";
-        weapons[] = {"4thmd_w_rc_55645_scar_st_a_2x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_rc_55645_scar_st_a_2x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-        linkedItems[] = {"H_PilotHelmetHeli_O","4thmd_v_mgv2_lt_ar1","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
-		respawnLinkedItems[] = {"H_PilotHelmetHeli_O","4thmd_v_mgv2_lt_ar1","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
-    };
-
-    class 4thmd_u_crew_a_ar1 : 4thmd_u_crew_ar1
-    {
-        scope = 2;
-        
         uniformClass = "4thmd_u_unif1_ar1_sw";
-        weapons[] = {"4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
         magazines[] = {stdmag};
 		respawnMagazines[] = {stdmag};
         linkedItems[] = {"H_CrewHelmetHeli_O","4thmd_v_mgv2_lt_ar1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"H_CrewHelmetHeli_O","4thmd_v_mgv2_lt_ar1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
     };
 
-    class 4thmd_u_pilot_ar1 : 4thmd_u_crew_a_ar1
+    class 4thmd_u_crew_ar1 : 4thmd_u_base_ar1
     {
         scope = 2;
+
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_unifrun
+            {
+                init = "_unit = _this select 0;_unif = ['4thmd_u_unif1_ar1','4thmd_u_unif1_ar1','4thmd_u_unif1_ar1_ss','4thmd_u_unif1_ar1_tt','4thmd_u_unif1_ar1_sw'];_unifrnd = _unif call BIS_fnc_selectRandom;_unit forceAddUniform _unifrnd;_unit addItemToUniform 'ACE_fieldDressing';_unit addItemToUniform 'ACE_fieldDressing';_unit addItemToUniform 'ACE_fieldDressing';_unit addItemToUniform 'ACE_fieldDressing';_unit addItemToUniform 'ACE_elasticBandage';_unit addItemToUniform 'ACE_elasticBandage';_unit addItemToUniform 'ACE_elasticBandage';_unit addItemToUniform 'ACE_elasticBandage';_unit addItemToUniform 'ACE_packingBandage';_unit addItemToUniform 'ACE_packingBandage';_unit addItemToUniform 'ACE_quikclot';_unit addItemToUniform 'ACE_quikclot';_unit addItemToUniform 'ACE_epinephrine';_unit addItemToUniform 'ACE_splint';_unit addItemToUniform 'ACE_tourniquet';_unit addItemToUniform 'ACE_morphine';_unit addItemToUniform 'ACE_salineIV_250';_unit addItemToUniform 'ACE_EarPlugs';_unit addItemToUniform 'ACE_CableTie';_unit addItemToUniform 'ACE_EntrenchingTool';_unit addItemToUniform 'ACE_Canteen';_unit addItemToUniform '4thmd_m_90119_m15_psm_s_nt';_unit addItemToUniform '4thmd_m_90119_m15_psm_s_nt';_unit addItemToUniform '4thmd_m_90119_m15_psm_s_nt';";
+            };
+
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_Holosight';_unit addPrimaryWeaponItem 'HLC_Panel_Side_SCAR_2xXTME_OD';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_rotex3p';_unit addPrimaryWeaponItem 'HLC_Panel_Under_MagpulXT_OD';";
+            };
+        };
+
+		weapons[] = {"hlc_wp_SCAR_PDW","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		respawnWeapons[] = {"hlc_wp_SCAR_PDW","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		magazines[] = {stdmag,tx_5("4thmd_m_55645_m30_scarp_so_t"),tx_2("SmokeShellYellow")};
+		respawnMagazines[] = {stdmag,tx_5("4thmd_m_55645_m30_scarp_so_t"),tx_2("SmokeShellYellow")};
+		linkedItems[] = {"4thmd_h_hc1_ar1","4thmd_v_mgv2_lt_ar1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"4thmd_h_hc1_ar1","4thmd_v_mgv2_lt_ar1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    };
+
+    class 4thmd_u_crew_h_ar1 : 4thmd_u_crew_a_ar1
+    {
+        scope = 2;
+
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_unifrun
+            {
+                init = "_unit = _this select 0;_unif = ['4thmd_u_unif1_ar1','4thmd_u_unif1_ar1_ss','4thmd_u_unif1_ar1_sw'];_unifrnd = _unif call BIS_fnc_selectRandom;_unit forceAddUniform _unifrnd;_unit addItemToUniform 'ACE_fieldDressing';_unit addItemToUniform 'ACE_fieldDressing';_unit addItemToUniform 'ACE_fieldDressing';_unit addItemToUniform 'ACE_fieldDressing';_unit addItemToUniform 'ACE_elasticBandage';_unit addItemToUniform 'ACE_elasticBandage';_unit addItemToUniform 'ACE_elasticBandage';_unit addItemToUniform 'ACE_elasticBandage';_unit addItemToUniform 'ACE_packingBandage';_unit addItemToUniform 'ACE_packingBandage';_unit addItemToUniform 'ACE_quikclot';_unit addItemToUniform 'ACE_quikclot';_unit addItemToUniform 'ACE_epinephrine';_unit addItemToUniform 'ACE_splint';_unit addItemToUniform 'ACE_tourniquet';_unit addItemToUniform 'ACE_morphine';_unit addItemToUniform 'ACE_salineIV_250';_unit addItemToUniform 'ACE_EarPlugs';_unit addItemToUniform 'ACE_CableTie';_unit addItemToUniform 'ACE_EntrenchingTool';_unit addItemToUniform 'ACE_Canteen';_unit addItemToUniform '4thmd_m_90119_m15_psm_s_nt';_unit addItemToUniform '4thmd_m_90119_m15_psm_s_nt';_unit addItemToUniform '4thmd_m_90119_m15_psm_s_nt';";
+            };
+
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_MRCO';_unit addPrimaryWeaponItem 'ACE_DBAL_A3_Red';_unit addPrimaryWeaponItem 'hlc_muzzle_556NATO_rotexiiic_tan';_unit addPrimaryWeaponItem 'HLC_Panel_Under_MagpulXT_OD';";
+            };
+        };
+
+        backpack = "4thmd_b_mgb4_ar1_ch";
+        weapons[] = {"hlc_wp_SCAR_PDW","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		respawnWeapons[] = {"hlc_wp_SCAR_PDW","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		magazines[] = {stdmag,tx_5("4thmd_m_55645_m30_scarp_so_t"),tx_2("SmokeShellYellow")};
+		respawnMagazines[] = {stdmag,tx_5("4thmd_m_55645_m30_scarp_so_t"),tx_2("SmokeShellYellow")};
+        linkedItems[] = {"H_PilotHelmetHeli_O","4thmd_v_mgv2_lt_ar1","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
+		respawnLinkedItems[] = {"H_PilotHelmetHeli_O","4thmd_v_mgv2_lt_ar1","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
+    };
+
+    class 4thmd_u_pilot_ar1 : 4thmd_u_base_ar1
+    {
+        scope = 2;
+
+        icon = "iconManVirtual";
         
         uniformClass = "U_B_PilotCoveralls";
         backpack = "ACE_NonSteerableParachute";
         linkedItems[] = {"H_PilotHelmetFighter_O","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"H_PilotHelmetFighter_O","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
     };
-*/
+
 /*
     #include "CfgV_men_wd.hpp"
     #include "CfgV_men_de.hpp"
     #include "CfgV_men_bl.hpp"
     #include "CfgV_men_ac.hpp"
     #include "CfgV_men_ju.hpp"
-
-};
 */
+};

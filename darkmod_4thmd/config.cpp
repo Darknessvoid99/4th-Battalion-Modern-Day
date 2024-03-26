@@ -188,7 +188,7 @@ class CfgWeapons
         displayName = "4Bt. Arid Ghillie (Semi-Arid)";
         class ItemInfo : ItemInfo
         {
-            uniformClass = "4thmd_u_ghil1_ar1_f"
+            uniformClass = "4thmd_u_ghil1_ar1_f";
         };
     };
 
@@ -197,7 +197,7 @@ class CfgWeapons
         displayName = "4Bt. Arid Ghillie (Arid)";
         class ItemInfo : ItemInfo
         {
-            uniformClass = "4thmd_u_ghil1_ar1_b_f"
+            uniformClass = "4thmd_u_ghil1_ar1_b_f";
         };
     };
 
@@ -206,7 +206,7 @@ class CfgWeapons
         displayName = "4Bt. Arid Ghillie (Lush)";
         class ItemInfo : ItemInfo
         {
-            uniformClass = "4thmd_u_ghil1_ar1_c_f"
+            uniformClass = "4thmd_u_ghil1_ar1_c_f";
         };
     };
 
@@ -484,23 +484,6 @@ class CfgVehicles
         ace_cargo_space = 0;
         maximumLoad = 0;
     };
-
-/*
-    class Box_NATO_Equip_F;
-    class 4thmd_s_val_wd : Box_NATO_Equip_F
-    {
-        ace_cargo_size = 3;
-        editorCategory="4thmd_supplies";
-        editorSubcategory="4thmd_lgs";
-        ace_rearm_defaultSupply = 800;
-        ace_cargo_canLoad = 1;
-        ace_dragging_canCarry = 1;
-        ace_dragging_canDrag = 1;
-        ace_cargo_hasCargo = 0;
-        ace_cargo_space = 0;
-        maximumLoad = 0;
-    };
-*/
 
     class Box_NATO_AmmoVeh_F;
     class 4thmd_s_va1_std : Box_NATO_AmmoVeh_F

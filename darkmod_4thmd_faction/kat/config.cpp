@@ -5,17 +5,10 @@ class CfgPatches {
         units[] = {};
         magazines[] = {};
         requiredAddons[] = 
-            {   
-            "darkmod_4thmd",
-            "darkmod_4thmd_ilbe",
-            "darkmod_4thmd_mgp",
-            "darkmod_4thmd_veh",
-            "hlcweapons_SCAR",
-            "niaweapons_226",
-            "ace_ballistics",
-            "kat_main",
-            "DONOTLOADUNDERANYCIRCUMSTANCESDARKMOD"
-            };
+        {   
+            "darkmod_4thmd_faction",
+            "kat_main"
+        };
 
         skipWhenMissingDependencies = 1;
         author = "Darknessvoid99";
@@ -221,7 +214,8 @@ class CfgVehicles
 		RespawnItems[] = {stditem,"ACE_RangeCard"};
 	};
 
-    class 4thmd_u_sniper_ar1 : 4thmd_u_marksman_ar1
+    class 4thmd_u_base_run_ar1;
+    class 4thmd_u_sniper_ar1 : 4thmd_u_base_run_ar1
 	{
         Items[] = {stditem,"ACE_RangeCard","ACE_Kestrel4500"};
 		RespawnItems[] = {stditem,"ACE_RangeCard","ACE_Kestrel4500"};

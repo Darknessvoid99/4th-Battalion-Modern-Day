@@ -62,7 +62,17 @@ class CfgVehicles
     class 4thmd_b_pac1_ar1;
     class 4thmd_b_pac3_ar1;
 
-    class 4thmd_b_mgb2_ar1_gr_baf : 4thmd_b_pac1_ar1
+    class 4thmd_rad1_blade_ar1;
+
+    class 4thmd_b_pac1_ar1_gr : 4thmd_b_pac1_ar1
+    {
+        class TransportMagazines
+        {
+            mag_xx(UK3CB_BAF_1Rnd_SmokeYellow_Grenade_shell,5);
+        };
+    };
+
+    class 4thmd_b_pac1_ar1_grtl : 4thmd_b_pac1_ar1_gr
     {
         class TransportMagazines
         {
@@ -86,7 +96,7 @@ class CfgVehicles
         };
     };
 
-    class 4thmd_b_mgb4_ar1_ch_baf : 4thmd_b_mgb4_ar1
+    class 4thmd_b_mgb4_ar1_ch : 4thmd_b_mgb3_ar1
     {
         class TransportMagazines
         {
@@ -99,6 +109,14 @@ class CfgVehicles
         class TransportMagazines
         {
             mag_xx(UK3CB_BAF_SmokeShellYellow,2);
+        };
+    };
+
+    class 4thmd_b_rad1_blade_ar1_grsl : 4thmd_rad1_blade_ar1
+    {
+        class TransportMagazines
+        {
+            mag_xx(UK3CB_BAF_1Rnd_SmokeYellow_Grenade_shell,5);
         };
     };
 
@@ -115,7 +133,7 @@ class CfgVehicles
 		respawnMagazines[] = {stdmag,tx_10("4thmd_m_76251_m20_scarp_so_t3"),tx_5("4thmd_m_76251_m20_scarp_apo_t4"),"HandGrenade","UK3CB_BAF_SmokeShellYellow"};
 	};
 
-    class 4thmd_u_lgunner_ar1 : 4thmd_u_rifleman_ar1
+    class 4thmd_u_agunner_ar1 : 4thmd_u_rifleman_ar1
 	{
 		magazines[] = {stdmag,"4thmd_m_55645_m100_car_so_t3",tx_5("4thmd_m_55645_m50_xar_so_t3"),"HandGrenade","UK3CB_BAF_SmokeShellYellow"};
 		respawnMagazines[] = {stdmag,"4thmd_m_55645_m100_car_so_t3",tx_5("4thmd_m_55645_m50_xar_so_t3"),"HandGrenade","UK3CB_BAF_SmokeShellYellow"};
@@ -127,9 +145,10 @@ class CfgVehicles
 		respawnMagazines[] = {stdmag,tx_2("4thmd_m_76251_b100_bb_so_t3"),tx_2("4thmd_m_76251_b50_ad_apo_t6_rb"),tx_2("4thmd_m_90119_m15_psm_s_nt"),"HandGrenade","UK3CB_BAF_SmokeShellYellow"};
 	};
 
-    class 4thmd_u_grenadier_ar1 : 4thmd_u_rifleman_ar1
+    class 4thmd_u_lgunner_ar1 : 4thmd_u_mgunner_ar1
 	{
-        backpack = "4thmd_b_mgb2_ar1_gr_baf";
+		magazines[] = {stdmag,tx_3("4thmd_m_55645_b200_bar_so_t3"),"4thmd_m_55645_b100_bar_apo_t5","4thmd_m_55645_b100_bar_so_t","HandGrenade","UK3CB_BAF_SmokeShellYellow"};
+		respawnMagazines[] = {stdmag,tx_3("4thmd_m_55645_b200_bar_so_t3"),"4thmd_m_55645_b100_bar_apo_t5","4thmd_m_55645_b100_bar_so_t","HandGrenade","UK3CB_BAF_SmokeShellYellow"};
 	};
 
     class 4thmd_u_tleader_ar1 : 4thmd_u_rifleman_ar1
@@ -140,7 +159,6 @@ class CfgVehicles
 
     class 4thmd_u_tleader_gl_ar1 : 4thmd_u_tleader_ar1
 	{
-        backpack = "4thmd_b_pac1_ar1_grtl_baf";
         magazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),"UK3CB_BAF_SmokeShellYellow",tx_5("1Rnd_HE_Grenade_shell")};
 		respawnMagazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),"UK3CB_BAF_SmokeShellYellow",tx_5("1Rnd_HE_Grenade_shell")};
 	};
@@ -156,10 +174,5 @@ class CfgVehicles
     {
 		magazines[] = {stdmag,tx_5("4thmd_m_55645_m30_scarp_so_t"),tx_2("UK3CB_BAF_SmokeShellYellow")};
 		respawnMagazines[] = {stdmag,tx_5("4thmd_m_55645_m30_scarp_so_t"),tx_2("UK3CB_BAF_SmokeShellYellow")};
-    };
-
-    class 4thmd_u_crew_h_ar1 : 4thmd_u_crew_ar1
-    {
-        backpack = "4thmd_b_mgb4_ar1_ch_baf";
     };
 };

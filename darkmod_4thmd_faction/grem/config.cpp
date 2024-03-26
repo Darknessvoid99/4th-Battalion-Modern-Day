@@ -29,6 +29,7 @@ class CfgPatches {
 };
 
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
+#define mag_xx(a,b) class _xx_##a {magazine = a; count = b;}
 
 class CfgMagazines
 {
@@ -181,6 +182,17 @@ class CfgVehicles
         };
     };
 
+    class 4thmd_b_mgb4_ar1_lg : 4thmd_b_mgb3_ar1
+    {
+        scope = 1;
+        scopeArsenal = 1;
+
+        class TransportItems
+        {
+            item_xx(greenmag_beltlinked_556x45_basic_200,1);
+        };
+    };
+
     class 4thmd_b_mgb3_ar1_rmv : 4thmd_b_mgb3_ar1
     {
         class TransportItems
@@ -201,6 +213,20 @@ class CfgVehicles
     {
         class TransportItems
         {
+            item_xx(greenmag_ammo_556x45_basic_30Rnd,5);
+        };
+    };
+
+    class 4thmd_b_pac1_ar1_tl_l : 4thmd_b_pac1_ar1
+    {
+        class TransportMagazines
+        {
+            mag_xx(4thmd_m_55645_m30_scarp_apo_t5,5);
+        };
+
+        class TransportItems
+        {
+            item_xx(greenmag_beltlinked_556x45_basic_200,1);
             item_xx(greenmag_ammo_556x45_basic_30Rnd,5);
         };
     };
@@ -228,7 +254,7 @@ class CfgVehicles
         };
     };
 
-    class 4thmd_b_mgb4_ar1_ch_baf : 4thmd_b_mgb4_ar1
+    class 4thmd_b_mgb4_ar1_ch : 4thmd_b_mgb4_ar1
     {
         scope = 1;
         scopeArsenal = 1;
@@ -267,11 +293,19 @@ class CfgVehicles
         };
     };
 
-    class 4thmd_b_pac1_ar1_gr_baf : 4thmd_b_pac1_ar1
+    class 4thmd_b_pac1_ar1_gr : 4thmd_b_pac1_ar1
     {
         class TransportItems
         {
             item_xx(greenmag_ammo_556x45_basic_30Rnd,5);
+        };
+    };
+
+    class 4thmd_b_pac1_ar1_gr_l : 4thmd_b_pac1_ar1_gr
+    {
+        class TransportItems : TransportItems
+        {
+            item_xx(greenmag_beltlinked_556x45_basic_200,2);
         };
     };
 
@@ -283,5 +317,18 @@ class CfgVehicles
             item_xx(greenmag_ammo_762x51_basic_50Rnd,5);
             item_xx(greenmag_item_speedloader,1);
         };
+    };
+
+    class 4thmd_u_grenadier_ar1;
+    class 4thmd_u_tleader_ar1;
+
+    class 4thmd_u_grenadier_ar1_l : 4thmd_u_grenadier_ar1
+    {
+        backpack = "4thmd_b_pac1_ar1_gr_l";
+    };
+
+    class 4thmd_u_tleader_ar1_l : 4thmd_u_tleader_ar1
+    {
+        backpack = "4thmd_b_pac1_ar1_tl_l";
     };
 };

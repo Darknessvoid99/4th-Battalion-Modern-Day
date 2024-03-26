@@ -223,13 +223,26 @@ class CfgVehicles
         };
 	};
 
-    class 4thmd_u_lgunner_ar1 : 4thmd_u_rifleman_ar1
+    class 4thmd_u_agunner_ar1 : 4thmd_u_rifleman_ar1
 	{
         class EventHandlers : EventHandlers
         {
             class 4thmd_attachments
             {
                 init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'optic_MRCO';_unit addPrimaryWeaponItem 'UK3CB_BAF_LLM_Flashlight_Black';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'bipod_01_F_blk';";
+            };
+        };
+	};
+
+    class 4thmd_u_agunvet_ar1 : 4thmd_u_agunner_ar1
+	{
+		displayName = "Autorifleman (Vet.)";
+
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'RKSL_optic_LDS';_unit addPrimaryWeaponItem 'UK3CB_BAF_LLM_Flashlight_Black';_unit addPrimaryWeaponItem 'ACE_muzzle_mzls_L';_unit addPrimaryWeaponItem 'bipod_01_F_blk';";
             };
         };
 	};

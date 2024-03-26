@@ -93,6 +93,7 @@ class CfgPatches {
             "4thmd_m_55645_m30_scarp_apo_nt",
             "4thmd_m_55645_m30_scarp_lro_nt",
             "4thmd_m_55645_m50_xar_so_t3",
+            "4thmd_m_55645_m50_xar_so_nt",
             "4thmd_m_55645_m50_xar_so_t",
             "4thmd_m_55645_m100_car_so_t3",
             "4thmd_m_55645_m100_car_so_t",
@@ -357,6 +358,15 @@ class CfgMagazines
 		greenmag_needBelt=0;
 		greenmag_ammo="greenmag_ammo_556x45_basic_1Rnd";
 		greenmag_basicammo="greenmag_ammo_556x45_basic_1Rnd";
+    };
+
+    class 4thmd_m_55645_m50_xar_so_nt : 4thmd_m_55645_m50_xar_so_t3
+    {
+        displayName = "50rnd 5.56x45mm EPR X-MAG";
+		displayNameShort = "EPR NT";
+		descriptionShort = "M855A1 Enhanced Preformance Rounds<br/>No Tracers";
+        lastRoundsTracer = 0;
+		tracersEvery = 0;
     };
 
     class 4thmd_m_55645_m50_xar_so_t : 4thmd_m_55645_m50_xar_so_t3
@@ -710,6 +720,7 @@ class CfgMagazineWells
             "4thmd_m_55645_m30_scarp_apo_nt",
             "4thmd_m_55645_m30_scarp_lro_nt",
             "4thmd_m_55645_m50_xar_so_t3",
+            "4thmd_m_55645_m50_xar_so_nt",
             "4thmd_m_55645_m50_xar_so_t",
             "4thmd_m_55645_m100_car_so_t3",
             "4thmd_m_55645_m100_car_so_t"
@@ -855,6 +866,39 @@ class CfgWeapons
 		};
     };
 
+    class rhs_weap_m249_pip_L;
+    class 4thmd_w_a_55645_minimi_bk_a_2x : rhs_weap_m249_pip_L
+    {
+        scope = 1;
+        scopeArsenal = 1;
+		class LinkedItems
+		{
+            class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "optic_MRCO";
+			};
+
+            class LinkedItemsAcc
+			{
+				slot = "PointerSlot";
+				item = "ACE_DBAL_A3_Red";
+			};
+
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "hlc_muzzle_snds_ROTEX3P";
+			};
+
+            class LinkedItemsUnder
+            {
+                slot = "UnderBarrelSlot";
+                item = "rhsusf_acc_kac_grip_saw_bipod";
+            };
+		};
+    };
+
     class H_HelmetCrew_I;
     class 4thmd_h_hc1_ar1 : H_HelmetCrew_I
     {
@@ -882,6 +926,7 @@ class CfgWeapons
 #define tx_4(a) a, a, a, a
 #define tx_5(a) a, a, a, a, a
 #define tx_6(a) a, a, a, a, a, a
+#define tx_7(a) a, a, a, a, a, a, a
 #define tx_10(a) a, a, a, a, a, a, a, a, a, a
 
 #define stditem "ACE_fieldDressing",    \
@@ -954,7 +999,18 @@ class CfgVehicles
         };
     };
 
-    class 4thmd_b_mgb4_ar1_ch_baf : 4thmd_b_mgb3_ar1
+    class 4thmd_b_mgb4_ar1_lg : 4thmd_b_mgb3_ar1
+    {
+        scope = 1;
+        scopeArsenal = 1;
+
+        class TransportItems
+        {
+            item_xx(ACE_SpareBarrel,1);
+        };
+    };
+
+    class 4thmd_b_mgb4_ar1_ch : 4thmd_b_mgb3_ar1
     {
         scope = 1;
         scopeArsenal = 1;
@@ -965,14 +1021,6 @@ class CfgVehicles
             mag_xx(SmokeShellRed,2);
             mag_xx(HandGrenade,2);
             mag_xx(4thmd_m_55645_m30_scarp_apo_t5,4);
-        };
-    };
-
-    class 4thmd_b_mgb4_ar1_ch : 4thmd_b_mgb4_ar1_ch_baf
-    {
-        class TransportMagazines
-        {
-            mag_xx(SmokeShellYellow,2);
         };
     };
     
@@ -987,11 +1035,20 @@ class CfgVehicles
         };
     };
 
-    class 4thmd_b_pac1_ar1_gr_baf : 4thmd_b_pac1_ar1
+    class 4thmd_b_pac1_ar1_arv : 4thmd_b_pac1_ar1_ar
     {
         scope = 1;
         scopeArsenal = 1;
 
+        class TransportMagazines
+        {
+            mag_xx(4thmd_m_55645_m100_car_so_t3,2);
+        };
+    };
+
+    class 4thmd_b_pac1_ar1_gr : 4thmd_b_pac1_ar1
+    {
+        class TransportItems;
         class TransportMagazines
         {
             mag_xx(ACE_40mm_Flare_white,5);
@@ -999,27 +1056,16 @@ class CfgVehicles
         };
     };
 
-    class 4thmd_b_pac1_ar1_gr : 4thmd_b_pac1_ar1_gr_baf
-    {
-        class TransportMagazines
-        {
-            mag_xx(1Rnd_SmokeYellow_Grenade_shell,5);
-        };
-    };
-
-    class 4thmd_b_pac1_ar1_grtl_baf : 4thmd_b_pac1_ar1_gr_baf
-    {
-        class TransportItems
-        {
-            item_xx(ACE_HuntIR_monitor,1);
-        };
-    };
-
     class 4thmd_b_pac1_ar1_grtl : 4thmd_b_pac1_ar1_gr
     {
-        class TransportItems
+        class TransportItems : TransportItems
         {
             item_xx(ACE_HuntIR_monitor,1);
+        };
+        class TransportMagazines
+        {
+            mag_xx(ACE_40mm_Flare_white,5);
+            mag_xx(1Rnd_SmokeRed_Grenade_shell,2);
         };
     };
 
@@ -1206,6 +1252,19 @@ class CfgVehicles
         };
     };
 
+    class 4thmd_b_rad1_blade_ar1_grsl : 4thmd_rad1_blade_ar1
+    {
+        class TransportItems
+        {
+            item_xx(ACE_HuntIR_monitor,1);
+        };
+        class TransportMagazines
+        {
+            mag_xx(ACE_40mm_Flare_white,5);
+            mag_xx(1Rnd_SmokeRed_Grenade_shell,2);
+        };
+    };
+
     class 4thmd_rad1_whipext_ar1_pl : 4thmd_rad1_whipext_ar1
     {
         scope = 1;
@@ -1370,6 +1429,12 @@ class CfgVehicles
 
         weapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","launch_NLAW_F","Throw","Put"};
 		respawnWeapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","launch_NLAW_F","Throw","Put"};
+    };
+
+    class 4thmd_u_rifleman_ath_ar1 : 4thmd_u_rifleman_at_ar1
+    {
+        displayName = "Rifleman (NLAW)"
+        scope = DEBUG;
     };
 
     class 4thmd_u_rifleman_vat_ar1 : 4thmd_u_rifleman_at_ar1
@@ -1580,7 +1645,36 @@ class CfgVehicles
         backpack = "4thmd_b_pac2_ar1_mg_a";
 	};
 
-    class 4thmd_u_lgunner_ar1 : 4thmd_u_rifleman_ar1
+    class 4thmd_u_mgunner_ar1 : 4thmd_u_base_run_ar1
+	{
+        scope = 2;
+
+		displayName = "MG Specialist";
+        icon = "iconManMG";
+
+        backpack = "4thmd_b_pac2_ar1_mg";
+		weapons[] = {"4thmd_w_a_76251_mg3_bk_a_4x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		respawnWeapons[] = {"4thmd_w_a_76251_mg3_bk_a_4x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		magazines[] = {stdmag,tx_2("4thmd_m_76251_b100_bb_so_t3"),tx_2("4thmd_m_76251_b50_ad_apo_t6"),tx_2("4thmd_m_90119_m15_psm_s_nt"),"HandGrenade","SmokeShellYellow"};
+		respawnMagazines[] = {stdmag,tx_2("4thmd_m_76251_b100_bb_so_t3"),tx_2("4thmd_m_76251_b50_ad_apo_t6"),tx_2("4thmd_m_90119_m15_psm_s_nt"),"HandGrenade","SmokeShellYellow"};
+        linkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mg_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
+		respawnLinkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mg_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
+	};
+
+    class 4thmd_u_lgunner_ar1 : 4thmd_u_mgunner_ar1
+	{
+		displayName = "Machinegunner";
+
+        backpack = "4thmd_b_mgb4_ar1_lg";
+		weapons[] = {"4thmd_w_a_55645_minimi_bk_a_2x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		respawnWeapons[] = {"4thmd_w_a_55645_minimi_bk_a_2x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
+		magazines[] = {stdmag,tx_3("4thmd_m_55645_b200_bar_so_t3"),"4thmd_m_55645_b100_bar_apo_t5","4thmd_m_55645_b100_bar_so_t","HandGrenade","SmokeShellYellow"};
+		respawnMagazines[] = {stdmag,tx_3("4thmd_m_55645_b200_bar_so_t3"),"4thmd_m_55645_b100_bar_apo_t5","4thmd_m_55645_b100_bar_so_t","HandGrenade","SmokeShellYellow"};
+		linkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mg_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
+		respawnLinkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mg_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
+	};
+
+    class 4thmd_u_agunner_ar1 : 4thmd_u_rifleman_ar1
 	{
 		displayName = "Autorifleman";
 		icon = "iconManMG";
@@ -1596,26 +1690,28 @@ class CfgVehicles
         backpack = "4thmd_b_pac1_ar1_ar";
 		weapons[] = {"hlc_wp_SCARL_STD_SRX","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
 		respawnWeapons[] = {"hlc_wp_SCARL_STD_SRX","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		magazines[] = {stdmag,"4thmd_m_55645_m100_car_so_t3",tx_5("4thmd_m_55645_m50_xar_so_t3"),"HandGrenade","SmokeShellYellow"};
-		respawnMagazines[] = {stdmag,"4thmd_m_55645_m100_car_so_t3",tx_5("4thmd_m_55645_m50_xar_so_t3"),"HandGrenade","SmokeShellYellow"};
+		magazines[] = {stdmag,tx_5("4thmd_m_55645_m50_xar_so_t3"),"4thmd_m_55645_m100_car_so_t3","HandGrenade","SmokeShellYellow"};
+		respawnMagazines[] = {stdmag,tx_5("4thmd_m_55645_m50_xar_so_t3"),"4thmd_m_55645_m100_car_so_t3","HandGrenade","SmokeShellYellow"};
 		linkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mg_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
 		respawnLinkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mg_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
 	};
 
-    class 4thmd_u_mgunner_ar1 : 4thmd_u_base_run_ar1
+    class 4thmd_u_agunvet_ar1 : 4thmd_u_agunner_ar1
 	{
-        scope = 2;
+        scope = DEBUG;
+		displayName = "Autorifleman (Vet.)";
 
-		displayName = "Machinegunner";
-        icon = "iconManMG";
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'RKSL_optic_LDS';_unit addPrimaryWeaponItem 'acc_flashlight';_unit addPrimaryWeaponItem 'ACE_muzzle_mzls_L';_unit addPrimaryWeaponItem 'bipod_01_F_blk';";
+            };
+        };
 
-        backpack = "4thmd_b_pac2_ar1_mg";
-		weapons[] = {"4thmd_w_a_76251_mg3_bk_a_4x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		respawnWeapons[] = {"4thmd_w_a_76251_mg3_bk_a_4x","4thmd_w_p_90119_p226r_a_1x","Throw","Put"};
-		magazines[] = {stdmag,tx_2("4thmd_m_76251_b100_bb_so_t3"),tx_2("4thmd_m_76251_b50_ad_apo_t6"),tx_2("4thmd_m_90119_m15_psm_s_nt"),"HandGrenade","SmokeShellYellow"};
-		respawnMagazines[] = {stdmag,tx_2("4thmd_m_76251_b100_bb_so_t3"),tx_2("4thmd_m_76251_b50_ad_apo_t6"),tx_2("4thmd_m_90119_m15_psm_s_nt"),"HandGrenade","SmokeShellYellow"};
-        linkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mg_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
-		respawnLinkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mg_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
+        backpack = "4thmd_b_pac1_ar1_arv";
+		magazines[] = {stdmag,tx_7("4thmd_m_55645_m50_xar_so_nt"),"HandGrenade","SmokeShellYellow"};
+		respawnMagazines[] = {stdmag,tx_7("4thmd_m_55645_m50_xar_so_nt"),"HandGrenade","SmokeShellYellow"};
 	};
 
     class 4thmd_u_grenadier_ar1 : 4thmd_u_rifleman_ar1
@@ -1638,6 +1734,11 @@ class CfgVehicles
 		linkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_gr_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
 		respawnLinkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_gr_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
 	};
+    class 4thmd_u_grenadier_ar1_l : 4thmd_u_grenadier_ar1
+    {
+        scope = DEBUG;
+        displayName = "Grenadier (L)";
+    };
 
     class 4thmd_u_tleader_ar1 : 4thmd_u_rifleman_ar1
 	{
@@ -1667,6 +1768,11 @@ class CfgVehicles
 		linkedItems[] = {"4thmd_h_mgh2_4_ar1","4thmd_v_mgv2_tl_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
 		respawnLinkedItems[] = {"4thmd_h_mgh2_4_ar1","4thmd_v_mgv2_tl_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
 	};
+    class 4thmd_u_tleader_ar1_l : 4thmd_u_tleader_ar1
+    {
+        scope = DEBUG;
+        displayName = "Team Leader (L)";
+    };
 
     class 4thmd_u_tleader_gl_ar1 : 4thmd_u_tleader_ar1
 	{
@@ -1689,6 +1795,24 @@ class CfgVehicles
 		linkedItems[] = {"4thmd_h_mgh2_4_ar1","4thmd_v_mgv2_gr_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
 		respawnLinkedItems[] = {"4thmd_h_mgh2_4_ar1","4thmd_v_mgv2_gr_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
 	};
+
+    class 4thmd_u_assistant_sl_ar1 : 4thmd_u_tleader_gl_ar1
+    {
+        scope = DEBUG;
+        displayName = "Section 2IC";
+    };
+
+    class 4thmd_u_sleader_gl_ar1 : 4thmd_u_assistant_sl_ar1
+    {
+        displayName = "Squad Leader";
+
+        backpack = "4thmd_b_rad1_blade_ar1_grsl";
+    };
+
+    class 4thmd_u_assistant_pl_ar1 : 4thmd_u_sleader_gl_ar1
+    {
+        displayName = "Platoon 2IC";
+    };
 
     class 4thmd_u_sleader_ar1 : 4thmd_u_tleader_ar1
 	{
@@ -1875,3 +1999,20 @@ class CfgVehicles
     #include "CfgV_men_ju.hpp"
 */
 };
+/*
+class CfgGroups
+{
+    class West
+    {
+        class 4thmd_ar_blu
+        {
+            name = "ARMCO 4th Battalion (Arid)"
+            class 4thmd_ar_blu_inf
+            {
+                name = "Infantry";
+                class 4thmd_ar_blu_inf_
+            };
+        };
+    };
+};
+*/

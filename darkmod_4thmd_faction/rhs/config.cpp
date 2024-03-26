@@ -39,7 +39,7 @@ class CfgMagazines
 class CfgVehicles
 {
     class 4thmd_b_pac1_ar1;
-    class 4thmd_b_pac1_ar1_gr_baf : 4thmd_b_pac1_ar1
+    class 4thmd_b_pac1_ar1_gr : 4thmd_b_pac1_ar1
     {
         class TransportMagazines
         {
@@ -64,6 +64,18 @@ class CfgVehicles
 		respawnWeapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","rhs_weap_M136_hp","Throw","Put"};
     };
 
+    class 4thmd_u_rifleman_ath_ar1 : 4thmd_u_rifleman_at_ar1
+    {
+        weapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","launch_NLAW_F","Throw","Put"};
+		respawnWeapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","launch_NLAW_F","Throw","Put"};
+    };
+
+    class 4thmd_u_rifleman_vat_ar1 : 4thmd_u_rifleman_at_ar1
+    {
+        weapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","rhs_weap_M136_hedp","Throw","Put"};
+		respawnWeapons[] = {"hlc_wp_SCARL_STD","4thmd_w_p_90119_p226r_a_1x","rhs_weap_M136_hedp","Throw","Put"};
+    };
+
     class 4thmd_u_specialist_haa_ar1 : 4thmd_u_rifleman_at_ar1
     {
         weapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","rhs_weap_fim92","Throw","Put"};
@@ -76,7 +88,7 @@ class CfgVehicles
 		respawnLinkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_me_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhsusf_ANPVS_14"};
     };
 
-    class 4thmd_u_lgunner_ar1 : 4thmd_u_rifleman_ar1
+    class 4thmd_u_agunner_ar1 : 4thmd_u_rifleman_ar1
 	{
 		linkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mg_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhsusf_ANPVS_14"};
 		respawnLinkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mg_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhsusf_ANPVS_14"};

@@ -169,6 +169,12 @@ class CfgVehicles
 		respawnMagazines[] = {stdmag,tx_5("4thmd_m_76251_m20_scarp_lro_nt"),tx_5("4thmd_m_76251_m20_scarp_apo_nt"),tx_5("4thmd_m_76251_m20_scarp_so_t3"),"HandGrenade","UK3CB_BAF_SmokeShellYellow"};
 	};
 
+    class 4thmd_u_marksman_a_ar1 : 4thmd_u_marksman_ar1
+	{
+		magazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_lro_nt"),tx_5("4thmd_m_55645_m30_scarp_so_t3"),"HandGrenade","UK3CB_BAF_SmokeShellYellow","UK3CB_BAF_SmokeShellYellow"};
+		respawnMagazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_lro_nt"),tx_5("4thmd_m_55645_m30_scarp_so_t3"),"HandGrenade","UK3CB_BAF_SmokeShellYellow","UK3CB_BAF_SmokeShellYellow"};
+	};
+
     class 4thmd_u_crew_a_ar1;
     class 4thmd_u_crew_ar1 : 4thmd_u_crew_a_ar1
     {

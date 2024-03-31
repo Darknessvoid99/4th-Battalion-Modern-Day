@@ -3,29 +3,11 @@ class CfgPatches {
 	{
         weapons[] = 
         {
-            /*
-            "4thmd_w_r_55645_scar_st_mb_a_4x",
-            "4thmd_w_r_55645_scar_st_mb_a_4xt",
-            "4thmd_w_r_55645_scar_st_mb_a_1x",
-            "4thmd_w_r_55645_scar_st_mb_a_1xt",
-            "4thmd_w_r_55645_scar_st_mb_a_2x",
-            "4thmd_w_r_55645_scar_st_sb_a_1x",
-            "4thmd_w_r_55645_scar_st_sb_a_1xt",
-            "4thmd_w_r_55645_scar_st_sb_a_2x",
-            "4thmd_w_r_55645_scar_st_sb_a_1xc",
-            "4thmd_w_r_76251_scar_st_sb_a_4x",
             "4thmd_w_p_90119_p226r_a_1x",
             "4thmd_w_l_84mis_mraws_st_a_ls",
-            "4thmd_w_ra_55645_scar_st_a_1x",
             "4thmd_w_a_76251_mg3_bk_a_4x",
-            "4thmd_w_a_76251_mg3_bk_a_6x",
-            "4thmd_w_r_55645_scar_st_mb_gl_a_4x",
-            "4thmd_w_r_55645_scar_st_sb_gl_a_4x",
-            "4thmd_w_rm_76251_scar_st_a_8x",
             "4thmd_w_m_86070_badnews_bk_a_12x",
-            "4thmd_w_rc_55645_scar_st_a_1x",
-            "4thmd_w_rc_55645_scar_st_a_2x",
-            */
+            "4thmd_w_a_55645_minimi_bk_a_2x",
             "4thmd_h_hc1_ar1"
         };
         units[] = 
@@ -988,6 +970,14 @@ class CfgVehicles
         };
     };
 
+    class 4thmd_b_mgb4_ar1_mra : 4thmd_b_mgb4_ar1_mr
+    {
+        class TransportMagazines
+        {
+            mag_xx(4thmd_m_55645_m30_scarp_apo_nt,5);
+        };
+    };
+
     class 4thmd_b_mgb4_ar1_sr : 4thmd_b_mgb4_ar1
     {
         scope = 1;
@@ -1869,6 +1859,27 @@ class CfgVehicles
 		respawnMagazines[] = {stdmag,tx_5("4thmd_m_76251_m20_scarp_lro_nt"),tx_5("4thmd_m_76251_m20_scarp_apo_nt"),tx_5("4thmd_m_76251_m20_scarp_so_t3"),"HandGrenade","SmokeShellYellow"};
 		linkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mr_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
 		respawnLinkedItems[] = {"4thmd_h_mgh2_3_ar1","4thmd_v_mgv2_mr_ar1_b","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_INDEP"};
+	};
+
+    class 4thmd_u_marksman_a_ar1 : 4thmd_u_marksman_ar1
+	{
+        scope = DEBUG;
+
+		displayName = "Marksman (Alt)";
+
+        class EventHandlers : EventHandlers
+        {
+            class 4thmd_attachments
+            {
+                init = "_unit = _this select 0;removeAllPrimaryWeaponItems _unit;_unit addPrimaryWeaponItem 'hlc_optic_ATACR';_unit addPrimaryWeaponItem 'ACE_DBAL_A3_Red';_unit addPrimaryWeaponItem 'hlc_muzzle_snds_ROTEX3P';_unit addPrimaryWeaponItem 'HLC_bipod_UTGShooters';";
+            };
+        };
+
+        backpack = "4thmd_b_mgb4_ar1_mra";
+		weapons[] = {"hlc_WP_SCARL_DMR","4thmd_w_p_90119_p226r_a_1x","Throw","Put","ACE_Vector"};
+		respawnWeapons[] = {"hlc_WP_SCARL_DMR","4thmd_w_p_90119_p226r_a_1x","Throw","Put","ACE_Vector"};
+		magazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_lro_nt"),tx_5("4thmd_m_55645_m30_scarp_so_t3"),"HandGrenade","SmokeShellYellow","SmokeShellYellow"};
+		respawnMagazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_lro_nt"),tx_5("4thmd_m_55645_m30_scarp_so_t3"),"HandGrenade","SmokeShellYellow","SmokeShellYellow"};
 	};
 
     class 4thmd_u_sniper_ar1 : 4thmd_u_base_run_ar1

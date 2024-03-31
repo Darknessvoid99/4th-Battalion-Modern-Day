@@ -243,6 +243,14 @@ class CfgVehicles
         };
     };
 
+    class 4thmd_b_mgb4_ar1_mra : 4thmd_b_mgb4_ar1_mr
+    {
+        class TransportItems
+        {
+            item_xx(greenmag_ammo_556x45_basic_30Rnd,5);
+        };
+    };
+
     class 4thmd_b_mgb4_ar1_sr : 4thmd_b_mgb4_ar1
     {
         scope = 1;

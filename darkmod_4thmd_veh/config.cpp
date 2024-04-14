@@ -25,13 +25,17 @@ class CfgPatches
             "4thmd_v_apc3w_m_ar1",
             "4thmd_v_apc3w_e_ar1",
             "4thmd_v_apc3w_es_ar1",
+            "4thmd_v_apc3w_c_ar1",
             "4thmd_v_apc3w_cs_ar1",
+            "4thmd_v_apc3w_ua_ar1",
             "4thmd_v_apc2t_ar1",
             "4thmd_v_apc2t_u_ar1",
             "4thmd_v_apc2t_m_ar1",
             "4thmd_v_apc2t_e_ar1",
             "4thmd_v_apc2t_es_ar1",
+            "4thmd_v_apc2t_c_ar1",
             "4thmd_v_apc2t_cs_ar1",
+            "4thmd_v_apc2t_ua_ar1",
             "4thmd_v_ugv1_a_ar1",
             "4thmd_v_apc2t_aa_ar1",
             "4thmd_v_heli2_ar1",
@@ -66,13 +70,17 @@ class CfgPatches
             "4thmd_v_apc3w_m_wd1",
             "4thmd_v_apc3w_e_wd1",
             "4thmd_v_apc3w_es_wd1",
+            "4thmd_v_apc3w_c_wd1",
             "4thmd_v_apc3w_cs_wd1",
+            "4thmd_v_apc3w_ua_wd1",
             "4thmd_v_apc2t_wd1",
             "4thmd_v_apc2t_u_wd1",
             "4thmd_v_apc2t_m_wd1",
             "4thmd_v_apc2t_e_wd1",
             "4thmd_v_apc2t_es_wd1",
+            "4thmd_v_apc2t_c_wd1",
             "4thmd_v_apc2t_cs_wd1",
+            "4thmd_v_apc2t_ua_wd1",
             "4thmd_v_ugv1_a_wd1",
             "4thmd_v_apc2t_aa_wd1",
             "4thmd_v_heli2_wd1",
@@ -84,6 +92,8 @@ class CfgPatches
             "4thmd_v_mrap3_hmg_wd1",
             "4thmd_v_mrap3_gmg_wd1",
             "4thmd_v_lt1_rc_wd1_c",
+            "4thmd_v_lt1_rc_wd1_c_wcc",
+            "4thmd_v_lt1_rc_wd1_c_tcc",
             "4thmd_v_ugv1_a_wd1_t",
 
             "4thmd_s_ft1_forest",
@@ -685,7 +695,7 @@ class CfgVehicles
         };
         textureList[] = {"Arid_4th",1,};
 
-        ace_cargo_space = 30;
+        ace_cargo_space = 50;
 
         class TextureSources
         {
@@ -831,7 +841,7 @@ class CfgVehicles
         textureList[] = {"Arid_4th",1,};
 
         ace_cargo_space = 12;
-        ace_refuel_fuelCargo = 4000;
+        ace_refuel_fuelCargo = 3000;
         ace_rearm_defaultSupply = 4000;
 
         class TextureSources
@@ -1050,11 +1060,11 @@ class CfgVehicles
     {
         author = "Darknessvoid99";
         side = 1;
-        class EventHandlers;
         crew = "4thmd_u_crew_ar1";
         faction = "4thmd_ar_faction";
         editorSubcategory = "4thmd_tankettes";
         displayName = "AAV-2C Weasel II (RFCV)";
+
         hiddenSelectionsTextures[] = 
         {
             "darkmod_4thmd_veh\data\arid\dm_lt1_main_ar1.paa",        //Main
@@ -1062,9 +1072,7 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",  //Camo
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"          //Slat
         };
-        textureList[] = {"Arid_4th",1,};
-
-    
+        textureList[] = {"Arid_4th",1,};    
         class TextureSources
         {
             class Arid_4th
@@ -1124,6 +1132,18 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",     //Camo
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"            //Slat
         };
+    };
+
+    class 4thmd_v_lt1_rc_ar1_c_wcc : 4thmd_v_lt1_rc_ar1_c
+    {
+        scope = DEBUG;
+        displayName = "WCC-9 Pandur II";
+    };
+
+    class 4thmd_v_lt1_rc_ar1_c_tcc : 4thmd_v_lt1_rc_ar1_c
+    {
+        scope = DEBUG;
+        displayName = "TCC-2 Stalker";
     };
 
     class B_AFV_Wheeled_01_cannon_F;
@@ -1496,9 +1516,10 @@ class CfgVehicles
 
     class 4thmd_v_apc3w_e_ar1 : 4thmd_v_apc3w_u_ar1
     {
-        displayName = "WPC-9 Pandur II (Engineer)";
+        scope = DEBUG;
+        displayName = "WEV-9 Pandur II";
 
-        ace_cargo_space = 8;
+        ace_cargo_space = 12;
         ace_repair_canRepair = 1;
         ace_rearm_defaultSupply = 4000;
         ace_refuel_fuelCargo = 3000;
@@ -1570,8 +1591,7 @@ class CfgVehicles
 
     class 4thmd_v_apc3w_es_ar1 : 4thmd_v_apc3w_e_ar1
     {
-        displayName = "WEV-9 Pandur II";
-
+        scope = 2;
         ace_refuel_fuelCargo = -1;
 
         class EventHandlers: EventHandlers
@@ -1583,14 +1603,34 @@ class CfgVehicles
 		};
     };
 
-    class 4thmd_v_apc3w_cs_ar1 : 4thmd_v_apc3w_u_ar1
+    class 4thmd_v_apc3w_c_ar1 : 4thmd_v_apc3w_u_ar1
     {
-        displayName = "TCC-9 Pandur II";
+        scope = DEBUG;
+        displayName = "WCC-9 Pandur II";
+        class EventHandlers;
+    };
+
+    class 4thmd_v_apc3w_cs_ar1 : 4thmd_v_apc3w_c_ar1
+    {
+        scope = 2;
+
         class EventHandlers: EventHandlers
 		{
 			class 4thmd_cmd
             {
-                init="_veh = _this select 0;_cmd = '4thmd_v_lt1_rc_ar1_c' createVehicle position _veh;_cmd attachTo [_veh, [0.65,-1.308,0]];_cmd allowDamage false;";
+                init="_veh = _this select 0;_cmd = '4thmd_v_lt1_rc_ar1_c_wcc' createVehicle position _veh;_cmd attachTo [_veh, [0.65,-1.308,0]];_cmd lockDriver true;";
+            };
+		};
+    };
+
+    class 4thmd_v_apc3w_ua_ar1 : 4thmd_v_apc3w_u_ar1
+    {
+        displayName = "WPC-9 Pandur II (Armed)";
+        class EventHandlers: EventHandlers
+		{
+			class 4thmd_rtrt
+            {
+                init="_veh = _this select 0;_trt = '4thmd_v_ugv1_a_ar1_t' createVehicle position _veh;_trt attachTo [_veh, [0,0,0.25]];_ai = 'B_UAV_AI' createVehicle position _veh;_trt lockDriver true;";
             };
 		};
     };
@@ -1811,12 +1851,15 @@ class CfgVehicles
 
     class 4thmd_v_apc2t_e_ar1 : 4thmd_v_apc2t_u_ar1
     {
-        displayName = "TPC-2 Stalker (Engineer)";
+        scope = DEBUG;
+        displayName = "TEV-2 Stalker";
+
         ace_cargo_space = 12;
         ace_repair_canRepair = 1;
         ace_rearm_defaultSupply = 4000;
         ace_refuel_fuelCargo = 3000;
         ace_refuel_hooks[] = {{-0.845,-0.980,-0.55},{0.845,-0.980,-0.55}};
+
         hiddenSelectionsTextures[] = 
         {
             "darkmod_4thmd_veh\data\arid\dm_apc2t_body_e_ar1.paa",
@@ -1825,7 +1868,6 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
         };
-
         class TextureSources
         {
             class Arid_4th
@@ -1873,12 +1915,13 @@ class CfgVehicles
                 };
             };
         };
+
+        class EventHandlers;
     };
 
     class 4thmd_v_apc2t_es_ar1 : 4thmd_v_apc2t_e_ar1
     {
-        displayName = "TEV-2 Stalker";
-
+        scope = 2;
         ace_refuel_fuelCargo = -1;
 
         class EventHandlers: EventHandlers
@@ -1890,14 +1933,34 @@ class CfgVehicles
 		};
     };
 
-    class 4thmd_v_apc2t_cs_ar1 : 4thmd_v_apc2t_u_ar1
+    class 4thmd_v_apc2t_c_ar1 : 4thmd_v_apc2t_u_ar1
     {
+        scope = DEBUG;
         displayName = "TCC-2 Stalker";
+        class EventHandlers;
+    };
+
+    class 4thmd_v_apc2t_cs_ar1 : 4thmd_v_apc2t_c_ar1
+    {
+        scope = 2;
+
         class EventHandlers: EventHandlers
 		{
 			class 4thmd_cmd
             {
-                init="_veh = _this select 0;_cmd = '4thmd_v_lt1_rc_ar1_c' createVehicle position _veh;_cmd attachTo [_veh, [0,-1.308,-0.33]];_cmd allowDamage false;";
+                init="_veh = _this select 0;_cmd = '4thmd_v_lt1_rc_ar1_c_tcc' createVehicle position _veh;_cmd attachTo [_veh, [0,-1.308,-0.33]];_cmd lockDriver true;";
+            };
+		};
+    };
+
+    class 4thmd_v_apc2t_ua_ar1 : 4thmd_v_apc2t_u_ar1
+    {
+        displayName = "TPC-2 Stalker (Armed)";
+        class EventHandlers: EventHandlers
+		{
+			class 4thmd_rtrt
+            {
+                init="_veh = _this select 0;_trt = '4thmd_v_ugv1_a_ar1_t' createVehicle position _veh;_trt attachTo [_veh, [-0.4,-1.5,0.1]];_ai = 'B_UAV_AI' createVehicle position _veh;_trt lockDriver true;";
             };
 		};
     };
@@ -1907,6 +1970,7 @@ class CfgVehicles
     {
         scope = 1;
         side = 1;
+        class EventHandlers;
         faction = "4thmd_ar_faction";
         hiddenSelectionsTextures[] = 
         {

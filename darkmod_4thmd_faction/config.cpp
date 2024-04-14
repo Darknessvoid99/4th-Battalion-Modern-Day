@@ -39,10 +39,13 @@ class CfgPatches {
             "4thmd_rad1_DD_ar1m_med",
             "4thmd_b_mgb3_ar1_rmv",
             "4thmd_b_mgb3_ar1_rmvat",
+
+            "4thmd_u_base_ar1",
             "4thmd_u_base_run_ar1",
             "4thmd_u_rifleman_ar1",
             "4thmd_u_rifleman_vet_ar1",
             "4thmd_u_rifleman_at_ar1",
+            "4thmd_u_rifleman_ath_ar1",
             "4thmd_u_rifleman_vat_ar1",
             "4thmd_u_medic_ar1",
             "4thmd_u_doctor_ar1",
@@ -55,14 +58,22 @@ class CfgPatches {
             "4thmd_u_assistant_hat_ar1",
             "4thmd_u_assistant_haa_ar1",
             "4thmd_u_assistant_mg_ar1",
-            "4thmd_u_lgunner_ar1",
             "4thmd_u_mgunner_ar1",
+            "4thmd_u_lgunner_ar1",
+            "4thmd_u_agunner_ar1",
+            "4thmd_u_agunvet_ar1",
             "4thmd_u_grenadier_ar1",
+            "4thmd_u_grenadier_ar1_l",
             "4thmd_u_tleader_ar1",
+            "4thmd_u_tleader_ar1_l",
             "4thmd_u_tleader_gl_ar1",
+            "4thmd_u_assistant_sl_ar1",
+            "4thmd_u_sleader_gl_ar1",
+            "4thmd_u_assistant_pl_ar1",
             "4thmd_u_sleader_ar1",
             "4thmd_u_pleader_ar1",
             "4thmd_u_marksman_ar1",
+            "4thmd_u_marksman_a_ar1",
             "4thmd_u_sniper_ar1",
             "4thmd_u_engineer_ar1"
         };
@@ -1128,8 +1139,8 @@ class CfgVehicles
 
         class TransportMagazines
         {
-            mag_xx(Titan_AP,2);
-            mag_xx(Titan_AT,2);
+            mag_xx(Vorona_HE,1);
+            mag_xx(Vorona_HEAT,2);
         };
     };
 
@@ -1140,7 +1151,7 @@ class CfgVehicles
 
         class TransportMagazines
         {
-            mag_xx(Titan_AT,3);
+            mag_xx(Vorona_HEAT,3);
         };
     };
 
@@ -1529,10 +1540,10 @@ class CfgVehicles
         };
 
         backpack = "4thmd_b_pac5_ar1_hat";
-        weapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","launch_I_Titan_short_F","Throw","Put"};
-		respawnWeapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","launch_I_Titan_short_F","Throw","Put"};
-        magazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),"Titan_AT"};
-		respawnMagazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),"Titan_AT"};
+        weapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","launch_O_Vorona_green_F","Throw","Put"};
+		respawnWeapons[] = {"hlc_WP_SCARL_CQC","4thmd_w_p_90119_p226r_a_1x","launch_O_Vorona_green_F","Throw","Put"};
+        magazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),"Vorona_HEAT"};
+		respawnMagazines[] = {stdmag,tx_10("4thmd_m_55645_m30_scarp_so_t3"),tx_5("4thmd_m_55645_m30_scarp_so_t"),"Vorona_HEAT"};
     };
 
     class 4thmd_u_specialist_haa_ar1 : 4thmd_u_rifleman_at_ar1
@@ -2010,7 +2021,7 @@ class CfgVehicles
     #include "CfgV_men_ju.hpp"
 */
 };
-/*
+
 class CfgGroups
 {
     class West
@@ -2020,10 +2031,494 @@ class CfgGroups
             name = "ARMCO 4th Battalion (Arid)"
             class 4thmd_ar_blu_inf
             {
-                name = "Infantry";
-                class 4thmd_ar_blu_inf_
+                name = "Light Infantry";
+                class 4thmd_ar_blu_inf_sect
+                {
+                    side = 1;
+                    name = "Rifle Section";
+                    faction = "4thmd_ar_faction";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_sleader_ar1";
+                        rank = "LIEUTENANT";
+                        position[] = {10,4,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_assistant_sl_ar1";
+                        rank = "SERGEANT";
+                        position[] = {8,2,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_doctor_ar1";
+                        rank = "CORPORAL";
+                        position[] = {6,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_marksman_ar1";
+                        rank = "CORPORAL";
+                        position[] = {4,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_tleader_ar1_l";
+                        rank = "SERGEANT";
+                        position[] = {2,2,0};
+                    };
+                    class Unit5
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_tleader_ar1";
+                        rank = "CORPORAL";
+                        position[] = {-8,2,0};
+                    };
+                    class Unit6
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_medic_ar1";
+                        rank = "CORPORAL";
+                        position[] = {0,0,0};
+                    };
+                    class Unit7
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_medic_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-10,0,0};
+                    };
+                    class Unit8
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_lgunner_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-2,0,0};
+                    };
+                    class Unit9
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_rifleman_vat_ar1";
+                        rank = "SERGEANT";
+                        position[] = {-12,0,0};
+                    };
+                    class Unit10
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_grenadier_ar1_l";
+                        rank = "CORPORAL";
+                        position[] = {-4,0,0};
+                    };
+                    class Unit11
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_agunvet_ar1";
+                        rank = "CORPORAL";
+                        position[] = {-14,0,0};
+                    };
+                    class Unit12
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_rifleman_ath_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-6,0,0};
+                    };
+                    class Unit13
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_rifleman_at_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-16,0,0};
+                    };
+                };
+
+                class 4thmd_ar_blu_inf_swp
+                {
+                    side = 1;
+                    name = "Weapons Squad";
+                    faction = "4thmd_ar_faction";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_sleader_gl_ar1";
+                        rank = "SERGEANT";
+                        position[] = {4,2,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_medic_ar1";
+                        rank = "CORPORAL";
+                        position[] = {2,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_mgunner_ar1";
+                        rank = "CORPORAL";
+                        position[] = {0,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_specialist_mat_ar1";
+                        rank = "CORPORAL";
+                        position[] = {-2,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_mgunner_ar1";
+                        rank = "CORPORAL";
+                        position[] = {-4,0,0};
+                    };
+                    class Unit5
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_assistant_mat_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-6,0,0};
+                    };
+                    class Unit6
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_assistant_mg_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-8,0,0};
+                    };
+                    class Unit7
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_rifleman_at_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-10,0,0};
+                    };
+                };
+
+                class 4thmd_ar_blu_inf_tcm
+                {
+                    side = 1;
+                    name = "Team, Command";
+                    faction = "4thmd_ar_faction";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_pleader_ar1";
+                        rank = "CAPTAIN";
+                        position[] = {2,2,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_assistant_pl_ar1";
+                        rank = "LIEUTENANT";
+                        position[] = {0,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_docldr_ar1";
+                        rank = "SERGEANT";
+                        position[] = {-2,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_sniper_ar1";
+                        rank = "SERGEANT";
+                        position[] = {-4,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_agunvet_ar1";
+                        rank = "CORPORAL";
+                        position[] = {-6,0,0};
+                    };
+                    class Unit5
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_rifleman_ath_ar1";
+                        rank = "CORPORAL";
+                        position[] = {-8,0,0};
+                    };
+                };
+
+                class 4thmd_ar_blu_inf_tsn
+                {
+                    side = 1;
+                    name = "Team, Rifle";
+                    faction = "4thmd_ar_faction";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_tleader_ar1";
+                        rank = "SERGEANT";
+                        position[] = {2,2,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_medic_ar1";
+                        rank = "CORPORAL";
+                        position[] = {0,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_agunner_ar1";
+                        rank = "CORPORAL";
+                        position[] = {-2,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_rifleman_at_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-4,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_rifleman_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-6,0,0};
+                    };
+                };
+
+                class 4thmd_ar_blu_inf_tat
+                {
+                    side = 1;
+                    name = "Team, Anti-Tank";
+                    faction = "4thmd_ar_faction";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_tleader_ar1";
+                        rank = "SERGEANT";
+                        position[] = {2,2,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_specialist_hat_ar1";
+                        rank = "CORPORAL";
+                        position[] = {0,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_specialist_hat_ar1";
+                        rank = "CORPORAL";
+                        position[] = {-2,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_assistant_hat_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-4,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_rifleman_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-6,0,0};
+                    };
+                };
+
+                class 4thmd_ar_blu_inf_taa
+                {
+                    side = 1;
+                    name = "Team, Anti-Air";
+                    faction = "4thmd_ar_faction";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_tleader_ar1";
+                        rank = "SERGEANT";
+                        position[] = {2,2,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_specialist_haa_ar1";
+                        rank = "CORPORAL";
+                        position[] = {0,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_specialist_haa_ar1";
+                        rank = "CORPORAL";
+                        position[] = {-2,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_assistant_haa_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-4,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_rifleman_at_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-6,0,0};
+                    };
+                };
+
+                class 4thmd_ar_blu_inf_prm
+                {
+                    side = 1;
+                    name = "Patrol, Rifle";
+                    faction = "4thmd_ar_faction";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_rifleman_vet_ar1";
+                        rank = "CORPORAL";
+                        position[] = {0,2,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_rifleman_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-2,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_rifleman_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-4,0,0};
+                    };
+                };
+
+                class 4thmd_ar_blu_inf_pra
+                {
+                    side = 1;
+                    name = "Patrol, Rifle(AT)";
+                    faction = "4thmd_ar_faction";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_rifleman_vat_ar1";
+                        rank = "CORPORAL";
+                        position[] = {0,2,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_rifleman_at_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-2,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_rifleman_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-4,0,0};
+                    };
+                };
+
+                class 4thmd_ar_blu_inf_pmg
+                {
+                    side = 1;
+                    name = "Patrol, Machinegun";
+                    faction = "4thmd_ar_faction";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_lgunner_ar1";
+                        rank = "CORPORAL";
+                        position[] = {0,2,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_mgunner_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-2,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_assistant_mg_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-4,0,0};
+                    };
+                };
+
+                class 4thmd_ar_blu_inf_pat
+                {
+                    side = 1;
+                    name = "Patrol, Anti-Tank";
+                    faction = "4thmd_ar_faction";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_rifleman_vet_ar1";
+                        rank = "CORPORAL";
+                        position[] = {0,2,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_specialist_mat_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-2,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_assistant_mat_ar1";
+                        rank = "PRIVATE";
+                        position[] = {-4,0,0};
+                    };
+                };
+
+                class 4thmd_ar_blu_inf_psr
+                {
+                    side = 1;
+                    name = "Patrol, Anti-Tank";
+                    faction = "4thmd_ar_faction";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_sniper_ar1";
+                        rank = "SERGEANT";
+                        position[] = {0,2,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "4thmd_u_marksman_ar1";
+                        rank = "CORPORAL";
+                        position[] = {-2,0,0};
+                    };
+                };
             };
         };
     };
 };
-*/

@@ -118,14 +118,44 @@ class CfgEditorCategories
 
 class CfgEditorSubcategories
 {
+    class 4thmd_lgs
+    {
+        displayName = "Logistics";
+    };
+
     class 4thmd_comp
     {
         displayName = "ARMCO 4th Battalion";
     };
 
-    class 4thmd_lgs
+    class 4thmd_comp_ar
     {
-        displayName = "Logistics";
+        displayName = "ARMCO 4th Battalion (Arid)";
+    };
+
+   class 4thmd_comp_wd
+    {
+        displayName = "ARMCO 4th Battalion (Woodland)";
+    };
+
+    class 4thmd_comp_de
+    {
+        displayName = "ARMCO 4th Battalion (Desert)";
+    };
+
+    class 4thmd_comp_bl
+    {
+        displayName = "ARMCO 4th Battalion (Boreal)";
+    };
+
+    class 4thmd_comp_ac
+    {
+        displayName = "ARMCO 4th Battalion (Artic)";
+    };
+
+    class 4thmd_comp_ju
+    {
+        displayName = "ARMCO 4th Battalion (Jungle)";
     };
 };
 

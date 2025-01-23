@@ -11,8 +11,7 @@ class CfgPatches
             "aceax_main",
             "aceax_gearinfo",
             "aceax_arsenal",
-            "aceax_ingame",
-            "aceax_data_tier1"
+            "aceax_ingame"
         };
 
         skipWhenMissingDependencies = 1;

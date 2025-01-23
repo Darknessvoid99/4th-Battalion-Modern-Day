@@ -1,4 +1,5 @@
-class CfgPatches {
+class CfgPatches
+{
     class darkmod_4thmd
 	{
         weapons[] = 
@@ -425,7 +426,7 @@ class CfgVehicles
 */
 
     class Box_NATO_Ammo_F;
-    class dmlib_cgo_e_1 : Box_NATO_Ammo_F
+    class 4thmd_cgo_e_1 : Box_NATO_Ammo_F
     {
         displayName = "Empty Crate (1)";
         maximumLoad = 800;
@@ -437,7 +438,7 @@ class CfgVehicles
     };
 
     class Box_NATO_WpsSpecial_F;
-    class dmlib_cgo_e_2 : Box_NATO_WpsSpecial_F
+    class 4thmd_cgo_e_2 : Box_NATO_WpsSpecial_F
     {
         displayName = "Empty Crate (2)";
         maximumLoad = 1200;
@@ -449,7 +450,7 @@ class CfgVehicles
     };
 
     class Box_NATO_Equip_F;
-    class dmlib_cgo_e_3 : Box_NATO_Equip_F
+    class 4thmd_cgo_e_3 : Box_NATO_Equip_F
     {
         displayName = "Empty Crate (3)";
         maximumLoad = 1600;
@@ -461,7 +462,7 @@ class CfgVehicles
     };
 
     class B_supplyCrate_F;
-    class dmlib_cgo_e_6 : B_supplyCrate_F
+    class 4thmd_cgo_e_6 : B_supplyCrate_F
     {
         displayName = "Empty Crate (6)";
         maximumLoad = 4000;

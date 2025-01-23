@@ -1,4 +1,5 @@
-class CfgPatches {
+class CfgPatches
+{
     class darkmod_4thmd_ilbe
 	{
         weapons[] = {};
@@ -14,18 +15,20 @@ class CfgPatches {
             "4thmd_rad1_whip_wd1",
             "4thmd_rad1_whipext_wd1"
         };
+
         magazines[] = {};
         requiredAddons[] = 
-            {   
+        {   
             "cba_main",
-			"task_force_radio",
-			"task_force_radio_items",
+            "task_force_radio",
+            "task_force_radio_items",
             "A3_Data_F",
             "darkmod_4thmd",
             "tfw_radios_main",
             "tfw_radios_rf3080",
-			"tfw_radios_ilbe"
-            };
+            "tfw_radios_ilbe"
+        };
+
         skipWhenMissingDependencies = 1;
         author = "Darknessvoid99";
         version = "0.1.6.2402120213";

@@ -53,7 +53,7 @@
         displayName = "4Bt. Woodland Ghillie (Semi-Arid)";
         class ItemInfo : ItemInfo
         {
-            uniformClass = "4thmd_u_ghil1_wd1_f"
+            uniformClass = "4thmd_u_ghil1_wd1_f";
         };
     };
 
@@ -62,6 +62,6 @@
         displayName = "4Bt. Woodland Ghillie (Lush)";
         class ItemInfo : ItemInfo
         {
-            uniformClass = "4thmd_u_ghil1_wd1_b_f"
+            uniformClass = "4thmd_u_ghil1_wd1_b_f";
         };
     };

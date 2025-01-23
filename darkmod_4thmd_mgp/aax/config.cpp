@@ -7,13 +7,12 @@ class CfgPatches
         magazines[] = {};
         requiredAddons[] = 
         {   
-            "darkmod_4thmd",
+            //"darkmod_4thmd",
             "darkmod_4thmd_mgp",
             "aceax_main",
             "aceax_gearinfo",
             "aceax_arsenal",
-            "aceax_ingame",
-            "aceax_data_tier1"
+            "aceax_ingame"
         };
 
         skipWhenMissingDependencies = 1;

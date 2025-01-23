@@ -1,4 +1,5 @@
-class CfgPatches {
+class CfgPatches
+{
     class darkmod_4thmd_faction
 	{
         weapons[] = 
@@ -898,7 +899,7 @@ class CfgWeapons
         ace_hearing_lowerVolume = 0.4;
         ace_hearing_protection = 1;
 
-        displayName = "4Bt. Crew Helmet (Arid)"
+        displayName = "4Bt. Crew Helmet (Arid)";
     };
 
 /*
@@ -1434,7 +1435,7 @@ class CfgVehicles
 
     class 4thmd_u_rifleman_ath_ar1 : 4thmd_u_rifleman_at_ar1
     {
-        displayName = "Rifleman (NLAW)"
+        displayName = "Rifleman (NLAW)";
         scope = DEBUG;
     };
 
@@ -2028,7 +2029,7 @@ class CfgGroups
     {
         class 4thmd_ar_blu
         {
-            name = "ARMCO 4th Battalion (Arid)"
+            name = "ARMCO 4th Battalion (Arid)";
             class 4thmd_ar_blu_inf
             {
                 name = "Light Infantry";

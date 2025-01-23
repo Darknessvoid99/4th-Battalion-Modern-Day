@@ -1,4 +1,5 @@
-class CfgPatches {
+class CfgPatches
+{
     class darkmod_4thmd_fact_grem
 	{
         weapons[] = {};

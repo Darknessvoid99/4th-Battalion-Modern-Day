@@ -15,15 +15,22 @@ class CfgPatches
             "4thmd_s_pod4_medevac_ar1",
             "4thmd_s_pod4_repair_ar1",
             "4thmd_v_lt1_ca_ar1",
+            "4thmd_v_lt1_ca_e_ar1",
+            "4thmd_v_lt1_ca_eb_ar1",
+            "4thmd_v_lt1_ca_es_ar1",
             "4thmd_v_lt1_at_ar1",
             "4thmd_v_lt1_aa_ar1",
             "4thmd_v_lt1_rc_ar1",
+            "4thmd_v_lt1_rc_ar1_c",
+            "4thmd_v_lt1_rc_ar1_c_wcc",
+            "4thmd_v_lt1_rc_ar1_c_tcc",
             "4thmd_v_afv1_ar1",
             "4thmd_v_afv1_up_ar1",
             "4thmd_v_apc3w_ar1",
             "4thmd_v_apc3w_u_ar1",
             "4thmd_v_apc3w_m_ar1",
             "4thmd_v_apc3w_e_ar1",
+            "4thmd_v_apc3w_eb_ar1",
             "4thmd_v_apc3w_es_ar1",
             "4thmd_v_apc3w_c_ar1",
             "4thmd_v_apc3w_cs_ar1",
@@ -32,11 +39,13 @@ class CfgPatches
             "4thmd_v_apc2t_u_ar1",
             "4thmd_v_apc2t_m_ar1",
             "4thmd_v_apc2t_e_ar1",
+            "4thmd_v_apc2t_eb_ar1",
             "4thmd_v_apc2t_es_ar1",
             "4thmd_v_apc2t_c_ar1",
             "4thmd_v_apc2t_cs_ar1",
             "4thmd_v_apc2t_ua_ar1",
             "4thmd_v_ugv1_a_ar1",
+            "4thmd_v_ugv1_a_ar1_t",
             "4thmd_v_apc2t_aa_ar1",
             "4thmd_v_heli2_ar1",
             "4thmd_v_jet4_ar1",
@@ -46,8 +55,6 @@ class CfgPatches
             "4thmd_v_mrap3_ar1",
             "4thmd_v_mrap3_hmg_ar1",
             "4thmd_v_mrap3_gmg_ar1",
-            "4thmd_v_lt1_rc_ar1_c",
-            "4thmd_v_ugv1_a_ar1_t",
 
             "4thmd_v_mbt3_wd1",
             "4thmd_v_heli4_wd1",
@@ -60,15 +67,22 @@ class CfgPatches
             "4thmd_s_pod4_repair_wd1",
             "4thmd_s_pod4_repair_ar1",
             "4thmd_v_lt1_ca_wd1",
+            "4thmd_v_lt1_ca_e_wd1",
+            "4thmd_v_lt1_ca_eb_wd1",
+            "4thmd_v_lt1_ca_es_wd1",
             "4thmd_v_lt1_at_wd1",
             "4thmd_v_lt1_aa_wd1",
             "4thmd_v_lt1_rc_wd1",
+            "4thmd_v_lt1_rc_wd1_c",
+            "4thmd_v_lt1_rc_wd1_c_wcc",
+            "4thmd_v_lt1_rc_wd1_c_tcc",
             "4thmd_v_afv1_wd1",
             "4thmd_v_afv1_up_wd1",
             "4thmd_v_apc3w_wd1",
             "4thmd_v_apc3w_u_wd1",
             "4thmd_v_apc3w_m_wd1",
             "4thmd_v_apc3w_e_wd1",
+            "4thmd_v_apc3w_eb_wd1",
             "4thmd_v_apc3w_es_wd1",
             "4thmd_v_apc3w_c_wd1",
             "4thmd_v_apc3w_cs_wd1",
@@ -77,11 +91,13 @@ class CfgPatches
             "4thmd_v_apc2t_u_wd1",
             "4thmd_v_apc2t_m_wd1",
             "4thmd_v_apc2t_e_wd1",
+            "4thmd_v_apc2t_eb_wd1",
             "4thmd_v_apc2t_es_wd1",
             "4thmd_v_apc2t_c_wd1",
             "4thmd_v_apc2t_cs_wd1",
             "4thmd_v_apc2t_ua_wd1",
             "4thmd_v_ugv1_a_wd1",
+            "4thmd_v_ugv1_a_wd1_t",
             "4thmd_v_apc2t_aa_wd1",
             "4thmd_v_heli2_wd1",
             "4thmd_v_jet4_wd1",
@@ -91,10 +107,6 @@ class CfgPatches
             "4thmd_v_mrap3_wd1",
             "4thmd_v_mrap3_hmg_wd1",
             "4thmd_v_mrap3_gmg_wd1",
-            "4thmd_v_lt1_rc_wd1_c",
-            "4thmd_v_lt1_rc_wd1_c_wcc",
-            "4thmd_v_lt1_rc_wd1_c_tcc",
-            "4thmd_v_ugv1_a_wd1_t",
 
             "4thmd_s_ft1_forest",
             "4thmd_s_ft1_sand",
@@ -124,7 +136,7 @@ class CfgPatches
     };
 };
 
-#define DEBUG 2 // 1 = OFF, 2 = ON
+#define DEBUG 1 // 1 = OFF, 2 = ON
 
 class cfgMagazines
 {
@@ -170,32 +182,32 @@ class CfgEditorSubcategories
 {
     class 4thmd_ar_containers
     {
-        displayName = "Containers (Arid)";
+        displayName = "Taru Pods (Arid)";
     };
 
     class 4thmd_wd_containers
     {
-        displayName = "Containers (Woodland)";
+        displayName = "Taru Pods (Woodland)";
     };
 
     class 4thmd_de_containers
     {
-        displayName = "Containers (Desert)";
+        displayName = "Taru Pods (Desert)";
     };
 
     class 4thmd_bl_containers
     {
-        displayName = "Containers (Boreal)";
+        displayName = "Taru Pods (Boreal)";
     };
 
     class 4thmd_ac_containers
     {
-        displayName = "Containers (Artic)";
+        displayName = "Taru Pods (Artic)";
     };
 
     class 4thmd_ju_containers
     {
-        displayName = "Containers (Jungle)";
+        displayName = "Taru Pods (Jungle)";
     };
 
     class 4thmd_tankettes
@@ -925,8 +937,130 @@ class CfgVehicles
             };
         };
 
+        class EventHandlers;
         ace_refuel_fuelCapacity = 120;
-        ace_cargo_space = 0;
+        //ace_cargo_space = 0;
+    };
+
+    class 4thmd_v_lt1_ca_e_ar1 : 4thmd_v_lt1_ca_ar1
+    {
+        scope = DEBUG;
+        displayName = "AEV-2 Weasel II (Engineer)";
+
+        ace_repair_canRepair = 1;
+        ace_rearm_defaultSupply = 3000;
+        ace_cargo_space = 8;
+        ace_repair_spareWheels = 0;
+        ace_repair_spareTracks = 4;
+
+        driverCanSee="4+8+2+32+16";
+		gunnerCanSee="4+2+8+32+16";
+		weapons[]=
+		{
+			"TruckHorn",
+			"SmokeLauncher"
+		};
+		magazines[]=
+		{
+			"SmokeLauncherMag"
+		};
+		class Turrets
+		{
+		};
+		threat[]={0,0,0};
+		forceInGarage=1;
+
+        hiddenSelectionsTextures[] = 
+        {
+            "darkmod_4thmd_veh\data\arid\dm_lt1_main_ar1.paa",        //Main
+            "darkmod_4thmd_veh\data\arid\dm_lt1_cannon_ar1.paa",      //Specialised
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",  //Camo
+            "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"          //Slat
+        };
+        textureList[] = {"Arid_4th",1,};
+    
+        class TextureSources
+        {
+            class Arid_4th
+            {
+                author = "Darknessvoid99";
+                displayName = "Arid (Pine)";
+                factions[] = {"4thmd_ar_faction"};
+                textures[] = 
+                {
+                    "darkmod_4thmd_veh\data\arid\dm_lt1_main_ar1.paa",
+                    "darkmod_4thmd_veh\data\arid\dm_lt1_cannon_ar1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gp1.paa",
+                    "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
+                };
+            };
+
+            class Arid_4th_sd
+            {
+                author = "Darknessvoid99";
+                displayName = "Arid (Sand)";
+                factions[] = {"4thmd_ar_faction"};
+                textures[] = 
+                {
+                    "darkmod_4thmd_veh\data\arid\dm_lt1_main_ar1.paa",
+                    "darkmod_4thmd_veh\data\arid\dm_lt1_cannon_ar1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_sd1.paa",
+                    "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
+                };
+            };
+
+            class Arid_4th_gs
+            {
+                author = "Darknessvoid99";
+                displayName = "Arid (Grass)";
+                factions[] = {"4thmd_ar_faction"};
+                textures[] = 
+                {
+                    "darkmod_4thmd_veh\data\arid\dm_lt1_main_ar1.paa",
+                    "darkmod_4thmd_veh\data\arid\dm_lt1_cannon_ar1.paa",
+                    "darkmod_4thmd_veh\data\camonet\dm_camonet_gs1.paa",
+                    "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
+                };
+            };
+        };
+
+        class EventHandlers : EventHandlers
+		{
+			class 4thmd_unarm
+            {
+                init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
+            };
+
+            class 4thmd_lock
+            {
+                init="_veh = _this select 0; _veh lockCargo true;";
+            };
+		};
+
+        ace_refuel_fuelCapacity = 120;
+        //ace_cargo_space = 0;
+    };
+
+    class 4thmd_v_lt1_ca_eb_ar1 : 4thmd_v_lt1_ca_e_ar1
+    {
+        scope = 2;
+        displayName = "AAV-2 Weasel II (Engineer)";
+
+        ace_refuel_fuelCargo = 900;
+        ace_refuel_hooks[] = {{-0.801,-0.920,-0.55},{1.536,-0.920,-0.55}};
+    };
+
+    class 4thmd_v_lt1_ca_es_ar1 : 4thmd_v_lt1_ca_e_ar1
+    {
+        scope = DEBUG;
+
+        class EventHandlers : EventHandlers
+		{
+			class 4thmd_att
+            {
+                PostInit = "_veh = _this select 0;_fuel1 = '4thmd_s_ft1_lt1_ar1' createVehicle position _veh;_fuel1 allowDamage false;_fuel1 attachTo [_veh, [0.05,-0.65,0.15]];_fuel1 setVectorDirAndUp [[0,1,0], [1,0,1.19249e-08]];_fuel2 = '4thmd_s_ft1_lt1_ar1' createVehicle position _veh;_fuel2 attachTo [_veh, [0.05,-0.05,0.15]];_fuel2 setVectorDirAndUp [[0,1,0], [1,0,1.19249e-08]];_fuel2 allowDamage false;_crat1 = 'SFIA_Box_Support_lxWS' createVehicle position _veh;_crat1 attachTo [_veh, [-0.05,-1.6,0.95]];_crat1 setDir 90;_crat1 setObjectTextureGlobal [0,''];_trak1 = 'ACE_Track' createVehicle position _veh;_trak1 attachTo [_veh, [-0.7,-0.7,0.1]];_trak1 setDir 90;_trak2 = 'ACE_Track' createVehicle position _veh;_trak2 attachTo [_veh, [-0.72,-0.05,0.1]];_trak2 setDir 105;";
+            };
+		};
     };
 
     class I_LT_01_AT_F;
@@ -994,7 +1128,7 @@ class CfgVehicles
         };
 
         ace_refuel_fuelCapacity = 120;
-        ace_cargo_space = 0;
+        //ace_cargo_space = 0;
     };
 
     class I_LT_01_AA_F;
@@ -1062,7 +1196,7 @@ class CfgVehicles
         };
 
         ace_refuel_fuelCapacity = 120;
-        ace_cargo_space = 0;
+        //ace_cargo_space = 0;
     };
 
 
@@ -1131,7 +1265,7 @@ class CfgVehicles
 
         class HitPoints;
         ace_refuel_fuelCapacity = 120;
-        ace_cargo_space = 0;
+        //ace_cargo_space = 0;
     };
 
     class 4thmd_v_lt1_rc_ar1_c : 4thmd_v_lt1_rc_ar1
@@ -1196,13 +1330,11 @@ class CfgVehicles
 
     class 4thmd_v_lt1_rc_ar1_c_wcc : 4thmd_v_lt1_rc_ar1_c
     {
-        scope = DEBUG;
         displayName = "WCC-9 Pandur II";
     };
 
     class 4thmd_v_lt1_rc_ar1_c_tcc : 4thmd_v_lt1_rc_ar1_c
     {
-        scope = DEBUG;
         displayName = "TCC-2 Stalker";
 
         armor = 900;            // 150 -TPC 375
@@ -1451,9 +1583,12 @@ class CfgVehicles
 		};
 		threat[]={0,0,0};
 		forceInGarage=1;
-        class EventHandlers: EventHandlers
+        class EventHandlers : EventHandlers
 		{
-			init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
+			class 4thmd_unarm
+            {
+                init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
+            };
 		};
         hiddenSelectionsTextures[] = 
         {
@@ -1586,17 +1721,21 @@ class CfgVehicles
     class 4thmd_v_apc3w_e_ar1 : 4thmd_v_apc3w_u_ar1
     {
         scope = DEBUG;
-        displayName = "WEV-9 Pandur II";
+        displayName = "WEV-9 Pandur II (Engineer)";
         
         ace_repair_canRepair = 1;
         ace_rearm_defaultSupply = 4000;
-        ace_refuel_fuelCargo = 1200;
-        ace_refuel_hooks[] = {{-0.801,-0.920,-0.55},{1.536,-0.920,-0.55}};
         ace_cargo_space = 12;
         ace_repair_spareWheels = 8;
         ace_repair_spareTracks = 2;
 
-        class EventHandlers;
+        class EventHandlers : EventHandlers
+		{
+			class 4thmd_lock
+            {
+                init="_veh = _this select 0; _veh lockCargo true;";
+            };
+		};
 
         hiddenSelectionsTextures[] = 
         {
@@ -1660,14 +1799,21 @@ class CfgVehicles
         };
     };
 
-    class 4thmd_v_apc3w_es_ar1 : 4thmd_v_apc3w_e_ar1
+    class 4thmd_v_apc3w_eb_ar1 : 4thmd_v_apc3w_e_ar1
     {
         scope = 2;
-        ace_refuel_fuelCargo = -1;
+        displayName = "WPC-9 Pandur II (Engineer)";
+        ace_refuel_fuelCargo = 1200;
+        ace_refuel_hooks[] = {{-0.801,-0.920,-0.55},{1.536,-0.920,-0.55}};
+    };
+
+    class 4thmd_v_apc3w_es_ar1 : 4thmd_v_apc3w_e_ar1
+    {
+        scope = DEBUG;
 
         class EventHandlers: EventHandlers
 		{
-			class 4thmd_eng
+			class 4thmd_att
             {
                 init="_veh = _this select 0;_fuel1 = '4thmd_s_ft1_apc3w_ar1' createVehicle position _veh;_fuel1 attachTo [_veh, [1.327,-0.795,-0.7]];_fuel2 = '4thmd_s_ft1_apc3w_ar1' createVehicle position _veh;_fuel2 attachTo [_veh, [-0.512,-0.752,-0.7]];_trac1 = 'Land_TankTracks_01_short_F' createVehicle position _veh;_trac1 attachTo [_veh, [1.224,-1.948,-0.275]];_trac2 = 'Land_TankTracks_01_short_F' createVehicle position _veh;_trac2 attachTo [_veh, [-0.286,-2.178,-0.275]];_trac2 setDir 270;_trac2 setPosWorld getPosWorld _trac2;_spok1 = 'Land_TankRoadWheels_01_single_F' createVehicle position _veh;_spok1 attachTo [_veh, [0.394,-0.652,-0.152]];_spok2 = 'Land_TankRoadWheels_01_single_F' createVehicle position _veh;_spok2 attachTo [_veh, [-0.533,-1.502,-0.152]];";
             };
@@ -1683,13 +1829,13 @@ class CfgVehicles
 
     class 4thmd_v_apc3w_cs_ar1 : 4thmd_v_apc3w_c_ar1
     {
-        scope = 2;
-        displayName = "WCC-9 Pandur II (it actually works holy shit)";
+        scope = DEBUG;
+        displayName = "WCC-9 Pandur II";
         class EventHandlers: EventHandlers
 		{
-			class 4thmd_cmd
+			class 4thmd_att
             {
-                PostInit = "_this spawn {_veh = _this select 0; sleep 0.05;_cmd = '4thmd_v_lt1_rc_ar1_c_tcc' createVehicle position _veh;_cmd attachTo [_veh, [0.65,-1.308,0]];_cmd lockDriver true;_veh setVariable ['CmdObject', _cmd, true];_crew = crew _veh; if (count _crew > 0) then {createVehicleCrew _cmd;_crew2 = crew _cmd; _group = group (_crew select 0);_crew2 joinSilent _group;};_curators = allCurators;{_x removeCuratorEditableObjects [[_cmd]];}forEach _curators;};";
+                PostInit = "_this spawn {_veh = _this select 0; sleep 0.05;_cmd = '4thmd_v_lt1_rc_ar1_c_wcc' createVehicle position _veh;_cmd attachTo [_veh, [0.65,-1.308,0]];_cmd lockDriver true;_veh setVariable ['CmdObject', _cmd, true];_crew = crew _veh; if (count _crew > 0) then {createVehicleCrew _cmd;_crew2 = crew _cmd; _group = group (_crew select 0);_crew2 joinSilent _group;};_curators = allCurators;{_x removeCuratorEditableObjects [[_cmd]];}forEach _curators;};";
                 killed = "_veh = _this select 0; _cmd = _veh getVariable 'CmdObject';_cmd setDamage 1;";
                 Deleted = "_veh = _this select 0; _cmd = _veh getVariable 'CmdObject';deleteVehicle _cmd;";
 
@@ -1699,10 +1845,11 @@ class CfgVehicles
 
     class 4thmd_v_apc3w_ua_ar1 : 4thmd_v_apc3w_u_ar1
     {
+        scope = DEBUG;
         displayName = "WPC-9 Pandur II (RWS)";
         class EventHandlers: EventHandlers
 		{
-			class 4thmd_rtrt
+			class 4thmd_att
             {
                 PostInit = "_veh = _this select 0;_trt = '4thmd_v_ugv1_a_ar1_t' createVehicle position _veh;_trt attachTo [_veh, [0,0,0.25]];_ai = 'B_UAV_AI' createVehicle position _veh;_trt lockDriver true;createVehicleCrew _trt;";
                 killed = "_trt setDamage 1;";
@@ -1801,10 +1948,8 @@ class CfgVehicles
 		};
 		threat[]={0,0,0};
 		forceInGarage=1;
-        class EventHandlers: EventHandlers
+        class EventHandlers : EventHandlers
 		{
-			init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
-
             class 4thmd_unarm
             {
                 init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
@@ -1932,7 +2077,7 @@ class CfgVehicles
         };
     };
 
-    class 4thmd_v_apc2t_eb_ar1 : 4thmd_v_apc2t_u_ar1
+    class 4thmd_v_apc2t_e_ar1 : 4thmd_v_apc2t_u_ar1
     {
         scope = DEBUG;
         displayName = "TEV-2 Stalker (Engineer)";
@@ -1999,10 +2144,16 @@ class CfgVehicles
             };
         };
 
-        class EventHandlers;
+        class EventHandlers : EventHandlers
+		{
+			class 4thmd_lock
+            {
+                init="_veh = _this select 0; _veh lockCargo true;";
+            };
+		};
     };
 
-    class 4thmd_v_apc2t_e_ar1 : 4thmd_v_apc2t_eb_ar1
+    class 4thmd_v_apc2t_eb_ar1 : 4thmd_v_apc2t_e_ar1
     {
         scope = 2;
         displayName = "TPC-2 Stalker (Engineer)";
@@ -2010,14 +2161,13 @@ class CfgVehicles
         ace_refuel_hooks[] = {{-0.845,-0.980,-0.55},{0.845,-0.980,-0.55}};
     };
 
-    class 4thmd_v_apc2t_es_ar1 : 4thmd_v_apc2t_eb_ar1
+    class 4thmd_v_apc2t_es_ar1 : 4thmd_v_apc2t_e_ar1
     {
-        scope = 2;
-        ace_refuel_fuelCargo = -1;
+        scope = DEBUG;
 
         class EventHandlers: EventHandlers
 		{
-			class 4thmd_eng
+			class 4thmd_att
             {
                 init="_veh = _this select 0;_fuel1 = '4thmd_s_ft1_apc2t_ar1' createVehicle position _veh;_fuel1 attachTo [_veh, [0.688,-1,-0.9]];_fuel2 = '4thmd_s_ft1_apc2t_ar1' createVehicle position _veh;_fuel2 attachTo [_veh, [-0.688,-1,-0.9]];_trac1 = 'Land_TankTracks_01_short_F' createVehicle position _veh;_trac1 attachTo [_veh, [0.749,-2.118,-0.355]];_trac2 = 'Land_TankTracks_01_short_F' createVehicle position _veh;_trac2 attachTo [_veh, [-0.551,-1.801,-0.388]];_trac2 setDir 270;_trac2 setPosWorld getPosWorld _trac2;_spok1 = 'Land_TankRoadWheels_01_single_F' createVehicle position _veh;_spok1 attachTo [_veh, [-0.597,-2.521,-0.302]];";
             };
@@ -2033,11 +2183,11 @@ class CfgVehicles
 
     class 4thmd_v_apc2t_cs_ar1 : 4thmd_v_apc2t_c_ar1
     {
-        scope = 2;
+        scope = DEBUG;
 
         class EventHandlers: EventHandlers
 		{
-			class 4thmd_cmd
+			class 4thmd_att
             {
                 PostInit = "_veh = _this select 0;_cmd = '4thmd_v_lt1_rc_ar1_c_tcc' createVehicle position _veh;_cmd attachTo [_veh, [0,-1.308,-0.33]];_cmd lockDriver true;if (!isNull (crew _veh)) then {createVehicleCrew _cmd};";
                 killed = "_cmd setDamage 1;";
@@ -2048,10 +2198,11 @@ class CfgVehicles
 
     class 4thmd_v_apc2t_ua_ar1 : 4thmd_v_apc2t_u_ar1
     {
+        scope = DEBUG;
         displayName = "TPC-2 Stalker (RWS)";
         class EventHandlers: EventHandlers
 		{
-			class 4thmd_rtrt
+			class 4thmd_att
             {
                 PostInit = "_veh = _this select 0;_trt = '4thmd_v_ugv1_a_ar1_t' createVehicle position _veh;_trt attachTo [_veh, [-0.4,-1.5,0.1]];_ai = 'B_UAV_AI' createVehicle position _veh;_trt lockDriver true; createVehicleCrew _trt;_veh setVariable ['TrtObject', _trt, true];systemChat format ['TRT created: %1', _trt];";
                 killed = "_veh = _this select 0;_trt = _veh getVariable 'TrtObject';systemChat format ['Turret in killed event: %1', _trt];if (!isNull _trt) then { _trt setDamage 1; };";

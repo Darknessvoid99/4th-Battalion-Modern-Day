@@ -7,8 +7,8 @@
         displayName = "4Bt. Woodland MarCiras (Rifleman)";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgv2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mvg1_wd1.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgv2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mvg1_wd0.paa",
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
@@ -18,8 +18,8 @@
         displayName = "4Bt. Woodland MarCiras (Grenadier)";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgv2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mvg1_wd1.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgv2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mvg1_wd0.paa",
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
@@ -29,8 +29,8 @@
         displayName = "4Bt. Woodland MarCiras (Gunner)";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgv2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mvg1_wd1.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgv2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mvg1_wd0.paa",
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
@@ -40,8 +40,8 @@
         displayName = "4Bt. Woodland MarCiras (Light)";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgv2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mvg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgv2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mvg1_wd0.paa"
         };
     };
 
@@ -50,8 +50,8 @@
         displayName = "4Bt. Woodland MarCiras (Marksman)";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgv2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mvg1_wd1.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgv2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mvg1_wd0.paa",
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
@@ -61,8 +61,8 @@
         displayName = "4Bt. Woodland MarCiras (Medic)";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgv2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mvg1_m_wd1.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgv2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mvg1_m_wd0.paa",
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
@@ -72,8 +72,8 @@
         displayName = "4Bt. Woodland MarCiras (Engineer)";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgv2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mvg1_wd1.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgv2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mvg1_wd0.paa",
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
@@ -83,8 +83,8 @@
         displayName = "4Bt. Woodland MarCiras (Leader)";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgv2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mvg1_wd1.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgv2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mvg1_wd0.paa",
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
@@ -94,9 +94,9 @@
         displayName = "4Bt. Woodland MarCiras (Rifleman) + Belt";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgv2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgbb_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mvg1_wd1.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgv2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgbb_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mvg1_wd0.paa",
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
@@ -106,9 +106,9 @@
         displayName = "4Bt. Woodland MarCiras (Grenadier) + Belt";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgv2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgbb_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mvg1_wd1.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgv2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgbb_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mvg1_wd0.paa",
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
@@ -118,9 +118,9 @@
         displayName = "4Bt. Woodland MarCiras (Gunner) + Belt";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgv2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgbb_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mvg1_wd1.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgv2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgbb_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mvg1_wd0.paa",
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
@@ -130,9 +130,9 @@
         displayName = "4Bt. Woodland MarCiras (Marksman) + Belt";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgv2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgbb_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mvg1_wd1.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgv2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgbb_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mvg1_wd0.paa",
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
@@ -142,9 +142,9 @@
         displayName = "4Bt. Woodland MarCiras (Medic) + Belt";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgv2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgbb_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mvg1_m_wd1.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgv2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgbb_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mvg1_m_wd0.paa",
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
@@ -154,9 +154,9 @@
         displayName = "4Bt. Woodland MarCiras (Engineer) + Belt";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgv2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgbb_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mvg1_wd1.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgv2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgbb_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mvg1_wd0.paa",
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
@@ -166,9 +166,9 @@
         displayName = "4Bt. Woodland MarCiras (Leader) + Belt";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgv2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgbb_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mvg1_wd1.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgv2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgbb_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mvg1_wd0.paa",
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
@@ -178,8 +178,8 @@
         displayName = "4Bt. Woodland Battle Belt (Rifleman)";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgbb_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mvg1_wd1.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgbb_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mvg1_wd0.paa",
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
@@ -189,8 +189,8 @@
         displayName = "4Bt. Woodland Battle Belt (Gunner)";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgbb_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mvg1_wd1.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgbb_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mvg1_wd0.paa",
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
@@ -201,8 +201,8 @@
         displayName = "4Bt. Woodland Opscore 1";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -211,8 +211,8 @@
         displayName = "4Bt. Woodland Opscore 1 + Goggles";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -221,8 +221,8 @@
         displayName = "4Bt. Woodland Opscore 2";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -231,8 +231,8 @@
         displayName = "4Bt. Woodland Opscore 2 + Goggles";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -241,8 +241,8 @@
         displayName = "4Bt. Woodland Opscore 3";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -251,8 +251,8 @@
         displayName = "4Bt. Woodland Opscore 3 + Goggles";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -261,8 +261,8 @@
         displayName = "4Bt. Woodland Opscore 4";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -271,8 +271,8 @@
         displayName = "4Bt. Woodland Opscore 4 + Goggles";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -281,8 +281,8 @@
         displayName = "4Bt. Woodland Opscore 5";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -291,8 +291,8 @@
         displayName = "4Bt. Woodland Opscore 5 + Goggles";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -301,8 +301,8 @@
         displayName = "4Bt. Woodland Opscore 6";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -311,8 +311,8 @@
         displayName = "4Bt. Woodland Opscore 6 + Goggles";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -321,9 +321,9 @@
         displayName = "4Bt. Woodland Airframe 1";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -332,9 +332,9 @@
         displayName = "4Bt. Woodland Airframe 1 + Goggles";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -343,9 +343,9 @@
         displayName = "4Bt. Woodland Airframe 2";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -354,9 +354,9 @@
         displayName = "4Bt. Woodland Airframe 2 + Goggles";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -365,9 +365,9 @@
         displayName = "4Bt. Woodland Airframe 3";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -376,9 +376,9 @@
         displayName = "4Bt. Woodland Airframe 3 + Goggles";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -387,9 +387,9 @@
         displayName = "4Bt. Woodland Airframe 4";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -398,9 +398,9 @@
         displayName = "4Bt. Woodland Airframe 4 + Goggles";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -409,9 +409,9 @@
         displayName = "4Bt. Woodland Airframe 5";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -420,9 +420,9 @@
         displayName = "4Bt. Woodland Airframe 5 + Goggles";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -431,9 +431,9 @@
         displayName = "4Bt. Woodland Airframe 6";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };
 
@@ -442,8 +442,8 @@
         displayName = "4Bt. Woodland Airframe 6 + Goggles";
         hiddenSelectionsTextures[] = 
         {
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh2_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mgh1_wd1.paa",
-            "darkmod_4thmd_mgp\data\woodland\dm_mhg1_wd1.paa"
+            "darkmod_4thmd_mgp\data\woodland\mgh2_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mgh1_wd0.paa",
+            "darkmod_4thmd_mgp\data\woodland\mhg1_wd0.paa"
         };
     };

@@ -5,10 +5,10 @@ class CfgPatches
         weapons[] = 
         {
             "4thmd_u_unif1_ar1",
-            "4thmd_u_unif1_ru_ar0",
-            "4thmd_u_unif1_tt_ar1",
-            "4thmd_u_unif1_sw_ar1",
-            "4thmd_u_unif1_gh_ar1",
+            "4thmd_u_unif1_ar1_ss",
+            "4thmd_u_unif1_ar1_tt",
+            "4thmd_u_unif1_ar1_sw",
+            "4thmd_u_unif1_ar1_gh",
             "4thmd_u_ghil1_ar1_a",
             "4thmd_u_ghil1_ar1_b",
             "4thmd_u_ghil1_ar1_c",
@@ -19,21 +19,105 @@ class CfgPatches
             "4thmd_u_unif1_wd1_sw",
             "4thmd_u_unif1_wd1_gh",
             "4thmd_u_ghil1_wd1_a",
-            "4thmd_u_ghil1_wd1_b"
+            "4thmd_u_ghil1_wd1_b",
+
+            "4thmd_v_mgv2_rm_ar1",
+            "4thmd_v_mgv2_gr_ar1",
+            "4thmd_v_mgv2_mg_ar1",
+            "4thmd_v_mgv2_lt_ar1",
+            "4thmd_v_mgv2_mr_ar1",
+            "4thmd_v_mgv2_me_ar1",
+            "4thmd_v_mgv2_en_ar1",
+            "4thmd_v_mgv2_tl_ar1",
+            "4thmd_v_mgv2_rm_ar1_b",
+            "4thmd_v_mgv2_gr_ar1_b",
+            "4thmd_v_mgv2_mg_ar1_b",
+            "4thmd_v_mgv2_mr_ar1_b",
+            "4thmd_v_mgv2_me_ar1_b",
+            "4thmd_v_mgv2_en_ar1_b",
+            "4thmd_v_mgv2_tl_ar1_b",
+            "4thmd_v_mgbb_rm_ar1",
+            "4thmd_v_mgbb_mg_ar1",
+            "4thmd_h_mgh1_1_ar1",
+            "4thmd_h_mgh1_1_ar1_g",
+            "4thmd_h_mgh1_2_ar1",
+            "4thmd_h_mgh1_2_ar1_g",
+            "4thmd_h_mgh1_3_ar1",
+            "4thmd_h_mgh1_3_ar1_g",
+            "4thmd_h_mgh1_4_ar1",
+            "4thmd_h_mgh1_4_ar1_g",
+            "4thmd_h_mgh1_5_ar1",
+            "4thmd_h_mgh1_5_ar1_g",
+            "4thmd_h_mgh1_6_ar1",
+            "4thmd_h_mgh1_6_ar1_g",
+            "4thmd_h_mgh2_1_ar1",
+            "4thmd_h_mgh2_1_ar1_g",
+            "4thmd_h_mgh2_2_ar1",
+            "4thmd_h_mgh2_2_ar1_g",
+            "4thmd_h_mgh2_3_ar1",
+            "4thmd_h_mgh2_3_ar1_g",
+            "4thmd_h_mgh2_4_ar1",
+            "4thmd_h_mgh2_4_ar1_g",
+            "4thmd_h_mgh2_5_ar1",
+            "4thmd_h_mgh2_5_ar1_g",
+            "4thmd_h_mgh2_6_ar1",
+            "4thmd_h_mgh2_6_ar1_g",
+
+            "4thmd_v_mgv2_rm_wd1",
+            "4thmd_v_mgv2_gr_wd1",
+            "4thmd_v_mgv2_mg_wd1",
+            "4thmd_v_mgv2_lt_wd1",
+            "4thmd_v_mgv2_mr_wd1",
+            "4thmd_v_mgv2_me_wd1",
+            "4thmd_v_mgv2_en_wd1",
+            "4thmd_v_mgv2_tl_wd1",
+            "4thmd_v_mgv2_rm_wd1_b",
+            "4thmd_v_mgv2_gr_wd1_b",
+            "4thmd_v_mgv2_mg_wd1_b",
+            "4thmd_v_mgv2_mr_wd1_b",
+            "4thmd_v_mgv2_me_wd1_b",
+            "4thmd_v_mgv2_en_wd1_b",
+            "4thmd_v_mgv2_tl_wd1_b",
+            "4thmd_v_mgbb_rm_wd1",
+            "4thmd_v_mgbb_mg_wd1",
+            "4thmd_h_mgh1_1_wd1",
+            "4thmd_h_mgh1_1_wd1_g",
+            "4thmd_h_mgh1_2_wd1",
+            "4thmd_h_mgh1_2_wd1_g",
+            "4thmd_h_mgh1_3_wd1",
+            "4thmd_h_mgh1_3_wd1_g",
+            "4thmd_h_mgh1_4_wd1",
+            "4thmd_h_mgh1_4_wd1_g",
+            "4thmd_h_mgh1_5_wd1",
+            "4thmd_h_mgh1_5_wd1_g",
+            "4thmd_h_mgh1_6_wd1",
+            "4thmd_h_mgh1_6_wd1_g",
+            "4thmd_h_mgh2_1_wd1",
+            "4thmd_h_mgh2_1_wd1_g",
+            "4thmd_h_mgh2_2_wd1",
+            "4thmd_h_mgh2_2_wd1_g",
+            "4thmd_h_mgh2_3_wd1",
+            "4thmd_h_mgh2_3_wd1_g",
+            "4thmd_h_mgh2_4_wd1",
+            "4thmd_h_mgh2_4_wd1_g",
+            "4thmd_h_mgh2_5_wd1",
+            "4thmd_h_mgh2_5_wd1_g",
+            "4thmd_h_mgh2_6_wd1",
+            "4thmd_h_mgh2_6_wd1_g"
         };
         units[] = 
         {
-            "4thmd_u_unif1_ar0_f",
-            "4thmd_u_unif1_ru_ar0_f",
-            "4thmd_u_unif1_tt_ar1_f",
-            "4thmd_u_unif1_sw_ar1_f",
-            "4thmd_u_unif1_gh_ar1_f",
+            "4thmd_u_unif1_ar1_f",
+            "4thmd_u_unif1_ar1_ss_f",
+            "4thmd_u_unif1_ar1_tt_f",
+            "4thmd_u_unif1_ar1_sw_f",
+            "4thmd_u_unif1_ar1_gh_f",
             "4thmd_u_ghil1_ar1_f",
             "4thmd_u_ghil1_ar1_a_f",
             "4thmd_u_ghil1_ar1_l_f",
-            "4thmd_b_pac1_rmn_ar1",
-            "4thmd_b_pac2_rmn_ar1",
-            "4thmd_b_pac3_rmn_ar1",
+            "4thmd_b_pac1_ar1",
+            "4thmd_b_pac2_ar1",
+            "4thmd_b_pac3_ar1",
             "4thmd_b_pac5_ar1",
 
             "4thmd_u_unif1_wd1_f",
@@ -48,23 +132,30 @@ class CfgPatches
             "4thmd_b_pac2_wd1",
             "4thmd_b_pac3_wd1",
             "4thmd_b_pac5_wd1",
+
+            "4thmd_b_pac4_ar1",
+            "4thmd_b_mgb1_ar1",
+            "4thmd_b_mgb2_ar1",
+            "4thmd_b_mgb3_ar1",
+            "4thmd_b_mgb4_ar1",
+
+            "4thmd_b_pac4_wd1",
+            "4thmd_b_mgb1_wd1",
+            "4thmd_b_mgb2_wd1",
+            "4thmd_b_mgb3_wd1",
+            "4thmd_b_mgb4_wd1"
         };
         magazines[] = {};
         requiredAddons[] = 
             {   
-            "cba_main",
-            "A3_Data_F",
-            "A3_Armor_F",
-            "A3_Armor_F_Argo",
-            "A3_Armor_F_Beta",
-            "A3_Armor_F_EPB",
-            "A3_Armor_F_EPC",
-            "A3_Armor_F_Exp",
-            "A3_Armor_F_Gamma",
-            "A3_Armor_F_Tank",
-            "A3_Characters_F",
-            "A3_Characters_F_Beta",
-            "A3_Characters_F_Enoch"
+                "darkmod_4thmd",
+                "milgp_data",
+                "milgp_headgear",
+                "milgp_headgear_cfg",
+                "milgp_uniforms",
+                "milgp_uniforms_cfg",
+                "milgp_vests",
+                "milgp_vests_cfg"
             };
 
         author = "Darknessvoid99";
@@ -183,17 +274,17 @@ class CfgWeapons
 
     //Massif Uniform
         //Standard Uniforms
-            class 4thmd_u_unif1_ar0 : U_I_CombatUniform
+            class 4thmd_u_unif1_ar1 : U_I_CombatUniform
             {
                 author = "Darknessvoid99";
                 displayName = "[ARMCO] Massif Uniform";
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_ar0_f";
+                    uniformClass = "4thmd_u_unif1_ar1_f";
                 };
             };
 
-            class 4thmd_u_unif1_ar0_a : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar0_a : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
@@ -201,7 +292,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_u_unif1_ar0_s : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar0_s : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
@@ -209,7 +300,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_u_unif1_ar0_z : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar0_z : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
@@ -217,7 +308,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_u_unif1_ar0_p : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar0_p : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
@@ -225,7 +316,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_u_unif1_ar1_a : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar1_a : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
@@ -233,7 +324,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_u_unif1_ar1_s : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar1_s : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
@@ -241,7 +332,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_u_unif1_ar1_z : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar1_z : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
@@ -249,7 +340,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_u_unif1_ar1_p : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar1_p : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
@@ -257,7 +348,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_u_unif1_ar2_a : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar2_a : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
@@ -265,7 +356,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_u_unif1_ar2_s : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar2_s : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
@@ -273,7 +364,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_u_unif1_ar2_z : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar2_z : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
@@ -281,7 +372,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_u_unif1_ar2_p : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar2_p : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
@@ -289,7 +380,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_u_unif1_ar3_a : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar3_a : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
@@ -297,7 +388,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_u_unif1_ar3_s : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar3_s : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
@@ -305,7 +396,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_u_unif1_ar3_z : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar3_z : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
@@ -313,7 +404,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_u_unif1_ar3_p : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar3_p : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
@@ -322,570 +413,562 @@ class CfgWeapons
             };
 
         //Standard Uniforms (Short-Sleeves)
-            class 4thmd_u_unif1_ru_ar0 : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar1_ss : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_ru_ar0_f";
+                    uniformClass = "4thmd_u_unif1_ar1_ss_f";
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar0_a : 4thmd_u_unif1_ru_ar0
+            class 4thmd_u_unif1_ar0_ru_a : 4thmd_u_unif1_ar1_ss
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_ru_ar0_a_f";
+                    uniformClass = "4thmd_u_unif1_ar0_ru_a_f";
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar0_s : 4thmd_u_unif1_ru_ar0
+            class 4thmd_u_unif1_ar0_ru_s : 4thmd_u_unif1_ar1_ss
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_ru_ar0_s_f";
+                    uniformClass = "4thmd_u_unif1_ar0_ru_s_f";
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar0_z : 4thmd_u_unif1_ru_ar0
+            class 4thmd_u_unif1_ar0_ru_z : 4thmd_u_unif1_ar1_ss
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_ru_ar0_z_f";
+                    uniformClass = "4thmd_u_unif1_ar0_ru_z_f";
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar0_p : 4thmd_u_unif1_ru_ar0
+            class 4thmd_u_unif1_ar0_ru_p : 4thmd_u_unif1_ar1_ss
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_ru_ar0_p_f";
+                    uniformClass = "4thmd_u_unif1_ar0_ru_p_f";
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar1_a : 4thmd_u_unif1_ru_ar0
+            class 4thmd_u_unif1_ar1_ru_a : 4thmd_u_unif1_ar1_ss
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_ru_ar1_a_f";
+                    uniformClass = "4thmd_u_unif1_ar1_ru_a_f";
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar1_s : 4thmd_u_unif1_ru_ar0
+            class 4thmd_u_unif1_ar1_ru_s : 4thmd_u_unif1_ar1_ss
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_ru_ar1_s_f";
+                    uniformClass = "4thmd_u_unif1_ar1_ru_s_f";
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar1_z : 4thmd_u_unif1_ru_ar0
+            class 4thmd_u_unif1_ar1_ru_z : 4thmd_u_unif1_ar1_ss
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_ru_ar1_z_f";
+                    uniformClass = "4thmd_u_unif1_ar1_ru_z_f";
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar1_p : 4thmd_u_unif1_ru_ar0
+            class 4thmd_u_unif1_ar1_ru_p : 4thmd_u_unif1_ar1_ss
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_ru_ar1_p_f";
+                    uniformClass = "4thmd_u_unif1_ar1_ru_p_f";
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar2_a : 4thmd_u_unif1_ru_ar0
+            class 4thmd_u_unif1_ar2_ru_a : 4thmd_u_unif1_ar1_ss
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_ru_ar2_a_f";
+                    uniformClass = "4thmd_u_unif1_ar2_ru_a_f";
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar2_s : 4thmd_u_unif1_ru_ar0
+            class 4thmd_u_unif1_ar2_ru_s : 4thmd_u_unif1_ar1_ss
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_ru_ar2_s_f";
+                    uniformClass = "4thmd_u_unif1_ar2_ru_s_f";
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar2_z : 4thmd_u_unif1_ru_ar0
+            class 4thmd_u_unif1_ar2_ru_z : 4thmd_u_unif1_ar1_ss
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_ru_ar2_z_f";
+                    uniformClass = "4thmd_u_unif1_ar2_ru_z_f";
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar2_p : 4thmd_u_unif1_ru_ar0
+            class 4thmd_u_unif1_ar2_ru_p : 4thmd_u_unif1_ar1_ss
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_ru_ar2_p_f";
+                    uniformClass = "4thmd_u_unif1_ar2_ru_p_f";
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar3_a : 4thmd_u_unif1_ru_ar0
+            class 4thmd_u_unif1_ar3_ru_a : 4thmd_u_unif1_ar1_ss
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_ru_ar3_a_f";
+                    uniformClass = "4thmd_u_unif1_ar3_ru_a_f";
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar3_s : 4thmd_u_unif1_ru_ar0
+            class 4thmd_u_unif1_ar3_ru_s : 4thmd_u_unif1_ar1_ss
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_ru_ar3_s_f";
+                    uniformClass = "4thmd_u_unif1_ar3_ru_s_f";
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar3_z : 4thmd_u_unif1_ru_ar0
+            class 4thmd_u_unif1_ar3_ru_z : 4thmd_u_unif1_ar1_ss
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_ru_ar3_z_f";
+                    uniformClass = "4thmd_u_unif1_ar3_ru_z_f";
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar3_p : 4thmd_u_unif1_ru_ar0
+            class 4thmd_u_unif1_ar3_ru_p : 4thmd_u_unif1_ar1_ss
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_ru_ar3_p_f";
+                    uniformClass = "4thmd_u_unif1_ar3_ru_p_f";
                 };
             };
 
         //Tank Top + Uniforms
-            class 4thmd_u_unif1_tt_ar0 : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar1_tt : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_tt_ar1_f";
+                    uniformClass = "4thmd_u_unif1_ar1_tt_f";
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar0_a : 4thmd_u_unif1_tt_ar0
+            class 4thmd_u_unif1_ar0_tt_a : 4thmd_u_unif1_ar1_tt
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_tt_ar0_a_f";
+                    uniformClass = "4thmd_u_unif1_ar0_tt_a_f";
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar0_s : 4thmd_u_unif1_tt_ar0
+            class 4thmd_u_unif1_ar0_tt_s : 4thmd_u_unif1_ar1_tt
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_tt_ar0_s_f";
+                    uniformClass = "4thmd_u_unif1_ar0_tt_s_f";
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar0_z : 4thmd_u_unif1_tt_ar0
+            class 4thmd_u_unif1_ar0_tt_z : 4thmd_u_unif1_ar1_tt
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_tt_ar0_z_f";
+                    uniformClass = "4thmd_u_unif1_ar0_tt_z_f";
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar0_p : 4thmd_u_unif1_tt_ar0
+            class 4thmd_u_unif1_ar0_tt_p : 4thmd_u_unif1_ar1_tt
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_tt_ar0_p_f";
+                    uniformClass = "4thmd_u_unif1_ar0_tt_p_f";
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar1_a : 4thmd_u_unif1_tt_ar0
+            class 4thmd_u_unif1_ar1_tt_a : 4thmd_u_unif1_ar1_tt
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_tt_ar1_a_f";
+                    uniformClass = "4thmd_u_unif1_ar1_tt_a_f";
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar1_s : 4thmd_u_unif1_tt_ar0
+            class 4thmd_u_unif1_ar1_tt_s : 4thmd_u_unif1_ar1_tt
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_tt_ar1_s_f";
+                    uniformClass = "4thmd_u_unif1_ar1_tt_s_f";
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar1_z : 4thmd_u_unif1_tt_ar0
+            class 4thmd_u_unif1_ar1_tt_z : 4thmd_u_unif1_ar1_tt
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_tt_ar1_z_f";
+                    uniformClass = "4thmd_u_unif1_ar1_tt_z_f";
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar1_p : 4thmd_u_unif1_tt_ar0
+            class 4thmd_u_unif1_ar1_tt_p : 4thmd_u_unif1_ar1_tt
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_tt_ar1_p_f";
+                    uniformClass = "4thmd_u_unif1_ar1_tt_p_f";
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar2_a : 4thmd_u_unif1_tt_ar0
+            class 4thmd_u_unif1_ar2_tt_a : 4thmd_u_unif1_ar1_tt
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_tt_ar2_a_f";
+                    uniformClass = "4thmd_u_unif1_ar2_tt_a_f";
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar2_s : 4thmd_u_unif1_tt_ar0
+            class 4thmd_u_unif1_ar2_tt_s : 4thmd_u_unif1_ar1_tt
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_tt_ar2_s_f";
+                    uniformClass = "4thmd_u_unif1_ar2_tt_s_f";
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar2_z : 4thmd_u_unif1_tt_ar0
+            class 4thmd_u_unif1_ar2_tt_z : 4thmd_u_unif1_ar1_tt
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_tt_ar2_z_f";
+                    uniformClass = "4thmd_u_unif1_ar2_tt_z_f";
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar2_p : 4thmd_u_unif1_tt_ar0
+            class 4thmd_u_unif1_ar2_tt_p : 4thmd_u_unif1_ar1_tt
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_tt_ar2_p_f";
+                    uniformClass = "4thmd_u_unif1_ar2_tt_p_f";
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar3_a : 4thmd_u_unif1_tt_ar0
+            class 4thmd_u_unif1_ar3_tt_a : 4thmd_u_unif1_ar1_tt
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_tt_ar3_a_f";
+                    uniformClass = "4thmd_u_unif1_ar3_tt_a_f";
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar3_s : 4thmd_u_unif1_tt_ar0
+            class 4thmd_u_unif1_ar3_tt_s : 4thmd_u_unif1_ar1_tt
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_tt_ar3_s_f";
+                    uniformClass = "4thmd_u_unif1_ar3_tt_s_f";
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar3_z : 4thmd_u_unif1_tt_ar0
+            class 4thmd_u_unif1_ar3_tt_z : 4thmd_u_unif1_ar1_tt
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_tt_ar3_z_f";
+                    uniformClass = "4thmd_u_unif1_ar3_tt_z_f";
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar3_p : 4thmd_u_unif1_tt_ar0
+            class 4thmd_u_unif1_ar3_tt_p : 4thmd_u_unif1_ar1_tt
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_tt_ar3_p_f";
+                    uniformClass = "4thmd_u_unif1_ar3_tt_p_f";
                 };
             };
 
         //Sweater + Uniforms
-            class 4thmd_u_unif1_sw_ar0 : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar1_sw : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_sw_ar1_f";
+                    uniformClass = "4thmd_u_unif1_ar1_sw_f";
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar0_a : 4thmd_u_unif1_sw_ar0
+            class 4thmd_u_unif1_ar0_sw_a : 4thmd_u_unif1_ar1_sw
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_sw_ar0_a_f";
+                    uniformClass = "4thmd_u_unif1_ar0_sw_a_f";
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar0_s : 4thmd_u_unif1_sw_ar0
+            class 4thmd_u_unif1_ar0_sw_s : 4thmd_u_unif1_ar1_sw
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_sw_ar0_s_f";
+                    uniformClass = "4thmd_u_unif1_ar0_sw_s_f";
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar0_z : 4thmd_u_unif1_sw_ar0
+            class 4thmd_u_unif1_ar0_sw_z : 4thmd_u_unif1_ar1_sw
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_sw_ar0_z_f";
+                    uniformClass = "4thmd_u_unif1_ar0_sw_z_f";
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar0_p : 4thmd_u_unif1_sw_ar0
+            class 4thmd_u_unif1_ar0_sw_p : 4thmd_u_unif1_ar1_sw
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_sw_ar0_p_f";
+                    uniformClass = "4thmd_u_unif1_ar0_sw_p_f";
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar1_a : 4thmd_u_unif1_sw_ar0
+            class 4thmd_u_unif1_ar1_sw_a : 4thmd_u_unif1_ar1_sw
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_sw_ar1_a_f";
+                    uniformClass = "4thmd_u_unif1_ar1_sw_a_f";
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar1_s : 4thmd_u_unif1_sw_ar0
+            class 4thmd_u_unif1_ar1_sw_s : 4thmd_u_unif1_ar1_sw
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_sw_ar1_s_f";
+                    uniformClass = "4thmd_u_unif1_ar1_sw_s_f";
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar1_z : 4thmd_u_unif1_sw_ar0
+            class 4thmd_u_unif1_ar1_sw_z : 4thmd_u_unif1_ar1_sw
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_sw_ar1_z_f";
+                    uniformClass = "4thmd_u_unif1_ar1_sw_z_f";
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar1_p : 4thmd_u_unif1_sw_ar0
+            class 4thmd_u_unif1_ar1_sw_p : 4thmd_u_unif1_ar1_sw
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_sw_ar1_p_f";
+                    uniformClass = "4thmd_u_unif1_ar1_sw_p_f";
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar2_a : 4thmd_u_unif1_sw_ar0
+            class 4thmd_u_unif1_ar2_sw_a : 4thmd_u_unif1_ar1_sw
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_sw_ar2_a_f";
+                    uniformClass = "4thmd_u_unif1_ar2_sw_a_f";
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar2_s : 4thmd_u_unif1_sw_ar0
+            class 4thmd_u_unif1_ar2_sw_s : 4thmd_u_unif1_ar1_sw
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_sw_ar2_s_f";
+                    uniformClass = "4thmd_u_unif1_ar2_sw_s_f";
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar2_z : 4thmd_u_unif1_sw_ar0
+            class 4thmd_u_unif1_ar2_sw_z : 4thmd_u_unif1_ar1_sw
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_sw_ar2_z_f";
+                    uniformClass = "4thmd_u_unif1_ar2_sw_z_f";
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar2_p : 4thmd_u_unif1_sw_ar0
+            class 4thmd_u_unif1_ar2_sw_p : 4thmd_u_unif1_ar1_sw
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_sw_ar2_p_f";
+                    uniformClass = "4thmd_u_unif1_ar2_sw_p_f";
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar3_a : 4thmd_u_unif1_sw_ar0
+            class 4thmd_u_unif1_ar3_sw_a : 4thmd_u_unif1_ar1_sw
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_sw_ar3_a_f";
+                    uniformClass = "4thmd_u_unif1_ar3_sw_a_f";
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar3_s : 4thmd_u_unif1_sw_ar0
+            class 4thmd_u_unif1_ar3_sw_s : 4thmd_u_unif1_ar1_sw
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_sw_ar3_s_f";
+                    uniformClass = "4thmd_u_unif1_ar3_sw_s_f";
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar3_z : 4thmd_u_unif1_sw_ar0
+            class 4thmd_u_unif1_ar3_sw_z : 4thmd_u_unif1_ar1_sw
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_sw_ar3_z_f";
+                    uniformClass = "4thmd_u_unif1_ar3_sw_z_f";
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar3_p : 4thmd_u_unif1_sw_ar0
+            class 4thmd_u_unif1_ar3_sw_p : 4thmd_u_unif1_ar1_sw
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_sw_ar3_p_f";
+                    uniformClass = "4thmd_u_unif1_ar3_sw_p_f";
                 };
             };
 
         //Ghillie + Uniforms
-            class 4thmd_u_unif1_gh_ar0 : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar1_gh : 4thmd_u_unif1_ar1
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_gh_ar1_f";
+                    uniformClass = "4thmd_u_unif1_ar1_gh_f";
                     mass = 65;
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar0_a : 4thmd_u_unif1_gh_ar0
+            class 4thmd_u_unif1_ar0_gh_a : 4thmd_u_unif1_ar1_gh
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_gh_ar0_a_f";
+                    uniformClass = "4thmd_u_unif1_ar0_gh_a_f";
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar0_s : 4thmd_u_unif1_gh_ar0
+            class 4thmd_u_unif1_ar0_gh_s : 4thmd_u_unif1_ar1_gh
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_gh_ar0_s_f";
+                    uniformClass = "4thmd_u_unif1_ar0_gh_s_f";
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar0_z : 4thmd_u_unif1_gh_ar0
+            class 4thmd_u_unif1_ar0_gh_z : 4thmd_u_unif1_ar1_gh
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_gh_ar0_z_f";
+                    uniformClass = "4thmd_u_unif1_ar0_gh_z_f";
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar0_p : 4thmd_u_unif1_gh_ar0
+            class 4thmd_u_unif1_ar0_gh_p : 4thmd_u_unif1_ar1_gh
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_gh_ar0_p_f";
+                    uniformClass = "4thmd_u_unif1_ar0_gh_p_f";
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar1_a : 4thmd_u_unif1_gh_ar0
+            class 4thmd_u_unif1_ar1_gh_a : 4thmd_u_unif1_ar1_gh
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_gh_ar1_a_f";
+                    uniformClass = "4thmd_u_unif1_ar1_gh_a_f";
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar1_s : 4thmd_u_unif1_gh_ar0
+            class 4thmd_u_unif1_ar1_gh_s : 4thmd_u_unif1_ar1_gh
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_gh_ar1_s_f";
+                    uniformClass = "4thmd_u_unif1_ar1_gh_s_f";
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar1_z : 4thmd_u_unif1_gh_ar0
+            class 4thmd_u_unif1_ar1_gh_z : 4thmd_u_unif1_ar1_gh
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_gh_ar1_z_f";
+                    uniformClass = "4thmd_u_unif1_ar1_gh_z_f";
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar1_p : 4thmd_u_unif1_gh_ar0
+            class 4thmd_u_unif1_ar1_gh_p : 4thmd_u_unif1_ar1_gh
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_gh_ar1_p_f";
+                    uniformClass = "4thmd_u_unif1_ar1_gh_p_f";
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar2_a : 4thmd_u_unif1_gh_ar0
+            class 4thmd_u_unif1_ar2_gh_a : 4thmd_u_unif1_ar1_gh
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_gh_ar2_a_f";
+                    uniformClass = "4thmd_u_unif1_ar2_gh_a_f";
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar2_s : 4thmd_u_unif1_gh_ar0
+            class 4thmd_u_unif1_ar2_gh_s : 4thmd_u_unif1_ar1_gh
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_gh_ar2_s_f";
+                    uniformClass = "4thmd_u_unif1_ar2_gh_s_f";
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar2_z : 4thmd_u_unif1_gh_ar0
+            class 4thmd_u_unif1_ar2_gh_z : 4thmd_u_unif1_ar1_gh
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_gh_ar2_z_f";
+                    uniformClass = "4thmd_u_unif1_ar2_gh_z_f";
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar2_p : 4thmd_u_unif1_gh_ar0
+            class 4thmd_u_unif1_ar2_gh_p : 4thmd_u_unif1_ar1_gh
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_gh_ar2_p_f";
+                    uniformClass = "4thmd_u_unif1_ar2_gh_p_f";
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar3_a : 4thmd_u_unif1_gh_ar0
+            class 4thmd_u_unif1_ar3_gh_a : 4thmd_u_unif1_ar1_gh
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_gh_ar3_a_f";
+                    uniformClass = "4thmd_u_unif1_ar3_gh_a_f";
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar3_s : 4thmd_u_unif1_gh_ar0
+            class 4thmd_u_unif1_ar3_gh_s : 4thmd_u_unif1_ar1_gh
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_gh_ar3_s_f";
+                    uniformClass = "4thmd_u_unif1_ar3_gh_s_f";
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar3_z : 4thmd_u_unif1_gh_ar0
+            class 4thmd_u_unif1_ar3_gh_z : 4thmd_u_unif1_ar1_gh
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_gh_ar3_z_f";
+                    uniformClass = "4thmd_u_unif1_ar3_gh_z_f";
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar3_p : 4thmd_u_unif1_gh_ar0
+            class 4thmd_u_unif1_ar3_gh_p : 4thmd_u_unif1_ar1_gh
             {
                 class ItemInfo : ItemInfo
                 {
-                    uniformClass = "4thmd_u_unif1_gh_ar3_p_f";
+                    uniformClass = "4thmd_u_unif1_ar3_gh_p_f";
                 };
             };
 
     //Ghillie Uniforms
-        class 4thmd_u_ghil1_ar1 : 4thmd_u_unif1_ar0
+        class 4thmd_u_ghil1_ar1 : 4thmd_u_unif1_ar1
         {
             displayName = "[ARMCO] Ghillie Uniform";
             class ItemInfo : ItemInfo
             {
                 uniformClass = "4thmd_u_ghil1_ar1_f";
                 mass = 100;
-            };
-        };
-
-        class 4thmd_u_ghil1_ar1_a : 4thmd_u_ghil1_ar1
-        {
-            class ItemInfo : ItemInfo
-            {
-                uniformClass = "4thmd_u_ghil1_ar1_a_f";
             };
         };
 
@@ -925,7 +1008,7 @@ class CfgVehicles
     //Massif Uniform (unif1)
         //Standard Uniforms
             class I_Soldier_base_F;
-            class 4thmd_u_unif1_ar0_f : I_Soldier_base_F
+            class 4thmd_u_unif1_ar1_f : I_Soldier_base_F
             {
                 scope = DEBUG;
                 side = 1;
@@ -944,7 +1027,7 @@ class CfgVehicles
                 respawnweapons[] = {};
             };
 
-            class 4thmd_u_unif1_ar0_a_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar0_a_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Alpha Arid Standard";
                 uniformClass = "4thmd_u_unif1_ar0_a";
@@ -954,7 +1037,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_ar0_s_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar0_s_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Sabre Arid Standard";
                 uniformClass = "4thmd_u_unif1_ar0_s";
@@ -964,7 +1047,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_ar0_z_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar0_z_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Zulu Arid Standard";
                 uniformClass = "4thmd_u_unif1_ar0_z";
@@ -974,7 +1057,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_ar0_p_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar0_p_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Phoenix Arid Standard";
                 uniformClass = "4thmd_u_unif1_ar0_p";
@@ -984,7 +1067,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_ar1_a_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar1_a_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Alpha Arid Solid 1";
                 uniformClass = "4thmd_u_unif1_ar1_a";
@@ -994,7 +1077,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_ar1_s_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar1_s_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Sabre Arid Solid 1";
                 uniformClass = "4thmd_u_unif1_ar1_s";
@@ -1004,7 +1087,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_ar1_z_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar1_z_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Zulu Arid Solid 1";
                 uniformClass = "4thmd_u_unif1_ar1_z";
@@ -1014,7 +1097,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_ar1_p_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar1_p_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Phoenix Arid Solid 1";
                 uniformClass = "4thmd_u_unif1_ar1_p";
@@ -1024,7 +1107,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_ar2_a_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar2_a_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Alpha Arid Solid 2";
                 uniformClass = "4thmd_u_unif1_ar2_a";
@@ -1034,7 +1117,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_ar2_s_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar2_s_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Sabre Arid Solid 2";
                 uniformClass = "4thmd_u_unif1_ar2_s";
@@ -1044,7 +1127,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_ar2_z_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar2_z_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Zulu Arid Solid 2";
                 uniformClass = "4thmd_u_unif1_ar2_z";
@@ -1054,7 +1137,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_ar2_p_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar2_p_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Phoenix Arid Solid 2";
                 uniformClass = "4thmd_u_unif1_ar2_p";
@@ -1064,7 +1147,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_ar3_a_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar3_a_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Alpha Arid Solid 3";
                 uniformClass = "4thmd_u_unif1_ar3_a";
@@ -1074,7 +1157,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_ar3_s_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar3_s_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Sabre Arid Solid 3";
                 uniformClass = "4thmd_u_unif1_ar3_s";
@@ -1084,7 +1167,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_ar3_z_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar3_z_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Zulu Arid Solid 3";
                 uniformClass = "4thmd_u_unif1_ar3_z";
@@ -1094,7 +1177,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_ar3_p_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar3_p_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Phoenix Arid Solid 3";
                 uniformClass = "4thmd_u_unif1_ar3_p";
@@ -1105,10 +1188,10 @@ class CfgVehicles
             };
 
         //Standard Uniforms (Rolled Up Sleeves)
-            class 4thmd_u_unif1_ru_ar0_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar1_ss_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Arid Uniform (Rolled-Up)";
-                uniformClass = "4thmd_u_unif1_ru_ar0";
+                uniformClass = "4thmd_u_unif1_ar1_ss";
                 model="\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
                 hiddenSelectionsTextures[] = 
                 {
@@ -1116,160 +1199,160 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar0_a_f : 4thmd_u_unif1_ru_ar0_f
+            class 4thmd_u_unif1_ar0_ru_a_f : 4thmd_u_unif1_ar1_ss_f
             {
                 displayName = "[ARMCO] Alpha Arid Standard (RU)";
-                uniformClass = "4thmd_u_unif1_ru_ar0_a";
+                uniformClass = "4thmd_u_unif1_ar0_ru_a";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar0_a.paa"
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar0_s_f : 4thmd_u_unif1_ru_ar0_f
+            class 4thmd_u_unif1_ar0_ru_s_f : 4thmd_u_unif1_ar1_ss_f
             {
                 displayName = "[ARMCO] Sabre Arid Standard (RU)";
-                uniformClass = "4thmd_u_unif1_ru_ar0_s";
+                uniformClass = "4thmd_u_unif1_ar0_ru_s";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar0_s.paa"
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar0_z_f : 4thmd_u_unif1_ru_ar0_f
+            class 4thmd_u_unif1_ar0_ru_z_f : 4thmd_u_unif1_ar1_ss_f
             {
                 displayName = "[ARMCO] Zulu Arid Standard (RU)";
-                uniformClass = "4thmd_u_unif1_ru_ar0_z";
+                uniformClass = "4thmd_u_unif1_ar0_ru_z";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar0_z.paa"
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar0_p_f : 4thmd_u_unif1_ru_ar0_f
+            class 4thmd_u_unif1_ar0_ru_p_f : 4thmd_u_unif1_ar1_ss_f
             {
                 displayName = "[ARMCO] Phoenix Arid Standard (RU)";
-                uniformClass = "4thmd_u_unif1_ru_ar0_p";
+                uniformClass = "4thmd_u_unif1_ar0_ru_p";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar0_p.paa"
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar1_a_f : 4thmd_u_unif1_ru_ar0_f
+            class 4thmd_u_unif1_ar1_ru_a_f : 4thmd_u_unif1_ar1_ss_f
             {
                 displayName = "[ARMCO] Alpha Arid Solid 1 (RU)";
-                uniformClass = "4thmd_u_unif1_ru_ar1_a";
+                uniformClass = "4thmd_u_unif1_ar1_ru_a";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar1_a.paa"
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar1_s_f : 4thmd_u_unif1_ru_ar0_f
+            class 4thmd_u_unif1_ar1_ru_s_f : 4thmd_u_unif1_ar1_ss_f
             {
                 displayName = "[ARMCO] Sabre Arid Solid 1 (RU)";
-                uniformClass = "4thmd_u_unif1_ru_ar1_s";
+                uniformClass = "4thmd_u_unif1_ar1_ru_s";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar1_s.paa"
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar1_z_f : 4thmd_u_unif1_ru_ar0_f
+            class 4thmd_u_unif1_ar1_ru_z_f : 4thmd_u_unif1_ar1_ss_f
             {
                 displayName = "[ARMCO] Zulu Arid Solid 1 (RU)";
-                uniformClass = "4thmd_u_unif1_ru_ar1_z";
+                uniformClass = "4thmd_u_unif1_ar1_ru_z";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar1_z.paa"
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar1_p_f : 4thmd_u_unif1_ru_ar0_f
+            class 4thmd_u_unif1_ar1_ru_p_f : 4thmd_u_unif1_ar1_ss_f
             {
                 displayName = "[ARMCO] Phoenix Arid Solid 1 (RU)";
-                uniformClass = "4thmd_u_unif1_ru_ar1_p";
+                uniformClass = "4thmd_u_unif1_ar1_ru_p";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar1_p.paa"
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar2_a_f : 4thmd_u_unif1_ru_ar0_f
+            class 4thmd_u_unif1_ar2_ru_a_f : 4thmd_u_unif1_ar1_ss_f
             {
                 displayName = "[ARMCO] Alpha Arid Solid 2 (RU)";
-                uniformClass = "4thmd_u_unif1_ru_ar2_a";
+                uniformClass = "4thmd_u_unif1_ar2_ru_a";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar2_a.paa"
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar2_s_f : 4thmd_u_unif1_ru_ar0_f
+            class 4thmd_u_unif1_ar2_ru_s_f : 4thmd_u_unif1_ar1_ss_f
             {
                 displayName = "[ARMCO] Sabre Arid Solid 2 (RU)";
-                uniformClass = "4thmd_u_unif1_ru_ar2_s";
+                uniformClass = "4thmd_u_unif1_ar2_ru_s";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar2_s.paa"
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar2_z_f : 4thmd_u_unif1_ru_ar0_f
+            class 4thmd_u_unif1_ar2_ru_z_f : 4thmd_u_unif1_ar1_ss_f
             {
                 displayName = "[ARMCO] Zulu Arid Solid 2 (RU)";
-                uniformClass = "4thmd_u_unif1_ru_ar2_z";
+                uniformClass = "4thmd_u_unif1_ar2_ru_z";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar2_z.paa"
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar2_p_f : 4thmd_u_unif1_ru_ar0_f
+            class 4thmd_u_unif1_ar2_ru_p_f : 4thmd_u_unif1_ar1_ss_f
             {
                 displayName = "[ARMCO] Phoenix Arid Solid 2 (RU)";
-                uniformClass = "4thmd_u_unif1_ru_ar2_p";
+                uniformClass = "4thmd_u_unif1_ar2_ru_p";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar2_p.paa"
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar3_a_f : 4thmd_u_unif1_ru_ar0_f
+            class 4thmd_u_unif1_ar3_ru_a_f : 4thmd_u_unif1_ar1_ss_f
             {
                 displayName = "[ARMCO] Alpha Arid Solid 3 (RU)";
-                uniformClass = "4thmd_u_unif1_ru_ar3_a";
+                uniformClass = "4thmd_u_unif1_ar3_ru_a";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar3_a.paa"
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar3_s_f : 4thmd_u_unif1_ru_ar0_f
+            class 4thmd_u_unif1_ar3_ru_s_f : 4thmd_u_unif1_ar1_ss_f
             {
                 displayName = "[ARMCO] Sabre Arid Solid 3 (RU)";
-                uniformClass = "4thmd_u_unif1_ru_ar3_s";
+                uniformClass = "4thmd_u_unif1_ar3_ru_s";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar3_s.paa"
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar3_z_f : 4thmd_u_unif1_ru_ar0_f
+            class 4thmd_u_unif1_ar3_ru_z_f : 4thmd_u_unif1_ar1_ss_f
             {
                 displayName = "[ARMCO] Zulu Arid Solid 3 (RU)";
-                uniformClass = "4thmd_u_unif1_ru_ar3_z";
+                uniformClass = "4thmd_u_unif1_ar3_ru_z";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar3_z.paa"
                 };
             };
 
-            class 4thmd_u_unif1_ru_ar3_p_f : 4thmd_u_unif1_ru_ar0_f
+            class 4thmd_u_unif1_ar3_ru_p_f : 4thmd_u_unif1_ar1_ss_f
             {
                 displayName = "[ARMCO] Phoenix Arid Solid 3 (RU)";
-                uniformClass = "4thmd_u_unif1_ru_ar3_p";
+                uniformClass = "4thmd_u_unif1_ar3_ru_p";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar3_p.paa"
@@ -1277,10 +1360,10 @@ class CfgVehicles
             };
 
         //Tank Top + Uniform
-            class 4thmd_u_unif1_tt_ar1_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar1_tt_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Arid Uniform (Tank Top)";
-                uniformClass = "4thmd_u_unif1_tt_ar1";
+                uniformClass = "4thmd_u_unif1_ar1_tt";
                 model = "\a3\Characters_F_Enoch\Uniforms\I_E_Soldier_01_TankTop_F.p3d";
                 hiddenSelections[] = 
                 {
@@ -1297,10 +1380,10 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar0_a_f : 4thmd_u_unif1_tt_ar1_f
+            class 4thmd_u_unif1_ar0_tt_a_f : 4thmd_u_unif1_ar1_tt_f
             {
                 displayName = "[ARMCO] Alpha Arid Standard (TT)";
-                uniformClass = "4thmd_u_unif1_tt_ar0_a";
+                uniformClass = "4thmd_u_unif1_ar0_tt_a";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\unif1_tt_bk_a.paa",
@@ -1309,10 +1392,10 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar0_s_f : 4thmd_u_unif1_tt_ar1_f
+            class 4thmd_u_unif1_ar0_tt_s_f : 4thmd_u_unif1_ar1_tt_f
             {
                 displayName = "[ARMCO] Sabre Arid Standard (TT)";
-                uniformClass = "4thmd_u_unif1_tt_ar0_s";
+                uniformClass = "4thmd_u_unif1_ar0_tt_s";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\unif1_tt_bk_s.paa",
@@ -1321,10 +1404,10 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar0_z_f : 4thmd_u_unif1_tt_ar1_f
+            class 4thmd_u_unif1_ar0_tt_z_f : 4thmd_u_unif1_ar1_tt_f
             {
                 displayName = "[ARMCO] Zulu Arid Standard (TT)";
-                uniformClass = "4thmd_u_unif1_tt_ar0_z";
+                uniformClass = "4thmd_u_unif1_ar0_tt_z";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\unif1_tt_bk_z.paa",
@@ -1333,10 +1416,10 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar0_p_f : 4thmd_u_unif1_tt_ar1_f
+            class 4thmd_u_unif1_ar0_tt_p_f : 4thmd_u_unif1_ar1_tt_f
             {
                 displayName = "[ARMCO] Phoenix Arid Standard (TT)";
-                uniformClass = "4thmd_u_unif1_tt_ar0_p";
+                uniformClass = "4thmd_u_unif1_ar0_tt_p";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\unif1_tt_bk_p.paa",
@@ -1345,10 +1428,10 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar1_a_f : 4thmd_u_unif1_tt_ar1_f
+            class 4thmd_u_unif1_ar1_tt_a_f : 4thmd_u_unif1_ar1_tt_f
             {
                 displayName = "[ARMCO] Alpha Arid Solid 1 (TT)";
-                uniformClass = "4thmd_u_unif1_tt_ar1_a";
+                uniformClass = "4thmd_u_unif1_ar1_tt_a";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_tt_ar1.paa",
@@ -1357,10 +1440,10 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar1_s_f : 4thmd_u_unif1_tt_ar1_f
+            class 4thmd_u_unif1_ar1_tt_s_f : 4thmd_u_unif1_ar1_tt_f
             {
                 displayName = "[ARMCO] Sabre Arid Solid 1 (TT)";
-                uniformClass = "4thmd_u_unif1_tt_ar1_s";
+                uniformClass = "4thmd_u_unif1_ar1_tt_s";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_tt_ar1.paa",
@@ -1369,10 +1452,10 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar1_z_f : 4thmd_u_unif1_tt_ar1_f
+            class 4thmd_u_unif1_ar1_tt_z_f : 4thmd_u_unif1_ar1_tt_f
             {
                 displayName = "[ARMCO] Zulu Arid Solid 1 (TT)";
-                uniformClass = "4thmd_u_unif1_tt_ar1_z";
+                uniformClass = "4thmd_u_unif1_ar1_tt_z";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_tt_ar1.paa",
@@ -1381,10 +1464,10 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar1_p_f : 4thmd_u_unif1_tt_ar1_f
+            class 4thmd_u_unif1_ar1_tt_p_f : 4thmd_u_unif1_ar1_tt_f
             {
                 displayName = "[ARMCO] Phoenix Arid Solid 1 (TT)";
-                uniformClass = "4thmd_u_unif1_tt_ar1_p";
+                uniformClass = "4thmd_u_unif1_ar1_tt_p";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_tt_ar1.paa",
@@ -1393,10 +1476,10 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar2_a_f : 4thmd_u_unif1_tt_ar1_f
+            class 4thmd_u_unif1_ar2_tt_a_f : 4thmd_u_unif1_ar1_tt_f
             {
                 displayName = "[ARMCO] Alpha Arid Solid 2 (TT)";
-                uniformClass = "4thmd_u_unif1_tt_ar2_a";
+                uniformClass = "4thmd_u_unif1_ar2_tt_a";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_tt_ar2.paa",
@@ -1405,10 +1488,10 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar2_s_f : 4thmd_u_unif1_tt_ar1_f
+            class 4thmd_u_unif1_ar2_tt_s_f : 4thmd_u_unif1_ar1_tt_f
             {
                 displayName = "[ARMCO] Sabre Arid Solid 2 (TT)";
-                uniformClass = "4thmd_u_unif1_tt_ar2_s";
+                uniformClass = "4thmd_u_unif1_ar2_tt_s";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_tt_ar2.paa",
@@ -1417,10 +1500,10 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar2_z_f : 4thmd_u_unif1_tt_ar1_f
+            class 4thmd_u_unif1_ar2_tt_z_f : 4thmd_u_unif1_ar1_tt_f
             {
                 displayName = "[ARMCO] Zulu Arid Solid 2 (TT)";
-                uniformClass = "4thmd_u_unif1_tt_ar2_z";
+                uniformClass = "4thmd_u_unif1_ar2_tt_z";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_tt_ar2.paa",
@@ -1429,10 +1512,10 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar2_p_f : 4thmd_u_unif1_tt_ar1_f
+            class 4thmd_u_unif1_ar2_tt_p_f : 4thmd_u_unif1_ar1_tt_f
             {
                 displayName = "[ARMCO] Phoenix Arid Solid 2 (TT)";
-                uniformClass = "4thmd_u_unif1_tt_ar2_p";
+                uniformClass = "4thmd_u_unif1_ar2_tt_p";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_tt_ar2.paa",
@@ -1441,10 +1524,10 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar3_a_f : 4thmd_u_unif1_tt_ar1_f
+            class 4thmd_u_unif1_ar3_tt_a_f : 4thmd_u_unif1_ar1_tt_f
             {
                 displayName = "[ARMCO] Alpha Arid Solid 3 (TT)";
-                uniformClass = "4thmd_u_unif1_tt_ar3_a";
+                uniformClass = "4thmd_u_unif1_ar3_tt_a";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_tt_ar3.paa",
@@ -1453,10 +1536,10 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar3_s_f : 4thmd_u_unif1_tt_ar1_f
+            class 4thmd_u_unif1_ar3_tt_s_f : 4thmd_u_unif1_ar1_tt_f
             {
                 displayName = "[ARMCO] Sabre Arid Solid 3 (TT)";
-                uniformClass = "4thmd_u_unif1_tt_ar3_s";
+                uniformClass = "4thmd_u_unif1_ar3_tt_s";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_tt_ar3.paa",
@@ -1465,10 +1548,10 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar3_z_f : 4thmd_u_unif1_tt_ar1_f
+            class 4thmd_u_unif1_ar3_tt_z_f : 4thmd_u_unif1_ar1_tt_f
             {
                 displayName = "[ARMCO] Zulu Arid Solid 3 (TT)";
-                uniformClass = "4thmd_u_unif1_tt_ar3_z";
+                uniformClass = "4thmd_u_unif1_ar3_tt_z";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_tt_ar3.paa",
@@ -1477,10 +1560,10 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_tt_ar3_p_f : 4thmd_u_unif1_tt_ar1_f
+            class 4thmd_u_unif1_ar3_tt_p_f : 4thmd_u_unif1_ar1_tt_f
             {
                 displayName = "[ARMCO] Phoenix Arid Solid 3 (TT)";
-                uniformClass = "4thmd_u_unif1_tt_ar3_p";
+                uniformClass = "4thmd_u_unif1_ar3_tt_p";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_tt_ar3.paa",
@@ -1490,10 +1573,10 @@ class CfgVehicles
             };
 
         //Sweater + Uniform
-            class 4thmd_u_unif1_sw_ar1_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar1_sw_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Arid Uniform (Sweater)";
-                uniformClass = "4thmd_u_unif1_sw_ar1";
+                uniformClass = "4thmd_u_unif1_ar1_sw";
                 model = "\A3\Characters_F_Bootcamp\Guerrilla\ig_guerrilla_6_1.p3d";
                 hiddenSelectionsTextures[] = 
                 {
@@ -1501,160 +1584,160 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar0_a_f : 4thmd_u_unif1_sw_ar1_f
+            class 4thmd_u_unif1_ar0_sw_a_f : 4thmd_u_unif1_ar1_sw_f
             {
                 displayName = "[ARMCO] Alpha Arid Standard (SW)";
-                uniformClass = "4thmd_u_unif1_sw_ar0_a";
+                uniformClass = "4thmd_u_unif1_ar0_sw_a";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_sw_ar0_a.paa"
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar0_s_f : 4thmd_u_unif1_sw_ar1_f
+            class 4thmd_u_unif1_ar0_sw_s_f : 4thmd_u_unif1_ar1_sw_f
             {
                 displayName = "[ARMCO] Sabre Arid Standard (SW)";
-                uniformClass = "4thmd_u_unif1_sw_ar0_s";
+                uniformClass = "4thmd_u_unif1_ar0_sw_s";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_sw_ar0_s.paa"
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar0_z_f : 4thmd_u_unif1_sw_ar1_f
+            class 4thmd_u_unif1_ar0_sw_z_f : 4thmd_u_unif1_ar1_sw_f
             {
                 displayName = "[ARMCO] Zulu Arid Standard (SW)";
-                uniformClass = "4thmd_u_unif1_sw_ar0_z";
+                uniformClass = "4thmd_u_unif1_ar0_sw_z";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_sw_ar0_z.paa"
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar0_p_f : 4thmd_u_unif1_sw_ar1_f
+            class 4thmd_u_unif1_ar0_sw_p_f : 4thmd_u_unif1_ar1_sw_f
             {
                 displayName = "[ARMCO] Phoenix Arid Standard (SW)";
-                uniformClass = "4thmd_u_unif1_sw_ar0_p";
+                uniformClass = "4thmd_u_unif1_ar0_sw_p";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_sw_ar0_p.paa"
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar1_a_f : 4thmd_u_unif1_sw_ar1_f
+            class 4thmd_u_unif1_ar1_sw_a_f : 4thmd_u_unif1_ar1_sw_f
             {
                 displayName = "[ARMCO] Alpha Arid Solid 1 (SW)";
-                uniformClass = "4thmd_u_unif1_sw_ar1_a";
+                uniformClass = "4thmd_u_unif1_ar1_sw_a";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_sw_ar1_a.paa"
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar1_s_f : 4thmd_u_unif1_sw_ar1_f
+            class 4thmd_u_unif1_ar1_sw_s_f : 4thmd_u_unif1_ar1_sw_f
             {
                 displayName = "[ARMCO] Sabre Arid Solid 1 (SW)";
-                uniformClass = "4thmd_u_unif1_sw_ar1_s";
+                uniformClass = "4thmd_u_unif1_ar1_sw_s";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_sw_ar1_s.paa"
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar1_z_f : 4thmd_u_unif1_sw_ar1_f
+            class 4thmd_u_unif1_ar1_sw_z_f : 4thmd_u_unif1_ar1_sw_f
             {
                 displayName = "[ARMCO] Zulu Arid Solid 1 (SW)";
-                uniformClass = "4thmd_u_unif1_sw_ar1_z";
+                uniformClass = "4thmd_u_unif1_ar1_sw_z";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_sw_ar1_z.paa"
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar1_p_f : 4thmd_u_unif1_sw_ar1_f
+            class 4thmd_u_unif1_ar1_sw_p_f : 4thmd_u_unif1_ar1_sw_f
             {
                 displayName = "[ARMCO] Phoenix Arid Solid 1 (SW)";
-                uniformClass = "4thmd_u_unif1_sw_ar1_p";
+                uniformClass = "4thmd_u_unif1_ar1_sw_p";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_sw_ar1_p.paa"
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar2_a_f : 4thmd_u_unif1_sw_ar1_f
+            class 4thmd_u_unif1_ar2_sw_a_f : 4thmd_u_unif1_ar1_sw_f
             {
                 displayName = "[ARMCO] Alpha Arid Solid 2 (SW)";
-                uniformClass = "4thmd_u_unif1_sw_ar2_a";
+                uniformClass = "4thmd_u_unif1_ar2_sw_a";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_sw_ar2_a.paa"
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar2_s_f : 4thmd_u_unif1_sw_ar1_f
+            class 4thmd_u_unif1_ar2_sw_s_f : 4thmd_u_unif1_ar1_sw_f
             {
                 displayName = "[ARMCO] Sabre Arid Solid 2 (SW)";
-                uniformClass = "4thmd_u_unif1_sw_ar2_s";
+                uniformClass = "4thmd_u_unif1_ar2_sw_s";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_sw_ar2_s.paa"
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar2_z_f : 4thmd_u_unif1_sw_ar1_f
+            class 4thmd_u_unif1_ar2_sw_z_f : 4thmd_u_unif1_ar1_sw_f
             {
                 displayName = "[ARMCO] Zulu Arid Solid 2 (SW)";
-                uniformClass = "4thmd_u_unif1_sw_ar2_z";
+                uniformClass = "4thmd_u_unif1_ar2_sw_z";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_sw_ar2_z.paa"
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar2_p_f : 4thmd_u_unif1_sw_ar1_f
+            class 4thmd_u_unif1_ar2_sw_p_f : 4thmd_u_unif1_ar1_sw_f
             {
                 displayName = "[ARMCO] Phoenix Arid Solid 2 (SW)";
-                uniformClass = "4thmd_u_unif1_sw_ar2_p";
+                uniformClass = "4thmd_u_unif1_ar2_sw_p";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_sw_ar2_p.paa"
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar3_a_f : 4thmd_u_unif1_sw_ar1_f
+            class 4thmd_u_unif1_ar3_sw_a_f : 4thmd_u_unif1_ar1_sw_f
             {
                 displayName = "[ARMCO] Alpha Arid Solid 3 (SW)";
-                uniformClass = "4thmd_u_unif1_sw_ar3_a";
+                uniformClass = "4thmd_u_unif1_ar3_sw_a";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_sw_ar3_a.paa"
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar3_s_f : 4thmd_u_unif1_sw_ar1_f
+            class 4thmd_u_unif1_ar3_sw_s_f : 4thmd_u_unif1_ar1_sw_f
             {
                 displayName = "[ARMCO] Sabre Arid Solid 3 (SW)";
-                uniformClass = "4thmd_u_unif1_sw_ar3_s";
+                uniformClass = "4thmd_u_unif1_ar3_sw_s";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_sw_ar3_s.paa"
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar3_z_f : 4thmd_u_unif1_sw_ar1_f
+            class 4thmd_u_unif1_ar3_sw_z_f : 4thmd_u_unif1_ar1_sw_f
             {
                 displayName = "[ARMCO] Zulu Arid Solid 3 (SW)";
-                uniformClass = "4thmd_u_unif1_sw_ar3_z";
+                uniformClass = "4thmd_u_unif1_ar3_sw_z";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_sw_ar3_z.paa"
                 };
             };
 
-            class 4thmd_u_unif1_sw_ar3_p_f : 4thmd_u_unif1_sw_ar1_f
+            class 4thmd_u_unif1_ar3_sw_p_f : 4thmd_u_unif1_ar1_sw_f
             {
                 displayName = "[ARMCO] Phoenix Arid Solid 3 (SW)";
-                uniformClass = "4thmd_u_unif1_sw_ar3_p";
+                uniformClass = "4thmd_u_unif1_ar3_sw_p";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_sw_ar3_p.paa"
@@ -1662,10 +1745,10 @@ class CfgVehicles
             };
 
         //Ghillie + Uniforms
-            class 4thmd_u_unif1_gh_ar1_f : 4thmd_u_unif1_ar0_f
+            class 4thmd_u_unif1_ar1_gh_f : 4thmd_u_unif1_ar1_f
             {
                 displayName = "[ARMCO] Arid Uniform (GH)";
-                uniformClass = "4thmd_u_unif1_gh_ar1";
+                uniformClass = "4thmd_u_unif1_ar1_gh";
                 model="A3\Characters_F_Beta\INDEP\ia_sniper.p3d";
                 hiddenSelectionsTextures[] = 
                 {
@@ -1673,160 +1756,160 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar0_a_f : 4thmd_u_unif1_gh_ar1_f
+            class 4thmd_u_unif1_ar0_gh_a_f : 4thmd_u_unif1_ar1_gh_f
             {
                 displayName = "[ARMCO] Alpha Arid Standard (GH)";
-                uniformClass = "4thmd_u_unif1_gh_ar0_a";
+                uniformClass = "4thmd_u_unif1_ar0_gh_a";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar0_a.paa"
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar0_s_f : 4thmd_u_unif1_gh_ar1_f
+            class 4thmd_u_unif1_ar0_gh_s_f : 4thmd_u_unif1_ar1_gh_f
             {
                 displayName = "[ARMCO] Sabre Arid Standard (GH)";
-                uniformClass = "4thmd_u_unif1_gh_ar0_s";
+                uniformClass = "4thmd_u_unif1_ar0_gh_s";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar0_s.paa"
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar0_z_f : 4thmd_u_unif1_gh_ar1_f
+            class 4thmd_u_unif1_ar0_gh_z_f : 4thmd_u_unif1_ar1_gh_f
             {
                 displayName = "[ARMCO] Zulu Arid Standard (GH)";
-                uniformClass = "4thmd_u_unif1_gh_ar0_z";
+                uniformClass = "4thmd_u_unif1_ar0_gh_z";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar0_z.paa"
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar0_p_f : 4thmd_u_unif1_gh_ar1_f
+            class 4thmd_u_unif1_ar0_gh_p_f : 4thmd_u_unif1_ar1_gh_f
             {
                 displayName = "[ARMCO] Phoenix Arid Standard (GH)";
-                uniformClass = "4thmd_u_unif1_gh_ar0_p";
+                uniformClass = "4thmd_u_unif1_ar0_gh_p";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar0_p.paa"
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar1_a_f : 4thmd_u_unif1_gh_ar1_f
+            class 4thmd_u_unif1_ar1_gh_a_f : 4thmd_u_unif1_ar1_gh_f
             {
                 displayName = "[ARMCO] Alpha Arid Solid 1 (GH)";
-                uniformClass = "4thmd_u_unif1_gh_ar1_a";
+                uniformClass = "4thmd_u_unif1_ar1_gh_a";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar1_a.paa"
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar1_s_f : 4thmd_u_unif1_gh_ar1_f
+            class 4thmd_u_unif1_ar1_gh_s_f : 4thmd_u_unif1_ar1_gh_f
             {
                 displayName = "[ARMCO] Sabre Arid Solid 1 (GH)";
-                uniformClass = "4thmd_u_unif1_gh_ar1_s";
+                uniformClass = "4thmd_u_unif1_ar1_gh_s";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar1_s.paa"
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar1_z_f : 4thmd_u_unif1_gh_ar1_f
+            class 4thmd_u_unif1_ar1_gh_z_f : 4thmd_u_unif1_ar1_gh_f
             {
                 displayName = "[ARMCO] Zulu Arid Solid 1 (GH)";
-                uniformClass = "4thmd_u_unif1_gh_ar1_z";
+                uniformClass = "4thmd_u_unif1_ar1_gh_z";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar1_z.paa"
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar1_p_f : 4thmd_u_unif1_gh_ar1_f
+            class 4thmd_u_unif1_ar1_gh_p_f : 4thmd_u_unif1_ar1_gh_f
             {
                 displayName = "[ARMCO] Phoenix Arid Solid 1 (GH)";
-                uniformClass = "4thmd_u_unif1_gh_ar1_p";
+                uniformClass = "4thmd_u_unif1_ar1_gh_p";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar1_p.paa"
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar2_a_f : 4thmd_u_unif1_gh_ar1_f
+            class 4thmd_u_unif1_ar2_gh_a_f : 4thmd_u_unif1_ar1_gh_f
             {
                 displayName = "[ARMCO] Alpha Arid Solid 2 (GH)";
-                uniformClass = "4thmd_u_unif1_gh_ar2_a";
+                uniformClass = "4thmd_u_unif1_ar2_gh_a";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar2_a.paa"
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar2_s_f : 4thmd_u_unif1_gh_ar1_f
+            class 4thmd_u_unif1_ar2_gh_s_f : 4thmd_u_unif1_ar1_gh_f
             {
                 displayName = "[ARMCO] Sabre Arid Solid 2 (GH)";
-                uniformClass = "4thmd_u_unif1_gh_ar2_s";
+                uniformClass = "4thmd_u_unif1_ar2_gh_s";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar2_s.paa"
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar2_z_f : 4thmd_u_unif1_gh_ar1_f
+            class 4thmd_u_unif1_ar2_gh_z_f : 4thmd_u_unif1_ar1_gh_f
             {
                 displayName = "[ARMCO] Zulu Arid Solid 2 (GH)";
-                uniformClass = "4thmd_u_unif1_gh_ar2_z";
+                uniformClass = "4thmd_u_unif1_ar2_gh_z";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar2_z.paa"
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar2_p_f : 4thmd_u_unif1_gh_ar1_f
+            class 4thmd_u_unif1_ar2_gh_p_f : 4thmd_u_unif1_ar1_gh_f
             {
                 displayName = "[ARMCO] Phoenix Arid Solid 2 (GH)";
-                uniformClass = "4thmd_u_unif1_gh_ar2_p";
+                uniformClass = "4thmd_u_unif1_ar2_gh_p";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar2_p.paa"
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar3_a_f : 4thmd_u_unif1_gh_ar1_f
+            class 4thmd_u_unif1_ar3_gh_a_f : 4thmd_u_unif1_ar1_gh_f
             {
                 displayName = "[ARMCO] Alpha Arid Solid 3 (GH)";
-                uniformClass = "4thmd_u_unif1_gh_ar3_a";
+                uniformClass = "4thmd_u_unif1_ar3_gh_a";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar3_a.paa"
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar3_s_f : 4thmd_u_unif1_gh_ar1_f
+            class 4thmd_u_unif1_ar3_gh_s_f : 4thmd_u_unif1_ar1_gh_f
             {
                 displayName = "[ARMCO] Sabre Arid Solid 3 (GH)";
-                uniformClass = "4thmd_u_unif1_gh_ar3_s";
+                uniformClass = "4thmd_u_unif1_ar3_gh_s";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar3_s.paa"
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar3_z_f : 4thmd_u_unif1_gh_ar1_f
+            class 4thmd_u_unif1_ar3_gh_z_f : 4thmd_u_unif1_ar1_gh_f
             {
                 displayName = "[ARMCO] Zulu Arid Solid 3 (GH)";
-                uniformClass = "4thmd_u_unif1_gh_ar3_z";
+                uniformClass = "4thmd_u_unif1_ar3_gh_z";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar3_z.paa"
                 };
             };
 
-            class 4thmd_u_unif1_gh_ar3_p_f : 4thmd_u_unif1_gh_ar1_f
+            class 4thmd_u_unif1_ar3_gh_p_f : 4thmd_u_unif1_ar1_gh_f
             {
                 displayName = "[ARMCO] Phoenix Arid Solid 3 (GH)";
-                uniformClass = "4thmd_u_unif1_gh_ar3_p";
+                uniformClass = "4thmd_u_unif1_ar3_gh_p";
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar3_p.paa"
@@ -1834,17 +1917,16 @@ class CfgVehicles
             };
 
     //Ghillie Suit Uniform (ghil1)
-        class 4thmd_u_ghil1_ar1_f : 4thmd_u_unif1_ar0_f
+        class 4thmd_u_ghil1_ar1_f : 4thmd_u_unif1_ar1_f
         {
             displayName = "[ARMCO] Arid Ghillie (Semi-Arid)";
             uniformClass = "4thmd_u_ghil1_ar1";
             model="\A3\Characters_F_Mark\INDEP\i_fullghillie_f.p3d";
 
             hiddenSelections[] = 
-            {
-                "camo",
-                "camo3",
-                "camo4"
+            {"camo",
+            "camo3",
+            "camo4"
             };
 
             hiddenSelectionsTextures[] = 
@@ -1855,27 +1937,15 @@ class CfgVehicles
             };
         };
 
-        class 4thmd_u_ghil1_ar1_a_f : 4thmd_u_ghil1_ar1_f
+        class 4thmd_u_ghil1_ar1_b_f : 4thmd_u_ghil1_ar1_f
         {
             displayName = "[ARMCO] Arid Ghillie (Arid)";
-            uniformClass = "4thmd_u_ghil1_ar1_a";
+            uniformClass = "4thmd_u_ghil1_ar1_b";
             hiddenSelectionsTextures[] = 
             {
                 "darkmod_4thmd\data\arid\ghil1_ar1.paa",
                 "\A3\Characters_F_Mark\Common\Data\ghillie_threads_ard_ca.paa",
                 "\A3\Characters_F_Mark\Common\Data\ghillie_threads_5LOD_ard_co.paa"
-            };
-        };
-
-        class 4thmd_u_ghil1_ar1_b_f : 4thmd_u_ghil1_ar1_f
-        {
-            displayName = "[ARMCO] Arid Ghillie (Lush)";
-            uniformClass = "4thmd_u_ghil1_ar1_b";
-            hiddenSelectionsTextures[] = 
-            {
-                "darkmod_4thmd\data\arid\ghil1_ar1.paa",
-                "\A3\Characters_F_Mark\Common\Data\ghillie_threads_lsh_ca.paa",
-                "\A3\Characters_F_Mark\Common\Data\ghillie_threads_5LOD_lsh_co.paa"
             };
         };
 
@@ -1894,7 +1964,7 @@ class CfgVehicles
     //Assault Pack Backpack (pac1)
         //Standard
             class B_AssaultPack_cbr;
-            class 4thmd_b_pac1_rmn_ar0 : B_AssaultPack_cbr
+            class 4thmd_b_pac1_ar0 : B_AssaultPack_cbr
             {
                 displayName = "[ARMCO] Assault Pack";
                 author = "Darknesvoid99";
@@ -1904,7 +1974,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_rmn_ar1 : 4thmd_b_pac1_rmn_ar0
+            class 4thmd_b_pac1_ar1 : 4thmd_b_pac1_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -1912,7 +1982,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_rmn_ar2 : 4thmd_b_pac1_rmn_ar0
+            class 4thmd_b_pac1_ar2 : 4thmd_b_pac1_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -1920,7 +1990,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_rmn_ar3 : 4thmd_b_pac1_rmn_ar0
+            class 4thmd_b_pac1_ar3 : 4thmd_b_pac1_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -1928,7 +1998,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_med_ar0 : 4thmd_b_pac1_rmn_ar0
+            class 4thmd_b_pac1_ar0_me : 4thmd_b_pac1_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -1936,7 +2006,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_med_ar1 : 4thmd_b_pac1_med_ar0
+            class 4thmd_b_pac1_ar1_me : 4thmd_b_pac1_ar0_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -1944,7 +2014,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_med_ar2 : 4thmd_b_pac1_med_ar0
+            class 4thmd_b_pac1_ar2_me : 4thmd_b_pac1_ar0_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -1952,7 +2022,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_med_ar3 : 4thmd_b_pac1_med_ar0
+            class 4thmd_b_pac1_ar3_me : 4thmd_b_pac1_ar0_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -1960,7 +2030,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_eng_ar0 : 4thmd_b_pac1_rmn_ar0
+            class 4thmd_b_pac1_ar0_en : 4thmd_b_pac1_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -1968,7 +2038,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_eng_ar1 : 4thmd_b_pac1_eng_ar0
+            class 4thmd_b_pac1_ar1_en : 4thmd_b_pac1_ar0_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -1976,7 +2046,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_eng_ar2 : 4thmd_b_pac1_eng_ar0
+            class 4thmd_b_pac1_ar2_en : 4thmd_b_pac1_ar0_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -1984,7 +2054,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_eng_ar3 : 4thmd_b_pac1_eng_ar0
+            class 4thmd_b_pac1_ar3_en : 4thmd_b_pac1_ar0_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -1992,7 +2062,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_eos_ar0 : 4thmd_b_pac1_rmn_ar0
+            class 4thmd_b_pac1_ar0_es : 4thmd_b_pac1_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2000,7 +2070,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_eos_ar1 : 4thmd_b_pac1_eos_ar0
+            class 4thmd_b_pac1_ar1_es : 4thmd_b_pac1_ar0_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2008,7 +2078,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_eos_ar2 : 4thmd_b_pac1_eos_ar0
+            class 4thmd_b_pac1_ar2_es : 4thmd_b_pac1_ar0_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2016,7 +2086,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_eos_ar3 : 4thmd_b_pac1_eos_ar0
+            class 4thmd_b_pac1_ar3_es : 4thmd_b_pac1_ar0_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2024,12 +2094,12 @@ class CfgVehicles
                 };
             };
         //Radio
-            class 4thmd_b_pac1_rmn_ar0_r : 4thmd_b_pac1_rmn_ar0
+            class 4thmd_b_pac1_ar0_radio_radio : 4thmd_b_pac1_ar0
             {
                 mass = 28;
-                tf_dialog = "anprc152_r_dialog";
+                tf_dialog = "anprc152_radio_dialog";
                 tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
-                tf_encryptionCode = "tf_west_r_code";
+                tf_encryptionCode = "tf_west_radio_code";
                 tf_hasLRradio = 1;
                 tf_range = 5000;
                 tf_subtype = "digital_lr";
@@ -2040,7 +2110,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_rmn_ar1_r : 4thmd_b_pac1_rmn_ar0_r
+            class 4thmd_b_pac1_ar1_radio : 4thmd_b_pac1_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2048,7 +2118,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_rmn_ar2_r : 4thmd_b_pac1_rmn_ar0_r
+            class 4thmd_b_pac1_ar2_radio : 4thmd_b_pac1_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2056,7 +2126,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_rmn_ar3_r : 4thmd_b_pac1_rmn_ar0_r
+            class 4thmd_b_pac1_ar3_radio : 4thmd_b_pac1_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2064,7 +2134,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_med_ar0_r : 4thmd_b_pac1_rmn_ar0_r
+            class 4thmd_b_pac1_ar0_me_radio : 4thmd_b_pac1_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2072,7 +2142,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_med_ar1_r : 4thmd_b_pac1_rmn_ar0_r
+            class 4thmd_b_pac1_ar1_me_radio : 4thmd_b_pac1_ar0_radio_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2080,7 +2150,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_med_ar2_r : 4thmd_b_pac1_rmn_ar0_r
+            class 4thmd_b_pac1_ar2_me_radio : 4thmd_b_pac1_ar0_radio_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2088,7 +2158,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_med_ar3_r : 4thmd_b_pac1_rmn_ar0_r
+            class 4thmd_b_pac1_ar3_me_radio : 4thmd_b_pac1_ar0_radio_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2096,7 +2166,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_eng_ar0_r : 4thmd_b_pac1_rmn_ar0_r
+            class 4thmd_b_pac1_ar0_en_radio : 4thmd_b_pac1_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2104,7 +2174,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_eng_ar1_r : 4thmd_b_pac1_rmn_ar0_r
+            class 4thmd_b_pac1_ar1_en_radio : 4thmd_b_pac1_ar0_radio_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2112,7 +2182,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_eng_ar2_r : 4thmd_b_pac1_rmn_ar0_r
+            class 4thmd_b_pac1_ar2_en_radio : 4thmd_b_pac1_ar0_radio_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2120,7 +2190,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_eng_ar3_r : 4thmd_b_pac1_rmn_ar0_r
+            class 4thmd_b_pac1_ar3_en_radio : 4thmd_b_pac1_ar0_radio_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2128,7 +2198,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_eos_ar0_r : 4thmd_b_pac1_rmn_ar0_r
+            class 4thmd_b_pac1_ar0_es_radio : 4thmd_b_pac1_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2136,7 +2206,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_eos_ar1_r : 4thmd_b_pac1_rmn_ar0_r
+            class 4thmd_b_pac1_ar1_es_radio : 4thmd_b_pac1_ar0_radio_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2144,7 +2214,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_eos_ar2_r : 4thmd_b_pac1_rmn_ar0_r
+            class 4thmd_b_pac1_ar2_es_radio : 4thmd_b_pac1_ar0_radio_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2152,7 +2222,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_eos_ar3_r : 4thmd_b_pac1_rmn_ar0_r
+            class 4thmd_b_pac1_ar3_es_radio : 4thmd_b_pac1_ar0_radio_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2163,7 +2233,7 @@ class CfgVehicles
     //Field Pack Backpack (pac2)
         //Standard
             class B_FieldPack_cbr;
-            class 4thmd_b_pac2_rmn_ar0 : B_FieldPack_cbr
+            class 4thmd_b_pac2_ar0 : B_FieldPack_cbr
             {
                 displayName = "[ARMCO] Field Pack";
                 author = "Darknesvoid99";
@@ -2173,7 +2243,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac2_rmn_ar1 : 4thmd_b_pac2_rmn_ar0
+            class 4thmd_b_pac2_ar1 : 4thmd_b_pac2_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2181,7 +2251,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac2_rmn_ar2 : 4thmd_b_pac2_rmn_ar0
+            class 4thmd_b_pac2_ar2 : 4thmd_b_pac2_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2189,7 +2259,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac2_rmn_ar3 : 4thmd_b_pac2_rmn_ar0
+            class 4thmd_b_pac2_ar3 : 4thmd_b_pac2_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2197,7 +2267,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac2_med_ar0 : 4thmd_b_pac2_rmn_ar0
+            class 4thmd_b_pac2_ar0_me : 4thmd_b_pac2_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2205,7 +2275,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac2_med_ar1 : 4thmd_b_pac2_med_ar0
+            class 4thmd_b_pac2_ar1_me : 4thmd_b_pac2_ar0_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2213,7 +2283,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac2_med_ar2 : 4thmd_b_pac2_med_ar0
+            class 4thmd_b_pac2_ar2_me : 4thmd_b_pac2_ar0_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2221,7 +2291,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac2_med_ar3 : 4thmd_b_pac2_med_ar0
+            class 4thmd_b_pac2_ar3_me : 4thmd_b_pac2_ar0_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2229,7 +2299,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac2_eng_ar0 : 4thmd_b_pac2_rmn_ar0
+            class 4thmd_b_pac2_ar0_en : 4thmd_b_pac2_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2237,7 +2307,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac2_eng_ar1 : 4thmd_b_pac2_eng_ar0
+            class 4thmd_b_pac2_ar1_en : 4thmd_b_pac2_ar0_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2245,7 +2315,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac2_eng_ar2 : 4thmd_b_pac2_eng_ar0
+            class 4thmd_b_pac2_ar2_en : 4thmd_b_pac2_ar0_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2253,7 +2323,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac2_eng_ar3 : 4thmd_b_pac2_eng_ar0
+            class 4thmd_b_pac2_ar3_en : 4thmd_b_pac2_ar0_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2261,7 +2331,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac2_eos_ar0 : 4thmd_b_pac2_rmn_ar0
+            class 4thmd_b_pac2_ar0_es : 4thmd_b_pac2_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2269,7 +2339,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac2_eos_ar1 : 4thmd_b_pac2_eos_ar0
+            class 4thmd_b_pac2_ar1_es : 4thmd_b_pac2_ar0_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2277,7 +2347,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac2_eos_ar2 : 4thmd_b_pac2_eos_ar0
+            class 4thmd_b_pac2_ar2_es : 4thmd_b_pac2_ar0_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2285,7 +2355,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac2_eos_ar3 : 4thmd_b_pac2_eos_ar0
+            class 4thmd_b_pac2_ar3_es : 4thmd_b_pac2_ar0_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2293,12 +2363,12 @@ class CfgVehicles
                 };
             };
         //Radio
-            class 4thmd_b_pac2_rmn_ar0_r : 4thmd_b_pac2_rmn_ar0
+            class 4thmd_b_pac2_ar0_radio : 4thmd_b_pac2_ar0
             {
                 mass = 38;
-                tf_dialog = "anprc152_r_dialog";
+                tf_dialog = "anprc152_radio_dialog";
                 tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
-                tf_encryptionCode = "tf_west_r_code";
+                tf_encryptionCode = "tf_west_radio_code";
                 tf_hasLRradio = 1;
                 tf_range = 5000;
                 tf_subtype = "digital_lr";
@@ -2309,7 +2379,7 @@ class CfgVehicles
                 };
             };
             
-            class 4thmd_b_pac2_rmn_ar1_r : 4thmd_b_pac2_rmn_ar0_r
+            class 4thmd_b_pac2_ar1_radio : 4thmd_b_pac2_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2317,7 +2387,7 @@ class CfgVehicles
                 };
             };
             
-            class 4thmd_b_pac2_rmn_ar2_r : 4thmd_b_pac2_rmn_ar0_r
+            class 4thmd_b_pac2_ar2_radio : 4thmd_b_pac2_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2325,7 +2395,7 @@ class CfgVehicles
                 };
             };
             
-            class 4thmd_b_pac2_rmn_ar3_r : 4thmd_b_pac2_rmn_ar0_r
+            class 4thmd_b_pac2_ar3_radio : 4thmd_b_pac2_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2333,7 +2403,7 @@ class CfgVehicles
                 };
             };
             
-            class 4thmd_b_pac2_med_ar0_r : 4thmd_b_pac2_rmn_ar0_r
+            class 4thmd_b_pac2_ar0_me_radio : 4thmd_b_pac2_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2341,7 +2411,7 @@ class CfgVehicles
                 };
             };
             
-            class 4thmd_b_pac2_med_ar1_r : 4thmd_b_pac2_rmn_ar0_r
+            class 4thmd_b_pac2_ar1_me_radio : 4thmd_b_pac2_ar0_radio_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2349,7 +2419,7 @@ class CfgVehicles
                 };
             };
             
-            class 4thmd_b_pac2_med_ar2_r : 4thmd_b_pac2_rmn_ar0_r
+            class 4thmd_b_pac2_ar2_me_radio : 4thmd_b_pac2_ar0_radio_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2357,7 +2427,7 @@ class CfgVehicles
                 };
             };
             
-            class 4thmd_b_pac2_med_ar3_r : 4thmd_b_pac2_rmn_ar0_r
+            class 4thmd_b_pac2_ar3_me_radio : 4thmd_b_pac2_ar0_radio_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2365,7 +2435,7 @@ class CfgVehicles
                 };
             };
             
-            class 4thmd_b_pac2_eng_ar0_r : 4thmd_b_pac2_rmn_ar0_r
+            class 4thmd_b_pac2_ar0_en_radio : 4thmd_b_pac2_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2373,7 +2443,7 @@ class CfgVehicles
                 };
             };
             
-            class 4thmd_b_pac2_eng_ar1_r : 4thmd_b_pac2_rmn_ar0_r
+            class 4thmd_b_pac2_ar1_en_radio : 4thmd_b_pac2_ar0_radio_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2381,7 +2451,7 @@ class CfgVehicles
                 };
             };
             
-            class 4thmd_b_pac2_eng_ar2_r : 4thmd_b_pac2_rmn_ar0_r
+            class 4thmd_b_pac2_ar2_en_radio : 4thmd_b_pac2_ar0_radio_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2389,7 +2459,7 @@ class CfgVehicles
                 };
             };
             
-            class 4thmd_b_pac2_eng_ar3_r : 4thmd_b_pac2_rmn_ar0_r
+            class 4thmd_b_pac2_ar3_en_radio : 4thmd_b_pac2_ar0_radio_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2397,7 +2467,7 @@ class CfgVehicles
                 };
             };
             
-            class 4thmd_b_pac2_eos_ar0_r : 4thmd_b_pac2_rmn_ar0_r
+            class 4thmd_b_pac2_ar0_es_radio : 4thmd_b_pac2_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2405,7 +2475,7 @@ class CfgVehicles
                 };
             };
             
-            class 4thmd_b_pac2_eos_ar1_r : 4thmd_b_pac2_rmn_ar0_r
+            class 4thmd_b_pac2_ar1_es_radio : 4thmd_b_pac2_ar0_radio_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2413,7 +2483,7 @@ class CfgVehicles
                 };
             };
             
-            class 4thmd_b_pac2_eos_ar2_r : 4thmd_b_pac2_rmn_ar0_r
+            class 4thmd_b_pac2_ar2_es_radio : 4thmd_b_pac2_ar0_radio_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2421,7 +2491,7 @@ class CfgVehicles
                 };
             };
             
-            class 4thmd_b_pac2_eos_ar3_r : 4thmd_b_pac2_rmn_ar0_r
+            class 4thmd_b_pac2_ar3_es_radio : 4thmd_b_pac2_ar0_radio_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2432,7 +2502,7 @@ class CfgVehicles
     //Kitbag Backpack (pac3)
         //Standard
             class B_Kitbag_cbr;
-            class 4thmd_b_pac3_rmn_ar0 : B_Kitbag_cbr
+            class 4thmd_b_pac3_ar0 : B_Kitbag_cbr
             {
                 displayName = "[ARMCO] Kitbag";
                 author = "Darknesvoid99";
@@ -2442,7 +2512,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_rmn_ar1 : 4thmd_b_pac3_rmn_ar0
+            class 4thmd_b_pac3_ar1 : 4thmd_b_pac3_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2450,7 +2520,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_rmn_ar2 : 4thmd_b_pac3_rmn_ar0
+            class 4thmd_b_pac3_ar2 : 4thmd_b_pac3_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2458,7 +2528,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_rmn_ar3 : 4thmd_b_pac3_rmn_ar0
+            class 4thmd_b_pac3_ar3 : 4thmd_b_pac3_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2466,7 +2536,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_med_ar0 : 4thmd_b_pac3_rmn_ar0
+            class 4thmd_b_pac3_ar0_me : 4thmd_b_pac3_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2474,7 +2544,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_med_ar1 : 4thmd_b_pac3_med_ar0
+            class 4thmd_b_pac3_ar1_me : 4thmd_b_pac3_ar0_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2482,7 +2552,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_med_ar2 : 4thmd_b_pac3_med_ar0
+            class 4thmd_b_pac3_ar2_me : 4thmd_b_pac3_ar0_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2490,7 +2560,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_med_ar3 : 4thmd_b_pac3_med_ar0
+            class 4thmd_b_pac3_ar3_me : 4thmd_b_pac3_ar0_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2498,7 +2568,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_eng_ar0 : 4thmd_b_pac3_rmn_ar0
+            class 4thmd_b_pac3_ar0_en : 4thmd_b_pac3_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2506,7 +2576,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_eng_ar1 : 4thmd_b_pac3_eng_ar0
+            class 4thmd_b_pac3_ar1_en : 4thmd_b_pac3_ar0_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2514,7 +2584,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_eng_ar2 : 4thmd_b_pac3_eng_ar0
+            class 4thmd_b_pac3_ar2_en : 4thmd_b_pac3_ar0_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2522,7 +2592,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_eng_ar3 : 4thmd_b_pac3_eng_ar0
+            class 4thmd_b_pac3_ar3_en : 4thmd_b_pac3_ar0_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2530,7 +2600,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_eos_ar0 : 4thmd_b_pac3_rmn_ar0
+            class 4thmd_b_pac3_ar0_es : 4thmd_b_pac3_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2538,7 +2608,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_eos_ar1 : 4thmd_b_pac3_eos_ar0
+            class 4thmd_b_pac3_ar1_es : 4thmd_b_pac3_ar0_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2546,7 +2616,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_eos_ar2 : 4thmd_b_pac3_eos_ar0
+            class 4thmd_b_pac3_ar2_es : 4thmd_b_pac3_ar0_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2554,7 +2624,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_eos_ar3 : 4thmd_b_pac3_eos_ar0
+            class 4thmd_b_pac3_ar3_es : 4thmd_b_pac3_ar0_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2562,12 +2632,12 @@ class CfgVehicles
                 };
             };
         //Radio
-            class 4thmd_b_pac3_rmn_ar0_r : 4thmd_b_pac3_rmn_ar0
+            class 4thmd_b_pac3_ar0_radio : 4thmd_b_pac3_ar0
             {
                 mass = 58;
-                tf_dialog = "anprc152_r_dialog";
+                tf_dialog = "anprc152_radio_dialog";
                 tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
-                tf_encryptionCode = "tf_west_r_code";
+                tf_encryptionCode = "tf_west_radio_code";
                 tf_hasLRradio = 1;
                 tf_range = 5000;
                 tf_subtype = "digital_lr";
@@ -2578,7 +2648,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_rmn_ar1_r : 4thmd_b_pac3_rmn_ar0_r
+            class 4thmd_b_pac3_ar1_radio : 4thmd_b_pac3_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2586,7 +2656,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_rmn_ar2_r : 4thmd_b_pac3_rmn_ar0_r
+            class 4thmd_b_pac3_ar2_radio : 4thmd_b_pac3_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2594,7 +2664,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_rmn_ar3_r : 4thmd_b_pac3_rmn_ar0_r
+            class 4thmd_b_pac3_ar3_radio : 4thmd_b_pac3_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2602,7 +2672,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_med_ar0_r : 4thmd_b_pac3_rmn_ar0_r
+            class 4thmd_b_pac3_ar0_me_radio : 4thmd_b_pac3_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2610,7 +2680,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_med_ar1_r : 4thmd_b_pac3_rmn_ar0_r
+            class 4thmd_b_pac3_ar1_me_radio : 4thmd_b_pac3_ar0_radio_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2618,7 +2688,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_med_ar2_r : 4thmd_b_pac3_rmn_ar0_r
+            class 4thmd_b_pac3_ar2_me_radio : 4thmd_b_pac3_ar0_radio_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2626,7 +2696,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_med_ar3_r : 4thmd_b_pac3_rmn_ar0_r
+            class 4thmd_b_pac3_ar3_me_radio : 4thmd_b_pac3_ar0_radio_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2634,7 +2704,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_eng_ar0_r : 4thmd_b_pac3_rmn_ar0_r
+            class 4thmd_b_pac3_ar0_en_radio : 4thmd_b_pac3_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2642,7 +2712,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_eng_ar1_r : 4thmd_b_pac3_rmn_ar0_r
+            class 4thmd_b_pac3_ar1_en_radio : 4thmd_b_pac3_ar0_radio_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2650,7 +2720,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_eng_ar2_r : 4thmd_b_pac3_rmn_ar0_r
+            class 4thmd_b_pac3_ar2_en_radio : 4thmd_b_pac3_ar0_radio_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2658,7 +2728,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_eng_ar3_r : 4thmd_b_pac3_rmn_ar0_r
+            class 4thmd_b_pac3_ar3_en_radio : 4thmd_b_pac3_ar0_radio_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2666,7 +2736,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_eos_ar0_r : 4thmd_b_pac3_rmn_ar0_r
+            class 4thmd_b_pac3_ar0_es_radio : 4thmd_b_pac3_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2674,7 +2744,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_eos_ar1_r : 4thmd_b_pac3_rmn_ar0_r
+            class 4thmd_b_pac3_ar1_es_radio : 4thmd_b_pac3_ar0_radio_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2682,7 +2752,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_eos_ar2_r : 4thmd_b_pac3_rmn_ar0_r
+            class 4thmd_b_pac3_ar2_es_radio : 4thmd_b_pac3_ar0_radio_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2690,7 +2760,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_eos_ar3_r : 4thmd_b_pac3_rmn_ar0_r
+            class 4thmd_b_pac3_ar3_es_radio : 4thmd_b_pac3_ar0_radio_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2701,7 +2771,7 @@ class CfgVehicles
     //Carry-All Backpack (pac4)
         //Standard
             class B_Carryall_cbr;
-            class 4thmd_b_pac4_rmn_ar0 : B_Carryall_cbr
+            class 4thmd_b_pac4_ar0 : B_Carryall_cbr
             {
                 displayName = "[ARMCO] Carry-All";
                 author = "Darknesvoid99";
@@ -2711,7 +2781,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_rmn_ar1 : 4thmd_b_pac4_rmn_ar0
+            class 4thmd_b_pac4_ar1 : 4thmd_b_pac4_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2719,7 +2789,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_rmn_ar2 : 4thmd_b_pac4_rmn_ar0
+            class 4thmd_b_pac4_ar2 : 4thmd_b_pac4_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2727,7 +2797,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_rmn_ar3 : 4thmd_b_pac4_rmn_ar0
+            class 4thmd_b_pac4_ar3 : 4thmd_b_pac4_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2735,7 +2805,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_med_ar0 : 4thmd_b_pac4_rmn_ar0
+            class 4thmd_b_pac4_ar0_me : 4thmd_b_pac4_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2743,7 +2813,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_med_ar1 : 4thmd_b_pac4_med_ar0
+            class 4thmd_b_pac4_ar1_me : 4thmd_b_pac4_ar0_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2751,7 +2821,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_med_ar2 : 4thmd_b_pac4_med_ar0
+            class 4thmd_b_pac4_ar2_me : 4thmd_b_pac4_ar0_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2759,7 +2829,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_med_ar3 : 4thmd_b_pac4_med_ar0
+            class 4thmd_b_pac4_ar3_me : 4thmd_b_pac4_ar0_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2767,7 +2837,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_eng_ar0 : 4thmd_b_pac4_rmn_ar0
+            class 4thmd_b_pac4_ar0_en : 4thmd_b_pac4_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2775,7 +2845,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_eng_ar1 : 4thmd_b_pac4_eng_ar0
+            class 4thmd_b_pac4_ar1_en : 4thmd_b_pac4_ar0_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2783,7 +2853,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_eng_ar2 : 4thmd_b_pac4_eng_ar0
+            class 4thmd_b_pac4_ar2_en : 4thmd_b_pac4_ar0_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2791,7 +2861,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_eng_ar3 : 4thmd_b_pac4_eng_ar0
+            class 4thmd_b_pac4_ar3_en : 4thmd_b_pac4_ar0_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2799,7 +2869,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_eos_ar0 : 4thmd_b_pac4_rmn_ar0
+            class 4thmd_b_pac4_ar0_es : 4thmd_b_pac4_ar0
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2807,7 +2877,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_eos_ar1 : 4thmd_b_pac4_eos_ar0
+            class 4thmd_b_pac4_ar1_es : 4thmd_b_pac4_ar0_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2815,7 +2885,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_eos_ar2 : 4thmd_b_pac4_eos_ar0
+            class 4thmd_b_pac4_ar2_es : 4thmd_b_pac4_ar0_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2823,7 +2893,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_eos_ar3 : 4thmd_b_pac4_eos_ar0
+            class 4thmd_b_pac4_ar3_es : 4thmd_b_pac4_ar0_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2831,12 +2901,12 @@ class CfgVehicles
                 };
             };
         //Radio
-            class 4thmd_b_pac4_rmn_ar0_r : 4thmd_b_pac4_rmn_ar0
+            class 4thmd_b_pac4_ar0_radio : 4thmd_b_pac4_ar0
             {
                 mass = 68;
-                tf_dialog = "anprc152_r_dialog";
+                tf_dialog = "anprc152_radio_dialog";
                 tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
-                tf_encryptionCode = "tf_west_r_code";
+                tf_encryptionCode = "tf_west_radio_code";
                 tf_hasLRradio = 1;
                 tf_range = 5000;
                 tf_subtype = "digital_lr";
@@ -2847,7 +2917,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_rmn_ar1_r : 4thmd_b_pac4_rmn_ar0_r
+            class 4thmd_b_pac4_ar1_radio : 4thmd_b_pac4_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2855,7 +2925,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_rmn_ar2_r : 4thmd_b_pac4_rmn_ar0_r
+            class 4thmd_b_pac4_ar2_radio : 4thmd_b_pac4_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2863,7 +2933,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_rmn_ar3_r : 4thmd_b_pac4_rmn_ar0_r
+            class 4thmd_b_pac4_ar3_radio : 4thmd_b_pac4_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2871,7 +2941,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_med_ar0_r : 4thmd_b_pac4_rmn_ar0_r
+            class 4thmd_b_pac4_ar0_me_radio : 4thmd_b_pac4_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2879,7 +2949,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_med_ar1_r : 4thmd_b_pac4_rmn_ar0_r
+            class 4thmd_b_pac4_ar1_me_radio : 4thmd_b_pac4_ar0_radio_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2887,7 +2957,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_med_ar2_r : 4thmd_b_pac4_rmn_ar0_r
+            class 4thmd_b_pac4_ar2_me_radio : 4thmd_b_pac4_ar0_radio_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2895,7 +2965,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_med_ar3_r : 4thmd_b_pac4_rmn_ar0_r
+            class 4thmd_b_pac4_ar3_me_radio : 4thmd_b_pac4_ar0_radio_me
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2903,7 +2973,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_eng_ar0_r : 4thmd_b_pac4_rmn_ar0_r
+            class 4thmd_b_pac4_ar0_en_radio : 4thmd_b_pac4_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2911,7 +2981,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_eng_ar1_r : 4thmd_b_pac4_rmn_ar0_r
+            class 4thmd_b_pac4_ar1_en_radio : 4thmd_b_pac4_ar0_radio_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2919,7 +2989,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_eng_ar2_r : 4thmd_b_pac4_rmn_ar0_r
+            class 4thmd_b_pac4_ar2_en_radio : 4thmd_b_pac4_ar0_radio_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2927,7 +2997,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_eng_ar3_r : 4thmd_b_pac4_rmn_ar0_r
+            class 4thmd_b_pac4_ar3_en_radio : 4thmd_b_pac4_ar0_radio_en
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2935,7 +3005,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_eos_ar0_r : 4thmd_b_pac4_rmn_ar0_r
+            class 4thmd_b_pac4_ar0_es_radio : 4thmd_b_pac4_ar0_radio
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2943,7 +3013,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_eos_ar1_r : 4thmd_b_pac4_rmn_ar0_r
+            class 4thmd_b_pac4_ar1_es_radio : 4thmd_b_pac4_ar0_radio_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2951,7 +3021,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_eos_ar2_r : 4thmd_b_pac4_rmn_ar0_r
+            class 4thmd_b_pac4_ar2_es_radio : 4thmd_b_pac4_ar0_radio_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -2959,7 +3029,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_eos_ar3_r : 4thmd_b_pac4_rmn_ar0_r
+            class 4thmd_b_pac4_ar3_es_radio : 4thmd_b_pac4_ar0_radio_es
             {
                 hiddenSelectionsTextures[] = 
                 {
@@ -3319,13 +3389,13 @@ class XtdGearModels
                 class 4thmd_auxof
                 {
                     label = "Down";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_standard.paa";
                 };
 
                 class 4thmd_auxon
                 {
                     label = "Up";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_standard.paa";
                 };
             };
         };
@@ -3548,13 +3618,13 @@ class XtdGearModels
                 class 4thmd_auxof
                 {
                     label = "Down";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_standard.paa";
                 };
 
                 class 4thmd_auxon
                 {
                     label = "Up";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_standard.paa";
                 };
             };
         };
@@ -3565,7 +3635,7 @@ class XtdGearModels
             options[]=
             {
                 "4thmd_color",
-                "4thmd_camo"
+                "camo"
             };
 
             class 4thmd_color
@@ -3643,42 +3713,38 @@ class XtdGearModels
                 };
             };
 
-            class 4thmd_camo
+            class camo
             {
                 alwaysSelectable = 1;
-				changeingame = 1;
+				changeingame = 0;
 				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_c_ghil0",
-                    "4thmd_c_ghil1",
-                    "4thmd_c_ghil2",
-                    "4thmd_c_ghil3"
-                };
+				label = "Camouflage";
+                values[]=
+				{
+                    "gca",
+                    "gcb",
+					"gcc",
+                    "gcd"
+				};
 
-                class 4thmd_c_ghil0
+                class gca
                 {
                     label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_ghillie.paa";
                 };
 
-                class 4thmd_c_ghil1
+                class gcb
                 {
-                    label = "Alt. A";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_ghillie.paa";
+                    label = "Alt. 1";
                 };
 
-                class 4thmd_c_ghil2
+                class gcc
                 {
-                    label = "Alt. B";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_ghillie.paa";
+                    label = "Alt. 2";
                 };
 
-                class 4thmd_c_ghil3
+                class gcd
                 {
-                    label = "Alt. C";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_ghillie.paa";
+                    label = "Alt. 3";
                 };
             };
         };
@@ -3851,7 +3917,7 @@ class XtdGearModels
                 };
             };
 
-            class 4thmd_radio
+            class 4thmd_rollup
             {
                 alwaysSelectable = 1;
 				changeingame = 1;
@@ -3866,13 +3932,13 @@ class XtdGearModels
                 class 4thmd_auxof
                 {
                     label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_standard.paa";
                 };
 
                 class 4thmd_auxon
                 {
                     label = "AN/PRC-152";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_standard.paa";
                 };
             };
         };
@@ -4042,7 +4108,7 @@ class XtdGearModels
                 };
             };
 
-            class 4thmd_radio
+            class 4thmd_rollup
             {
                 alwaysSelectable = 1;
 				changeingame = 1;
@@ -4057,13 +4123,13 @@ class XtdGearModels
                 class 4thmd_auxof
                 {
                     label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_standard.paa";
                 };
 
                 class 4thmd_auxon
                 {
                     label = "AN/PRC-152";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_standard.paa";
                 };
             };
         };
@@ -4233,7 +4299,7 @@ class XtdGearModels
                 };
             };
 
-            class 4thmd_radio
+            class 4thmd_rollup
             {
                 alwaysSelectable = 1;
 				changeingame = 1;
@@ -4248,13 +4314,13 @@ class XtdGearModels
                 class 4thmd_auxof
                 {
                     label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_standard.paa";
                 };
 
                 class 4thmd_auxon
                 {
                     label = "AN/PRC-152";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_standard.paa";
                 };
             };
         };
@@ -4424,7 +4490,7 @@ class XtdGearModels
                 };
             };
 
-            class 4thmd_radio
+            class 4thmd_rollup
             {
                 alwaysSelectable = 1;
 				changeingame = 1;
@@ -4439,13 +4505,13 @@ class XtdGearModels
                 class 4thmd_auxof
                 {
                     label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_standard.paa";
                 };
 
                 class 4thmd_auxon
                 {
                     label = "AN/PRC-152";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_standard.paa";
                 };
             };
         };
@@ -4458,7 +4524,7 @@ class XtdGearInfos
     {
         //Massif Uniform
             //Basic Uniforms
-                class 4thmd_u_unif1_ar0
+                class 4thmd_u_unif1_ar1
                 {
                     Model = "4thmd_u_unif1_basic";
                     4thmd_type = "unif1";
@@ -4466,7 +4532,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_ru_ar0
+                class 4thmd_u_unif1_ar1_ss
                 {
                     Model = "4thmd_u_unif1_basic";
                     4thmd_type = "unif1";
@@ -4474,7 +4540,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxon";
                 };
 
-                class 4thmd_u_unif1_tt_ar0
+                class 4thmd_u_unif1_ar1_tt
                 {
                     Model = "4thmd_u_unif1_basic";
                     4thmd_type = "unif1_tt";
@@ -4482,7 +4548,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_sw_ar0
+                class 4thmd_u_unif1_ar1_sw
                 {
                     Model = "4thmd_u_unif1_basic";
                     4thmd_type = "unif1_sw";
@@ -4490,7 +4556,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_gh_ar0
+                class 4thmd_u_unif1_ar1_sw
                 {
                     Model = "4thmd_u_unif1_basic";
                     4thmd_type = "unif1_gh";
@@ -4660,7 +4726,7 @@ class XtdGearInfos
                 };
 
             //Standard Uniforms (Short-Sleeves)
-                class 4thmd_u_unif1_ru_ar0_a
+                class 4thmd_u_unif1_ar0_ru_a
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_alpha";
@@ -4670,7 +4736,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxon";
                 };
 
-                class 4thmd_u_unif1_ru_ar0_s
+                class 4thmd_u_unif1_ar0_ru_s
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_sabre";
@@ -4680,7 +4746,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxon";
                 };
 
-                class 4thmd_u_unif1_ru_ar0_z
+                class 4thmd_u_unif1_ar0_ru_z
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_zulu";
@@ -4690,7 +4756,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxon";
                 };
 
-                class 4thmd_u_unif1_ru_ar0_p
+                class 4thmd_u_unif1_ar0_ru_p
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_phoenix";
@@ -4700,7 +4766,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxon";
                 };
 
-                class 4thmd_u_unif1_ru_ar1_a
+                class 4thmd_u_unif1_ar1_ru_a
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_alpha";
@@ -4710,7 +4776,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxon";
                 };
 
-                class 4thmd_u_unif1_ru_ar1_s
+                class 4thmd_u_unif1_ar1_ru_s
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_sabre";
@@ -4720,7 +4786,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxon";
                 };
 
-                class 4thmd_u_unif1_ru_ar1_z
+                class 4thmd_u_unif1_ar1_ru_z
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_zulu";
@@ -4730,7 +4796,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxon";
                 };
 
-                class 4thmd_u_unif1_ru_ar1_p
+                class 4thmd_u_unif1_ar1_ru_p
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_phoenix";
@@ -4740,7 +4806,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxon";
                 };
 
-                class 4thmd_u_unif1_ru_ar2_a
+                class 4thmd_u_unif1_ar2_ru_a
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_alpha";
@@ -4750,7 +4816,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxon";
                 };
 
-                class 4thmd_u_unif1_ru_ar2_s
+                class 4thmd_u_unif1_ar2_ru_s
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_sabre";
@@ -4760,7 +4826,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxon";
                 };
 
-                class 4thmd_u_unif1_ru_ar2_z
+                class 4thmd_u_unif1_ar2_ru_z
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_zulu";
@@ -4770,7 +4836,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxon";
                 };
 
-                class 4thmd_u_unif1_ru_ar2_p
+                class 4thmd_u_unif1_ar2_ru_p
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_phoenix";
@@ -4780,7 +4846,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxon";
                 };
 
-                class 4thmd_u_unif1_ru_ar3_a
+                class 4thmd_u_unif1_ar3_ru_a
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_alpha";
@@ -4790,7 +4856,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxon";
                 };
 
-                class 4thmd_u_unif1_ru_ar3_s
+                class 4thmd_u_unif1_ar3_ru_s
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_sabre";
@@ -4800,7 +4866,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxon";
                 };
 
-                class 4thmd_u_unif1_ru_ar3_z
+                class 4thmd_u_unif1_ar3_ru_z
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_zulu";
@@ -4810,7 +4876,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxon";
                 };
 
-                class 4thmd_u_unif1_ru_ar3_p
+                class 4thmd_u_unif1_ar3_ru_p
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_phoenix";
@@ -4821,7 +4887,7 @@ class XtdGearInfos
                 };
 
             //Tank Top + Uniforms
-                class 4thmd_u_unif1_tt_ar0_a
+                class 4thmd_u_unif1_ar0_tt_a
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_alpha";
@@ -4831,7 +4897,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_tt_ar0_s
+                class 4thmd_u_unif1_ar0_tt_s
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_sabre";
@@ -4841,7 +4907,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_tt_ar0_z
+                class 4thmd_u_unif1_ar0_tt_z
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_zulu";
@@ -4851,7 +4917,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_tt_ar0_p
+                class 4thmd_u_unif1_ar0_tt_p
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_phoenix";
@@ -4861,7 +4927,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_tt_ar1_a
+                class 4thmd_u_unif1_ar1_tt_a
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_alpha";
@@ -4871,7 +4937,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_tt_ar1_s
+                class 4thmd_u_unif1_ar1_tt_s
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_sabre";
@@ -4881,7 +4947,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_tt_ar1_z
+                class 4thmd_u_unif1_ar1_tt_z
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_zulu";
@@ -4891,7 +4957,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_tt_ar1_p
+                class 4thmd_u_unif1_ar1_tt_p
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_phoenix";
@@ -4901,7 +4967,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_tt_ar2_a
+                class 4thmd_u_unif1_ar2_tt_a
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_alpha";
@@ -4911,7 +4977,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_tt_ar2_s
+                class 4thmd_u_unif1_ar2_tt_s
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_sabre";
@@ -4921,7 +4987,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_tt_ar2_z
+                class 4thmd_u_unif1_ar2_tt_z
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_zulu";
@@ -4931,7 +4997,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_tt_ar2_p
+                class 4thmd_u_unif1_ar2_tt_p
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_phoenix";
@@ -4941,7 +5007,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_tt_ar3_a
+                class 4thmd_u_unif1_ar3_tt_a
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_alpha";
@@ -4951,7 +5017,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_tt_ar3_s
+                class 4thmd_u_unif1_ar3_tt_s
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_sabre";
@@ -4961,7 +5027,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_tt_ar3_z
+                class 4thmd_u_unif1_ar3_tt_z
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_zulu";
@@ -4971,7 +5037,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_tt_ar3_p
+                class 4thmd_u_unif1_ar3_tt_p
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_phoenix";
@@ -4982,7 +5048,7 @@ class XtdGearInfos
                 };
         
             //Sweater + Uniforms
-                class 4thmd_u_unif1_sw_ar0_a
+                class 4thmd_u_unif1_ar0_sw_a
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_alpha";
@@ -4992,7 +5058,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_sw_ar0_s
+                class 4thmd_u_unif1_ar0_sw_s
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_sabre";
@@ -5002,7 +5068,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_sw_ar0_z
+                class 4thmd_u_unif1_ar0_sw_z
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_zulu";
@@ -5012,7 +5078,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_sw_ar0_p
+                class 4thmd_u_unif1_ar0_sw_p
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_phoenix";
@@ -5022,7 +5088,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_sw_ar1_a
+                class 4thmd_u_unif1_ar1_sw_a
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_alpha";
@@ -5032,7 +5098,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_sw_ar1_s
+                class 4thmd_u_unif1_ar1_sw_s
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_sabre";
@@ -5042,7 +5108,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_sw_ar1_z
+                class 4thmd_u_unif1_ar1_sw_z
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_zulu";
@@ -5052,7 +5118,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_sw_ar1_p
+                class 4thmd_u_unif1_ar1_sw_p
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_phoenix";
@@ -5062,7 +5128,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_sw_ar2_a
+                class 4thmd_u_unif1_ar2_sw_a
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_alpha";
@@ -5072,7 +5138,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_sw_ar2_s
+                class 4thmd_u_unif1_ar2_sw_s
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_sabre";
@@ -5082,7 +5148,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_sw_ar2_z
+                class 4thmd_u_unif1_ar2_sw_z
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_zulu";
@@ -5092,7 +5158,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_sw_ar2_p
+                class 4thmd_u_unif1_ar2_sw_p
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_phoenix";
@@ -5102,7 +5168,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_sw_ar3_a
+                class 4thmd_u_unif1_ar3_sw_a
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_alpha";
@@ -5112,7 +5178,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_sw_ar3_s
+                class 4thmd_u_unif1_ar3_sw_s
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_sabre";
@@ -5122,7 +5188,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_sw_ar3_z
+                class 4thmd_u_unif1_ar3_sw_z
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_zulu";
@@ -5132,7 +5198,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_sw_ar3_p
+                class 4thmd_u_unif1_ar3_sw_p
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_phoenix";
@@ -5143,7 +5209,7 @@ class XtdGearInfos
                 };
 
             //Ghillie + Uniforms
-                class 4thmd_u_unif1_gh_ar0_a
+                class 4thmd_u_unif1_ar0_gh_a
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_alpha";
@@ -5153,7 +5219,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_gh_ar0_s
+                class 4thmd_u_unif1_ar0_gh_s
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_sabre";
@@ -5163,7 +5229,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_gh_ar0_z
+                class 4thmd_u_unif1_ar0_gh_z
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_zulu";
@@ -5173,7 +5239,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_gh_ar0_p
+                class 4thmd_u_unif1_ar0_gh_p
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_phoenix";
@@ -5183,7 +5249,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_gh_ar1_a
+                class 4thmd_u_unif1_ar1_gh_a
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_alpha";
@@ -5193,7 +5259,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_gh_ar1_s
+                class 4thmd_u_unif1_ar1_gh_s
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_sabre";
@@ -5203,7 +5269,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_gh_ar1_z
+                class 4thmd_u_unif1_ar1_gh_z
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_zulu";
@@ -5213,7 +5279,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_gh_ar1_p
+                class 4thmd_u_unif1_ar1_gh_p
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_phoenix";
@@ -5223,7 +5289,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_gh_ar2_a
+                class 4thmd_u_unif1_ar2_gh_a
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_alpha";
@@ -5233,7 +5299,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_gh_ar2_s
+                class 4thmd_u_unif1_ar2_gh_s
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_sabre";
@@ -5243,7 +5309,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_gh_ar2_z
+                class 4thmd_u_unif1_ar2_gh_z
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_zulu";
@@ -5253,7 +5319,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_gh_ar2_p
+                class 4thmd_u_unif1_ar2_gh_p
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_phoenix";
@@ -5263,7 +5329,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_gh_ar3_a
+                class 4thmd_u_unif1_ar3_gh_a
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_alpha";
@@ -5273,7 +5339,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_gh_ar3_s
+                class 4thmd_u_unif1_ar3_gh_s
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_sabre";
@@ -5283,7 +5349,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_gh_ar3_z
+                class 4thmd_u_unif1_ar3_gh_z
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_zulu";
@@ -5293,7 +5359,7 @@ class XtdGearInfos
                     4thmd_rollup = "4thmd_auxof";
                 };
 
-                class 4thmd_u_unif1_gh_ar3_p
+                class 4thmd_u_unif1_ar3_gh_p
                 {
                     Model = "4thmd_u_unif1";
                     4thmd_squad = "4thmd_phoenix";
@@ -5302,1205 +5368,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_rollup = "4thmd_auxof";
                 };
-        //Ghillie Suits
-            class 4thmd_u_ghil1_ar1
-            {
-                Model = "4thmd_u_ghil1";
-                4thmd_color = "4thmd_arid";
-                4thmd_camo = "4thmd_c_ghil0";
-            };
-            class 4thmd_u_ghil1_ar1_a
-            {
-                Model = "4thmd_u_ghil1";
-                4thmd_color = "4thmd_arid";
-                4thmd_camo = "4thmd_c_ghil1";
-            };
-            class 4thmd_u_ghil1_ar1_b
-            {
-                Model = "4thmd_u_ghil1";
-                4thmd_color = "4thmd_arid";
-                4thmd_camo = "4thmd_c_ghil2";
-            };
-            class 4thmd_u_ghil1_ar1_c
-            {
-                Model = "4thmd_u_ghil1";
-                4thmd_color = "4thmd_arid";
-                4thmd_camo = "4thmd_c_ghil3";
-            };
 
-        //Include Other Patterns
-        /*
-        #include "wood\XtdI_CfgW_equ.hpp"
-        #include "dest\XtdI_CfgW_equ.hpp"
-        #include "jung\XtdI_CfgW_equ.hpp"
-        #include "borl\XtdI_CfgW_equ.hpp"
-        #include "snbl\XtdI_CfgW_equ.hpp"
-        #include "artc\XtdI_CfgW_equ.hpp"
-        #include "navy\XtdI_CfgW_equ.hpp"
-        */
-    };
-
-    class CfgVehicles
-    {
-        //Assault Pack Backpack (Pac1)
-            //Standard
-                class 4thmd_b_pac1_rmn_ar0
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac1_rmn_ar1
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac1_rmn_ar2
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac1_rmn_ar3
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac1_med_ar0
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac1_med_ar1
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac1_med_ar2
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac1_med_ar3
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac1_eng_ar0
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac1_eng_ar1
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac1_eng_ar2
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac1_eng_ar3
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac1_eos_ar0
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac1_eos_ar1
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac1_eos_ar2
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac1_eos_ar3
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxof";
-                };
-            //Radio
-                class 4thmd_b_pac1_rmn_ar0_r
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac1_rmn_ar1_r
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac1_rmn_ar2_r
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac1_rmn_ar3_r
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac1_med_ar0_r
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac1_med_ar1_r
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac1_med_ar2_r
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac1_med_ar3_r
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac1_eng_ar0_r
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac1_eng_ar1_r
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac1_eng_ar2_r
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac1_eng_ar3_r
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac1_eos_ar0_r
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac1_eos_ar1_r
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac1_eos_ar2_r
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac1_eos_ar3_r
-                {
-                    Model = "4thmd_b_pac1";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-        //Field Pack Backpack (pac2)
-            //Standard
-                class 4thmd_b_pac2_rmn_ar0
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac2_rmn_ar1
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac2_rmn_ar2
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac2_rmn_ar3
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac2_med_ar0
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac2_med_ar1
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac2_med_ar2
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac2_med_ar3
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac2_eng_ar0
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac2_eng_ar1
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac2_eng_ar2
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac2_eng_ar3
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac2_eos_ar0
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac2_eos_ar1
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac2_eos_ar2
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac2_eos_ar3
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxof";
-                };
-            //Radio
-                class 4thmd_b_pac2_rmn_ar0_r
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac2_rmn_ar1_r
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac2_rmn_ar2_r
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac2_rmn_ar3_r
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac2_med_ar0_r
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac2_med_ar1_r
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac2_med_ar2_r
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac2_med_ar3_r
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac2_eng_ar0_r
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac2_eng_ar1_r
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac2_eng_ar2_r
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac2_eng_ar3_r
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac2_eos_ar0_r
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac2_eos_ar1_r
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac2_eos_ar2_r
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac2_eos_ar3_r
-                {
-                    Model = "4thmd_b_pac2";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-        //Kitbag Backpack (pac3)
-            //Standard
-                class 4thmd_b_pac3_rmn_ar0
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac3_rmn_ar1
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac3_rmn_ar2
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac3_rmn_ar3
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac3_med_ar0
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac3_med_ar1
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac3_med_ar2
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac3_med_ar3
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac3_eng_ar0
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac3_eng_ar1
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac3_eng_ar2
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac3_eng_ar3
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac3_eos_ar0
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac3_eos_ar1
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac3_eos_ar2
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxof";
-                };
-
-                class 4thmd_b_pac3_eos_ar3
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxof";
-                };
-            //Radio
-                class 4thmd_b_pac3_rmn_ar0_r
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac3_rmn_ar1_r
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac3_rmn_ar2_r
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac3_rmn_ar3_r
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac3_med_ar0_r
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac3_med_ar1_r
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac3_med_ar2_r
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac3_med_ar3_r
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac3_eng_ar0_r
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac3_eng_ar1_r
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac3_eng_ar2_r
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac3_eng_ar3_r
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac3_eos_ar0_r
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac3_eos_ar1_r
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac3_eos_ar2_r
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-                class 4thmd_b_pac3_eos_ar3_r
-                {
-                    Model = "4thmd_b_pac3";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxon";
-                };
-
-        //Carry-All Backpack (pac4)
-            //Standard
-                class 4thmd_b_pac4_rmn_ar0
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxof";
-                };
-        
-                class 4thmd_b_pac4_rmn_ar1
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxof";
-                };
-        
-                class 4thmd_b_pac4_rmn_ar2
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxof";
-                };
-        
-                class 4thmd_b_pac4_rmn_ar3
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxof";
-                };
-        
-                class 4thmd_b_pac4_med_ar0
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxof";
-                };
-        
-                class 4thmd_b_pac4_med_ar1
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxof";
-                };
-        
-                class 4thmd_b_pac4_med_ar2
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxof";
-                };
-        
-                class 4thmd_b_pac4_med_ar3
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxof";
-                };
-        
-                class 4thmd_b_pac4_eng_ar0
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxof";
-                };
-        
-                class 4thmd_b_pac4_eng_ar1
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxof";
-                };
-        
-                class 4thmd_b_pac4_eng_ar2
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxof";
-                };
-        
-                class 4thmd_b_pac4_eng_ar3
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxof";
-                };
-        
-                class 4thmd_b_pac4_eos_ar0
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxof";
-                };
-        
-                class 4thmd_b_pac4_eos_ar1
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxof";
-                };
-        
-                class 4thmd_b_pac4_eos_ar2
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxof";
-                };
-        
-                class 4thmd_b_pac4_eos_ar3
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxof";
-                };
-            //Radio
-                class 4thmd_b_pac4_rmn_ar0_r
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxon";
-                };
-        
-                class 4thmd_b_pac4_rmn_ar1_r
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxon";
-                };
-        
-                class 4thmd_b_pac4_rmn_ar2_r
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxon";
-                };
-        
-                class 4thmd_b_pac4_rmn_ar3_r
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_rmn";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxon";
-                };
-        
-                class 4thmd_b_pac4_med_ar0_r
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxon";
-                };
-        
-                class 4thmd_b_pac4_med_ar1_r
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxon";
-                };
-        
-                class 4thmd_b_pac4_med_ar2_r
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxon";
-                };
-        
-                class 4thmd_b_pac4_med_ar3_r
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_med";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxon";
-                };
-        
-                class 4thmd_b_pac4_eng_ar0_r
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxon";
-                };
-        
-                class 4thmd_b_pac4_eng_ar1_r
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxon";
-                };
-        
-                class 4thmd_b_pac4_eng_ar2_r
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxon";
-                };
-        
-                class 4thmd_b_pac4_eng_ar3_r
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_eng";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxon";
-                };
-        
-                class 4thmd_b_pac4_eos_ar0_r
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_standard";
-                    4thmd_radio = "4thmd_auxon";
-                };
-        
-                class 4thmd_b_pac4_eos_ar1_r
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid1";
-                    4thmd_radio = "4thmd_auxon";
-                };
-        
-                class 4thmd_b_pac4_eos_ar2_r
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid2";
-                    4thmd_radio = "4thmd_auxon";
-                };
-        
-                class 4thmd_b_pac4_eos_ar3_r
-                {
-                    Model = "4thmd_b_pac4";
-                    4thmd_role = "4thmd_r_eos";
-                    4thmd_color = "4thmd_arid";
-                    4thmd_camo = "4thmd_c_solid3";
-                    4thmd_radio = "4thmd_auxon";
-                };
         //Include Other Patterns
         /*
         #include "wood\XtdI_CfgW_equ.hpp"

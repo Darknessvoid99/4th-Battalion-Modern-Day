@@ -21,6 +21,8 @@ class CfgPatches
 
 #define DEBUG 1 // 1 = OFF, 2 = ON
 
+#include "aceArsenalExtended.hpp"
+
 class CfgMagazines
 {
     class 10Rnd_338_Mag;
@@ -141,7 +143,7 @@ class CfgWeapons
             baseweapon="4th_w_m_858x70_dmr2_spk";
 
             author="Frosty & Mac";
-            displayname="4Bt. Spooks' Heather (.338LM)";
+            displayname="[ARMCO] Spooks' Heather (.338LM)";
 
             hiddenSelectionsTextures[]=
             {

@@ -144,6 +144,48 @@
         textureList[] = {"Woodland_4th",1,};
     };
 
+    class 4thmd_v_lt1_ca_e_wd1 : 4thmd_v_lt1_ca_e_ar1
+    {
+        crew = "4thmd_u_crew_wd1";
+        faction = "4thmd_wd_faction";
+        hiddenSelectionsTextures[] = 
+        {
+            "darkmod_4thmd_veh\data\woodland\dm_lt1_main_wd1.paa",      //Main
+            "darkmod_4thmd_veh\data\woodland\dm_lt1_cannon_wd1.paa",    //Specialised
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_fs1.paa",    //Camo
+            "darkmod_4thmd_veh\data\slat\dm_slat_wd1.paa"           //Slat
+        };
+        textureList[] = {"Woodland_4th",1,};
+    };
+
+    class 4thmd_v_lt1_ca_eb_wd1 : 4thmd_v_lt1_ca_eb_ar1
+    {
+        crew = "4thmd_u_crew_wd1";
+        faction = "4thmd_wd_faction";
+        hiddenSelectionsTextures[] = 
+        {
+            "darkmod_4thmd_veh\data\woodland\dm_lt1_main_wd1.paa",      //Main
+            "darkmod_4thmd_veh\data\woodland\dm_lt1_cannon_wd1.paa",    //Specialised
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_fs1.paa",    //Camo
+            "darkmod_4thmd_veh\data\slat\dm_slat_wd1.paa"           //Slat
+        };
+        textureList[] = {"Woodland_4th",1,};
+    };
+
+    class 4thmd_v_lt1_ca_es_wd1 : 4thmd_v_lt1_ca_es_ar1
+    {
+        crew = "4thmd_u_crew_wd1";
+        faction = "4thmd_wd_faction";
+        hiddenSelectionsTextures[] = 
+        {
+            "darkmod_4thmd_veh\data\woodland\dm_lt1_main_wd1.paa",      //Main
+            "darkmod_4thmd_veh\data\woodland\dm_lt1_cannon_wd1.paa",    //Specialised
+            "darkmod_4thmd_veh\data\camonet\dm_camonet_fs1.paa",    //Camo
+            "darkmod_4thmd_veh\data\slat\dm_slat_wd1.paa"           //Slat
+        };
+        textureList[] = {"Woodland_4th",1,};
+    };
+
     class 4thmd_v_lt1_at_wd1 : 4thmd_v_lt1_at_ar1
     {
         crew = "4thmd_u_crew_wd1";

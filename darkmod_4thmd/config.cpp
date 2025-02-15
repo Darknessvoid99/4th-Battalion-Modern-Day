@@ -164,12 +164,17 @@ class CfgEditorSubcategories
 
     class 4thmd_comp_ac
     {
-        displayName = "ARMCO 4th Battalion (Artic)";
+        displayName = "ARMCO 4th Battalion (Arctic)";
     };
 
     class 4thmd_comp_ju
     {
         displayName = "ARMCO 4th Battalion (Jungle)";
+    };
+
+    class 4thmd_comp_nv
+    {
+        displayName = "ARMCO 4th Battalion (Navy)";
     };
 };
 
@@ -2027,9 +2032,9 @@ class CfgVehicles
             class 4thmd_b_pac1_rmn_ar0_r : 4thmd_b_pac1_rmn_ar0
             {
                 mass = 28;
-                tf_dialog = "anprc152_r_dialog";
+                tf_dialog = "anprc152_radio_dialog";
                 tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
-                tf_encryptionCode = "tf_west_r_code";
+                tf_encryptionCode = "tf_west_radio_code";
                 tf_hasLRradio = 1;
                 tf_range = 5000;
                 tf_subtype = "digital_lr";
@@ -2296,9 +2301,9 @@ class CfgVehicles
             class 4thmd_b_pac2_rmn_ar0_r : 4thmd_b_pac2_rmn_ar0
             {
                 mass = 38;
-                tf_dialog = "anprc152_r_dialog";
+                tf_dialog = "anprc152_radio_dialog";
                 tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
-                tf_encryptionCode = "tf_west_r_code";
+                tf_encryptionCode = "tf_west_radio_code";
                 tf_hasLRradio = 1;
                 tf_range = 5000;
                 tf_subtype = "digital_lr";
@@ -2565,9 +2570,9 @@ class CfgVehicles
             class 4thmd_b_pac3_rmn_ar0_r : 4thmd_b_pac3_rmn_ar0
             {
                 mass = 58;
-                tf_dialog = "anprc152_r_dialog";
+                tf_dialog = "anprc152_radio_dialog";
                 tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
-                tf_encryptionCode = "tf_west_r_code";
+                tf_encryptionCode = "tf_west_radio_code";
                 tf_hasLRradio = 1;
                 tf_range = 5000;
                 tf_subtype = "digital_lr";
@@ -2834,9 +2839,9 @@ class CfgVehicles
             class 4thmd_b_pac4_rmn_ar0_r : 4thmd_b_pac4_rmn_ar0
             {
                 mass = 68;
-                tf_dialog = "anprc152_r_dialog";
+                tf_dialog = "anprc152_radio_dialog";
                 tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
-                tf_encryptionCode = "tf_west_r_code";
+                tf_encryptionCode = "tf_west_radio_code";
                 tf_hasLRradio = 1;
                 tf_range = 5000;
                 tf_subtype = "digital_lr";
@@ -3194,7 +3199,7 @@ class XtdGearModels
             class 4thmd_type
             {
                 alwaysSelectable = 1;
-				changeingame = 1;
+				changeingame = 0;
 				changedelay = 0;
 				label = "Type";
                 values[]=
@@ -3232,7 +3237,7 @@ class XtdGearModels
             class 4thmd_color
             {
                 alwaysSelectable = 1;
-				changeingame = 1;
+				changeingame = 0;
 				changedelay = 0;
                 label = "Camouflage";
                 values[] =
@@ -3306,9 +3311,9 @@ class XtdGearModels
 
             class 4thmd_rollup
             {
-                alwaysSelectable = 1;
+                alwaysSelectable = 0;
 				changeingame = 1;
-				changedelay = 0;
+				changedelay = 3;
                 label = "Roll-Up Sleeves";
                 values[] =
                 {
@@ -3345,7 +3350,7 @@ class XtdGearModels
             class 4thmd_squad
             {
                 alwaysSelectable = 1;
-				changeingame = 1;
+				changeingame = 0;
 				changedelay = 0;
                 label = "Squad";
                 values[] =
@@ -3384,7 +3389,7 @@ class XtdGearModels
             class 4thmd_type
             {
                 alwaysSelectable = 1;
-				changeingame = 1;
+				changeingame = 0;
 				changedelay = 0;
 				label = "Type";
                 values[]=
@@ -3422,7 +3427,7 @@ class XtdGearModels
             class 4thmd_color
             {
                 alwaysSelectable = 1;
-				changeingame = 1;
+				changeingame = 0;
 				changedelay = 0;
                 label = "Camouflage";
                 values[] =
@@ -3497,7 +3502,7 @@ class XtdGearModels
             class 4thmd_camo
             {
                 alwaysSelectable = 1;
-				changeingame = 1;
+				changeingame = 0;
 				changedelay = 0;
                 label = "Pattern";
                 values[] =
@@ -3537,7 +3542,7 @@ class XtdGearModels
             {
                 alwaysSelectable = 1;
 				changeingame = 1;
-				changedelay = 0;
+				changedelay = 3;
                 label = "Roll-Up Sleeves";
                 values[] =
                 {
@@ -3571,7 +3576,7 @@ class XtdGearModels
             class 4thmd_color
             {
                 alwaysSelectable = 1;
-				changeingame = 1;
+				changeingame = 0;
 				changedelay = 0;
                 label = "Environment";
                 values[] =
@@ -3646,7 +3651,7 @@ class XtdGearModels
             class 4thmd_camo
             {
                 alwaysSelectable = 1;
-				changeingame = 1;
+				changeingame = 0;
 				changedelay = 0;
                 label = "Camouflage";
                 values[] =
@@ -3700,7 +3705,7 @@ class XtdGearModels
             class 4thmd_role
             {
                 alwaysSelectable = 1;
-				changeingame = 1;
+				changeingame = 0;
 				changedelay = 0;
 				label = "Role";
                 values[]=
@@ -3740,7 +3745,7 @@ class XtdGearModels
             class 4thmd_color
             {
                 alwaysSelectable = 1;
-				changeingame = 1;
+				changeingame = 0;
 				changedelay = 0;
                 label = "Camouflage";
                 values[] =
@@ -3815,7 +3820,7 @@ class XtdGearModels
             class 4thmd_camo
             {
                 alwaysSelectable = 1;
-				changeingame = 1;
+				changeingame = 0;
 				changedelay = 0;
                 label = "Pattern";
                 values[] =
@@ -3855,7 +3860,7 @@ class XtdGearModels
             {
                 alwaysSelectable = 1;
 				changeingame = 1;
-				changedelay = 0;
+				changedelay = 10;
                 label = "Secondary Radio";
                 values[] =
                 {
@@ -3867,12 +3872,15 @@ class XtdGearModels
                 {
                     label = "None";
                     image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    actionlabel = "Remove Secondary Radio";
                 };
 
                 class 4thmd_auxon
                 {
                     label = "AN/PRC-152";
                     image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    actionlabel = "Setup Secondary AN/PRC-152";
+                    itemingame = "rhsusf_radio_anprc152";
                 };
             };
         };
@@ -4046,7 +4054,7 @@ class XtdGearModels
             {
                 alwaysSelectable = 1;
 				changeingame = 1;
-				changedelay = 0;
+				changedelay = 10;
                 label = "Secondary Radio";
                 values[] =
                 {
@@ -4058,12 +4066,15 @@ class XtdGearModels
                 {
                     label = "None";
                     image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    actionlabel = "Remove Secondary Radio";
                 };
 
                 class 4thmd_auxon
                 {
                     label = "AN/PRC-152";
                     image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    actionlabel = "Setup Secondary AN/PRC-152";
+                    itemingame = "rhsusf_radio_anprc152";
                 };
             };
         };
@@ -4237,7 +4248,7 @@ class XtdGearModels
             {
                 alwaysSelectable = 1;
 				changeingame = 1;
-				changedelay = 0;
+				changedelay = 10;
                 label = "Secondary Radio";
                 values[] =
                 {
@@ -4249,12 +4260,15 @@ class XtdGearModels
                 {
                     label = "None";
                     image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    actionlabel = "Remove Secondary Radio";
                 };
 
                 class 4thmd_auxon
                 {
                     label = "AN/PRC-152";
                     image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    actionlabel = "Setup Secondary AN/PRC-152";
+                    itemingame = "rhsusf_radio_anprc152";
                 };
             };
         };
@@ -4428,7 +4442,7 @@ class XtdGearModels
             {
                 alwaysSelectable = 1;
 				changeingame = 1;
-				changedelay = 0;
+				changedelay = 10;
                 label = "Secondary Radio";
                 values[] =
                 {
@@ -4440,12 +4454,15 @@ class XtdGearModels
                 {
                     label = "None";
                     image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    actionlabel = "Remove Secondary Radio";
                 };
 
                 class 4thmd_auxon
                 {
                     label = "AN/PRC-152";
                     image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    actionlabel = "Setup Secondary AN/PRC-152";
+                    itemingame = "rhsusf_radio_anprc152";
                 };
             };
         };

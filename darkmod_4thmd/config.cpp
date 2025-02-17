@@ -2032,7 +2032,7 @@ class CfgVehicles
             class 4thmd_b_pac1_rmn_ar0_r : 4thmd_b_pac1_rmn_ar0
             {
                 mass = 28;
-                tf_dialog = "anprc152_radio_dialog";
+                tf_dialog = "bussole_radio_dialog";
                 tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
                 tf_encryptionCode = "tf_west_radio_code";
                 tf_hasLRradio = 1;
@@ -2301,7 +2301,7 @@ class CfgVehicles
             class 4thmd_b_pac2_rmn_ar0_r : 4thmd_b_pac2_rmn_ar0
             {
                 mass = 38;
-                tf_dialog = "anprc152_radio_dialog";
+                tf_dialog = "bussole_radio_dialog";
                 tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
                 tf_encryptionCode = "tf_west_radio_code";
                 tf_hasLRradio = 1;
@@ -2570,7 +2570,7 @@ class CfgVehicles
             class 4thmd_b_pac3_rmn_ar0_r : 4thmd_b_pac3_rmn_ar0
             {
                 mass = 58;
-                tf_dialog = "anprc152_radio_dialog";
+                tf_dialog = "bussole_radio_dialog";
                 tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
                 tf_encryptionCode = "tf_west_radio_code";
                 tf_hasLRradio = 1;
@@ -2839,7 +2839,7 @@ class CfgVehicles
             class 4thmd_b_pac4_rmn_ar0_r : 4thmd_b_pac4_rmn_ar0
             {
                 mass = 68;
-                tf_dialog = "anprc152_radio_dialog";
+                tf_dialog = "bussole_radio_dialog";
                 tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
                 tf_encryptionCode = "tf_west_radio_code";
                 tf_hasLRradio = 1;
@@ -6530,3 +6530,10 @@ class XtdGearInfos
         */
     };
 };
+
+class RscBackPicture;
+class RscEditLCD;
+class HiddenButton;
+class HiddenRotator;
+class HiddenFlip;
+class rt1523g_radio_dialog;

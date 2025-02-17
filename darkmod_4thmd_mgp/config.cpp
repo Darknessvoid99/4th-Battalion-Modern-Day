@@ -145,6 +145,9 @@ class CfgWeapons
 
                 class ItemInfo : ItemInfo
                 {
+                    mass=70;
+                    containerClass="Supply140";
+
                     class HitpointsProtectionInfo
                     {
                         class Chest
@@ -537,8 +540,8 @@ class CfgWeapons
                         "camo2"
                     };
 
-                    containerClass="Supply60";
-                    mass=60;
+                    containerClass="Supply80";
+                    mass=50;
                 };
             };
 
@@ -600,7 +603,7 @@ class CfgWeapons
                     };
 
                     containerClass="Supply200";
-                    mass=100;
+                    mass=80;
                 };
             };
 
@@ -995,6 +998,9 @@ class CfgWeapons
 
                 class ItemInfo : ItemInfo
                 {
+                    mass=110;
+                    containerClass="Supply140";
+
                     class HitpointsProtectionInfo
                     {
                         class Neck
@@ -1398,8 +1404,8 @@ class CfgWeapons
                         "camo2"
                     };
 
-                    containerClass="Supply60";
-                    mass=60;
+                    containerClass="Supply80";
+                    mass=90;
                 };
             };
 
@@ -1461,7 +1467,7 @@ class CfgWeapons
                     };
 
                     containerClass="Supply200";
-                    mass=100;
+                    mass=120;
                 };
             };
 
@@ -1857,6 +1863,9 @@ class CfgWeapons
 
                 class ItemInfo : ItemInfo
                 {
+                    mass=90;
+                    containerClass="Supply140";
+
                     class HitpointsProtectionInfo
                     {
                         class Chest
@@ -2249,8 +2258,8 @@ class CfgWeapons
                         "camo2"
                     };
 
-                    containerClass="Supply60";
-                    mass=60;
+                    containerClass="Supply80";
+                    mass=70;
                 };
             };
 
@@ -2687,7 +2696,11 @@ class CfgWeapons
                 };
             };
     //Battle Belt (mgbb)
-        class milgp_v_battle_belt_assaulter_KHK;
+        class milgp_v_battle_belt_assaulter_KHK : ItemCore
+        {
+            class ItemInfo;
+        };
+
         class 4thmd_v_mgbb_rmn_ar0 : milgp_v_battle_belt_assaulter_KHK
         {
             scope = 2;
@@ -2698,6 +2711,12 @@ class CfgWeapons
                 "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                 "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
                 "milgp_vests\textures\v_gear_02_co.paa"
+            };
+
+            class ItemInfo : ItemInfo
+            {
+                mass=10;
+                containerClass="Supply80";
             };
         };
 
@@ -2731,7 +2750,11 @@ class CfgWeapons
             };
         };
 
-        class milgp_v_battle_belt_hgunner_KHK;
+        class milgp_v_battle_belt_hgunner_KHK : ItemCore
+        {
+            class ItemInfo;
+        };
+        
         class 4thmd_v_mgbb_mgs_ar0 : milgp_v_battle_belt_hgunner_KHK
         {
             scope = 2;
@@ -2742,6 +2765,12 @@ class CfgWeapons
                 "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                 "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
                 "milgp_vests\textures\v_gear_02_co.paa"
+            };
+
+            class ItemInfo : ItemInfo
+            {
+                mass=10;
+                containerClass="Supply80";
             };
         };
 

@@ -910,6 +910,52 @@ class CfgWeapons
             };
         };
 
+    //Baseball Cap (hat1)
+
+    class milgp_h_cap_01_khk;
+    class 4thmd_h_hat1_ar0 : milgp_h_cap_01_khk
+    {
+        scope = 2;
+        author = "Darknesvoid99";
+        displayName = "[ARMCO] Cap";
+
+        hiddenSelectionsTextures[] = 
+        {
+            "darkmod_4thmd\data\mgbc_test.paa"
+        };
+    };
+
+    //Boonie Hat (hat2)
+
+    class H_Booniehat_khk;
+    class 4thmd_h_hat2_ar0 : H_Booniehat_khk
+    {
+        scope = 2;
+        author = "Darknesvoid99";
+        displayName = "[ARMCO] Boonie Hat";
+
+        hiddenSelectionsTextures[] = 
+        {
+            "darkmod_4thmd\data\hat2_test.paa"
+        };
+    };
+
+    //Patrol Cap (hat3)
+
+    class H_MilCap_gry;
+    class 4thmd_h_hat3_ar0 : H_MilCap_gry
+    {
+        scope = 2;
+        author = "Darknesvoid99";
+        displayName = "[ARMCO] Patrol Cap";
+
+        hiddenSelectionsTextures[] = 
+        {
+            "darkmod_4thmd\data\hat3_test.paa"
+        };
+    };
+
+    //Wool Cap (hat4)
     //Include Other Patterns 
     /*
     #include "wood\CfgW_equ.hpp"

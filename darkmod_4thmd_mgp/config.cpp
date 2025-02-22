@@ -2819,7 +2819,7 @@ class CfgWeapons
                 TFAR_ExternalIntercomWirelessCapable = 1;
                 ace_hearing_hasEHP = 1;
                 ace_hearing_lowerVolume = 0;
-                ace_hearing_protection = 0.75;
+                ace_hearing_protection = 0.95;
 
                 hiddenSelections[] =
                 {
@@ -3309,7 +3309,7 @@ class CfgWeapons
                 TFAR_ExternalIntercomWirelessCapable = 1;
                 ace_hearing_hasEHP = 1;
                 ace_hearing_lowerVolume = 0;
-                ace_hearing_protection = 0.75;
+                ace_hearing_protection = 0.95;
 
                 hiddenSelections[] =
                 {
@@ -3855,6 +3855,19 @@ class CfgWeapons
                 };
             };
 
+    //Cap (mgbc)
+        class milgp_h_cap_01_khk;
+        class 4thmd_h_hat1_ar0 : milgp_h_cap_01_khk
+        {
+            scope = 2;
+            author = "Darknesvoid99";
+            displayName = "[ARMCO] Cap";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\mgbc_test.paa"
+            };
+        };
     //Include Other Patterns 
     /*
     #include "wood\CfgW_equ.hpp"

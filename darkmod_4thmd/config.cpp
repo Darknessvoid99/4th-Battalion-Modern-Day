@@ -911,51 +911,569 @@ class CfgWeapons
         };
 
     //Baseball Cap (hat1)
-
-    class milgp_h_cap_01_khk;
-    class 4thmd_h_hat1_ar0 : milgp_h_cap_01_khk
-    {
-        scope = 2;
-        author = "Darknesvoid99";
-        displayName = "[ARMCO] Cap";
-
-        hiddenSelectionsTextures[] = 
+        class H_Cap_red;
+        class H_Cap_oli : H_Cap_red
         {
-            "darkmod_4thmd\data\mgbc_test.paa"
+            ItemInfo;
         };
-    };
+        class H_Cap_oli_hs : H_Cap_oli
+        {
+            ItemInfo;
+        };
+        
+        //Standard
+            class 4thmd_h_hat1_ar0 : H_Cap_oli
+            {
+                scope = 2;
+                author = "Darknesvoid99";
+                displayName = "[ARMCO] Cap";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hat1_ar0.paa"
+                };
+
+                class ItemInfo : ItemInfo
+                {
+                    mass = 4;
+                };
+            };
+
+            class 4thmd_h_hat1_ar1 : 4thmd_h_hat1_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hat1_ar1.paa"
+                };
+            };
+
+            class 4thmd_h_hat1_ar2 : 4thmd_h_hat1_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hat1_ar2.paa"
+                };
+            };
+
+            class 4thmd_h_hat1_ar3 : 4thmd_h_hat1_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hat1_ar3.paa"
+                };
+            };
+
+        //Headset
+            class 4thmd_h_hat1_ar0_hs : H_Cap_oli_hs
+            {
+                scope = 2;
+                author = "Darknesvoid99";
+                displayName = "[ARMCO] Cap";
+
+                TFAR_ExternalIntercomWirelessCapable = 1;
+                ace_hearing_hasEHP = 1;
+                ace_hearing_lowerVolume = 0;
+                ace_hearing_protection = 0.75;
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hat1_ar0.paa"
+                };
+
+                class ItemInfo : ItemInfo
+                {
+                    mass = 4;
+                };
+            };
+
+            class 4thmd_h_hat1_ar1_hs : 4thmd_h_hat1_ar0_hs
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hat1_ar1.paa"
+                };
+            };
+
+            class 4thmd_h_hat1_ar2_hs : 4thmd_h_hat1_ar0_hs
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hat1_ar2.paa"
+                };
+            };
+
+            class 4thmd_h_hat1_ar3_hs : 4thmd_h_hat1_ar0_hs
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hat1_ar3.paa"
+                };
+            };
 
     //Boonie Hat (hat2)
-
-    class H_Booniehat_khk;
-    class 4thmd_h_hat2_ar0 : H_Booniehat_khk
-    {
-        scope = 2;
-        author = "Darknesvoid99";
-        displayName = "[ARMCO] Boonie Hat";
-
-        hiddenSelectionsTextures[] = 
+        class H_Booniehat_khk : HelmetBase
         {
-            "darkmod_4thmd\data\hat2_test.paa"
+            ItemInfo;
         };
-    };
+        class H_Booniehat_khk_hs : H_Booniehat_khk
+        {
+            ItemInfo;
+        };
+
+        //Standard
+            class 4thmd_h_hat2_ar0 : H_Booniehat_khk
+            {
+                scope = 2;
+                author = "Darknesvoid99";
+                displayName = "[ARMCO] Boonie Hat";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hat2_ar0.paa"
+                };
+
+                class ItemInfo : ItemInfo
+                {
+                    mass = 4;
+                };
+            };
+
+            class 4thmd_h_hat2_ar1 : 4thmd_h_hat2_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hat2_ar1.paa"
+                };
+            };
+
+            class 4thmd_h_hat2_ar2 : 4thmd_h_hat2_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hat2_ar2.paa"
+                };
+            };
+
+            class 4thmd_h_hat2_ar3 : 4thmd_h_hat2_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hat2_ar3.paa"
+                };
+            };
+        
+        //Headset
+            class 4thmd_h_hat2_ar0_hs : H_Booniehat_khk_hs
+            {
+                scope = 2;
+                author = "Darknesvoid99";
+                displayName = "[ARMCO] Boonie Hat";
+
+                TFAR_ExternalIntercomWirelessCapable = 1;
+                ace_hearing_hasEHP = 1;
+                ace_hearing_lowerVolume = 0;
+                ace_hearing_protection = 0.75;
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hat2_ar0.paa"
+                };
+
+                class ItemInfo : ItemInfo
+                {
+                    mass = 4;
+                };
+            };
+
+            class 4thmd_h_hat2_ar1_hs : 4thmd_h_hat2_ar0_hs
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hat2_ar1.paa"
+                };
+            };
+
+            class 4thmd_h_hat2_ar2_hs : 4thmd_h_hat2_ar0_hs
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hat2_ar2.paa"
+                };
+            };
+
+            class 4thmd_h_hat2_ar3_hs : 4thmd_h_hat2_ar0_hs
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hat2_ar3.paa"
+                };
+            };
 
     //Patrol Cap (hat3)
-
-    class H_MilCap_gry;
-    class 4thmd_h_hat3_ar0 : H_MilCap_gry
-    {
-        scope = 2;
-        author = "Darknesvoid99";
-        displayName = "[ARMCO] Patrol Cap";
-
-        hiddenSelectionsTextures[] = 
+        class H_MilCap_oucamo;
+        class H_MilCap_gry : H_MilCap_oucamo
         {
-            "darkmod_4thmd\data\hat3_test.paa"
+            ItemInfo;
         };
-    };
+
+        class 4thmd_h_hat3_ar0 : H_MilCap_gry
+        {
+            scope = 2;
+            author = "Darknesvoid99";
+            displayName = "[ARMCO] Patrol Cap";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\hat3_ar0.paa"
+            };
+
+            TFAR_ExternalIntercomWirelessCapable = 1;
+            ace_hearing_hasEHP = 1;
+            ace_hearing_lowerVolume = 0;
+            ace_hearing_protection = 0.75;
+
+            class ItemInfo : ItemInfo
+            {
+                mass = 4;
+            };
+        };
+
+        class 4thmd_h_hat3_ar1 : 4thmd_h_hat3_ar0
+        {
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\hat3_ar1.paa"
+            };
+        };
+
+        class 4thmd_h_hat3_ar2 : 4thmd_h_hat3_ar0
+        {
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\hat3_ar1.paa"
+            };
+        };
+
+        class 4thmd_h_hat3_ar3 : 4thmd_h_hat3_ar0
+        {
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\hat3_ar1.paa"
+            };
+        };
 
     //Wool Cap (hat4)
+        class H_Watchcap_blk;
+        class H_Watchcap_khk : H_Watchcap_blk
+        {
+            ItemInfo;
+        };
+
+        class 4thmd_h_hat4_ar0 : H_Watchcap_khk
+        {
+            scope = 2;
+            author = "Darknesvoid99";
+            displayName = "[ARMCO] Beanie";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\hat4_ar0.paa"
+            };
+
+            TFAR_ExternalIntercomWirelessCapable = 1;
+            ace_hearing_hasEHP = 1;
+            ace_hearing_lowerVolume = 0;
+            ace_hearing_protection = 0.75;
+
+            class ItemInfo : ItemInfo
+            {
+                mass = 4;
+            };
+        };
+
+        class 4thmd_h_hat4_ar1 : 4thmd_h_hat4_ar0
+        {
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\hat4_ar1.paa"
+            };
+        };
+
+        class 4thmd_h_hat4_ar2 : 4thmd_h_hat4_ar0
+        {
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\hat4_ar2.paa"
+            };
+        };
+
+        class 4thmd_h_hat4_ar3 : 4thmd_h_hat4_ar0
+        {
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\hat4_ar3.paa"
+            };
+        };
+
+    //Bandana (hcw1)
+        class H_Bandanna_surfer;
+        class H_Bandanna_khk : H_Bandanna_surfer
+        {
+            ItemInfo;
+        };
+        class H_Bandanna_khk_hs : H_Bandanna_khk
+        {
+            ItemInfo;
+        };
+        //Standard
+            class 4thmd_h_hcw1_ar0 : H_Bandanna_khk
+            {
+                scope = 2;
+                author = "Darknesvoid99";
+                displayName = "[ARMCO] Bandana";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hcw1_ar0.paa"
+                };
+
+                class ItemInfo : ItemInfo
+                {
+                    mass = 4;
+                };
+            };
+
+            class 4thmd_h_hcw1_ar1 : 4thmd_h_hcw1_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hcw1_ar1.paa"
+                };
+            };
+
+            class 4thmd_h_hcw1_ar2 : 4thmd_h_hcw1_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hcw1_ar2.paa"
+                };
+            };
+
+            class 4thmd_h_hcw1_ar3 : 4thmd_h_hcw1_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hcw1_ar3.paa"
+                };
+            };
+        //Headset
+            class 4thmd_h_hcw1_ar0_hs : H_Bandanna_khk_hs
+            {
+                scope = 2;
+                author = "Darknesvoid99";
+                displayName = "[ARMCO] Bandana";
+
+                TFAR_ExternalIntercomWirelessCapable = 1;
+                ace_hearing_hasEHP = 1;
+                ace_hearing_lowerVolume = 0;
+                ace_hearing_protection = 0.75;
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hcw1_ar0.paa"
+                };
+
+                class ItemInfo : ItemInfo
+                {
+                    mass = 4;
+                };
+            };
+
+            class 4thmd_h_hcw1_ar1_hs : 4thmd_h_hcw1_ar0_hs
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hcw1_ar1.paa"
+                };
+            };
+
+            class 4thmd_h_hcw1_ar2_hs : 4thmd_h_hcw1_ar0_hs
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hcw1_ar2.paa"
+                };
+            };
+
+            class 4thmd_h_hcw1_ar3_hs : 4thmd_h_hcw1_ar0_hs
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hcw1_ar3.paa"
+                };
+            };
+
+    //Shemag (hcw2)
+        class H_Shemag_khk;
+        class H_Shemag_olive : H_Shemag_khk
+        {
+            ItemInfo;
+        };
+        class H_Shemag_olive_hs : H_Shemag_olive
+        {
+            ItemInfo;
+        };
+
+        //Standard
+            class 4thmd_h_hcw2_ar0 : H_Shemag_olive
+            {
+                scope = 2;
+                author = "Darknesvoid99";
+                displayName = "[ARMCO] Shemag";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hcw2_ar0.paa"
+                };
+
+                class ItemInfo : ItemInfo
+                {
+                    mass = 4;
+                };
+            };
+
+            class 4thmd_h_hcw2_ar1 : 4thmd_h_hcw1_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hcw2_ar1.paa"
+                };
+            };
+
+            class 4thmd_h_hcw2_ar2 : 4thmd_h_hcw1_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hcw2_ar2.paa"
+                };
+            };
+
+            class 4thmd_h_hcw2_ar3 : 4thmd_h_hcw1_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hcw2_ar3.paa"
+                };
+            };
+        //Headset
+            class 4thmd_h_hcw2_ar0_hs : H_Shemag_olive_hs
+            {
+                scope = 2;
+                author = "Darknesvoid99";
+                displayName = "[ARMCO] Bandana";
+
+                TFAR_ExternalIntercomWirelessCapable = 1;
+                ace_hearing_hasEHP = 1;
+                ace_hearing_lowerVolume = 0;
+                ace_hearing_protection = 0.75;
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hcw2_ar0.paa"
+                };
+
+                class ItemInfo : ItemInfo
+                {
+                    mass = 4;
+                };
+            };
+
+            class 4thmd_h_hcw1_ar2_hs : 4thmd_h_hcw1_ar0_hs
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hcw2_ar1.paa"
+                };
+            };
+
+            class 4thmd_h_hcw2_ar2_hs : 4thmd_h_hcw1_ar0_hs
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hcw2_ar2.paa"
+                };
+            };
+
+            class 4thmd_h_hcw2_ar3_hs : 4thmd_h_hcw1_ar0_hs
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\hcw2_ar3.paa"
+                };
+            };
+
+    //Crew Helmet (hmc1)
+        class H_HelmetB;
+        class H_HelmetCrew_B : H_HelmetB
+        {
+            ItemInfo;
+        };
+
+        class 4thmd_h_hmc1_ar0 : H_HelmetCrew_B
+        {
+            scope = 2;
+            author = "Darknesvoid99";
+            displayName = "[ARMCO] Bandana";
+
+            TFAR_ExternalIntercomWirelessCapable = 1;
+            ace_hearing_lowerVolume = 0.6;
+            ace_hearing_protection = 1;
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\hmc1_ar0.paa"
+            };
+
+            class ItemInfo : ItemInfo
+            {
+                mass = 50;
+
+                class HitpointsProtectionInfo
+                {
+                    class Head
+                    {
+                        armor = 16;
+                        hitPointName = "HitHead";
+                        passThrough = 0.8;
+                    };
+                };
+            };
+        };
+
+        class 4thmd_h_hmc1_ar1 : 4thmd_h_hmc1_ar0
+        {
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\hmc1_ar1.paa"
+            };
+        };
+
+        class 4thmd_h_hmc1_ar2 : 4thmd_h_hmc1_ar0
+        {
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\hmc1_ar2.paa"
+            };
+        };
+
+        class 4thmd_h_hmc1_ar3 : 4thmd_h_hmc1_ar0
+        {
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\hmc1_ar3.paa"
+            };
+        };
+
     //Include Other Patterns 
     /*
     #include "wood\CfgW_equ.hpp"
@@ -6576,10 +7094,3 @@ class XtdGearInfos
         */
     };
 };
-
-class RscBackPicture;
-class RscEditLCD;
-class HiddenButton;
-class HiddenRotator;
-class HiddenFlip;
-class rt1523g_radio_dialog;

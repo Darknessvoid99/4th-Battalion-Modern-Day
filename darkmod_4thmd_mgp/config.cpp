@@ -3856,18 +3856,615 @@ class CfgWeapons
             };
 
     //Cap (mgbc)
-        class milgp_h_cap_01_khk;
-        class 4thmd_h_hat1_ar0 : milgp_h_cap_01_khk
-        {
-            scope = 2;
-            author = "Darknesvoid99";
-            displayName = "[ARMCO] Cap";
+        //Backwards Cap
+            //Standard
+                class milgp_h_cap_backwards_01_khk : ItemCore
+                {
+                    class ItemInfo;
+                };
 
-            hiddenSelectionsTextures[] = 
-            {
-                "darkmod_4thmd\data\mgbc_test.paa"
-            };
-        };
+                class 4thmd_h_mgbc_b_a_ar0 : milgp_h_cap_backwards_01_khk
+                {
+                    scope = 2;
+                    author = "Darknesvoid99";
+                    displayName = "[ARMCO] Cap";
+
+                    model="\milgp_headgear\models\h_cap_backwards_base.p3d";
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar0.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar0.paa"
+                    };
+                    hiddenSelections[]=
+                    {
+                        "camo",
+                        "camo1",
+                        "_ESS",
+                        "_Surefire",
+                        "_Peltor"
+                    };
+
+                    class ItemInfo : ItemInfo
+                    {
+                        mass = 4;
+
+                        uniformModel="\milgp_headgear\models\h_cap_backwards_base.p3d";
+                        hiddenSelections[]=
+                        {
+                            "camo",
+                            "camo1",
+                            "_ESS",
+                            "_Surefire",
+                            "_Peltor"
+                        };
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_a_ar1 : 4thmd_h_mgbc_b_a_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar1.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar1.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_a_ar2 : 4thmd_h_mgbc_b_a_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar2.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar2.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_a_ar3 : 4thmd_h_mgbc_b_a_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar3.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar3.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_b_ar0 : 4thmd_h_mgbc_b_a_ar0
+                {
+                    TFAR_ExternalIntercomWirelessCapable = 1;
+                    ace_hearing_hasEHP = 1;
+                    ace_hearing_lowerVolume = 0;
+                    ace_hearing_protection = 0.95;
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar0.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar0.paa"
+                    };
+                    hiddenSelections[]=
+                    {
+                        "camo",
+                        "camo1",
+                        "_ESS",
+                        "_Surefire"
+                    };
+
+                    class ItemInfo : ItemInfo
+                    {
+                        hiddenSelections[]=
+                        {
+                            "camo",
+                            "camo1",
+                            "_ESS",
+                            "_Surefire"
+                        };
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_b_ar1 : 4thmd_h_mgbc_b_b_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar1.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar1.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_b_ar2 : 4thmd_h_mgbc_b_b_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar2.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar2.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_b_ar3 : 4thmd_h_mgbc_b_b_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar3.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar3.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_c_ar0 : 4thmd_h_mgbc_b_b_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar0.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar0.paa"
+                    };
+                    hiddenSelections[]=
+                    {
+                        "camo",
+                        "camo1",
+                        "_ESS"
+                    };
+
+                    class ItemInfo : ItemInfo
+                    {
+                        hiddenSelections[]=
+                        {
+                            "camo",
+                            "camo1",
+                            "_ESS"
+                        };
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_c_ar1 : 4thmd_h_mgbc_b_c_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar1.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar1.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_c_ar2 : 4thmd_h_mgbc_b_c_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar2.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar2.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_c_ar3 : 4thmd_h_mgbc_b_c_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar3.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar3.paa"
+                    };
+                };
+
+            //Goggles
+                class 4thmd_h_mgbc_b_a_ar0_g : 4thmd_h_mgbc_b_a_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar0.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar0.paa"
+                    };
+                    hiddenSelections[]=
+                    {
+                        "camo",
+                        "camo1",
+                        "_Surefire",
+                        "_Peltor"
+                    };
+
+                    class ItemInfo : ItemInfo
+                    {
+                        hiddenSelections[]=
+                        {
+                            "camo",
+                            "camo1",
+                            "_Surefire",
+                            "_Peltor"
+                        };
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_a_ar1_g : 4thmd_h_mgbc_b_a_ar0_g
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar1.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar1.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_a_ar2_g : 4thmd_h_mgbc_b_a_ar0_g
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar2.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar2.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_a_ar3_g : 4thmd_h_mgbc_b_a_ar0_g
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar3.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar3.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_b_ar0_g : 4thmd_h_mgbc_b_b_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar0.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar0.paa"
+                    };
+                    hiddenSelections[]=
+                    {
+                        "camo",
+                        "camo1",
+                        "_Surefire"
+                    };
+
+                    class ItemInfo : ItemInfo
+                    {
+                        hiddenSelections[]=
+                        {
+                            "camo",
+                            "camo1",
+                            "_Surefire"
+                        };
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_b_ar1_g : 4thmd_h_mgbc_b_b_ar0_g
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar1.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar1.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_b_ar2_g : 4thmd_h_mgbc_b_b_ar0_g
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar2.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar2.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_b_ar3_g : 4thmd_h_mgbc_b_b_ar0_g
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar3.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar3.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_c_ar0_g : 4thmd_h_mgbc_b_b_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar0.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar0.paa"
+                    };
+                    hiddenSelections[]=
+                    {
+                        "camo",
+                        "camo1"
+                    };
+
+                    class ItemInfo : ItemInfo
+                    {
+                        hiddenSelections[]=
+                        {
+                            "camo",
+                            "camo1"
+                        };
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_c_ar1_g : 4thmd_h_mgbc_b_c_ar0_g
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar1.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar1.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_c_ar2_g : 4thmd_h_mgbc_b_c_ar0_g
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar2.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar2.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_b_c_ar3_g : 4thmd_h_mgbc_b_c_ar0_g
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar3.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar3.paa"
+                    };
+                };
+
+        //Forward Cap
+            //Standard
+                class 4thmd_h_mgbc_f_b_ar0 : 4thmd_h_mgbc_b_b_ar0
+                {
+                    model="\milgp_headgear\models\h_cap_base.p3d";
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar0.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar0.paa"
+                    };
+                    hiddenSelections[]=
+                    {
+                        "camo",
+                        "camo1",
+                        "_ESS",
+                        "_Surefire"
+                    };
+
+                    class ItemInfo : ItemInfo
+                    {
+                        uniformModel="\milgp_headgear\models\h_cap_base.p3d";
+                        hiddenSelections[]=
+                        {
+                            "camo",
+                            "camo1",
+                            "_ESS",
+                            "_Surefire"
+                        };
+                    };
+                };
+
+                class 4thmd_h_mgbc_f_b_ar1 : 4thmd_h_mgbc_f_b_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar1.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar1.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_f_b_ar2 : 4thmd_h_mgbc_f_b_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar2.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar2.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_f_b_ar3 : 4thmd_h_mgbc_f_b_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar3.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar3.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_f_c_ar0 : 4thmd_h_mgbc_f_b_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar0.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar0.paa"
+                    };
+                    hiddenSelections[]=
+                    {
+                        "camo",
+                        "camo1",
+                        "_ESS"
+                    };
+
+                    class ItemInfo : ItemInfo
+                    {
+                        hiddenSelections[]=
+                        {
+                            "camo",
+                            "camo1",
+                            "_ESS"
+                        };
+                    };
+                };
+
+                class 4thmd_h_mgbc_f_c_ar1 : 4thmd_h_mgbc_f_c_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar1.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar1.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_f_c_ar2 : 4thmd_h_mgbc_f_c_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar2.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar2.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_f_c_ar3 : 4thmd_h_mgbc_f_c_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar3.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar3.paa"
+                    };
+                };
+
+            //Goggles
+                class 4thmd_h_mgbc_f_a_ar0_g : 4thmd_h_mgbc_b_a_ar0
+                {
+                    model="\milgp_headgear\models\h_cap_base.p3d";
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar0.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar0.paa"
+                    };
+                    hiddenSelections[]=
+                    {
+                        "camo",
+                        "camo1",
+                        "_Surefire",
+                        "_Peltor"
+                    };
+
+                    class ItemInfo : ItemInfo
+                    {
+                        uniformModel="\milgp_headgear\models\h_cap_base.p3d";
+                        hiddenSelections[]=
+                        {
+                            "camo",
+                            "camo1",
+                            "_Surefire",
+                            "_Peltor"
+                        };
+                    };
+                };
+
+                class 4thmd_h_mgbc_f_a_ar1_g : 4thmd_h_mgbc_f_a_ar0_g
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar1.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar1.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_f_a_ar2_g : 4thmd_h_mgbc_f_a_ar0_g
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar2.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar2.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_f_a_ar3_g : 4thmd_h_mgbc_f_a_ar0_g
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar3.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar3.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_f_b_ar0_g : 4thmd_h_mgbc_f_b_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar0.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar0.paa"
+                    };
+                    hiddenSelections[]=
+                    {
+                        "camo",
+                        "camo1",
+                        "_Surefire"
+                    };
+
+                    class ItemInfo : ItemInfo
+                    {
+                        hiddenSelections[]=
+                        {
+                            "camo",
+                            "camo1",
+                            "_Surefire"
+                        };
+                    };
+                };
+
+                class 4thmd_h_mgbc_f_b_ar1_g : 4thmd_h_mgbc_f_b_ar0_g
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar1.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar1.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_f_b_ar2_g : 4thmd_h_mgbc_f_b_ar0_g
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar2.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar2.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_f_b_ar3_g : 4thmd_h_mgbc_f_b_ar0_g
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar3.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar3.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_f_c_ar0_g : 4thmd_h_mgbc_f_b_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar0.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar0.paa"
+                    };
+                    hiddenSelections[]=
+                    {
+                        "camo",
+                        "camo1"
+                    };
+
+                    class ItemInfo : ItemInfo
+                    {
+                        hiddenSelections[]=
+                        {
+                            "camo",
+                            "camo1"
+                        };
+                    };
+                };
+
+                class 4thmd_h_mgbc_f_c_ar1_g : 4thmd_h_mgbc_f_c_ar0_g
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar1.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar1.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_f_c_ar2_g : 4thmd_h_mgbc_f_c_ar0_g
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar2.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar2.paa"
+                    };
+                };
+
+                class 4thmd_h_mgbc_f_c_ar3_g : 4thmd_h_mgbc_f_c_ar0_g
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgbc_ar3.paa",
+                        "darkmod_4thmd_mgp\data\arid\mhg1_ar3.paa"
+                    };
+                };
+
+
     //Include Other Patterns 
     /*
     #include "wood\CfgW_equ.hpp"
@@ -3882,63 +4479,662 @@ class CfgWeapons
 
 class CfgVehicles
 {
-    class milgp_b_patrol_01_khk;
-    class 4thmd_b_pac5_ar0 : milgp_b_patrol_01_khk
-    {
-        displayName = "[ARMCO] Patrol Pack";
-        author = "Darknesvoid99";
-        hiddenSelectionsTextures[] = 
-        {
-            "darkmod_4thmd_mgp\data\arid\pac5_ar0.paa",
-            "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa"
-        };
-    };
+    //Patrol Pack (pac5)
+        //Standard
+            class milgp_b_patrol_01_khk;
+            class 4thmd_b_pac5_rmn_ar0 : milgp_b_patrol_01_khk
+            {
+                displayName = "[ARMCO] Patrol Pack";
+                author = "Darknesvoid99";
 
-    class milgp_bp_Breacher_khk;
-    class 4thmd_b_mgb1_ar0 : milgp_bp_Breacher_khk
-    {
-        displayName = "[ARMCO] Back Panel (Breacher)";
-        author = "Darknesvoid99";
-        hiddenSelectionsTextures[] = 
-        {
-            "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-            "darkmod_4thmd_mgp\data\arid\mgcd_ar0.paa"
-        };
-    };
+                mass = 70;
+                maximumLoad = 380;
 
-    class milgp_bp_hydration_khk;
-    class 4thmd_b_mgb2_ar0 : milgp_bp_hydration_khk
-    {
-        displayName = "[ARMCO] Back Panel (Hydration)";
-        author = "Darknesvoid99";
-        hiddenSelectionsTextures[] = 
-        {
-            "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa"
-        };
-    };
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_b_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa"
+                };
+            };
 
-    class milgp_bp_Pointman_khk;
-    class 4thmd_b_mgb3_ar0 : milgp_bp_Pointman_khk
-    {
-        displayName = "[ARMCO] Back Panel (Pointman)";
-        author = "Darknesvoid99";
-        hiddenSelectionsTextures[] = 
-        {
-            "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa"
-        };
-    };
+            class 4thmd_b_pac5_rmn_ar1 : 4thmd_b_pac5_rmn_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_b_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa"
+                };
+            };
 
-    class milgp_bp_Tomahawk_khk;
-    class 4thmd_b_mgb4_ar0 : milgp_bp_Tomahawk_khk
-    {
-        displayName = "[ARMCO] Back Panel (Specialist)";
-        author = "Darknesvoid99";
-        hiddenSelectionsTextures[] = 
-        {
-            "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-            "darkmod_4thmd_mgp\data\arid\mgcd_ar0.paa"
-        };
-    };
+            class 4thmd_b_pac5_rmn_ar2 : 4thmd_b_pac5_rmn_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_b_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_rmn_ar3 : 4thmd_b_pac5_rmn_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_b_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_med_ar0 : 4thmd_b_pac5_rmn_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_m_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_med_ar1 : 4thmd_b_pac5_med_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_m_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_med_ar2 : 4thmd_b_pac5_med_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_m_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_med_ar3 : 4thmd_b_pac5_med_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_m_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_eng_ar0 : 4thmd_b_pac5_rmn_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_e_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_eng_ar1 : 4thmd_b_pac5_eng_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_e_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_eng_ar2 : 4thmd_b_pac5_eng_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_e_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_eng_ar3 : 4thmd_b_pac5_eng_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_e_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_eos_ar0 : 4thmd_b_pac5_rmn_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_s_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_eos_ar1 : 4thmd_b_pac5_eos_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_s_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_eos_ar2 : 4thmd_b_pac5_eos_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_s_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_eos_ar3 : 4thmd_b_pac5_eos_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_s_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa"
+                };
+            };
+        //Standard
+            class 4thmd_b_pac5_rmn_ar0_r : 4thmd_b_pac5_rmn_ar0
+            {
+                mass = 78;
+                maximumLoad = 372;
+
+                tf_dialog = "bussole_radio_dialog";
+                tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+                tf_encryptionCode = "tf_west_radio_code";
+                tf_hasLRradio = 1;
+                tf_range = 5000;
+                tf_subtype = "digital_lr";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_b_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_rmn_ar1_r : 4thmd_b_pac5_rmn_ar0_r
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_b_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_rmn_ar2_r : 4thmd_b_pac5_rmn_ar0_r
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_b_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_rmn_ar3_r : 4thmd_b_pac5_rmn_ar0_r
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_b_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_med_ar0_r : 4thmd_b_pac5_rmn_ar0_r
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_m_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_med_ar1_r : 4thmd_b_pac5_med_ar0_r
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_m_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_med_ar2_r : 4thmd_b_pac5_med_ar0_r
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_m_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_med_ar3_r : 4thmd_b_pac5_med_ar0_r
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_m_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_eng_ar0_r : 4thmd_b_pac5_rmn_ar0_r
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_e_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_eng_ar1_r : 4thmd_b_pac5_eng_ar0_r
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_e_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_eng_ar2_r : 4thmd_b_pac5_eng_ar0_r
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_e_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_eng_ar3_r : 4thmd_b_pac5_eng_ar0_r
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_e_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_eos_ar0_r : 4thmd_b_pac5_rmn_ar0_r
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_s_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_eos_ar1_r : 4thmd_b_pac5_eos_ar0_r
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_s_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_eos_ar2_r : 4thmd_b_pac5_eos_ar0_r
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_s_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_pac5_eos_ar3_r : 4thmd_b_pac5_eos_ar0_r
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\pac5_s_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa"
+                };
+            };
+
+    //Back Panels
+        //Standard
+            //Breacher Back Panel (mgb1)
+                class milgp_bp_Breacher_khk;
+                class 4thmd_b_mgb1_ar0 : milgp_bp_Breacher_khk
+                {
+                    displayName = "[ARMCO] Back Panel";
+                    author = "Darknesvoid99";
+
+                    mass = 0.1;
+                    maximumLoad = 50;
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgcd_ar0.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb1_ar1 : 4thmd_b_mgb1_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgcd_ar1.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb1_ar2 : 4thmd_b_mgb1_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgcd_ar2.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb1_ar3 : 4thmd_b_mgb1_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgcd_ar3.paa"
+                    };
+                };
+
+            //Hydration Back Panel (mgb2)
+                class milgp_bp_hydration_khk;
+                class 4thmd_b_mgb2_ar0 : milgp_bp_hydration_khk
+                {
+                    displayName = "[ARMCO] Back Panel";
+                    author = "Darknesvoid99";
+
+                    mass = 0.1;
+                    maximumLoad = 50;
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb2_ar1 : 4thmd_b_mgb2_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb2_ar2 : 4thmd_b_mgb2_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb2_ar3 : 4thmd_b_mgb2_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa"
+                    };
+                };
+
+            //Pointman Back Panel (mgb3)
+                class milgp_bp_Pointman_khk;
+                class 4thmd_b_mgb3_ar0 : milgp_bp_Pointman_khk
+                {
+                    displayName = "[ARMCO] Back Panel";
+                    author = "Darknesvoid99";
+
+                    mass = 0.1;
+                    maximumLoad = 50;
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb3_ar1 : 4thmd_b_mgb3_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb3_ar2 : 4thmd_b_mgb3_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb3_ar3 : 4thmd_b_mgb3_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa"
+                    };
+                };
+
+            //Specialist Back Panel (mgb4)
+                class milgp_bp_Tomahawk_khk;
+                class 4thmd_b_mgb4_ar0 : milgp_bp_Tomahawk_khk
+                {
+                    displayName = "[ARMCO] Back Panel";
+                    author = "Darknesvoid99";
+
+                    mass = 0.1;
+                    maximumLoad = 50;
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgcd_ar0.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb4_ar1 : 4thmd_b_mgb4_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgcd_ar1.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb4_ar2 : 4thmd_b_mgb4_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgcd_ar2.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb4_ar3 : 4thmd_b_mgb4_ar0
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgcd_ar3.paa"
+                    };
+                };
+        //Radio
+            //Breacher Back Panel (mgb1)
+                class 4thmd_b_mgb1_ar0_r : 4thmd_b_mgb1_ar0
+                {
+                    mass = 8.1;
+                    maximumLoad = 42;
+
+                    tf_dialog = "bussole_radio_dialog";
+                    tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+                    tf_encryptionCode = "tf_west_radio_code";
+                    tf_hasLRradio = 1;
+                    tf_range = 5000;
+                    tf_subtype = "digital_lr";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgcd_ar0.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb1_ar1_r : 4thmd_b_mgb1_ar0_r
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgcd_ar1.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb1_ar2_r : 4thmd_b_mgb1_ar0_r
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgcd_ar2.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb1_ar3_r : 4thmd_b_mgb1_ar0_r
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgcd_ar3.paa"
+                    };
+                };
+
+            //Hydration Back Panel (mgb2)
+                class 4thmd_b_mgb2_ar0_r : 4thmd_b_mgb2_ar0
+                {
+                    mass = 8.1;
+                    maximumLoad = 42;
+
+                    tf_dialog = "bussole_radio_dialog";
+                    tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+                    tf_encryptionCode = "tf_west_radio_code";
+                    tf_hasLRradio = 1;
+                    tf_range = 5000;
+                    tf_subtype = "digital_lr";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb2_ar1_r : 4thmd_b_mgb2_ar0_r
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb2_ar2_r : 4thmd_b_mgb2_ar0_r
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb2_ar3_r : 4thmd_b_mgb2_ar0_r
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa"
+                    };
+                };
+
+            //Pointman Back Panel (mgb3)
+                class 4thmd_b_mgb3_ar0_r : 4thmd_b_mgb3_ar0
+                {
+                    mass = 8.1;
+                    maximumLoad = 42;
+
+                    tf_dialog = "bussole_radio_dialog";
+                    tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+                    tf_encryptionCode = "tf_west_radio_code";
+                    tf_hasLRradio = 1;
+                    tf_range = 5000;
+                    tf_subtype = "digital_lr";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb3_ar1_r : 4thmd_b_mgb3_ar0_r
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb3_ar2_r : 4thmd_b_mgb3_ar0_r
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb3_ar3_r : 4thmd_b_mgb3_ar0_r
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa"
+                    };
+                };
+
+            //Specialist Back Panel (mgb4)
+                class 4thmd_b_mgb4_ar0_r : 4thmd_b_mgb4_ar0
+                {
+                    mass = 8.1;
+                    maximumLoad = 42;
+
+                    tf_dialog = "bussole_radio_dialog";
+                    tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+                    tf_encryptionCode = "tf_west_radio_code";
+                    tf_hasLRradio = 1;
+                    tf_range = 5000;
+                    tf_subtype = "digital_lr";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgcd_ar0.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb4_ar1_r : 4thmd_b_mgb4_ar0_r
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgcd_ar1.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb4_ar2_r : 4thmd_b_mgb4_ar0_r
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgcd_ar2.paa"
+                    };
+                };
+
+                class 4thmd_b_mgb4_ar3_r : 4thmd_b_mgb4_ar0_r
+                {
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgcd_ar3.paa"
+                    };
+                };
 
     /*
     #include "wood\CfgV_equ.hpp"

@@ -1474,6 +1474,235 @@ class CfgWeapons
             };
         };
 
+    //Beret (brt2)
+        //Alpha
+            class H_Beret_blk;
+            class H_Beret_02 : H_Beret_blk
+            {
+                ItemInfo;
+            };
+
+            class 4thmd_h_brt2_alp : H_Beret_02
+            {
+                scope = 2;
+                author = "Darknesvoid99";
+                displayName = "[ARMCO] Beret";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\brt2_alp.paa"
+                };
+
+                class ItemInfo : ItemInfo
+                {
+                    mass = 4;
+                };
+            };
+
+            class 4thmd_h_brt2_a_ar0 : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\brt2_a_ar0.paa"
+                };
+            };
+
+            class 4thmd_h_brt2_a_ar1 : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\brt2_a_ar1.paa"
+                };
+            };
+
+            class 4thmd_h_brt2_a_ar2 : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\brt2_a_ar2.paa"
+                };
+            };
+
+            class 4thmd_h_brt2_a_ar3 : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\brt2_a_ar3.paa"
+                };
+            };
+
+        //Sabre
+            class 4thmd_h_brt2_sab : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\brt2_sab.paa"
+                };
+            };
+
+            class 4thmd_h_brt2_s_ar0 : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\brt2_s_ar0.paa"
+                };
+            };
+
+            class 4thmd_h_brt2_s_ar1 : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\brt2_s_ar1.paa"
+                };
+            };
+
+            class 4thmd_h_brt2_s_ar2 : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\brt2_s_ar2.paa"
+                };
+            };
+
+            class 4thmd_h_brt2_s_ar3 : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\brt2_s_ar3.paa"
+                };
+            };
+
+        //Zulu
+            class 4thmd_h_brt2_zul : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\brt2_zul.paa"
+                };
+            };
+            
+            class 4thmd_h_brt2_z_ar0 : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\brt2_z_ar0.paa"
+                };
+            };
+
+            class 4thmd_h_brt2_z_ar1 : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\brt2_z_ar1.paa"
+                };
+            };
+
+            class 4thmd_h_brt2_z_ar2 : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\brt2_z_ar2.paa"
+                };
+            };
+
+            class 4thmd_h_brt2_z_ar3 : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\brt2_z_ar3.paa"
+                };
+            };
+
+        //Phoenix
+            class 4thmd_h_brt2_phx : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\brt2_phx.paa"
+                };
+            };
+
+            class 4thmd_h_brt2_p_ar0 : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\brt2_p_ar0.paa"
+                };
+            };
+
+            class 4thmd_h_brt2_p_ar1 : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\brt2_p_ar1.paa"
+                };
+            };
+
+            class 4thmd_h_brt2_p_ar2 : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\brt2_p_ar2.paa"
+                };
+            };
+
+            class 4thmd_h_brt2_p_ar3 : 4thmd_h_brt2_alp
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\brt2_p_ar3.paa"
+                };
+            };
+
+    //Leg Strap Bag (lsb1:VEST)
+        class V_LegStrapBag_base_F;
+        class V_LegStrapBag_coyote_F : V_LegStrapBag_base_F
+        {
+            ItemInfo;
+        };
+
+        class 4thmd_v_lsb1_ar0 : V_LegStrapBag_coyote_F
+        {
+            scope = 2;
+            author = "Darknesvoid99";
+            displayName = "[ARMCO] Leg Strap Bag";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\lsb1_ar0.paa"
+            };
+
+            class ItemInfo : ItemInfo
+            {
+                mass = 10;
+                containerClass = "Supply80";
+            };
+        };
+
+        class 4thmd_v_lsb1_ar1 : 4thmd_v_lsb1_ar0
+        {
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\lsb1_ar1.paa"
+            };
+        };
+
+        class 4thmd_v_lsb1_ar2 : 4thmd_v_lsb1_ar0
+        {
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\lsb1_ar2.paa"
+            };
+        };
+
+        class 4thmd_v_lsb1_ar3 : 4thmd_v_lsb1_ar0
+        {
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\lsb1_ar3.paa"
+            };
+        };
+
     //Include Other Patterns 
     /*
     #include "wood\CfgW_equ.hpp"
@@ -2467,6 +2696,10 @@ class CfgVehicles
             {
                 displayName = "[ARMCO] Assault Pack";
                 author = "Darknesvoid99";
+
+                mass = 20;
+                maximumLoad = 160;
+
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\pac1_b_ar0.paa"
@@ -2596,6 +2829,8 @@ class CfgVehicles
             class 4thmd_b_pac1_rmn_ar0_r : 4thmd_b_pac1_rmn_ar0
             {
                 mass = 28;
+                maximumLoad = 152;
+
                 tf_dialog = "bussole_radio_dialog";
                 tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
                 tf_encryptionCode = "tf_west_radio_code";
@@ -2736,6 +2971,10 @@ class CfgVehicles
             {
                 displayName = "[ARMCO] Field Pack";
                 author = "Darknesvoid99";
+
+                mass = 30;
+                maximumLoad = 200;
+
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\pac2_b_ar1.paa"
@@ -2865,6 +3104,8 @@ class CfgVehicles
             class 4thmd_b_pac2_rmn_ar0_r : 4thmd_b_pac2_rmn_ar0
             {
                 mass = 38;
+                maximumLoad = 192;
+
                 tf_dialog = "bussole_radio_dialog";
                 tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
                 tf_encryptionCode = "tf_west_radio_code";
@@ -3005,6 +3246,10 @@ class CfgVehicles
             {
                 displayName = "[ARMCO] Kitbag";
                 author = "Darknesvoid99";
+
+                mass = 50;
+                maximumLoad = 280;
+
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\pac3_b_ar1.paa"
@@ -3134,6 +3379,8 @@ class CfgVehicles
             class 4thmd_b_pac3_rmn_ar0_r : 4thmd_b_pac3_rmn_ar0
             {
                 mass = 58;
+                maximumLoad = 272;
+
                 tf_dialog = "bussole_radio_dialog";
                 tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
                 tf_encryptionCode = "tf_west_radio_code";
@@ -3274,6 +3521,10 @@ class CfgVehicles
             {
                 displayName = "[ARMCO] Carry-All";
                 author = "Darknesvoid99";
+
+                mass = 60;
+                maximumLoad = 320;
+
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\pac4_b_ar1.paa"
@@ -3403,6 +3654,8 @@ class CfgVehicles
             class 4thmd_b_pac4_rmn_ar0_r : 4thmd_b_pac4_rmn_ar0
             {
                 mass = 68;
+                maximumLoad = 312;
+
                 tf_dialog = "bussole_radio_dialog";
                 tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
                 tf_encryptionCode = "tf_west_radio_code";
@@ -3533,6 +3786,90 @@ class CfgVehicles
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\pac4_s_ar3.paa"
+                };
+            };
+
+    //Leg Strap Bag (lsb1:PACK)
+        //Standard
+            class B_LegStrapBag_coyote_F;
+            class 4thmd_b_lsb1_ar0 : B_LegStrapBag_coyote_F
+            {
+                displayName = "[ARMCO] Leg Strap Bag";
+                author = "Darknesvoid99";
+
+                mass = 10;
+                maximumLoad = 100;
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\lsb1_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_lsb1_ar1 : 4thmd_b_lsb1_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\lsb1_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_lsb1_ar2 : 4thmd_b_lsb1_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\lsb1_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_lsb1_ar3 : 4thmd_b_lsb1_ar0
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\lsb1_ar3.paa"
+                };
+            };
+
+        //Radio
+            class 4thmd_b_lsb1_ar0_r : 4thmd_b_lsb1_ar0
+            {
+                mass = 18;
+                maximumLoad = 92;
+
+                tf_dialog = "bussole_radio_dialog";
+                tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+                tf_encryptionCode = "tf_west_radio_code";
+                tf_hasLRradio = 1;
+                tf_range = 5000;
+                tf_subtype = "digital_lr";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\lsb1_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_lsb1_ar1_r : 4thmd_b_lsb1_ar0_r
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\lsb1_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_lsb1_ar2_r : 4thmd_b_lsb1_ar0_r
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\lsb1_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_lsb1_ar3_r : 4thmd_b_lsb1_ar0_r
+            {
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\lsb1_ar3.paa"
                 };
             };
 

@@ -199,6 +199,7 @@
             displayName = "40mm 6rnd Smoke(H) (Yellow)";
 
             mass = 24;
+            count = 6;
         };
 
         class 4thmd_u_40x46_6_ilm_wht : 4thmd_u_40x46_1_ilm_wht

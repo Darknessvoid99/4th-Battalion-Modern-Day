@@ -2,13 +2,20 @@ class CfgPatches
 {
     class darkmod_4thmd_ammo_grem
 	{
-        weapons[] = {};
+        weapons[] = 
+        {
+            "greenmag_ammo_9x19_basic_15Rnd",
+            "greenmag_ammo_556x45_basic_100Rnd",
+            "greenmag_ammo_762x51_basic_100Rnd"
+        };
         units[] = {};
         magazines[] = 
         {
             "4thmd_m_762x51_dm50_drum_sby_t3_rb",
             "4thmd_m_762x51_dm50_drum_sby_t_rb",
             "4thmd_m_762x51_dm50_drum_sby_nt_rb",
+            "4thmd_m_762x51_dm50_drum_sbir_t3_rb",
+            "4thmd_m_762x51_dm50_drum_sbir_t_rb",
             "4thmd_m_762x51_dm50_drum_apy_t6_rb",
             "4thmd_m_762x51_dm50_drum_apy_nt_rb",
             "4thmd_m_762x51_dm50_drum_lry_t6_rb",
@@ -16,9 +23,13 @@ class CfgPatches
             "4thmd_m_762x51_dm100_gbox_sby_t3_rb",
             "4thmd_m_762x51_dm100_gbox_sby_t_rb",
             "4thmd_m_762x51_dm100_gbox_sby_nt_rb",
+            "4thmd_m_762x51_dm100_gbox_sbir_t3_rb",
+            "4thmd_m_762x51_dm100_gbox_sbir_t_rb",
             "4thmd_m_762x51_dm200_gbox_sby_t3_rb",
             "4thmd_m_762x51_dm200_gbox_sby_t_rb",
-            "4thmd_m_762x51_dm200_gbox_sby_nt_rb"
+            "4thmd_m_762x51_dm200_gbox_sby_nt_rb",
+            "4thmd_m_762x51_dm200_gbox_sbir_t3_rb",
+            "4thmd_m_762x51_dm200_gbox_sbir_t_rb"
         };
         requiredAddons[] = 
         {   
@@ -408,6 +419,25 @@ class CfgMagazines
             tracersEvery = 0;
         };
 
+        class 4thmd_m_762x51_dm50_drum_sbir_t3_rb : 4thmd_m_762x51_dm50_drum_sby_t3_rb
+        {
+            displayName = "7.62mm 50rnd DM6(RB) EPR-IR(T3E5)";
+            displayNameShort = "EPR-IR T3E5";
+            descriptionShort = "M80A1 Enhanced Preformance Rounds<br/>M62A1B Infra-Red Tracer Rounds<br/>Tracer every 3, 5 End Tracers<br/>Non-Disentegrating, Reloadable Belt";
+
+            ammo = "4thmd_a_762x51_epr_ir";
+        };
+
+        class 4thmd_m_762x51_dm50_drum_sbir_t_rb : 4thmd_m_762x51_dm50_drum_sbir_t3_rb
+        {
+            displayName = "7.62mm 50rnd DM6(RB) EPR-IR(T)";
+            displayNameShort = "EPR-IR T";
+            descriptionShort = "M62A1B Infra-Red Tracer Rounds<br/>All Tracers<br/>Non-Disentegrating, Reloadable Belt";
+
+            lastRoundsTracer = 1;
+            tracersEvery = 1;
+        };
+
         class 4thmd_m_762x51_dm50_drum_apy_t6_rb : 4thmd_m_762x51_dm50_drum_sby_t3_rb
         {
             displayName = "7.62mm 50rnd DM6(RB) AP-Y(T6E5)";
@@ -435,7 +465,7 @@ class CfgMagazines
         {
             displayName = "7.62mm 50rnd DM6(RB) LRR-Y(T6E5)";
             displayNameShort = "LRR-Y T6E5";
-            descriptionShort = "M118 Long Range Preformance Rounds<br/>M62E3 Enhanced Tracer Rounds<br/>Tracer every 6, 5 End Tracers<br/>Non-Disentegrating, Reloadable Belt";
+            descriptionShort = "M118 175gr Long Range Preformance Rounds<br/>M62E3 Enhanced Tracer Rounds<br/>Tracer every 6, 5 End Tracers<br/>Non-Disentegrating, Reloadable Belt";
 
             ammo = "4thmd_a_762x51_lr_y";
 
@@ -446,10 +476,19 @@ class CfgMagazines
         {
             displayName = "7.62mm 50rnd DM6(RB) LRR(NT)";
             displayNameShort = "LRR NT";
-            descriptionShort = "M118 Long Range Preformance Rounds<br/>No Tracers<br/>Non-Disentegrating, Reloadable Belt";
+            descriptionShort = "M118 175gr Long Range Preformance Rounds<br/>No Tracers<br/>Non-Disentegrating, Reloadable Belt";
 
             lastRoundsTracer = 0;
             tracersEvery = 0;
+        };
+
+        class 4thmd_m_762x51_dm50_drum_lrir_t6_rb : 4thmd_m_762x51_dm50_drum_lry_t6_rb
+        {
+            displayName = "7.62mm 50rnd DM6(RB) LRR-Y(T6E5)";
+            displayNameShort = "LRR-Y T6E5";
+            descriptionShort = "M118 175gr Long Range Preformance Rounds<br/>M118 Mod B Infra-Red Tracer Rounds<br/>Tracer every 6, 5 End Tracers<br/>Non-Disentegrating, Replacable Belt";
+
+            ammo = "4thmd_a_762x51_lr_ir";
         };
 
     //7.62x51mm 100rnd DM6-Belt
@@ -492,19 +531,67 @@ class CfgMagazines
             tracersEvery = 0;
         };
 
+        class 4thmd_m_762x51_dm100_gbox_sbir_t3_rb : 4thmd_m_762x51_dm100_gbox_sby_t3_rb
+        {
+            displayName = "7.62mm 100rnd DM6(RB) EPR-IR(T3E10)";
+            displayNameShort = "EPR-IR T3E10";
+            descriptionShort = "M80A1 Enhanced Preformance Rounds<br/>M62A1B Infra-Red Tracer Rounds<br/>Tracer every 3, 10 End Tracers<br/>Non-Disentegrating, Reloadable Belt";
+
+            ammo = "4thmd_a_762x51_epr_ir";
+        };
+
+        class 4thmd_m_762x51_dm100_gbox_sbir_t_rb : 4thmd_m_762x51_dm100_gbox_sbir_t3_rb
+        {
+            displayName = "7.62mm 100rnd DM6(RB) EPR-IR(T)";
+            displayNameShort = "EPR-IR T";
+            descriptionShort = "M62A1B Infra-Red Tracer Rounds<br/>All Tracers<br/>Non-Disentegrating, Reloadable Belt";
+
+            lastRoundsTracer = 1;
+            tracersEvery = 1;
+        };
+
+        class 4thmd_m_762x51_dm100_gbox_lry_t6_rb : 4thmd_m_762x51_dm100_gbox_sby_t3_rb
+        {
+            displayName = "7.62mm 100rnd DM6 LRR-Y(T6E10)";
+            displayNameShort = "LRR-Y T6E10";
+            descriptionShort = "M118 175gr Long Range Preformance Rounds<br/>M118 Mod A Yellow Tracer Rounds<br/>Tracer every 6, 10 End Tracers<br/>Non-Disentegrating, Reloadable Belt";
+
+            ammo = "4thmd_a_762x51_lr_y";
+            tracersEvery = 6;
+        };
+
+        class 4thmd_m_762x51_dm100_gbox_lry_nt_rb : 4thmd_m_762x51_dm100_gbox_lry_t6_rb
+        {
+            displayName = "7.62mm 100rnd DM6 LRR(NT)";
+            displayNameShort = "LRR NT";
+            descriptionShort = "M118 175gr Long Range Preformance Rounds<br/>No Tracers<br/>Non-Disentegrating, Reloadable Belt";
+
+            lastRoundsTracer = 0;
+            tracersEvery = 0;
+        };
+
+        class 4thmd_m_762x51_dm100_gbox_lrir_t6_rb : 4thmd_m_762x51_dm100_gbox_lry_t6_rb
+        {
+            displayName = "7.62mm 100rnd DM6 LRR-Y(T6E10)";
+            displayNameShort = "LRR-Y T6E10";
+            descriptionShort = "M118 175gr Long Range Preformance Rounds<br/>M118 Mod B Infra-Red Tracer Rounds<br/>Tracer every 6, 10 End Tracers<br/>Non-Disentegrating, Reloadable Belt";
+
+            ammo = "4thmd_a_762x51_lr_ir";
+        };
+
     //7.62x51mm 200rnd DM6-Belt
         class 4thmd_m_762x51_dm200_gbox_sby_t3_rb : 150Rnd_762x51_Box
         {
-            displayName = "7.62mm 200rnd DM6(RB) EPR-Y(T3E10)";
-            displayNameShort = "EPR-Y T3E10";
-            descriptionShort = "M80A1 Enhanced Preformance Rounds<br/>M62A1 Enhanced Tracer Rounds<br/>Tracer every 3, 10 End Tracers<br/>Non-Disentegrating, Reloadable Belt";
+            displayName = "7.62mm 200rnd DM6(RB) EPR-Y(T3E20)";
+            displayNameShort = "EPR-Y T3E20";
+            descriptionShort = "M80A1 Enhanced Preformance Rounds<br/>M62A1 Enhanced Tracer Rounds<br/>Tracer every 3, 20 End Tracers<br/>Non-Disentegrating, Reloadable Belt";
 
             picture = "\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Ammo\data\gear_magazine_762_box_ca.paa";
             model = "\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Ammo\uk3cb_L7_ammobox.p3d";
 
             ammo = "4thmd_a_762x51_epr_y";
             mass = 100;
-            lastRoundsTracer = 10;
+            lastRoundsTracer = 20;
             tracersEvery = 3;
             count = 200;
 
@@ -532,28 +619,57 @@ class CfgMagazines
 
             lastRoundsTracer = 0;
             tracersEvery = 0;
-        };    
+        };
+        
+        class 4thmd_m_762x51_dm200_gbox_sbir_t3_rb : 4thmd_m_762x51_dm200_gbox_sby_t3_rb
+        {
+            displayName = "7.62mm 200rnd DM6(RB) EPR-IR(T3E20)";
+            displayNameShort = "EPR-IR T3E20";
+            descriptionShort = "M80A1 Enhanced Preformance Rounds<br/>M62A1B Infra-Red Tracer Rounds<br/>Tracer every 3, 20 End Tracers<br/>Non-Disentegrating, Reloadable Belt";
+
+            ammo = "4thmd_a_762x51_epr_ir";
+        };
+
+        class 4thmd_m_762x51_dm200_gbox_sbir_t_rb : 4thmd_m_762x51_dm200_gbox_sbir_t3_rb
+        {
+            displayName = "7.62mm 200rnd DM6(RB) EPR-IR(T)";
+            displayNameShort = "EPR-IR T";
+            descriptionShort = "M62A1B Infra-Red Tracer Rounds<br/>All Tracers<br/>Non-Disentegrating, Reloadable Belt";
+
+            lastRoundsTracer = 1;
+            tracersEvery = 1;
+        };
 };
 
 class CfgMagazineWells
 {
     class CBA_762x51_MG3
     {
-        4thmd_mags_nb[] =
+        4thmd_mags_rb[] =
         {
             "4thmd_m_762x51_dm50_drum_sby_t3_rb",
             "4thmd_m_762x51_dm50_drum_sby_t_rb",
             "4thmd_m_762x51_dm50_drum_sby_nt_rb",
+            "4thmd_m_762x51_dm50_drum_sbir_t3_rb",
+            "4thmd_m_762x51_dm50_drum_sbir_t_rb",
             "4thmd_m_762x51_dm50_drum_apy_t6_rb",
             "4thmd_m_762x51_dm50_drum_apy_nt_rb",
             "4thmd_m_762x51_dm50_drum_lry_t6_rb",
             "4thmd_m_762x51_dm50_drum_lry_nt_rb",
+            "4thmd_m_762x51_dm50_drum_lrir_t6_rb",
             "4thmd_m_762x51_dm100_gbox_sby_t3_rb",
             "4thmd_m_762x51_dm100_gbox_sby_t_rb",
             "4thmd_m_762x51_dm100_gbox_sby_nt_rb",
+            "4thmd_m_762x51_dm100_gbox_sbir_t3_rb",
+            "4thmd_m_762x51_dm100_gbox_sbir_t_rb",
+            "4thmd_m_762x51_dm100_gbox_lry_t6_rb",
+            "4thmd_m_762x51_dm100_gbox_lry_nt_rb",
+            "4thmd_m_762x51_dm100_gbox_lrir_t6_rb",
             "4thmd_m_762x51_dm200_gbox_sby_t3_rb",
             "4thmd_m_762x51_dm200_gbox_sby_t_rb",
-            "4thmd_m_762x51_dm200_gbox_sby_nt_rb"
+            "4thmd_m_762x51_dm200_gbox_sby_nt_rb",
+            "4thmd_m_762x51_dm200_gbox_sbir_t3_rb",
+            "4thmd_m_762x51_dm200_gbox_sbir_t_rb"
         };
     };
 };

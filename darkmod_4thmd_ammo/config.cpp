@@ -18,43 +18,148 @@ class CfgPatches
             "4thmd_m_901x19_mp30_sby_nt",
             "4thmd_m_901x19_mp30_sub_nt",
 
-            "4thmd_m_556x45_m30_sttan_sby_t3",
-            "4thmd_m_556x45_m30_sttan_sby_nt",
-            "4thmd_m_556x45_m30_sttan_sby_t",
-            "4thmd_m_556x45_m30_sttan_apy_t5",
-            "4thmd_m_556x45_m30_sttan_apy_nt",
-            "4thmd_m_556x45_m30_sttan_lry_nt",
+            "4thmd_m_556x45_m30_stblk_sby_t3",
+            "4thmd_m_556x45_m30_stblk_sby_nt",
+            "4thmd_m_556x45_m30_stblk_sby_t",
+            "4thmd_m_556x45_m30_stblk_sbir_t3",
+            "4thmd_m_556x45_m30_stblk_sbir_t",
+            "4thmd_m_556x45_m30_stblk_apy_t5",
+            "4thmd_m_556x45_m30_stblk_apy_nt",
+            "4thmd_m_556x45_m30_stblk_lry_nt",
             "4thmd_m_556x45_m50_xmag_sby_t3",
             "4thmd_m_556x45_m50_xmag_sby_nt",
             "4thmd_m_556x45_m50_xmag_sby_t",
+            "4thmd_m_556x45_m50_xmag_sbir_t3",
+            "4thmd_m_556x45_m50_xmag_sbir_t",
             "4thmd_m_556x45_m100_cmag_sby_t3",
             "4thmd_m_556x45_m100_cmag_sby_t",
+            "4thmd_m_556x45_m100_cmag_sbir_t3",
+            "4thmd_m_556x45_m100_cmag_sbir_t",
+            "4thmd_m_556x45_m30_sttan_sby_t3",
+            "4thmd_m_556x45_m30_sttan_sby_nt",
+            "4thmd_m_556x45_m30_sttan_sby_t",
+            "4thmd_m_556x45_m30_sttan_sbir_t3",
+            "4thmd_m_556x45_m30_sttan_sbir_t",
+            "4thmd_m_556x45_m30_sttan_apy_t5",
+            "4thmd_m_556x45_m30_sttan_apy_nt",
+            "4thmd_m_556x45_m30_sttan_lry_nt",
+            "4thmd_m_556x45_m100_cmtan_sby_t3",
+            "4thmd_m_556x45_m100_cmtan_sby_t",
+            "4thmd_m_556x45_m100_cmtan_sbir_t3",
+            "4thmd_m_556x45_m100_cmtan_sbir_t",
+            "4thmd_m_556x45_m100_cmgre_sby_t3",
+            "4thmd_m_556x45_m100_cmgre_sby_t",
+            "4thmd_m_556x45_m100_cmgre_sbir_t3",
+            "4thmd_m_556x45_m100_cmgre_sbir_t",
+            "4thmd_m_556x45_m30_pmblk_sby_t3",
+            "4thmd_m_556x45_m30_pmblk_sby_nt",
+            "4thmd_m_556x45_m30_pmblk_sby_t",
+            "4thmd_m_556x45_m30_pmblk_sbir_t3",
+            "4thmd_m_556x45_m30_pmblk_sbir_t",
+            "4thmd_m_556x45_m30_pmblk_apy_t5",
+            "4thmd_m_556x45_m30_pmblk_apy_nt",
+            "4thmd_m_556x45_m30_pmblk_lry_nt",
+            "4thmd_m_556x45_m30_pmtan_sby_t3",
+            "4thmd_m_556x45_m30_pmtan_sby_nt",
+            "4thmd_m_556x45_m30_pmtan_sby_t",
+            "4thmd_m_556x45_m30_pmtan_sbir_t3",
+            "4thmd_m_556x45_m30_pmtan_sbir_t",
+            "4thmd_m_556x45_m30_pmtan_apy_t5",
+            "4thmd_m_556x45_m30_pmtan_apy_nt",
+            "4thmd_m_556x45_m30_pmtan_lry_nt",
 
             "4thmd_m_556x45_b100_sptan_sby_t3",
             "4thmd_m_556x45_b100_sptan_sby_t",
-            "4thmd_m_556x45_b200_sptan_sby_t3",
-            "4thmd_m_556x45_b200_sptan_sby_t",
-            "4thmd_m_556x45_b100_sptan_apy_t5",
-            "4thmd_m_556x45_b100_sptan_sby_t3",
-            "4thmd_m_556x45_b100_sptan_sby_t",
             "4thmd_m_556x45_b100_sptan_sby_nt",
+            "4thmd_m_556x45_b100_sptan_sbir_t3",
+            "4thmd_m_556x45_b100_sptan_sbir_t",
             "4thmd_m_556x45_b100_sptan_apy_t5",
             "4thmd_m_556x45_b100_sptan_apy_nt",
             "4thmd_m_556x45_b200_sptan_sby_t3",
             "4thmd_m_556x45_b200_sptan_sby_t",
             "4thmd_m_556x45_b200_sptan_sby_nt",
+            "4thmd_m_556x45_b200_sptan_sbir_t3",
+            "4thmd_m_556x45_b200_sptan_sbir_t",
+
+            "4thmd_m_762x35_m30_stblk_sby_t3",
+            "4thmd_m_762x35_m30_stblk_sby_nt",
+            "4thmd_m_762x35_m30_stblk_sby_t",
+            "4thmd_m_762x35_m30_stblk_sbir_t3",
+            "4thmd_m_762x35_m30_stblk_sbir_t",
+            "4thmd_m_762x35_m30_stblk_suby_t3",
+            "4thmd_m_762x35_m30_stblk_suby_nt",
+            "4thmd_m_762x35_m30_stblk_suby_t",
+            "4thmd_m_762x35_m30_stblk_subir_t3",
+            "4thmd_m_762x35_m30_stblk_subir_t",
+            "4thmd_m_762x35_m50_xmblk_sby_t3",
+            "4thmd_m_762x35_m50_xmblk_sby_nt",
+            "4thmd_m_762x35_m50_xmblk_sby_t",
+            "4thmd_m_762x35_m50_xmblk_sbir_t3",
+            "4thmd_m_762x35_m50_xmblk_sbir_t",
+            "4thmd_m_762x35_m30_sttan_sby_t3",
+            "4thmd_m_762x35_m30_sttan_sby_nt",
+            "4thmd_m_762x35_m30_sttan_sby_t",
+            "4thmd_m_762x35_m30_sttan_sbir_t3",
+            "4thmd_m_762x35_m30_sttan_sbir_t",
+            "4thmd_m_762x35_m30_sttan_suby_t3",
+            "4thmd_m_762x35_m30_sttan_suby_nt",
+            "4thmd_m_762x35_m30_sttan_suby_t",
+            "4thmd_m_762x35_m30_sttan_subir_t3",
+            "4thmd_m_762x35_m30_sttan_subir_t",
+            "4thmd_m_762x35_m30_pmblk_sby_t3",
+            "4thmd_m_762x35_m30_pmblk_sby_nt",
+            "4thmd_m_762x35_m30_pmblk_sby_t",
+            "4thmd_m_762x35_m30_pmblk_sbir_t3",
+            "4thmd_m_762x35_m30_pmblk_sbir_t",
+            "4thmd_m_762x35_m30_pmblk_suby_t3",
+            "4thmd_m_762x35_m30_pmblk_suby_nt",
+            "4thmd_m_762x35_m30_pmblk_suby_t",
+            "4thmd_m_762x35_m30_pmblk_subir_t3",
+            "4thmd_m_762x35_m30_pmblk_subir_t",
+            "4thmd_m_762x35_m30_pmtan_sby_t3",
+            "4thmd_m_762x35_m30_pmtan_sby_nt",
+            "4thmd_m_762x35_m30_pmtan_sby_t",
+            "4thmd_m_762x35_m30_pmtan_sbir_t3",
+            "4thmd_m_762x35_m30_pmtan_sbir_t",
+            "4thmd_m_762x35_m30_pmtan_suby_t3",
+            "4thmd_m_762x35_m30_pmtan_suby_nt",
+            "4thmd_m_762x35_m30_pmtan_suby_t",
+            "4thmd_m_762x35_m30_pmtan_subir_t3",
+            "4thmd_m_762x35_m30_pmtan_subir_t",
 
             "4thmd_m_762x51_20scr_stblk_sby_t3",
             "4thmd_m_762x51_20scr_stblk_sby_nt",
             "4thmd_m_762x51_20scr_stblk_sby_t",
+            "4thmd_m_762x51_20scr_stblk_sbir_t3",
+            "4thmd_m_762x51_20scr_stblk_sbir_t",
             "4thmd_m_762x51_20scr_stblk_apy_t4",
             "4thmd_m_762x51_20scr_stblk_apy_nt",
             "4thmd_m_762x51_20scr_stblk_lry_nt",
             "4thmd_m_762x51_20scr_stblk_slr_nt",
+            "4thmd_m_762x51_20scr_pmblk_sby_t3",
+            "4thmd_m_762x51_20scr_pmblk_sby_nt",
+            "4thmd_m_762x51_20scr_pmblk_sby_t",
+            "4thmd_m_762x51_20scr_pmblk_sbir_t3",
+            "4thmd_m_762x51_20scr_pmblk_sbir_t",
+            "4thmd_m_762x51_20scr_pmblk_apy_t4",
+            "4thmd_m_762x51_20scr_pmblk_apy_nt",
+            "4thmd_m_762x51_20scr_pmblk_lry_nt",
+            "4thmd_m_762x51_20scr_pmblk_slr_nt",
+            "4thmd_m_762x51_20scr_pmtan_sby_t3",
+            "4thmd_m_762x51_20scr_pmtan_sby_nt",
+            "4thmd_m_762x51_20scr_pmtan_sby_t",
+            "4thmd_m_762x51_20scr_pmtan_sbir_t3",
+            "4thmd_m_762x51_20scr_pmtan_sbir_t",
+            "4thmd_m_762x51_20scr_pmtan_apy_t4",
+            "4thmd_m_762x51_20scr_pmtan_apy_nt",
+            "4thmd_m_762x51_20scr_pmtan_lry_nt",
+            "4thmd_m_762x51_20scr_pmtan_slr_nt",
 
             "4thmd_m_762x51_dm50_drum_sby_t3",
             "4thmd_m_762x51_dm50_drum_sby_t",
             "4thmd_m_762x51_dm50_drum_sby_nt",
+            "4thmd_m_762x51_dm50_drum_sbir_t3",
+            "4thmd_m_762x51_dm50_drum_sbir_t",
             "4thmd_m_762x51_dm50_drum_apy_t6",
             "4thmd_m_762x51_dm50_drum_apy_nt",
             "4thmd_m_762x51_dm50_drum_lry_t6",
@@ -62,20 +167,54 @@ class CfgPatches
             "4thmd_m_762x51_dm100_gbox_sby_t3",
             "4thmd_m_762x51_dm100_gbox_sby_t",
             "4thmd_m_762x51_dm100_gbox_sby_nt",
+            "4thmd_m_762x51_dm100_gbox_sbir_t3",
+            "4thmd_m_762x51_dm100_gbox_sbir_t",
             "4thmd_m_762x51_dm200_gbox_sby_t3",
             "4thmd_m_762x51_dm200_gbox_sby_t",
             "4thmd_m_762x51_dm200_gbox_sby_nt",
+            "4thmd_m_762x51_dm200_gbox_sbir_t3",
+            "4thmd_m_762x51_dm200_gbox_sbir_t",
             
             "4thmd_m_762x51_b75_smabx_sby_t3",
             "4thmd_m_762x51_b75_smabx_sby_t",
             "4thmd_m_762x51_b75_smabx_sby_nt",
+            "4thmd_m_762x51_b75_smabx_sbir_t3",
+            "4thmd_m_762x51_b75_smabx_sbir_t",
             "4thmd_m_762x51_b75_smabx_apy_t6",
             "4thmd_m_762x51_b75_smabx_apy_nt",
             "4thmd_m_762x51_b75_smabx_lry_t6",
+            "4thmd_m_762x51_b75_smabx_lrir_t6",
             "4thmd_m_762x51_b75_smabx_lry_nt",
             "4thmd_m_762x51_b150_lrgbx_sby_t3",
             "4thmd_m_762x51_b150_lrgbx_sby_t",
-            "4thmd_m_762x51_b150_lrgbx_sby_nt"
+            "4thmd_m_762x51_b150_lrgbx_sby_nt",
+            "4thmd_m_762x51_b150_lrgbx_sbir_t3",
+            "4thmd_m_762x51_b150_lrgbx_sbir_t",
+
+            "4thmd_m_858x70_m10_ulr_sby_t",
+            "4thmd_m_858x70_m10_ulr_sby_nt",
+            "4thmd_m_858x70_m10_ulr_sbir_t",
+            "4thmd_m_858x70_m10_ulr_apy_nt",
+            "4thmd_m_858x70_m10_ulr_smk_nt",
+            "4thmd_m_858x70_m10_ulr_vld_nt",
+
+            "4thmd_m_858x70_m5_aim_sby_t",
+            "4thmd_m_858x70_m5_aim_sby_nt",
+            "4thmd_m_858x70_m5_aim_sbir_t",
+            "4thmd_m_858x70_m5_aim_apy_nt",
+            "4thmd_m_858x70_m5_aim_smk_nt",
+            "4thmd_m_858x70_m5_aim_vld_nt",
+
+            "4thmd_m_127x99_m10_brt_sby_t",
+            "4thmd_m_127x99_m10_brt_sby_nt",
+            "4thmd_m_127x99_m10_brt_sbir_t",
+            "4thmd_m_127x99_m10_brt_apy_t",
+            "4thmd_m_127x99_m10_brt_ap_nt",
+            "4thmd_m_127x99_m10_brt_apir_t",
+            "4thmd_m_127x99_m10_brt_rfsy_t",
+            "4thmd_m_127x99_m10_brt_rfsy_nt",
+            "4thmd_m_127x99_m10_brt_rfsir_t",
+            "4thmd_m_127x99_m10_brt_amax_nt"
         };
         requiredAddons[] = 
         {   
@@ -127,6 +266,7 @@ class CfgAmmo
         class 4thmd_a_556x45_epr_ir : 4thmd_a_556x45_epr_y
         {
             nvgOnly = 1;
+            tracerScale = 0.8;
         };
 
         class ACE_556x45_Ball_M995_AP;  //Armor Piercing
@@ -160,6 +300,7 @@ class CfgAmmo
 
         class 4thmd_a_762x35_ball_ir : 4thmd_a_762x35_ball_y
         {
+            tracerScale = 1;
             nvgOnly = 1;
         };
 
@@ -172,7 +313,7 @@ class CfgAmmo
         class HLC_300Blackout_SMK : HLC_300Blackout_Ball    //Subsonic IR Tracer
         {
             model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
-            tracerScale = 2;
+            tracerScale = 1;
             nvgOnly = 1;
         };
 
@@ -186,6 +327,7 @@ class CfgAmmo
 
         class 4thmd_a_762x51_epr_ir : 4thmd_a_762x51_epr_y
         {
+            tracerScale = 1;
             nvgOnly = 1;
         };
 
@@ -203,17 +345,24 @@ class CfgAmmo
             tracerScale = 2;
         };
 
+        class 4thmd_a_762x51_lr_ir : 4thmd_a_762x51_lr_y
+        {
+            tracerScale = 1;
+            nvgOnly = 1;
+        };
+
     //8.58x70mm / .338LM (Lapua Magnum)
         class B_338_Ball;
-        class 4thmd_a_858x70_epr_y : B_338_Ball
+        class 4thmd_a_858x70_ball_y : B_338_Ball
         {
             model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
             tracerScale = 2.4;
         };
 
-        class 4thmd_a_858x70_epr_ir : 4thmd_a_858x70_epr_y
+        class 4thmd_a_858x70_ball_ir : 4thmd_a_858x70_ball_y
         {
             nvgOnly = 1;
+            tracerScale = 1.2;
         };
 
         class ACE_338_Ball_API526;
@@ -234,6 +383,7 @@ class CfgAmmo
         class 4thmd_a_127x99_ball_ir : 4thmd_a_127x99_ball_y
         {
             nvgOnly = 1;
+            tracerScale = 1.5;
         };
         
         class ACE_127x99_API;
@@ -279,6 +429,7 @@ class CfgAmmo
             class 4thmd_a_762x51_epr_ir;        //EPR-IR
             class 4thmd_a_762x51_ap_y;          //AP-Y
             class 4thmd_a_762x51_lr_y;          //LRR-Y  - M118
+            class 4thmd_a_762x51_lr_ir;         //LRR-IR
             class ACE_762x51_Ball_Mk316_Mod_0;  //SBLR - Mk316 
             class ACE_762x51_Ball_Mk319_Mod_0;  //SOST
             class ACE_762x51_Ball_Subsonic;     //SUB
@@ -295,7 +446,7 @@ class CfgAmmo
             class 4thmd_a_127x99_ball_ir        //Ball-IR
             class 4thmd_a_127x99_api_y          //AP-Y
             class 4thmd_a_127x99_api_ir         //AP-Y
-            class 4thmd_a_127x99_heiap_y;       //RFS-Y     //T: Mk30/NM160 S:Mk211/NM140
+            class 4thmd_a_127x99_heiap_y;       //RFS-Y     //T: Mk300/NM160 S:Mk211/NM140
             class 4thmd_a_127x99_heiap_ir;      //RFS-Y     //NM263
             class ACE_127x99_Ball_AMAX;         //SBLR
     };
@@ -413,8 +564,8 @@ class CfgMagazines
         };
 
     //5.56x45mm 30rnd Magazines
-        class rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull;
-        class 4thmd_m_556x45_m30_sttan_sby_t3 : rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull
+        class rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull_Tracer_Red;
+        class 4thmd_m_556x45_m30_stblk_sby_t3 : rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull_Tracer_Red
         {
             displayName = "5.56mm 30rnd EPR-Y(T3E3)";
             displayNameShort = "EPR-Y T3E3";
@@ -430,7 +581,7 @@ class CfgMagazines
             greenmag_basicammo="greenmag_ammo_556x45_basic_1Rnd";
         };
 
-        class 4thmd_m_556x45_m30_sttan_sby_nt : 4thmd_m_556x45_m30_sttan_sby_t3
+        class 4thmd_m_556x45_m30_stblk_sby_nt : 4thmd_m_556x45_m30_stblk_sby_t3
         {
             displayName = "5.56mm 30rnd EPR";
             displayNameShort = "EPR NT";
@@ -439,7 +590,7 @@ class CfgMagazines
             tracersEvery = 0;
         };
 
-        class 4thmd_m_556x45_m30_sttan_sby_t : 4thmd_m_556x45_m30_sttan_sby_t3
+        class 4thmd_m_556x45_m30_stblk_sby_t : 4thmd_m_556x45_m30_stblk_sby_t3
         {
             displayName = "5.56mm 30rnd EPR-Y(T)";
             displayNameShort = "EPR-Y T";
@@ -448,7 +599,24 @@ class CfgMagazines
             tracersEvery = 1;
         };
 
-        class 4thmd_m_556x45_m30_sttan_apy_t5 : 4thmd_m_556x45_m30_sttan_sby_t3
+        class 4thmd_m_556x45_m30_stblk_sbir_t3 : 4thmd_m_556x45_m30_stblk_sby_t3
+        {
+            displayName = "5.56mm 30rnd EPR-IR(T3E3)";
+            displayNameShort = "EPR-IR T3E3";
+            descriptionShort = "M855A1 Enhanced Preformance Rounds<br/>M856A1B Infra-Red Tracer Rounds<br/>Tracer every 3, 3 End Tracers";
+            ammo = "4thmd_a_556x45_epr_ir";
+        };
+
+        class 4thmd_m_556x45_m30_stblk_sbir_t : 4thmd_m_556x45_m30_stblk_sbir_t3
+        {
+            displayName = "5.56mm 30rnd EPR-IR(T)";
+            displayNameShort = "EPR-IR T";
+            descriptionShort = "M856A1B Infra-Red Tracer Rounds<br/>All Tracers";
+            lastRoundsTracer = 1;
+            tracersEvery = 1;
+        };
+
+        class 4thmd_m_556x45_m30_stblk_apy_t5 : 4thmd_m_556x45_m30_stblk_sby_t3
         {
             displayName = "5.56mm 30rnd AP-Y(T5E3)";
             displayNameShort = "AP-Y T5E3";
@@ -458,7 +626,7 @@ class CfgMagazines
             tracersEvery = 5;
         };
 
-        class 4thmd_m_556x45_m30_sttan_apy_nt : 4thmd_m_556x45_m30_sttan_apy_t5
+        class 4thmd_m_556x45_m30_stblk_apy_nt : 4thmd_m_556x45_m30_stblk_apy_t5
         {
             displayName = "5.56mm 30rnd AP";
             displayNameShort = "AP NT";
@@ -467,11 +635,11 @@ class CfgMagazines
             tracersEvery = 0;
         };
 
-        class 4thmd_m_556x45_m30_sttan_lry_nt : 4thmd_m_556x45_m30_sttan_sby_t3
+        class 4thmd_m_556x45_m30_stblk_lry_nt : 4thmd_m_556x45_m30_stblk_sby_t3
         {
-            displayName = "5.56mm 30rnd SBLR";
+            displayName = "5.56mm 30rnd SBLR(Mk262 77gr)";
             displayNameShort = "SBLR NT";
-            descriptionShort = "Mk262 Special Ballistic Long Range Rounds<br/>No Tracers";
+            descriptionShort = "Mk262 77gr Special Ballistic Long Range Rounds<br/>No Tracers";
             ammo = "4thmd_a_556x45_sblr_y";
             lastRoundsTracer = 0;
             tracersEvery = 0;
@@ -485,7 +653,7 @@ class CfgMagazines
             displayNameShort = "EPR-Y T3E5";
             descriptionShort = "M855A1 Enhanced Preformance Rounds<br/>M856A1 Enhanced Tracer Rounds<br/>Tracer every 3, 5 End Tracers";
             ammo = "4thmd_a_556x45_epr_y";
-            mass = 20;
+            mass = 22.5;
             count = 50;
             lastRoundsTracer = 5;
             tracersEvery = 3;
@@ -509,6 +677,23 @@ class CfgMagazines
             displayName = "5.56mm 50rnd EPR-Y(T)";
             displayNameShort = "EPR-Y T";
             descriptionShort = "M856A1 Enhanced Tracer Rounds<br/>All Tracers";
+            lastRoundsTracer = 1;
+            tracersEvery = 1;
+        };
+
+        class 4thmd_m_556x45_m50_xmag_sbir_t3 : 4thmd_m_556x45_m50_xmag_sby_t3
+        {
+            displayName = "5.56mm 50rnd EPR-IR(T3E5)";
+            displayNameShort = "EPR-IR T3E5";
+            descriptionShort = "M855A1 Enhanced Preformance Rounds<br/>M856A1B Infra-Red Tracer Rounds<br/>Tracer every 3, 5 End Tracers";
+            ammo = "4thmd_a_556x45_epr_ir";
+        };
+
+        class 4thmd_m_556x45_m50_xmag_sbir_t : 4thmd_m_556x45_m50_xmag_sbir_t3
+        {
+            displayName = "5.56mm 50rnd EPR-IR(T)";
+            displayNameShort = "EPR-IR T";
+            descriptionShort = "M856A1B Infra-Red Tracer Rounds<br/>All Tracers";
             lastRoundsTracer = 1;
             tracersEvery = 1;
         };
@@ -537,6 +722,24 @@ class CfgMagazines
             displayName = "5.56mm 100rnd EPR-Y(T)";
             displayNameShort = "EPR-Y T";
             descriptionShort = "M856A1 Enhanced Tracer Rounds<br/>All Tracers";
+
+            lastRoundsTracer = 1;
+            tracersEvery = 1;
+        };
+
+        class 4thmd_m_556x45_m100_cmag_sbir_t3 : 4thmd_m_556x45_m100_cmag_sby_t3
+        {
+            displayName = "5.56mm 100rnd EPR-IR(T3E5)";
+            displayNameShort = "EPR-IR T3E5";
+            descriptionShort = "M855A1 Enhanced Preformance Rounds<br/>M856A1B Infra-Red Tracer Rounds<br/>Tracer every 3, 3 End Tracers";
+
+            ammo = "4thmd_a_556x45_epr_ir";
+        };
+        class 4thmd_m_556x45_m100_cmag_sbir_t : 4thmd_m_556x45_m100_cmag_sbir_t3
+        {
+            displayName = "5.56mm 100rnd EPR-IR(T)";
+            displayNameShort = "EPR-IR T";
+            descriptionShort = "M856A1B Infra-Red Tracer Rounds<br/>All Tracers";
 
             lastRoundsTracer = 1;
             tracersEvery = 1;
@@ -576,6 +779,25 @@ class CfgMagazines
             displayName = "5.56mm 100rnd M27 EPR(NT)";
             displayNameShort = "EPR NT";
             descriptionShort = "M855A1 Enhanced Preformance Rounds<br/>No Tracers<br/>Disentegrating, Non-Reloadable Belt";
+
+            lastRoundsTracer = 1;
+            tracersEvery = 1;
+        };
+
+        class 4thmd_m_556x45_b100_sptan_sbir_t3 : 4thmd_m_556x45_b100_sptan_sby_t3
+        {
+            displayName = "5.56mm 100rnd M27 EPR-IR(T3E5)";
+            displayNameShort = "EPR-IR T3E5";
+            descriptionShort = "M855A1 Enhanced Preformance Rounds<br/>M856A1B Infra-Red Tracer Rounds<br/>Tracer every 3, 5 End Tracers<br/>Disentegrating, Non-Reloadable Belt";
+
+            ammo = "4thmd_a_556x45_epr_ir";
+        };
+        
+        class 4thmd_m_556x45_b100_sptan_sbir_t : 4thmd_m_556x45_b100_sptan_sbir_t3
+        {
+            displayName = "5.56mm 100rnd M27 EPR-IR(T)";
+            displayNameShort = "EPR-IR T";
+            descriptionShort = "M856A1B Infra-Red Tracer Rounds<br/>All Tracers<br/>Disentegrating, Non-Reloadable Belt";
 
             lastRoundsTracer = 1;
             tracersEvery = 1;
@@ -638,8 +860,26 @@ class CfgMagazines
             tracersEvery = 0;
         };
 
+        class 4thmd_m_556x45_b200_sptan_sbir_t3 : 4thmd_m_556x45_b200_sptan_sby_t3
+        {
+            displayName = "5.56mm 200rnd M27 EPR-IR(T3E10)";
+            displayNameShort = "EPR-IR T3E10";
+            descriptionShort = "M855A1 Enhanced Preformance Rounds<br/>M856A1B Infra-Red Tracer Rounds<br/>Tracer every 3, 10 End Tracers<br/>Disentegrating, Non-Reloadable Belt";
+
+            ammo = "4thmd_a_556x45_epr_ir";
+        };
+
+        class 4thmd_m_556x45_b200_sptan_sbir_t : 4thmd_m_556x45_b200_sptan_sbir_t3
+        {
+            displayName = "5.56mm 200rnd M27 EPR-IR(T)";
+            displayNameShort = "EPR-IR T";
+            descriptionShort = "M856A1B Infra-Red Tracer Rounds<br/>All Tracers<br/>Disentegrating, Non-Reloadable Belt";
+            lastRoundsTracer = 1;
+            tracersEvery = 1;
+        };
+
     //7.62x35mm 30rnd Magazines / .300AAC / .300BO (Black Out)
-        class 4thmd_m_762x35_m30_sttan_sby_t3 : rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull
+        class 4thmd_m_762x35_m30_stblk_sby_t3 : rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull_Tracer_Red
         {
             displayName = ".300AAC 30rnd Ball-Y(T3E3)";
             displayNameShort = "Ball-Y T3E3";
@@ -655,7 +895,7 @@ class CfgMagazines
             greenmag_basicammo="greenmag_ammo_300BO_basic_1Rnd";
         };
 
-        class 4thmd_m_762x35_m30_sttan_sby_nt : 4thmd_m_762x35_m30_sttan_sby_t3
+        class 4thmd_m_762x35_m30_stblk_sby_nt : 4thmd_m_762x35_m30_stblk_sby_t3
         {
             displayName = ".300AAC 30rnd Ball";
             displayNameShort = "Ball NT";
@@ -664,7 +904,7 @@ class CfgMagazines
             tracersEvery = 0;
         };
 
-        class 4thmd_m_762x35_m30_sttan_sby_t : 4thmd_m_762x35_m30_sttan_sby_t3
+        class 4thmd_m_762x35_m30_stblk_sby_t : 4thmd_m_762x35_m30_stblk_sby_t3
         {
             displayName = ".300AAC 30rnd Ball-Y(T)";
             displayNameShort = "Ball-Y T";
@@ -673,7 +913,24 @@ class CfgMagazines
             tracersEvery = 1;
         };
 
-        class 4thmd_m_762x35_m30_sttan_suby_t3 : 4thmd_m_762x35_m30_sttan_sby_t3
+        class 4thmd_m_762x35_m30_stblk_sbir_t3 : 4thmd_m_762x35_m30_stblk_sby_t3
+        {
+            displayName = ".300AAC 30rnd Ball-IR(T3E3)";
+            displayNameShort = "Ball-IR T3E3";
+            descriptionShort = "M855/M80 Old Stock Conversion Ball Rounds<br/>M856/M62 Mod-B OSC Infra-Red Tracer Rounds<br/>Tracer every 3, 3 End Tracers";
+            ammo = "4thmd_a_762x35_ball_ir";
+        };
+
+        class 4thmd_m_762x35_m30_stblk_sbir_t : 4thmd_m_762x35_m30_stblk_sbir_t3
+        {
+            displayName = ".300AAC 30rnd Ball-IR(T)";
+            displayNameShort = "Ball-IR T";
+            descriptionShort = "M856/M62 Mod-B OSC Infra-Red Tracer Rounds<br/>All Tracers";
+            lastRoundsTracer = 1;
+            tracersEvery = 1;
+        };
+
+        class 4thmd_m_762x35_m30_stblk_suby_t3 : 4thmd_m_762x35_m30_stblk_sby_t3
         {
             displayName = ".300AAC 30rnd SUB-Y(T3E3)";
             displayNameShort = "SUB-Y T3E3";
@@ -684,7 +941,7 @@ class CfgMagazines
             lastRoundsTracer = 3;
         };
 
-        class 4thmd_m_762x35_m30_sttan_suby_nt : 4thmd_m_762x35_m30_sttan_suby_t3
+        class 4thmd_m_762x35_m30_stblk_suby_nt : 4thmd_m_762x35_m30_stblk_suby_t3
         {
             displayName = ".300AAC 30rnd Subsonic";
             displayNameShort = "SUB NT";
@@ -693,11 +950,29 @@ class CfgMagazines
             lastRoundsTracer = 0;
         };
 
-        class 4thmd_m_762x35_m30_sttan_suby_t : 4thmd_m_762x35_m30_sttan_suby_t3
+        class 4thmd_m_762x35_m30_stblk_suby_t : 4thmd_m_762x35_m30_stblk_suby_t3
         {
             displayName = ".300AAC 30rnd SUB-Y(T)";
             displayNameShort = "SUB-Y T";
             descriptionShort = "SMK220/T Subsonic JHP Tracer Rounds<br/>Tracer every 5, 3 End Tracers";
+            tracersEvery = 1;
+            lastRoundsTracer = 1;
+        };
+
+        class 4thmd_m_762x35_m30_stblk_subir_t3 : 4thmd_m_762x35_m30_stblk_suby_t3
+        {
+            displayName = ".300AAC 30rnd SUB-IR(T3E3)";
+            displayNameShort = "SUB-IR T3E3";
+            descriptionShort = "SMK220 Subsonic Jacketed Hollow Point Rounds<br/>SMK220/TB SUB-JHP Infra-Red Tracer Rounds<br/>Tracer every 5, 3 End Tracers";
+
+            ammo = "HLC_300Blackout_SMK";
+        };
+
+        class 4thmd_m_762x35_m30_stblk_subir_t : 4thmd_m_762x35_m30_stblk_subir_t3
+        {
+            displayName = ".300AAC 30rnd SUB-IR(T)";
+            displayNameShort = "SUB-IR T";
+            descriptionShort = "SMK220/TB SUB-JHP Infra-Red Tracer Rounds<br/>Tracer every 5, 3 End Tracers";
             tracersEvery = 1;
             lastRoundsTracer = 1;
         };
@@ -709,7 +984,7 @@ class CfgMagazines
             displayNameShort = "Ball-Y T3E5";
             descriptionShort = "M855/M80 Ball Rounds<br/>M856/M62 Tracer Rounds<br/>Tracer every 3, 5 End Tracers";
             ammo = "4thmd_a_762x35_ball_y";
-            mass = 24;
+            mass = 27.5;
             count = 50;
             tracersEvery = 3;
             lastRoundsTracer = 5;
@@ -733,6 +1008,23 @@ class CfgMagazines
             displayName = ".300AAC 50rnd Ball-Y(T)";
             displayNameShort = "Ball-Y T";
             descriptionShort = "M856/M62 Tracer Rounds<br/>Tracer every 3, 5 End Tracers";
+            tracersEvery = 1;
+            lastRoundsTracer = 1;
+        };
+
+        class 4thmd_m_762x35_m50_xmblk_sbir_t3 : 4thmd_m_762x35_m50_xmblk_sby_t3
+        {
+            displayName = ".300AAC 50rnd Ball-IR(T3E5)";
+            displayNameShort = "Ball-IR T3E5";
+            descriptionShort = "M855/M80 Ball Rounds<br/>M856/M62 Mod-B OSC Infra-Red Tracer Rounds<br/>Tracer every 3, 5 End Tracers";
+            ammo = "4thmd_a_762x35_ball_ir";
+        };
+
+        class 4thmd_m_762x35_m50_xmblk_sbir_t : 4thmd_m_762x35_m50_xmblk_sbir_t3
+        {
+            displayName = ".300AAC 50rnd Ball-IR(T)";
+            displayNameShort = "Ball-IR T";
+            descriptionShort = "M856/M62 Mod-B OSC Infra-Red Tracer Rounds<br/>All Tracers";
             tracersEvery = 1;
             lastRoundsTracer = 1;
         };
@@ -776,6 +1068,25 @@ class CfgMagazines
             tracersEvery = 1;
         };
 
+        class 4thmd_m_762x51_20scr_stblk_sbir_t3 : 4thmd_m_762x51_20scr_stblk_sby_t3
+        {
+            displayName = "7.62mm 20rnd EPR-IR(T3E3)";
+            displayNameShort = "EPR-IR T3E3";
+            descriptionShort = "M80A1 Enhanced Preformance Rounds<br/>M62A1B Infra-Red Tracer Rounds<br/>Tracer every 3, 3 End Tracers";
+
+            ammo = "4thmd_a_762x51_epr_ir";
+        };
+
+        class 4thmd_m_762x51_20scr_stblk_sbir_t : 4thmd_m_762x51_20scr_stblk_sbir_t3
+        {
+            displayName = "7.62mm 20rnd EPR-IR(T)";
+            displayNameShort = "EPR-IR T";
+            descriptionShort = "M62A1B Infra-Red Tracer Rounds<br/>All Tracers";
+
+            lastRoundsTracer = 1;
+            tracersEvery = 1;
+        };
+
         class 4thmd_m_762x51_20scr_stblk_apy_t4 : 4thmd_m_762x51_20scr_stblk_sby_t3
         {
             displayName = "7.62mm 20rnd AP-Y(T4E2)";
@@ -791,7 +1102,7 @@ class CfgMagazines
         {
             displayName = "7.62mm 20rnd AP(NT)";
             displayNameShort = "AP NT";
-            descriptionShort = "M80A1 Enhanced Preformance Rounds<br/>No Tracers";
+            descriptionShort = "M61 Armor Piercing Rounds<br/>No Tracers";
 
             lastRoundsTracer = 0;
             tracersEvery = 0;
@@ -799,9 +1110,9 @@ class CfgMagazines
 
         class 4thmd_m_762x51_20scr_stblk_lry_nt : 4thmd_m_762x51_20scr_stblk_sby_t3
         {
-            displayName = "7.62mm 20rnd LRR(NT)";
+            displayName = "7.62mm 20rnd LRR(M118 175gr)";
             displayNameShort = "LRR NT";
-            descriptionShort = "M118 Long Range Preformance Rounds<br/>No Tracers";
+            descriptionShort = "M118 175gr Long Range Preformance Rounds<br/>No Tracers";
 
             ammo = "4thmd_a_762x51_lr_y";
             lastRoundsTracer = 0;
@@ -810,9 +1121,9 @@ class CfgMagazines
 
         class 4thmd_m_762x51_20scr_stblk_slr_nt : 4thmd_m_762x51_20scr_stblk_lry_nt
         {
-            displayName = "7.62mm 20rnd SBLR(NT)";
+            displayName = "7.62mm 20rnd SBLR(Mk316 175gr)";
             displayNameShort = "SBLR NT";
-            descriptionShort = "Mk316 Special Ballistics Long Range Rounds<br/>No Tracers";
+            descriptionShort = "Mk316 175gr Special Ballistics Long Range Rounds<br/>No Tracers";
 
             ammo = "ACE_762x51_Ball_Mk316_Mod_0";
         };
@@ -857,6 +1168,25 @@ class CfgMagazines
             tracersEvery = 0;
         };
 
+        class 4thmd_m_762x51_dm50_drum_sbir_t3 : 4thmd_m_762x51_dm50_drum_sby_t3
+        {
+            displayName = "7.62mm 50rnd DM6 EPR-IR(T3E5)";
+            displayNameShort = "EPR-IR T3E5";
+            descriptionShort = "M80A1 Enhanced Preformance Rounds<br/>M62A1B Infra-Red Tracer Rounds<br/>Tracer every 3, 5 End Tracers<br/>Non-Disentegrating, Replacable Belt";
+
+            ammo = "4thmd_a_762x51_epr_ir";
+        };
+
+        class 4thmd_m_762x51_dm50_drum_sbir_t : 4thmd_m_762x51_dm50_drum_sbir_t3
+        {
+            displayName = "7.62mm 50rnd DM6 EPR-IR(T)";
+            displayNameShort = "EPR-IR T";
+            descriptionShort = "M62A1B Infra-Red Tracer Rounds<br/>All Tracers<br/>Non-Disentegrating, Replacable Belt";
+
+            lastRoundsTracer = 1;
+            tracersEvery = 1;
+        };
+
         class 4thmd_m_762x51_dm50_drum_apy_t6 : 4thmd_m_762x51_dm50_drum_sby_t3
         {
             displayName = "7.62mm 50rnd DM6 AP-Y(T6E5)";
@@ -882,7 +1212,7 @@ class CfgMagazines
         {
             displayName = "7.62mm 50rnd DM6 LRR-Y(T6E5)";
             displayNameShort = "LRR-Y T6E5";
-            descriptionShort = "M118 Long Range Preformance Rounds<br/>M62E3 Enhanced Tracer Rounds<br/>Tracer every 6, 5 End Tracers<br/>Non-Disentegrating, Replacable Belt";
+            descriptionShort = "M118 175gr Long Range Preformance Rounds<br/>M118 Mod A Yellow Tracer Rounds<br/>Tracer every 6, 5 End Tracers<br/>Non-Disentegrating, Replacable Belt";
 
             ammo = "4thmd_a_762x51_lr_y";
         };
@@ -891,10 +1221,19 @@ class CfgMagazines
         {
             displayName = "7.62mm 50rnd DM6 LRR(NT)";
             displayNameShort = "LRR NT";
-            descriptionShort = "M118 Long Range Preformance Rounds<br/>No Tracers<br/>Non-Disentegrating, Replacable Belt";
+            descriptionShort = "M118 175gr Long Range Preformance Rounds<br/>No Tracers<br/>Non-Disentegrating, Replacable Belt";
 
             lastRoundsTracer = 0;
             tracersEvery = 0;
+        };
+
+        class 4thmd_m_762x51_dm50_drum_lrir_t6 : 4thmd_m_762x51_dm50_drum_lry_t6
+        {
+            displayName = "7.62mm 50rnd DM6 LRR-Y(T6E5)";
+            displayNameShort = "LRR-Y T6E5";
+            descriptionShort = "M118 175gr Long Range Preformance Rounds<br/>M118 Mod B Infra-Red Tracer Rounds<br/>Tracer every 6, 5 End Tracers<br/>Non-Disentegrating, Replacable Belt";
+
+            ammo = "4thmd_a_762x51_lr_ir";
         };
 
     //7.62x51mm 100rnd DM6-Belt
@@ -937,19 +1276,67 @@ class CfgMagazines
             tracersEvery = 0;
         };
 
+        class 4thmd_m_762x51_dm100_gbox_sbir_t3 : 4thmd_m_762x51_dm100_gbox_sby_t3
+        {
+            displayName = "7.62mm 100rnd DM6 EPR-IR(T3E10)";
+            displayNameShort = "EPR-IR T3E10";
+            descriptionShort = "M80A1 Enhanced Preformance Rounds<br/>M62A1B Infra-Red Tracer Rounds<br/>Tracer every 3, 10 End Tracers<br/>Non-Disentegrating, Replacable Belt";
+
+            ammo = "4thmd_a_762x51_epr_ir";
+        };
+
+        class 4thmd_m_762x51_dm100_gbox_sbir_t : 4thmd_m_762x51_dm100_gbox_sbir_t3
+        {
+            displayName = "7.62mm 100rnd DM6 EPR-IR(T)";
+            displayNameShort = "EPR-IR T";
+            descriptionShort = "M62A1B Infra-Red Tracer Rounds<br/>All Tracers<br/>Non-Disentegrating, Replacable Belt";
+
+            lastRoundsTracer = 1;
+            tracersEvery = 1;
+        };
+
+        class 4thmd_m_762x51_dm100_gbox_lry_t6 : 4thmd_m_762x51_dm100_gbox_sby_t3
+        {
+            displayName = "7.62mm 100rnd DM6 LRR-Y(T6E10)";
+            displayNameShort = "LRR-Y T6E10";
+            descriptionShort = "M118 175gr Long Range Preformance Rounds<br/>M118 Mod A Yellow Tracer Rounds<br/>Tracer every 6, 10 End Tracers<br/>Non-Disentegrating, Replacable Belt";
+
+            ammo = "4thmd_a_762x51_lr_y";
+            tracersEvery = 6;
+        };
+
+        class 4thmd_m_762x51_dm100_gbox_lry_nt : 4thmd_m_762x51_dm100_gbox_lry_t6
+        {
+            displayName = "7.62mm 100rnd DM6 LRR(NT)";
+            displayNameShort = "LRR NT";
+            descriptionShort = "M118 175gr Long Range Preformance Rounds<br/>No Tracers<br/>Non-Disentegrating, Replacable Belt";
+
+            lastRoundsTracer = 0;
+            tracersEvery = 0;
+        };
+
+        class 4thmd_m_762x51_dm100_gbox_lrir_t6 : 4thmd_m_762x51_dm100_gbox_lry_t6
+        {
+            displayName = "7.62mm 100rnd DM6 LRR-IR(T6E10)";
+            displayNameShort = "LRR-IR T6E10";
+            descriptionShort = "M118 175gr Long Range Preformance Rounds<br/>M118 Mod B Infra-Red Tracer Rounds<br/>Tracer every 6, 10 End Tracers<br/>Non-Disentegrating, Replacable Belt";
+
+            ammo = "4thmd_a_762x51_lr_ir";
+        };
+
     //7.62x51mm 200rnd DM6-Belt
         class 4thmd_m_762x51_dm200_gbox_sby_t3 : 150Rnd_762x51_Box
         {
-            displayName = "7.62mm 200rnd DM6 EPR-Y(T3E10)";
-            displayNameShort = "EPR-Y T3E10";
-            descriptionShort = "M80A1 Enhanced Preformance Rounds<br/>M62A1 Enhanced Tracer Rounds<br/>Tracer every 3, 10 End Tracers<br/>Non-Disentegrating, Replacable Belt";
+            displayName = "7.62mm 200rnd DM6 EPR-Y(T3E20)";
+            displayNameShort = "EPR-Y T3E20";
+            descriptionShort = "M80A1 Enhanced Preformance Rounds<br/>M62A1 Enhanced Tracer Rounds<br/>Tracer every 3, 20 End Tracers<br/>Non-Disentegrating, Replacable Belt";
 
             picture = "\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Ammo\data\gear_magazine_762_box_ca.paa";
             model = "\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Ammo\uk3cb_L7_ammobox.p3d";
 
             ammo = "4thmd_a_762x51_epr_y";
             mass = 100;
-            lastRoundsTracer = 10;
+            lastRoundsTracer = 20;
             tracersEvery = 3;
             count = 200;
 
@@ -977,6 +1364,25 @@ class CfgMagazines
 
             lastRoundsTracer = 0;
             tracersEvery = 0;
+        };
+
+        class 4thmd_m_762x51_dm200_gbox_sbir_t3 : 4thmd_m_762x51_dm200_gbox_sby_t3
+        {
+            displayName = "7.62mm 200rnd DM6 EPR-IR(T3E20)";
+            displayNameShort = "EPR-IR T3E20";
+            descriptionShort = "M80A1 Enhanced Preformance Rounds<br/>M62A1B Infra-Red Tracer Rounds<br/>Tracer every 3, 20 End Tracers<br/>Non-Disentegrating, Replacable Belt";
+
+            ammo = "4thmd_a_762x51_epr_ir";
+        };
+
+        class 4thmd_m_762x51_dm200_gbox_sbir_t : 4thmd_m_762x51_dm200_gbox_sbir_t3
+        {
+            displayName = "7.62mm 200rnd DM6 EPR-IR(T)";
+            displayNameShort = "EPR-IR T";
+            descriptionShort = "M62A1B Infra-Red Tracer Rounds<br/>All Tracers<br/>Non-Disentegrating, Replacable Belt";
+
+            lastRoundsTracer = 1;
+            tracersEvery = 1;
         };
 
     //7.62x51mm 75rd M13-Belt
@@ -1019,6 +1425,25 @@ class CfgMagazines
             tracersEvery = 0;
         };
 
+        class 4thmd_m_762x51_b75_smabx_sbir_t3 : 4thmd_m_762x51_b75_smabx_sby_t3
+        {
+            displayName = "7.62mm 75rnd M13 EPR-IR(T3E5)";
+            displayNameShort = "EPR-IR T3E5";
+            descriptionShort = "M80A1 Enhanced Preformance Rounds<br/>M62A1B Infra-Red Tracer Rounds<br/>Tracer every 3, 5 End Tracers<br/>Disentegrating, Non-Reloadable Belt";
+
+            ammo = "4thmd_a_762x51_epr_ir";
+        };
+
+        class 4thmd_m_762x51_b75_smabx_sbir_t : 4thmd_m_762x51_b75_smabx_sbir_t3
+        {
+            displayName = "7.62mm 75rnd M13 EPR-IR(T)";
+            displayNameShort = "EPR-IR T";
+            descriptionShort = "M62A1B Infra-Red Tracer Rounds<br/>All Tracers<br/>Disentegrating, Non-Reloadable Belt";
+
+            lastRoundsTracer = 1;
+            tracersEvery = 1;
+        };
+
         class 4thmd_m_762x51_b75_smabx_apy_t6 : 4thmd_m_762x51_b75_smabx_sby_t3
         {
             displayName = "7.62mm 75rnd M13 AP-Y(T6E5)";
@@ -1042,23 +1467,31 @@ class CfgMagazines
 
         class 4thmd_m_762x51_b75_smabx_lry_t6 : 4thmd_m_762x51_b75_smabx_apy_t6
         {
-            displayName = "7.62mm 75rnd M13 LRP-Y(T6E5)";
-            displayNameShort = "LRP-Y T6E5";
-            descriptionShort = "M118 Long Range Preformance Rounds<br/>M62E3 Enhanced Tracer Rounds<br/>Tracer every 6, 5 End Tracers<br/>Disentegrating, Non-Reloadable Belt";
+            displayName = "7.62mm 75rnd M13 LRR-Y(T6E5)";
+            displayNameShort = "LRR-Y T6E5";
+            descriptionShort = "M118 175gr Long Range Preformance Rounds<br/>M118 Mod A Yellow Tracer Rounds<br/>Tracer every 6, 5 End Tracers<br/>Disentegrating, Non-Reloadable Belt";
 
             ammo = "4thmd_a_762x51_lr_y";
         };
 
         class 4thmd_m_762x51_b75_smabx_lry_nt : 4thmd_m_762x51_b75_smabx_lry_t6
         {
-            displayName = "7.62mm 75rnd M13 LRP(NT)";
-            displayNameShort = "LRP NT";
-            descriptionShort = "M118 Long Range Preformance Rounds<br/>No Tracers<br/>Disentegrating, Non-Reloadable Belt";
+            displayName = "7.62mm 75rnd M13 LRR(NT)";
+            displayNameShort = "LRR NT";
+            descriptionShort = "M118 175gr Long Range Preformance Rounds<br/>No Tracers<br/>Disentegrating, Non-Reloadable Belt";
 
             lastRoundsTracer = 0;
             tracersEvery = 0;
         };
 
+        class 4thmd_m_762x51_b75_smabx_lrir_t6 : 4thmd_m_762x51_b75_smabx_lry_t6
+        {
+            displayName = "7.62mm 75rnd M13 LRR-IR(T6E5)";
+            displayNameShort = "LRR-IR T6E5";
+            descriptionShort = "M118 175gr Long Range Preformance Rounds<br/M118 Mod B Infra-Red Tracer Rounds<br/>Tracer every 6, 5 End Tracers<br/>Disentegrating, Non-Reloadable Belt";
+
+            ammo = "4thmd_a_762x51_lr_ir";
+        };
 
     //7.62x51mm 150rnd M13-Belt
         class rhsusf_100Rnd_762x51;
@@ -1100,6 +1533,25 @@ class CfgMagazines
             tracersEvery = 0;
         };
 
+        class 4thmd_m_762x51_b150_lrgbx_sbir_t3 : 4thmd_m_762x51_b150_lrgbx_sby_t3
+        {
+            displayName = "7.62mm 150rnd M13 EPR-IR(T3E10)";
+            displayNameShort = "EPR-IR T3E10";
+            descriptionShort = "M80A1 Enhanced Preformance Rounds<br/>M62A1B Infra-Red Tracer Rounds<br/>Tracer every 3, 10 End Tracers<br/>Disentegrating, Non-Reloadable Belt";
+
+            ammo = "4thmd_a_762x51_epr_ir";
+        };
+
+        class 4thmd_m_762x51_b150_lrgbx_sbir_t : 4thmd_m_762x51_b150_lrgbx_sbir_t3
+        {
+            displayName = "7.62mm 150rnd M13 EPR-IR(T)";
+            displayNameShort = "EPR-IR T";
+            descriptionShort = "M62A1B Infra-Red Tracer Rounds<br/>All Tracers<br/>Disentegrating, Non-Reloadable Belt";
+
+            lastRoundsTracer = 1;
+            tracersEvery = 1;
+        };
+
     //8.58x70mm 10rnd Magazines / .338LM (Lapua Magnum)
         class 10Rnd_338_Mag;
 
@@ -1126,6 +1578,14 @@ class CfgMagazines
             descriptionShort = "M858 Long-Range Ball Rounds<br/>No Tracers";
             lastRoundsTracer = 0;
             tracersEvery = 0;
+        };
+
+        class 4thmd_m_858x70_m10_ulr_sbir_t : 4thmd_m_858x70_m10_ulr_sby_t
+        {
+            displayName = ".338LM 10rnd Ball-IR(T)";
+            displayNameShort = "Ball-IR T";
+            descriptionShort = "M859 Mod-B Long-Range Infra-Red Tracer Rounds<br/>All Tracers";
+            ammo = "4thmd_a_858x70_ball_ir";
         };
 
         class 4thmd_m_858x70_m10_ulr_apy_nt : 4thmd_m_858x70_m10_ulr_sby_nt
@@ -1178,6 +1638,14 @@ class CfgMagazines
             descriptionShort = "M858 Long-Range Ball Rounds<br/>No Tracers";
             lastRoundsTracer = 0;
             tracersEvery = 0;
+        };
+
+        class 4thmd_m_858x70_m5_aim_sbir_t : 4thmd_m_858x70_m5_aim_sby_t
+        {
+            displayName = ".338LM 5rnd Ball-IR(T)";
+            displayNameShort = "Ball-IR T";
+            descriptionShort = "M859 Mod-B Long-Range Infra-Red Tracer Rounds<br/>All Tracers";
+            ammo = "4thmd_a_858x70_ball_ir";
         };
 
         class 4thmd_m_858x70_m5_aim_apy_nt : 4thmd_m_858x70_m5_aim_sby_nt
@@ -1235,6 +1703,15 @@ class CfgMagazines
             lastRoundsTracer = 0;
         };
 
+        class 4thmd_m_127x99_m10_brt_sbir_t : 4thmd_m_127x99_m10_brt_sby_t
+        {
+            displayName = "12.7mm 10rnd Ball-IR(T) Magazine";
+            displayNameShort = "Ball-IR T";
+            descriptionShort = "M17B3 Infra-Red Tracer Rounds<br/>All Tracers";
+
+            ammo = "4thmd_a_127x99_ball_ir";
+        };
+
         class 4thmd_m_127x99_m10_brt_apy_t : 4thmd_m_127x99_m10_brt_sby_t
         {
             displayName = "12.7mm 10rnd API-Y(T) Magazine";
@@ -1254,11 +1731,20 @@ class CfgMagazines
 	    	tracersEvery = 0;
         };
 
+        class 4thmd_m_127x99_m10_brt_apir_t : 4thmd_m_127x99_m10_brt_apy_t
+        {
+            displayName = "12.7mm 10rnd API-IR(T) Magazine";
+            displayNameShort = "API-IR T";
+            descriptionShort = "M8B3 Armor-Piercing Incendiary Infra-Red Tracer Rounds<br/>All Tracers";
+
+            ammo = "4thmd_a_127x99_api_ir";
+        };
+
         class 4thmd_m_127x99_m10_brt_rfsy_t : 4thmd_m_127x99_m10_brt_sby_t
         {
             displayName = "12.7mm 10rnd Raufoss-Y(T) Magazine";
             displayNameShort = "HEIAP-Y T";
-            descriptionShort = "Raufoss Mk300 High Explosive Incendiary<br/>Armor-Piercing, Yellow Tracer Rounds<br/>All Tracers";
+            descriptionShort = "Raufoss NM160 High Explosive Incendiary<br/>Armor-Piercing, Yellow Tracer Rounds<br/>All Tracers";
 
             ammo = "4thmd_a_127x99_heiap_y";
         };
@@ -1267,10 +1753,19 @@ class CfgMagazines
         {
             displayName = "12.7mm 10rnd Raufoss Magazine";
             displayNameShort = "HEIAP NT";
-            descriptionShort = "Raufoss Mk211 High Explosive Incendiary<br/>Armor-Piercing Rounds, No Tracers";
+            descriptionShort = "Raufoss NM140 High Explosive Incendiary<br/>Armor-Piercing Rounds, No Tracers";
 
             lastRoundsTracer = 0;
 	    	tracersEvery = 0;
+        };
+
+        class 4thmd_m_127x99_m10_brt_rfsir_t : 4thmd_m_127x99_m10_brt_rfsy_t
+        {
+            displayName = "12.7mm 10rnd Raufoss-IR(T) Magazine";
+            displayNameShort = "HEIAP-IR T";
+            descriptionShort = "Raufoss NM263 High Explosive Incendiary<br/>Armor-Piercing, Infra-Red Tracer Rounds<br/>All Tracers";
+
+            ammo = "4thmd_a_127x99_heiap_ir";
         };
 
         class 4thmd_m_127x99_m10_brt_amax_nt : 4thmd_m_127x99_m10_brt_sby_nt
@@ -1315,6 +1810,20 @@ class CfgMagazines
     //40x46mm UGL Magazines / 40mmLV
     //40x51mm UGL Magazines / 40mmMV
     //40x46mm 6xMGL Magazines / 40mmLV
+
+    //Other Variants
+    class rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull;
+    class 150Rnd_556x45_Drum_Sand_Mag_F;
+    class 150Rnd_556x45_Drum_Green_Mag_F;
+    #include "CfgM_sttan.hpp"
+
+    class rhs_mag_30Rnd_556x45_M855_PMAG;
+    class hlc_20Rnd_762x51_B_SCARH;
+    #include "CfgM_pmblk.hpp"
+
+    class rhs_mag_30Rnd_556x45_M855_PMAG_Tan;
+    class hlc_20Rnd_762x51_B_SCARH_Tan;
+    #include "CfgM_pmtan.hpp"
 };
 
 class CfgMagazineWells
@@ -1343,17 +1852,58 @@ class CfgMagazineWells
     {
         4thmd_mags[] = 
         {
-            "4thmd_m_556x45_m30_sttan_sby_t3",
-            "4thmd_m_556x45_m30_sttan_sby_nt",
-            "4thmd_m_556x45_m30_sttan_sby_t",
-            "4thmd_m_556x45_m30_sttan_apy_t5",
-            "4thmd_m_556x45_m30_sttan_apy_nt",
-            "4thmd_m_556x45_m30_sttan_lry_nt",
+            "4thmd_m_556x45_m30_stblk_sby_t3",
+            "4thmd_m_556x45_m30_stblk_sby_nt",
+            "4thmd_m_556x45_m30_stblk_sby_t",
+            "4thmd_m_556x45_m30_stblk_sbir_t3",
+            "4thmd_m_556x45_m30_stblk_sbir_t",
+            "4thmd_m_556x45_m30_stblk_apy_t5",
+            "4thmd_m_556x45_m30_stblk_apy_nt",
+            "4thmd_m_556x45_m30_stblk_lry_nt",
             "4thmd_m_556x45_m50_xmag_sby_t3",
             "4thmd_m_556x45_m50_xmag_sby_nt",
             "4thmd_m_556x45_m50_xmag_sby_t",
+            "4thmd_m_556x45_m50_xmag_sbir_t3",
+            "4thmd_m_556x45_m50_xmag_sbir_t",
             "4thmd_m_556x45_m100_cmag_sby_t3",
-            "4thmd_m_556x45_m100_cmag_sby_t"
+            "4thmd_m_556x45_m100_cmag_sby_t",
+            "4thmd_m_556x45_m100_cmag_sbir_t3",
+            "4thmd_m_556x45_m100_cmag_sbir_t",
+
+            "4thmd_m_556x45_m30_sttan_sby_t3",
+            "4thmd_m_556x45_m30_sttan_sby_nt",
+            "4thmd_m_556x45_m30_sttan_sby_t",
+            "4thmd_m_556x45_m30_sttan_sbir_t3",
+            "4thmd_m_556x45_m30_sttan_sbir_t",
+            "4thmd_m_556x45_m30_sttan_apy_t5",
+            "4thmd_m_556x45_m30_sttan_apy_nt",
+            "4thmd_m_556x45_m30_sttan_lry_nt",
+            "4thmd_m_556x45_m100_cmtan_sby_t3",
+            "4thmd_m_556x45_m100_cmtan_sby_t",
+            "4thmd_m_556x45_m100_cmtan_sbir_t3",
+            "4thmd_m_556x45_m100_cmtan_sbir_t",
+            "4thmd_m_556x45_m100_cmgre_sby_t3",
+            "4thmd_m_556x45_m100_cmgre_sby_t",
+            "4thmd_m_556x45_m100_cmgre_sbir_t3",
+            "4thmd_m_556x45_m100_cmgre_sbir_t",
+
+            "4thmd_m_556x45_m30_pmblk_sby_t3",
+            "4thmd_m_556x45_m30_pmblk_sby_nt",
+            "4thmd_m_556x45_m30_pmblk_sby_t",
+            "4thmd_m_556x45_m30_pmblk_sbir_t3",
+            "4thmd_m_556x45_m30_pmblk_sbir_t",
+            "4thmd_m_556x45_m30_pmblk_apy_t5",
+            "4thmd_m_556x45_m30_pmblk_apy_nt",
+            "4thmd_m_556x45_m30_pmblk_lry_nt",
+
+            "4thmd_m_556x45_m30_pmtan_sby_t3",
+            "4thmd_m_556x45_m30_pmtan_sby_nt",
+            "4thmd_m_556x45_m30_pmtan_sby_t",
+            "4thmd_m_556x45_m30_pmtan_sbir_t3",
+            "4thmd_m_556x45_m30_pmtan_sbir_t",
+            "4thmd_m_556x45_m30_pmtan_apy_t5",
+            "4thmd_m_556x45_m30_pmtan_apy_nt",
+            "4thmd_m_556x45_m30_pmtan_lry_nt"
         };
     };
 
@@ -1361,12 +1911,41 @@ class CfgMagazineWells
     {
         4thmd_mags[] = 
         {
+            "4thmd_m_556x45_m30_stblk_sby_t3",
+            "4thmd_m_556x45_m30_stblk_sby_nt",
+            "4thmd_m_556x45_m30_stblk_sby_t",
+            "4thmd_m_556x45_m30_stblk_sbir_t3",
+            "4thmd_m_556x45_m30_stblk_sbir_t",
+            "4thmd_m_556x45_m30_stblk_apy_t5",
+            "4thmd_m_556x45_m30_stblk_apy_nt",
+            "4thmd_m_556x45_m30_stblk_lry_nt",
+
             "4thmd_m_556x45_m30_sttan_sby_t3",
             "4thmd_m_556x45_m30_sttan_sby_nt",
             "4thmd_m_556x45_m30_sttan_sby_t",
+            "4thmd_m_556x45_m30_sttan_sbir_t3",
+            "4thmd_m_556x45_m30_sttan_sbir_t",
             "4thmd_m_556x45_m30_sttan_apy_t5",
             "4thmd_m_556x45_m30_sttan_apy_nt",
-            "4thmd_m_556x45_m30_sttan_lry_nt"
+            "4thmd_m_556x45_m30_sttan_lry_nt",
+
+            "4thmd_m_556x45_m30_pmblk_sby_t3",
+            "4thmd_m_556x45_m30_pmblk_sby_nt",
+            "4thmd_m_556x45_m30_pmblk_sby_t",
+            "4thmd_m_556x45_m30_pmblk_sbir_t3",
+            "4thmd_m_556x45_m30_pmblk_sbir_t",
+            "4thmd_m_556x45_m30_pmblk_apy_t5",
+            "4thmd_m_556x45_m30_pmblk_apy_nt",
+            "4thmd_m_556x45_m30_pmblk_lry_nt",
+
+            "4thmd_m_556x45_m30_pmtan_sby_t3",
+            "4thmd_m_556x45_m30_pmtan_sby_nt",
+            "4thmd_m_556x45_m30_pmtan_sby_t",
+            "4thmd_m_556x45_m30_pmtan_sbir_t3",
+            "4thmd_m_556x45_m30_pmtan_sbir_t",
+            "4thmd_m_556x45_m30_pmtan_apy_t5",
+            "4thmd_m_556x45_m30_pmtan_apy_nt",
+            "4thmd_m_556x45_m30_pmtan_lry_nt"
         };
     };
     
@@ -1377,11 +1956,15 @@ class CfgMagazineWells
             "4thmd_m_556x45_b100_sptan_sby_t3",
             "4thmd_m_556x45_b100_sptan_sby_t",
             "4thmd_m_556x45_b100_sptan_sby_nt",
+            "4thmd_m_556x45_b100_sptan_sbir_t3",
+            "4thmd_m_556x45_b100_sptan_sbir_t",
             "4thmd_m_556x45_b100_sptan_apy_t5",
             "4thmd_m_556x45_b100_sptan_apy_nt",
             "4thmd_m_556x45_b200_sptan_sby_t3",
             "4thmd_m_556x45_b200_sptan_sby_t",
-            "4thmd_m_556x45_b200_sptan_sby_nt"
+            "4thmd_m_556x45_b200_sptan_sby_nt",
+            "4thmd_m_556x45_b200_sptan_sbir_t3",
+            "4thmd_m_556x45_b200_sptan_sbir_t"
         };
     };
 
@@ -1389,12 +1972,49 @@ class CfgMagazineWells
     {
         4thmd_mags[] =
         {
+            "4thmd_m_762x35_m30_stblk_sby_t3",
+            "4thmd_m_762x35_m30_stblk_sby_nt",
+            "4thmd_m_762x35_m30_stblk_sby_t",
+            "4thmd_m_762x35_m30_stblk_sbir_t3",
+            "4thmd_m_762x35_m30_stblk_sbir_t",
+            "4thmd_m_762x35_m30_stblk_suby_t3",
+            "4thmd_m_762x35_m30_stblk_suby_nt",
+            "4thmd_m_762x35_m30_stblk_suby_t",
+            "4thmd_m_762x35_m30_stblk_subir_t3",
+            "4thmd_m_762x35_m30_stblk_subir_t",
+
             "4thmd_m_762x35_m30_sttan_sby_t3",
             "4thmd_m_762x35_m30_sttan_sby_nt",
             "4thmd_m_762x35_m30_sttan_sby_t",
+            "4thmd_m_762x35_m30_sttan_sbir_t3",
+            "4thmd_m_762x35_m30_sttan_sbir_t",
             "4thmd_m_762x35_m30_sttan_suby_t3",
             "4thmd_m_762x35_m30_sttan_suby_nt",
-            "4thmd_m_762x35_m30_sttan_suby_t"
+            "4thmd_m_762x35_m30_sttan_suby_t",
+            "4thmd_m_762x35_m30_sttan_subir_t3",
+            "4thmd_m_762x35_m30_sttan_subir_t",
+
+            "4thmd_m_762x35_m30_pmblk_sby_t3",
+            "4thmd_m_762x35_m30_pmblk_sby_nt",
+            "4thmd_m_762x35_m30_pmblk_sby_t",
+            "4thmd_m_762x35_m30_pmblk_sbir_t3",
+            "4thmd_m_762x35_m30_pmblk_sbir_t",
+            "4thmd_m_762x35_m30_pmblk_suby_t3",
+            "4thmd_m_762x35_m30_pmblk_suby_nt",
+            "4thmd_m_762x35_m30_pmblk_suby_t",
+            "4thmd_m_762x35_m30_pmblk_subir_t3",
+            "4thmd_m_762x35_m30_pmblk_subir_t",
+
+            "4thmd_m_762x35_m30_pmtan_sby_t3",
+            "4thmd_m_762x35_m30_pmtan_sby_nt",
+            "4thmd_m_762x35_m30_pmtan_sby_t",
+            "4thmd_m_762x35_m30_pmtan_sbir_t3",
+            "4thmd_m_762x35_m30_pmtan_sbir_t",
+            "4thmd_m_762x35_m30_pmtan_suby_t3",
+            "4thmd_m_762x35_m30_pmtan_suby_nt",
+            "4thmd_m_762x35_m30_pmtan_suby_t",
+            "4thmd_m_762x35_m30_pmtan_subir_t3",
+            "4thmd_m_762x35_m30_pmtan_subir_t",
         };
     };
 
@@ -1404,7 +2024,9 @@ class CfgMagazineWells
         {
             "4thmd_m_762x35_m50_xmblk_sby_t3",
             "4thmd_m_762x35_m50_xmblk_sby_nt",
-            "4thmd_m_762x35_m50_xmblk_sby_t"
+            "4thmd_m_762x35_m50_xmblk_sby_t",
+            "4thmd_m_762x35_m50_xmblk_sbir_t3",
+            "4thmd_m_762x35_m50_xmblk_sbir_t"
         };
     };
 
@@ -1415,10 +2037,32 @@ class CfgMagazineWells
             "4thmd_m_762x51_20scr_stblk_sby_t3",
             "4thmd_m_762x51_20scr_stblk_sby_nt",
             "4thmd_m_762x51_20scr_stblk_sby_t",
+            "4thmd_m_762x51_20scr_stblk_sbir_t3",
+            "4thmd_m_762x51_20scr_stblk_sbir_t",
             "4thmd_m_762x51_20scr_stblk_apy_t4",
             "4thmd_m_762x51_20scr_stblk_apy_nt",
             "4thmd_m_762x51_20scr_stblk_lry_nt",
-            "4thmd_m_762x51_20scr_stblk_slr_nt"
+            "4thmd_m_762x51_20scr_stblk_slr_nt",
+
+            "4thmd_m_762x51_20scr_pmblk_sby_t3",
+            "4thmd_m_762x51_20scr_pmblk_sby_nt",
+            "4thmd_m_762x51_20scr_pmblk_sby_t",
+            "4thmd_m_762x51_20scr_pmblk_sbir_t3",
+            "4thmd_m_762x51_20scr_pmblk_sbir_t",
+            "4thmd_m_762x51_20scr_pmblk_apy_t4",
+            "4thmd_m_762x51_20scr_pmblk_apy_nt",
+            "4thmd_m_762x51_20scr_pmblk_lry_nt",
+            "4thmd_m_762x51_20scr_pmblk_slr_nt",
+
+            "4thmd_m_762x51_20scr_pmtan_sby_t3",
+            "4thmd_m_762x51_20scr_pmtan_sby_nt",
+            "4thmd_m_762x51_20scr_pmtan_sby_t",
+            "4thmd_m_762x51_20scr_pmtan_sbir_t3",
+            "4thmd_m_762x51_20scr_pmtan_sbir_t",
+            "4thmd_m_762x51_20scr_pmtan_apy_t4",
+            "4thmd_m_762x51_20scr_pmtan_apy_nt",
+            "4thmd_m_762x51_20scr_pmtan_lry_nt",
+            "4thmd_m_762x51_20scr_pmtan_slr_nt"
         };
     };
 
@@ -1429,13 +2073,18 @@ class CfgMagazineWells
             "4thmd_m_762x51_b75_smabx_sby_t3",
             "4thmd_m_762x51_b75_smabx_sby_t",
             "4thmd_m_762x51_b75_smabx_sby_nt",
+            "4thmd_m_762x51_b75_smabx_sbir_t3",
+            "4thmd_m_762x51_b75_smabx_sbir_t",
             "4thmd_m_762x51_b75_smabx_apy_t6",
             "4thmd_m_762x51_b75_smabx_apy_nt",
             "4thmd_m_762x51_b75_smabx_lry_t6",
             "4thmd_m_762x51_b75_smabx_lry_nt",
+            "4thmd_m_762x51_b75_smabx_lrir_t6",
             "4thmd_m_762x51_b150_lrgbx_sby_t3",
             "4thmd_m_762x51_b150_lrgbx_sby_t",
-            "4thmd_m_762x51_b150_lrgbx_sby_nt"
+            "4thmd_m_762x51_b150_lrgbx_sby_nt",
+            "4thmd_m_762x51_b150_lrgbx_sbir_t3",
+            "4thmd_m_762x51_b150_lrgbx_sbir_t"
         };
     };
 
@@ -1446,16 +2095,26 @@ class CfgMagazineWells
             "4thmd_m_762x51_dm50_drum_sby_t3",
             "4thmd_m_762x51_dm50_drum_sby_t",
             "4thmd_m_762x51_dm50_drum_sby_nt",
+            "4thmd_m_762x51_dm50_drum_sbir_t3",
+            "4thmd_m_762x51_dm50_drum_sbir_t",
             "4thmd_m_762x51_dm50_drum_apy_t6",
             "4thmd_m_762x51_dm50_drum_apy_nt",
             "4thmd_m_762x51_dm50_drum_lry_t6",
             "4thmd_m_762x51_dm50_drum_lry_nt",
+            "4thmd_m_762x51_dm50_drum_lrir_t6",
             "4thmd_m_762x51_dm100_gbox_sby_t3",
             "4thmd_m_762x51_dm100_gbox_sby_t",
             "4thmd_m_762x51_dm100_gbox_sby_nt",
+            "4thmd_m_762x51_dm100_gbox_sbir_t3",
+            "4thmd_m_762x51_dm100_gbox_sbir_t",
+            "4thmd_m_762x51_dm100_gbox_lry_t6",
+            "4thmd_m_762x51_dm100_gbox_lry_nt",
+            "4thmd_m_762x51_dm100_gbox_lrir_t6",
             "4thmd_m_762x51_dm200_gbox_sby_t3",
             "4thmd_m_762x51_dm200_gbox_sby_t",
-            "4thmd_m_762x51_dm200_gbox_sby_nt"
+            "4thmd_m_762x51_dm200_gbox_sby_nt",
+            "4thmd_m_762x51_dm200_gbox_sbir_t3",
+            "4thmd_m_762x51_dm200_gbox_sbir_t"
         };
     };
 
@@ -1465,6 +2124,7 @@ class CfgMagazineWells
         {
             "4thmd_m_858x70_m10_ulr_sby_t",
             "4thmd_m_858x70_m10_ulr_sby_nt",
+            "4thmd_m_858x70_m10_ulr_sbir_t",
             "4thmd_m_858x70_m10_ulr_apy_nt",
             "4thmd_m_858x70_m10_ulr_smk_nt",
             "4thmd_m_858x70_m10_ulr_vld_nt"
@@ -1477,6 +2137,7 @@ class CfgMagazineWells
         {
             "4thmd_m_858x70_m10_ulr_sby_t",
             "4thmd_m_858x70_m10_ulr_sby_nt",
+            "4thmd_m_858x70_m10_ulr_sbir_t",
             "4thmd_m_858x70_m10_ulr_apy_nt",
             "4thmd_m_858x70_m10_ulr_smk_nt",
             "4thmd_m_858x70_m10_ulr_vld_nt"
@@ -1489,6 +2150,7 @@ class CfgMagazineWells
         {
             "4thmd_m_858x70_m5_aim_sby_t",
             "4thmd_m_858x70_m5_aim_sby_nt",
+            "4thmd_m_858x70_m5_aim_sbir_t",
             "4thmd_m_858x70_m5_aim_apy_nt",
             "4thmd_m_858x70_m5_aim_smk_nt",
             "4thmd_m_858x70_m5_aim_vld_nt"
@@ -1501,10 +2163,13 @@ class CfgMagazineWells
         {
             "4thmd_m_127x99_m10_brt_sby_t",
             "4thmd_m_127x99_m10_brt_sby_nt",
+            "4thmd_m_127x99_m10_brt_sbir_t",
             "4thmd_m_127x99_m10_brt_apy_t",
             "4thmd_m_127x99_m10_brt_ap_nt",
+            "4thmd_m_127x99_m10_brt_apir_t",
             "4thmd_m_127x99_m10_brt_rfsy_t",
             "4thmd_m_127x99_m10_brt_rfsy_nt",
+            "4thmd_m_127x99_m10_brt_rfsir_t",
             "4thmd_m_127x99_m10_brt_amax_nt"
         };
     };

@@ -1809,9 +1809,11 @@ class CfgWeapons
 
         class 4thmd_u_ghil1_ar1_c : 4thmd_u_ghil1_ar1
         {
+            scope = DEBUG;
+            scopeArsenal = DEBUG;
+            
             descriptionShort = "APAT4-AR Solid Type 1 Camouflage<br/> #$#% Ghillie (Type C)";
 
-            scope = DEBUG;
             class ItemInfo : ItemInfo
             {
                 uniformClass = "4thmd_u_ghil1_ar1_c_f";

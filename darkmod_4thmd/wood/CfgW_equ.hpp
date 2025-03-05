@@ -1,5 +1,7 @@
 /*  //Base Classes
     class 4thmd_u_unif1_ar0;
+    class 4thmd_u_unif1_gh_ar0;
+    class 4thmd_u_ghil1_ar1;
     class 4thmd_h_hat1_ar0;
     class 4thmd_h_hat1_ar0_hs;
     class 4thmd_h_hat2_ar0;
@@ -865,14 +867,14 @@
             };
 
         //Ghillie + Uniforms
-            class 4thmd_u_unif1_gh_wd0 : 4thmd_u_unif1_wd0
+            class 4thmd_u_unif1_gh_wd0 : 4thmd_u_unif1_gh_ar0
             {
+                displayName = "[ARMCO] Massif Uniform (Woodland)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Reservist Uniform + Ghillie Veil";
 
                 class ItemInfo : ItemInfo
                 {
                     uniformClass = "4thmd_u_unif1_gh_wd0_f";
-                    mass = 65;
                 };
             };
 
@@ -1037,7 +1039,7 @@
             };
 
     //Ghillie Uniforms
-        class 4thmd_u_ghil1_wd1 : 4thmd_u_unif1_wd0
+        class 4thmd_u_ghil1_wd1 : 4thmd_u_ghil1_ar1
         {
             displayName = "[ARMCO] Ghillie Uniform (Woodland)";
             descriptionShort = "APAT4-WD Solid Type 1 Camouflage<br/> Lush Ghillie (Type 0)";
@@ -1045,7 +1047,6 @@
             class ItemInfo : ItemInfo
             {
                 uniformClass = "4thmd_u_ghil1_wd1_f";
-                mass = 100;
             };
         };
 
@@ -1061,12 +1062,8 @@
 
         class 4thmd_u_ghil1_wd1_b : 4thmd_u_ghil1_wd1
         {
-            scope = DEBUG;
-            scopeArsenal = DEBUG;
-
             descriptionShort = "APAT4-WD Solid Type 1 Camouflage<br/> #$#% Ghillie (Type B)";
 
-            
             class ItemInfo : ItemInfo
             {
                 uniformClass = "4thmd_u_ghil1_wd1_b_f";
@@ -1075,9 +1072,6 @@
 
         class 4thmd_u_ghil1_wd1_c : 4thmd_u_ghil1_wd1
         {
-            scope = DEBUG;
-            scopeArsenal = DEBUG;
-
             descriptionShort = "APAT4-WD Solid Type 1 Camouflage<br/> #$#% Ghillie (Type C)";
 
             class ItemInfo : ItemInfo

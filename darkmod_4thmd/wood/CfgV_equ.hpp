@@ -1188,8 +1188,8 @@
             hiddenSelectionsTextures[] = 
             {
                 "darkmod_4thmd\data\wood\ghil1_wd1.paa",
-                "\A3\Characters_F_Mark\Common\Data\ghillie_threads_lsh_ca.paa",
-                "\A3\Characters_F_Mark\Common\Data\ghillie_threads_5LOD_lsh_co.paa"
+                "\A3\Characters_F_Exp\OPFOR\Data\ghillie_threads_tna_ca.paa",
+                "\A3\Characters_F_Exp\OPFOR\Data\ghillie_threads_5LOD_tna_co.paa"
             };
         };
 
@@ -1200,8 +1200,8 @@
             hiddenSelectionsTextures[] = 
             {
                 "darkmod_4thmd\data\wood\ghil1_wd1.paa",
-                "\A3\Characters_F_Mark\Common\Data\ghillie_threads_lsh_ca.paa",
-                "\A3\Characters_F_Mark\Common\Data\ghillie_threads_5LOD_lsh_co.paa"
+                "\A3\Characters_F_Exp\BLUFOR\Data\ghillie_threads_tna_ca.paa",
+                "\A3\Characters_F_Exp\BLUFOR\Data\ghillie_threads_5LOD_tna_co.paa"
             };
         };
 

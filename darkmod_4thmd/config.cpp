@@ -1610,7 +1610,7 @@ class CfgWeapons
                 class ItemInfo : ItemInfo
                 {
                     uniformClass = "4thmd_u_unif1_gh_ar0_f";
-                    mass = 65;
+                    mass = 60;
                 };
             };
 
@@ -1811,7 +1811,7 @@ class CfgWeapons
         {
             scope = DEBUG;
             scopeArsenal = DEBUG;
-            
+
             descriptionShort = "APAT4-AR Solid Type 1 Camouflage<br/> #$#% Ghillie (Type C)";
 
             class ItemInfo : ItemInfo

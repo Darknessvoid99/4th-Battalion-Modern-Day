@@ -1061,9 +1061,12 @@
 
         class 4thmd_u_ghil1_wd1_b : 4thmd_u_ghil1_wd1
         {
+            scope = DEBUG;
+            scopeArsenal = DEBUG;
+
             descriptionShort = "APAT4-WD Solid Type 1 Camouflage<br/> #$#% Ghillie (Type B)";
 
-            scope = DEBUG;
+            
             class ItemInfo : ItemInfo
             {
                 uniformClass = "4thmd_u_ghil1_wd1_b_f";
@@ -1072,9 +1075,11 @@
 
         class 4thmd_u_ghil1_wd1_c : 4thmd_u_ghil1_wd1
         {
+            scope = DEBUG;
+            scopeArsenal = DEBUG;
+
             descriptionShort = "APAT4-WD Solid Type 1 Camouflage<br/> #$#% Ghillie (Type C)";
 
-            scope = DEBUG;
             class ItemInfo : ItemInfo
             {
                 uniformClass = "4thmd_u_ghil1_wd1_c_f";

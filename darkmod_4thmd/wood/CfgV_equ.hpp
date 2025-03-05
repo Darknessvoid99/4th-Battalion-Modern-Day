@@ -1171,19 +1171,19 @@
 
         class 4thmd_u_ghil1_wd1_a_f : 4thmd_u_ghil1_wd1_f
         {
-            displayName = "[ARMCO] Woodland Ghillie (Woodland)";
+            displayName = "[ARMCO] Woodland Ghillie (Lush)";
             uniformClass = "4thmd_u_ghil1_wd1_a";
             hiddenSelectionsTextures[] = 
             {
                 "darkmod_4thmd\data\wood\ghil1_wd1.paa",
-                "\A3\Characters_F_Mark\Common\Data\ghillie_threads_wdd_ca.paa",
-                "\A3\Characters_F_Mark\Common\Data\ghillie_threads_5LOD_wdd_co.paa"
+                "\A3\Characters_F_Mark\Common\Data\ghillie_threads_lsh_ca.paa",
+                "\A3\Characters_F_Mark\Common\Data\ghillie_threads_5LOD_lsh_co.paa"
             };
         };
 
         class 4thmd_u_ghil1_wd1_b_f : 4thmd_u_ghil1_wd1_f
         {
-            displayName = "[ARMCO] Woodland Ghillie (Lush)";
+            displayName = "[ARMCO] Woodland Ghillie (###)";
             uniformClass = "4thmd_u_ghil1_wd1_b";
             hiddenSelectionsTextures[] = 
             {
@@ -1195,7 +1195,7 @@
 
         class 4thmd_u_ghil1_wd1_c_f : 4thmd_u_ghil1_wd1_f
         {
-            displayName = "[ARMCO] Woodland Ghillie (Lush)";
+            displayName = "[ARMCO] Woodland Ghillie (###)";
             uniformClass = "4thmd_u_ghil1_wd1_c";
             hiddenSelectionsTextures[] = 
             {

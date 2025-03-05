@@ -653,7 +653,7 @@ class CfgMagazines
             displayNameShort = "EPR-Y T3E5";
             descriptionShort = "M855A1 Enhanced Preformance Rounds<br/>M856A1 Enhanced Tracer Rounds<br/>Tracer every 3, 5 End Tracers";
             ammo = "4thmd_a_556x45_epr_y";
-            mass = 22.5;
+            mass = 20;
             count = 50;
             lastRoundsTracer = 5;
             tracersEvery = 3;
@@ -707,7 +707,7 @@ class CfgMagazines
             descriptionShort = "M855A1 Enhanced Preformance Rounds<br/>M856A1 Enhanced Tracer Rounds<br/>Tracer every 3, 3 End Tracers";
 
             ammo = "4thmd_a_556x45_epr_y";
-            mass = 50;
+            mass = 45;
             count = 100;
             lastRoundsTracer = 5;
             tracersEvery = 3;
@@ -984,7 +984,7 @@ class CfgMagazines
             displayNameShort = "Ball-Y T3E5";
             descriptionShort = "M855/M80 Ball Rounds<br/>M856/M62 Tracer Rounds<br/>Tracer every 3, 5 End Tracers";
             ammo = "4thmd_a_762x35_ball_y";
-            mass = 27.5;
+            mass = 25;
             count = 50;
             tracersEvery = 3;
             lastRoundsTracer = 5;

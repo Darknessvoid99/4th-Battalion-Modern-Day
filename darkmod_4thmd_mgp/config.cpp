@@ -868,6 +868,8 @@ class CfgPatches
     };
 };
 
+#define DEBUG 1 // 1 = OFF, 2 = ON
+
 class CfgWeapons
 {
     class ItemCore; //Required by basically ALL MilGP items
@@ -9651,7 +9653,7 @@ class XtdGearModels
             class 4thmd_color
             {
                 alwaysSelectable = 1;
-				changeingame = 1;
+				changeingame = 0;
 				changedelay = 0;
                 label = "Camouflage";
                 values[] =
@@ -9726,7 +9728,7 @@ class XtdGearModels
             class 4thmd_camo
             {
                 alwaysSelectable = 1;
-				changeingame = 1;
+				changeingame = 0;
 				changedelay = 0;
                 label = "Pattern";
                 values[] =

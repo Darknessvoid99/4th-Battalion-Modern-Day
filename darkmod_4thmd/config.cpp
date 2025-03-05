@@ -1783,7 +1783,7 @@ class CfgWeapons
             class ItemInfo : ItemInfo
             {
                 uniformClass = "4thmd_u_ghil1_ar1_f";
-                mass = 100;
+                mass = 80;
             };
         };
 

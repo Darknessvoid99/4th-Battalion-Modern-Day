@@ -1069,7 +1069,7 @@ class CfgWeapons
 
             class 4thmd_v_mgv1_eos_ar0 : 4thmd_v_mgv1_med_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Spec. Kit";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Specialist Kit";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1081,7 +1081,7 @@ class CfgWeapons
 
             class 4thmd_v_mgv1_eos_ar1 : 4thmd_v_mgv1_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Kit";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Kit";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1093,7 +1093,7 @@ class CfgWeapons
 
             class 4thmd_v_mgv1_eos_ar2 : 4thmd_v_mgv1_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Kit";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Kit";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1105,12 +1105,60 @@ class CfgWeapons
 
             class 4thmd_v_mgv1_eos_ar3 : 4thmd_v_mgv1_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Kit";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Kit";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv1_ese_ar0 : 4thmd_v_mgv1_med_ar0
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv1_ese_ar1 : 4thmd_v_mgv1_ese_ar0
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv1_ese_ar2 : 4thmd_v_mgv1_ese_ar0
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv1_ese_ar3 : 4thmd_v_mgv1_ese_ar0
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
                     "milgp_vests\textures\v_gear_02_co.paa"
                 };
             };
@@ -1632,6 +1680,58 @@ class CfgWeapons
                 };
             };
 
+            class 4thmd_v_mgv1_ese_ar0_b : 4thmd_v_mgv1_med_ar0_b
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>E.O.S. Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv1_ese_ar1_b : 4thmd_v_mgv1_ese_ar0_b
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>E.O.S. Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv1_ese_ar2_b : 4thmd_v_mgv1_ese_ar0_b
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>E.O.S. Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv1_ese_ar3_b : 4thmd_v_mgv1_ese_ar0_b
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>E.O.S. Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
             class 4thmd_v_mgv1_ldr_ar0_b : 4thmd_v_mgv1_rmn_ar0_b
             {
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Leader Kit + Battle Belt";
@@ -2069,7 +2169,7 @@ class CfgWeapons
 
             class 4thmd_v_mgv2_eos_ar0 : 4thmd_v_mgv2_med_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Spec. Kit";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Specialist Kit";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2081,7 +2181,7 @@ class CfgWeapons
 
             class 4thmd_v_mgv2_eos_ar1 : 4thmd_v_mgv2_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Kit";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Kit";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2093,7 +2193,7 @@ class CfgWeapons
 
             class 4thmd_v_mgv2_eos_ar2 : 4thmd_v_mgv2_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Kit";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Kit";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2105,12 +2205,60 @@ class CfgWeapons
 
             class 4thmd_v_mgv2_eos_ar3 : 4thmd_v_mgv2_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Kit";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Kit";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv2_ese_ar0 : 4thmd_v_mgv2_med_ar0
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv2_ese_ar1 : 4thmd_v_mgv2_ese_ar0
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv2_ese_ar2 : 4thmd_v_mgv2_ese_ar0
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv2_ese_ar3 : 4thmd_v_mgv2_ese_ar0
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
                     "milgp_vests\textures\v_gear_02_co.paa"
                 };
             };
@@ -2632,6 +2780,58 @@ class CfgWeapons
                 };
             };
 
+            class 4thmd_v_mgv2_ese_ar0_b : 4thmd_v_mgv2_med_ar0_b
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>E.O.S. Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv2_ese_ar1_b : 4thmd_v_mgv2_ese_ar0_b
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>E.O.S. Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv2_ese_ar2_b : 4thmd_v_mgv2_ese_ar0_b
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>E.O.S. Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv2_ese_ar3_b : 4thmd_v_mgv2_ese_ar0_b
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>E.O.S. Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
             class 4thmd_v_mgv2_ldr_ar0_b : 4thmd_v_mgv2_rmn_ar0_b
             {
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Leader Kit + Battle Belt";
@@ -3009,15 +3209,15 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_v_mgv3_eng_ar0 : 4thmd_v_mgv3_med_ar0
+            class 4thmd_v_mgv3_eng_ar0 : 4thmd_v_mgv3_rmn_ar0
             {
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Kit";
 
                 hiddenSelectionsTextures[] = 
                 {
-                    "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_notour.paa"
                 };
             };
 
@@ -3027,9 +3227,9 @@ class CfgWeapons
 
                 hiddenSelectionsTextures[] = 
                 {
-                    "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_notour.paa"
                 };
             };
 
@@ -3039,9 +3239,9 @@ class CfgWeapons
 
                 hiddenSelectionsTextures[] = 
                 {
-                    "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_notour.paa"
                 };
             };
 
@@ -3051,15 +3251,15 @@ class CfgWeapons
 
                 hiddenSelectionsTextures[] = 
                 {
-                    "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_notour.paa"
                 };
             };
 
             class 4thmd_v_mgv3_eos_ar0 : 4thmd_v_mgv3_med_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Spec. Kit";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Specialist Kit";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -3071,7 +3271,7 @@ class CfgWeapons
 
             class 4thmd_v_mgv3_eos_ar1 : 4thmd_v_mgv3_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Kit";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Kit";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -3083,7 +3283,7 @@ class CfgWeapons
 
             class 4thmd_v_mgv3_eos_ar2 : 4thmd_v_mgv3_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Kit";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Kit";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -3095,12 +3295,60 @@ class CfgWeapons
 
             class 4thmd_v_mgv3_eos_ar3 : 4thmd_v_mgv3_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Kit";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Kit";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_ese_ar0 : 4thmd_v_mgv3_med_ar0
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosives Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_ese_ar1 : 4thmd_v_mgv3_ese_ar0
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosives Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_ese_ar2 : 4thmd_v_mgv3_ese_ar0
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosives Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_ese_ar3 : 4thmd_v_mgv3_ese_ar0
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosives Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
                     "milgp_vests\textures\v_gear_02_co.paa"
                 };
             };
@@ -3518,7 +3766,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_v_mgv3_eng_ar0_b : 4thmd_v_mgv3_med_ar0_b
+            class 4thmd_v_mgv3_eng_ar0_b : 4thmd_v_mgv3_rmn_ar0_b
             {
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Kit + Battle Belt";
 
@@ -3527,7 +3775,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_notour.paa"
                 };
             };
 
@@ -3540,7 +3788,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_notour.paa"
                 };
             };
 
@@ -3553,7 +3801,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_notour.paa"
                 };
             };
 
@@ -3566,7 +3814,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_notour.paa"
                 };
             };
 
@@ -3618,6 +3866,58 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_ese_ar0_b : 4thmd_v_mgv3_med_ar0_b
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>E.O.S. Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_ese_ar1_b : 4thmd_v_mgv3_ese_ar0_b
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>E.O.S. Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_ese_ar2_b : 4thmd_v_mgv3_ese_ar0_b
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>E.O.S. Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_ese_ar3_b : 4thmd_v_mgv3_ese_ar0_b
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>E.O.S. Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
                     "milgp_vests\textures\v_gear_02_co.paa"
                 };
             };
@@ -6001,6 +6301,20 @@ class CfgWeapons
 
 class CfgVehicles
 {
+    //Kitbag Backpack (pac3) Adjustment
+        class B_Kitbag_cbr;
+        class 4thmd_b_pac3_rmn_ar0 : B_Kitbag_cbr
+        {
+            mass = 40;
+            maximumLoad = 240;
+        };
+
+        class 4thmd_b_pac3_rmn_ar0_r : 4thmd_b_pac3_rmn_ar0
+        {
+            mass = 48;
+            maximumLoad = 232;
+        };
+
     //Patrol Pack (mgb1)
         //Standard
             class milgp_b_patrol_01_khk;
@@ -6009,8 +6323,8 @@ class CfgVehicles
                 displayName = "[ARMCO] Patrol Pack (Arid)";
                 author = "Darknesvoid99";
 
-                mass = 70;
-                maximumLoad = 380;
+                mass = 50;
+                maximumLoad = 280;
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -6188,8 +6502,8 @@ class CfgVehicles
             {
                 displayName = "[ARMCO] Patrol Pack (Arid) + Radio";
 
-                mass = 78;
-                maximumLoad = 372;
+                mass = 58;
+                maximumLoad = 272;
 
                 tf_dialog = "bussole_radio_dialog";
                 tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
@@ -7976,7 +8290,8 @@ class XtdGearModels
                     "4thmd_r_gdr",
                     "4thmd_r_mgs",
                     "4thmd_r_mkn",
-                    "4thmd_r_lgt"
+                    "4thmd_r_lgt",
+                    "4thmd_r_ese"
                 };
 
                 class 4thmd_r_rmn
@@ -8032,6 +8347,13 @@ class XtdGearModels
                 {
                     label = "Light";
                     image = "darkmod_4thmd\data\0icon\aax\icon_r_crew.paa";
+                };
+
+                class 4thmd_r_ese
+                {
+                    label = "ESE";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_r_eosengie.paa";
+                    description = "Explosive Ordnance Engineer, SABRE";
                 };
             };
 
@@ -8202,7 +8524,8 @@ class XtdGearModels
                     "4thmd_r_gdr",
                     "4thmd_r_mgs",
                     "4thmd_r_mkn",
-                    "4thmd_r_lgt"
+                    "4thmd_r_lgt",
+                    "4thmd_r_ese"
                 };
 
                 class 4thmd_r_rmn
@@ -8258,6 +8581,13 @@ class XtdGearModels
                 {
                     label = "Light";
                     image = "darkmod_4thmd\data\0icon\aax\icon_r_crew.paa";
+                };
+
+                class 4thmd_r_ese
+                {
+                    label = "ESE";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_r_eosengie.paa";
+                    description = "Explosive Ordnance Engineer, SABRE";
                 };
             };
 
@@ -8428,7 +8758,8 @@ class XtdGearModels
                     "4thmd_r_gdr",
                     "4thmd_r_mgs",
                     "4thmd_r_mkn",
-                    "4thmd_r_lgt"
+                    "4thmd_r_lgt",
+                    "4thmd_r_ese"
                 };
 
                 class 4thmd_r_rmn
@@ -8484,6 +8815,13 @@ class XtdGearModels
                 {
                     label = "Light";
                     image = "darkmod_4thmd\data\0icon\aax\icon_r_crew.paa";
+                };
+
+                class 4thmd_r_ese
+                {
+                    label = "ESE";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_r_eosengie.paa";
+                    description = "Explosive Ordnance Engineer, SABRE";
                 };
             };
 
@@ -9428,7 +9766,8 @@ class XtdGearModels
 					"4thmd_r_rmn",
 					"4thmd_r_med",
 					"4thmd_r_eng",
-                    "4thmd_r_eos"
+                    "4thmd_r_eos",
+                    "4thmd_r_ese"
 				};
 
                 class 4thmd_r_rmn
@@ -9454,6 +9793,13 @@ class XtdGearModels
                     label = "EOS";
                     image = "darkmod_4thmd\data\0icon\aax\icon_r_explosive.paa";
                     description = "Explosive Ordnance Specialist";
+                };
+
+                class 4thmd_r_ese
+                {
+                    label = "ESE";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_r_eosengie.paa";
+                    description = "Explosive Ordnance Engineer, SABRE";
                 };
             };
 

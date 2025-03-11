@@ -128,8 +128,16 @@ class CfgPatches
         magazines[] = {};
         requiredAddons[] = 
         {
-            "darkmod_4thmd",
-            "ace_hellfire"
+            "darkmod_4thmd_core",
+            "ace_hellfire",
+            "A3_Armor_F",
+            "A3_Armor_F_Argo",
+            "A3_Armor_F_Beta",
+            "A3_Armor_F_EPB",
+            "A3_Armor_F_EPC",
+            "A3_Armor_F_Exp",
+            "A3_Armor_F_Gamma",
+            "A3_Armor_F_Tank"
         };
         author = "Darknessvoid99";
         version = "0.1.0.2402120315";

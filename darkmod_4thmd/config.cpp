@@ -781,16 +781,8 @@ class CfgPatches
         magazines[] = {};
         requiredAddons[] = 
         {   
-            "cba_main",
+            "darkmod_4thmd_core",
             "A3_Data_F",
-            "A3_Armor_F",
-            "A3_Armor_F_Argo",
-            "A3_Armor_F_Beta",
-            "A3_Armor_F_EPB",
-            "A3_Armor_F_EPC",
-            "A3_Armor_F_Exp",
-            "A3_Armor_F_Gamma",
-            "A3_Armor_F_Tank",
             "A3_Characters_F",
             "A3_Characters_F_Beta",
             "A3_Characters_F_Enoch"
@@ -802,110 +794,6 @@ class CfgPatches
 };
 
 #define DEBUG 1 // 1 = OFF, 2 = ON
-
-class CfgFactionClasses
-{
-    class 4thmd_ar_faction
-    {
-        displayName = "ARMCO 4th Battalion (Arid)";
-    };
-
-    class 4thmd_wd_faction
-    {
-        displayName = "ARMCO 4th Battalion (Woodland)";
-    };
-
-    class 4thmd_de_faction
-    {
-        displayName = "ARMCO 4th Battalion (Desert)";
-    };
-
-    class 4thmd_bl_faction
-    {
-        displayName = "ARMCO 4th Battalion (Boreal)";
-    };
-
-    class 4thmd_ac_faction
-    {
-        displayName = "ARMCO 4th Battalion (Artic)";
-    };
-
-    class 4thmd_ju_faction
-    {
-        displayName = "ARMCO 4th Battalion (Jungle)";
-    };
-};
-
-class CfgEditorCategories
-{
-    class 4thmd_supplies
-    {
-        displayName = "ARMCO Supplies";
-    };
-};
-
-class CfgEditorSubcategories
-{
-    class 4thmd_logistics
-    {
-        displayName = "Logistics";
-    };
-
-    class 4thmd_crates
-    {
-        displayName = "Crates";
-    };
-
-    class 4thmd_resupply
-    {
-        displayName = "Resupply";
-    };
-
-    class 4thmd_uniform
-    {
-        displayName = "Uniform";
-    };
-
-    class 4thmd_comp
-    {
-        displayName = "ARMCO 4th Battalion";
-    };
-
-    class 4thmd_comp_ar
-    {
-        displayName = "ARMCO 4th Battalion (Arid)";
-    };
-
-   class 4thmd_comp_wd
-    {
-        displayName = "ARMCO 4th Battalion (Woodland)";
-    };
-
-    class 4thmd_comp_de
-    {
-        displayName = "ARMCO 4th Battalion (Desert)";
-    };
-
-    class 4thmd_comp_bl
-    {
-        displayName = "ARMCO 4th Battalion (Boreal)";
-    };
-
-    class 4thmd_comp_ac
-    {
-        displayName = "ARMCO 4th Battalion (Arctic)";
-    };
-
-    class 4thmd_comp_ju
-    {
-        displayName = "ARMCO 4th Battalion (Jungle)";
-    };
-
-    class 4thmd_comp_nv
-    {
-        displayName = "ARMCO 4th Battalion (Navy)";
-    };
-};
 
 class CfgWeapons
 {
@@ -3794,6 +3682,7 @@ class CfgVehicles
 
             class 4thmd_b_pac1_rmn_ar1 : 4thmd_b_pac1_rmn_ar0
             {
+                displayName = "[ARMCO] Assault Pack (AR-S1)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -3804,6 +3693,7 @@ class CfgVehicles
 
             class 4thmd_b_pac1_rmn_ar2 : 4thmd_b_pac1_rmn_ar0
             {
+                displayName = "[ARMCO] Assault Pack (AR-S2)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -3814,6 +3704,7 @@ class CfgVehicles
 
             class 4thmd_b_pac1_rmn_ar3 : 4thmd_b_pac1_rmn_ar0
             {
+                displayName = "[ARMCO] Assault Pack (AR-S3)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -3824,6 +3715,7 @@ class CfgVehicles
 
             class 4thmd_b_pac1_med_ar0 : 4thmd_b_pac1_rmn_ar0
             {
+                displayName = "[ARMCO] Assault Pack (Arid/MED)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -3834,6 +3726,7 @@ class CfgVehicles
 
             class 4thmd_b_pac1_med_ar1 : 4thmd_b_pac1_med_ar0
             {
+                displayName = "[ARMCO] Assault Pack (AR-S1/MED)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -3844,6 +3737,7 @@ class CfgVehicles
 
             class 4thmd_b_pac1_med_ar2 : 4thmd_b_pac1_med_ar0
             {
+                displayName = "[ARMCO] Assault Pack (AR-S2/MED)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -3854,6 +3748,7 @@ class CfgVehicles
 
             class 4thmd_b_pac1_med_ar3 : 4thmd_b_pac1_med_ar0
             {
+                displayName = "[ARMCO] Assault Pack (AR-S3/MED)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -3864,6 +3759,7 @@ class CfgVehicles
 
             class 4thmd_b_pac1_eng_ar0 : 4thmd_b_pac1_rmn_ar0
             {
+                displayName = "[ARMCO] Assault Pack (Arid/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -3874,6 +3770,7 @@ class CfgVehicles
 
             class 4thmd_b_pac1_eng_ar1 : 4thmd_b_pac1_eng_ar0
             {
+                displayName = "[ARMCO] Assault Pack (AR-S1/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -3884,6 +3781,7 @@ class CfgVehicles
 
             class 4thmd_b_pac1_eng_ar2 : 4thmd_b_pac1_eng_ar0
             {
+                displayName = "[ARMCO] Assault Pack (AR-S2/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -3894,6 +3792,7 @@ class CfgVehicles
 
             class 4thmd_b_pac1_eng_ar3 : 4thmd_b_pac1_eng_ar0
             {
+                displayName = "[ARMCO] Assault Pack (AR-S3/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -3904,7 +3803,8 @@ class CfgVehicles
 
             class 4thmd_b_pac1_eos_ar0 : 4thmd_b_pac1_rmn_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Assault Pack (Arid/EOS)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -3914,7 +3814,8 @@ class CfgVehicles
 
             class 4thmd_b_pac1_eos_ar1 : 4thmd_b_pac1_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Assault Pack (AR-S1/EOS)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -3924,7 +3825,8 @@ class CfgVehicles
 
             class 4thmd_b_pac1_eos_ar2 : 4thmd_b_pac1_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Assault Pack (AR-S2/EOS)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -3934,17 +3836,64 @@ class CfgVehicles
 
             class 4thmd_b_pac1_eos_ar3 : 4thmd_b_pac1_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Assault Pack (AR-S3/EOS)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\pac1_s_ar3.paa"
                 };
             };
+
+            class 4thmd_b_pac1_ese_ar0 : 4thmd_b_pac1_rmn_ar0
+            {
+                displayName = "[ARMCO] Assault Pack (Arid/ESE)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac1_x_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_pac1_ese_ar1 : 4thmd_b_pac1_rmn_ar0
+            {
+                displayName = "[ARMCO] Assault Pack (AR-S1/ESE)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac1_x_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_pac1_ese_ar2 : 4thmd_b_pac1_rmn_ar0
+            {
+                displayName = "[ARMCO] Assault Pack (AR-S2/ESE)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac1_x_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_pac1_ese_ar3 : 4thmd_b_pac1_rmn_ar0
+            {
+                displayName = "[ARMCO] Assault Pack (AR-S3/ESE)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac1_x_ar3.paa"
+                };
+            };
+
         //Radio
             class 4thmd_b_pac1_rmn_ar0_r : 4thmd_b_pac1_rmn_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (Arid) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 mass = 28;
                 maximumLoad = 152;
@@ -3964,7 +3913,8 @@ class CfgVehicles
 
             class 4thmd_b_pac1_rmn_ar1_r : 4thmd_b_pac1_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (AR-S1) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -3974,7 +3924,8 @@ class CfgVehicles
 
             class 4thmd_b_pac1_rmn_ar2_r : 4thmd_b_pac1_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (AR-S2) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -3984,7 +3935,8 @@ class CfgVehicles
 
             class 4thmd_b_pac1_rmn_ar3_r : 4thmd_b_pac1_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (AR-S3) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -3994,7 +3946,8 @@ class CfgVehicles
 
             class 4thmd_b_pac1_med_ar0_r : 4thmd_b_pac1_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (Arid/MED) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4004,7 +3957,8 @@ class CfgVehicles
 
             class 4thmd_b_pac1_med_ar1_r : 4thmd_b_pac1_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (AR-S1/MED) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4014,7 +3968,8 @@ class CfgVehicles
 
             class 4thmd_b_pac1_med_ar2_r : 4thmd_b_pac1_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (AR-S2/MED) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4024,7 +3979,8 @@ class CfgVehicles
 
             class 4thmd_b_pac1_med_ar3_r : 4thmd_b_pac1_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (AR-S3/MED) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4034,7 +3990,8 @@ class CfgVehicles
 
             class 4thmd_b_pac1_eng_ar0_r : 4thmd_b_pac1_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (Arid/ENG) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4044,7 +4001,8 @@ class CfgVehicles
 
             class 4thmd_b_pac1_eng_ar1_r : 4thmd_b_pac1_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (AR-S1/ENG) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4054,7 +4012,8 @@ class CfgVehicles
 
             class 4thmd_b_pac1_eng_ar2_r : 4thmd_b_pac1_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (AR-S2/ENG) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4064,7 +4023,8 @@ class CfgVehicles
 
             class 4thmd_b_pac1_eng_ar3_r : 4thmd_b_pac1_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (AR-S3/ENG) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4074,7 +4034,8 @@ class CfgVehicles
 
             class 4thmd_b_pac1_eos_ar0_r : 4thmd_b_pac1_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (Arid/EOS) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4084,7 +4045,8 @@ class CfgVehicles
 
             class 4thmd_b_pac1_eos_ar1_r : 4thmd_b_pac1_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (AR-S1/EOS) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4094,7 +4056,8 @@ class CfgVehicles
 
             class 4thmd_b_pac1_eos_ar2_r : 4thmd_b_pac1_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (AR-S2/EOS) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4104,11 +4067,56 @@ class CfgVehicles
 
             class 4thmd_b_pac1_eos_ar3_r : 4thmd_b_pac1_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (AR-S3/EOS) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\pac1_s_ar3.paa"
+                };
+            };
+
+            class 4thmd_b_pac1_ese_ar0_r : 4thmd_b_pac1_rmn_ar0_r
+            {
+                displayName = "[ARMCO] Assault Pack (Arid/ESE) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac1_x_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_pac1_ese_ar1_r : 4thmd_b_pac1_rmn_ar0_r
+            {
+                displayName = "[ARMCO] Assault Pack (AR-S1/ESE) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac1_x_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_pac1_ese_ar2_r : 4thmd_b_pac1_rmn_ar0_r
+            {
+                displayName = "[ARMCO] Assault Pack (AR-S2/ESE) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac1_x_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_pac1_ese_ar3_r : 4thmd_b_pac1_rmn_ar0_r
+            {
+                displayName = "[ARMCO] Assault Pack (AR-S3/ESE) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac1_x_ar3.paa"
                 };
             };
 
@@ -4132,6 +4140,7 @@ class CfgVehicles
 
             class 4thmd_b_pac2_rmn_ar1 : 4thmd_b_pac2_rmn_ar0
             {
+                displayName = "[ARMCO] Field Pack (AR-S1)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4142,6 +4151,7 @@ class CfgVehicles
 
             class 4thmd_b_pac2_rmn_ar2 : 4thmd_b_pac2_rmn_ar0
             {
+                displayName = "[ARMCO] Field Pack (AR-S2)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4152,6 +4162,7 @@ class CfgVehicles
 
             class 4thmd_b_pac2_rmn_ar3 : 4thmd_b_pac2_rmn_ar0
             {
+                displayName = "[ARMCO] Field Pack (AR-S3)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4162,6 +4173,7 @@ class CfgVehicles
 
             class 4thmd_b_pac2_med_ar0 : 4thmd_b_pac2_rmn_ar0
             {
+                displayName = "[ARMCO] Field Pack (Arid/MED)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4172,6 +4184,7 @@ class CfgVehicles
 
             class 4thmd_b_pac2_med_ar1 : 4thmd_b_pac2_med_ar0
             {
+                displayName = "[ARMCO] Field Pack (AR-S1/MED)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4182,6 +4195,7 @@ class CfgVehicles
 
             class 4thmd_b_pac2_med_ar2 : 4thmd_b_pac2_med_ar0
             {
+                displayName = "[ARMCO] Field Pack (AR-S2/MED)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4192,6 +4206,7 @@ class CfgVehicles
 
             class 4thmd_b_pac2_med_ar3 : 4thmd_b_pac2_med_ar0
             {
+                displayName = "[ARMCO] Field Pack (AR-S3/MED)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4202,6 +4217,7 @@ class CfgVehicles
 
             class 4thmd_b_pac2_eng_ar0 : 4thmd_b_pac2_rmn_ar0
             {
+                displayName = "[ARMCO] Field Pack (Arid/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4212,6 +4228,7 @@ class CfgVehicles
 
             class 4thmd_b_pac2_eng_ar1 : 4thmd_b_pac2_eng_ar0
             {
+                displayName = "[ARMCO] Field Pack (AR-S1/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4222,6 +4239,7 @@ class CfgVehicles
 
             class 4thmd_b_pac2_eng_ar2 : 4thmd_b_pac2_eng_ar0
             {
+                displayName = "[ARMCO] Field Pack (AR-S2/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4232,6 +4250,7 @@ class CfgVehicles
 
             class 4thmd_b_pac2_eng_ar3 : 4thmd_b_pac2_eng_ar0
             {
+                displayName = "[ARMCO] Field Pack (AR-S3/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4242,7 +4261,8 @@ class CfgVehicles
 
             class 4thmd_b_pac2_eos_ar0 : 4thmd_b_pac2_rmn_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Field Pack (Arid/EOS)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4252,7 +4272,8 @@ class CfgVehicles
 
             class 4thmd_b_pac2_eos_ar1 : 4thmd_b_pac2_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Field Pack (AR-S1/EOS)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4262,7 +4283,8 @@ class CfgVehicles
 
             class 4thmd_b_pac2_eos_ar2 : 4thmd_b_pac2_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Field Pack (AR-S2/EOS)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4272,17 +4294,64 @@ class CfgVehicles
 
             class 4thmd_b_pac2_eos_ar3 : 4thmd_b_pac2_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Field Pack (AR-S3/EOS)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\pac2_s_ar3.paa"
                 };
             };
+
+            class 4thmd_b_pac2_ese_ar0 : 4thmd_b_pac2_rmn_ar0
+            {
+                displayName = "[ARMCO] Field Pack (Arid/ESE)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac2_x_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_pac2_ese_ar1 : 4thmd_b_pac2_rmn_ar0
+            {
+                displayName = "[ARMCO] Field Pack (AR-S1/ESE)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac2_x_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_pac2_ese_ar2 : 4thmd_b_pac2_rmn_ar0
+            {
+                displayName = "[ARMCO] Field Pack (AR-S2/ESE)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac2_x_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_pac2_ese_ar3 : 4thmd_b_pac2_rmn_ar0
+            {
+                displayName = "[ARMCO] Field Pack (AR-S3/ESE)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac2_x_ar3.paa"
+                };
+            };
+
         //Radio
             class 4thmd_b_pac2_rmn_ar0_r : 4thmd_b_pac2_rmn_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (Arid) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 mass = 38;
                 maximumLoad = 192;
@@ -4302,7 +4371,8 @@ class CfgVehicles
 
             class 4thmd_b_pac2_rmn_ar1_r : 4thmd_b_pac2_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (AR-S1) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4312,7 +4382,8 @@ class CfgVehicles
 
             class 4thmd_b_pac2_rmn_ar2_r : 4thmd_b_pac2_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (AR-S2) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4322,7 +4393,8 @@ class CfgVehicles
 
             class 4thmd_b_pac2_rmn_ar3_r : 4thmd_b_pac2_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (AR-S3) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4332,7 +4404,8 @@ class CfgVehicles
 
             class 4thmd_b_pac2_med_ar0_r : 4thmd_b_pac2_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (Arid/MED) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4342,7 +4415,8 @@ class CfgVehicles
 
             class 4thmd_b_pac2_med_ar1_r : 4thmd_b_pac2_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (AR-S1/MED) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4352,7 +4426,8 @@ class CfgVehicles
 
             class 4thmd_b_pac2_med_ar2_r : 4thmd_b_pac2_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (AR-S2/MED) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4362,7 +4437,8 @@ class CfgVehicles
 
             class 4thmd_b_pac2_med_ar3_r : 4thmd_b_pac2_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (AR-S3/MED) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4372,7 +4448,8 @@ class CfgVehicles
 
             class 4thmd_b_pac2_eng_ar0_r : 4thmd_b_pac2_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (Arid/ENG) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4382,7 +4459,8 @@ class CfgVehicles
 
             class 4thmd_b_pac2_eng_ar1_r : 4thmd_b_pac2_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (AR-S1/ENG) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4392,7 +4470,8 @@ class CfgVehicles
 
             class 4thmd_b_pac2_eng_ar2_r : 4thmd_b_pac2_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (AR-S2/ENG) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4402,7 +4481,8 @@ class CfgVehicles
 
             class 4thmd_b_pac2_eng_ar3_r : 4thmd_b_pac2_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (AR-S3/ENG) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4412,7 +4492,8 @@ class CfgVehicles
 
             class 4thmd_b_pac2_eos_ar0_r : 4thmd_b_pac2_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (Arid/EOS) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4422,7 +4503,8 @@ class CfgVehicles
 
             class 4thmd_b_pac2_eos_ar1_r : 4thmd_b_pac2_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (AR-S1/EOS) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4432,7 +4514,8 @@ class CfgVehicles
 
             class 4thmd_b_pac2_eos_ar2_r : 4thmd_b_pac2_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (AR-S2/EOS) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4442,11 +4525,56 @@ class CfgVehicles
 
             class 4thmd_b_pac2_eos_ar3_r : 4thmd_b_pac2_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (AR-S3/EOS) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\pac2_s_ar3.paa"
+                };
+            };
+
+            class 4thmd_b_pac2_ese_ar0_r : 4thmd_b_pac2_rmn_ar0_r
+            {
+                displayName = "[ARMCO] Field Pack (Arid/ESE) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac2_x_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_pac2_ese_ar1_r : 4thmd_b_pac2_rmn_ar0_r
+            {
+                displayName = "[ARMCO] Field Pack (AR-S1/ESE) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac2_x_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_pac2_ese_ar2_r : 4thmd_b_pac2_rmn_ar0_r
+            {
+                displayName = "[ARMCO] Field Pack (AR-S2/ESE) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac2_x_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_pac2_ese_ar3_r : 4thmd_b_pac2_rmn_ar0_r
+            {
+                displayName = "[ARMCO] Field Pack (AR-S3/ESE) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac2_x_ar3.paa"
                 };
             };
 
@@ -4470,6 +4598,7 @@ class CfgVehicles
 
             class 4thmd_b_pac3_rmn_ar1 : 4thmd_b_pac3_rmn_ar0
             {
+                displayName = "[ARMCO] Kitbag (AR-S1)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4480,6 +4609,7 @@ class CfgVehicles
 
             class 4thmd_b_pac3_rmn_ar2 : 4thmd_b_pac3_rmn_ar0
             {
+                displayName = "[ARMCO] Kitbag (AR-S2)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4490,6 +4620,7 @@ class CfgVehicles
 
             class 4thmd_b_pac3_rmn_ar3 : 4thmd_b_pac3_rmn_ar0
             {
+                displayName = "[ARMCO] Kitbag (AR-S3)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4500,6 +4631,7 @@ class CfgVehicles
 
             class 4thmd_b_pac3_med_ar0 : 4thmd_b_pac3_rmn_ar0
             {
+                displayName = "[ARMCO] Kitbag (Arid/MED)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4510,6 +4642,7 @@ class CfgVehicles
 
             class 4thmd_b_pac3_med_ar1 : 4thmd_b_pac3_med_ar0
             {
+                displayName = "[ARMCO] Kitbag (AR-S1/MED)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4520,6 +4653,7 @@ class CfgVehicles
 
             class 4thmd_b_pac3_med_ar2 : 4thmd_b_pac3_med_ar0
             {
+                displayName = "[ARMCO] Kitbag (AR-S2/MED)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4530,6 +4664,7 @@ class CfgVehicles
 
             class 4thmd_b_pac3_med_ar3 : 4thmd_b_pac3_med_ar0
             {
+                displayName = "[ARMCO] Kitbag (AR-S3/MED)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4540,6 +4675,7 @@ class CfgVehicles
 
             class 4thmd_b_pac3_eng_ar0 : 4thmd_b_pac3_rmn_ar0
             {
+                displayName = "[ARMCO] Kitbag (Arid/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4550,6 +4686,7 @@ class CfgVehicles
 
             class 4thmd_b_pac3_eng_ar1 : 4thmd_b_pac3_eng_ar0
             {
+                displayName = "[ARMCO] Kitbag (AR-S1/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4560,6 +4697,7 @@ class CfgVehicles
 
             class 4thmd_b_pac3_eng_ar2 : 4thmd_b_pac3_eng_ar0
             {
+                displayName = "[ARMCO] Kitbag (AR-S2/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4570,6 +4708,7 @@ class CfgVehicles
 
             class 4thmd_b_pac3_eng_ar3 : 4thmd_b_pac3_eng_ar0
             {
+                displayName = "[ARMCO] Kitbag (AR-S3/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4580,7 +4719,8 @@ class CfgVehicles
 
             class 4thmd_b_pac3_eos_ar0 : 4thmd_b_pac3_rmn_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Kitbag (Arid/EOS)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4590,7 +4730,8 @@ class CfgVehicles
 
             class 4thmd_b_pac3_eos_ar1 : 4thmd_b_pac3_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Kitbag (AR-S1/EOS)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4600,7 +4741,8 @@ class CfgVehicles
 
             class 4thmd_b_pac3_eos_ar2 : 4thmd_b_pac3_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Kitbag (AR-S2/EOS)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4610,17 +4752,64 @@ class CfgVehicles
 
             class 4thmd_b_pac3_eos_ar3 : 4thmd_b_pac3_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Kitbag (AR-S3/EOS)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\pac3_s_ar3.paa"
                 };
             };
+
+            class 4thmd_b_pac3_ese_ar0 : 4thmd_b_pac3_rmn_ar0
+            {
+                displayName = "[ARMCO] Kitbag (Arid/ESE)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac3_x_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_pac3_ese_ar1 : 4thmd_b_pac3_rmn_ar0
+            {
+                displayName = "[ARMCO] Kitbag (AR-S1/ESE)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac3_x_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_pac3_ese_ar2 : 4thmd_b_pac3_rmn_ar0
+            {
+                displayName = "[ARMCO] Kitbag (AR-S2/ESE)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac3_x_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_pac3_ese_ar3 : 4thmd_b_pac3_rmn_ar0
+            {
+                displayName = "[ARMCO] Kitbag (AR-S3/ESE)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac3_x_ar3.paa"
+                };
+            };
+
         //Radio
             class 4thmd_b_pac3_rmn_ar0_r : 4thmd_b_pac3_rmn_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (Arid) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 mass = 58;
                 maximumLoad = 272;
@@ -4640,7 +4829,8 @@ class CfgVehicles
 
             class 4thmd_b_pac3_rmn_ar1_r : 4thmd_b_pac3_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (AR-S1) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4650,7 +4840,8 @@ class CfgVehicles
 
             class 4thmd_b_pac3_rmn_ar2_r : 4thmd_b_pac3_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (AR-S2) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4660,7 +4851,8 @@ class CfgVehicles
 
             class 4thmd_b_pac3_rmn_ar3_r : 4thmd_b_pac3_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (AR-S3) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4670,7 +4862,8 @@ class CfgVehicles
 
             class 4thmd_b_pac3_med_ar0_r : 4thmd_b_pac3_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (Arid/MED) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4680,7 +4873,8 @@ class CfgVehicles
 
             class 4thmd_b_pac3_med_ar1_r : 4thmd_b_pac3_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (AR-S1/MED) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4690,7 +4884,8 @@ class CfgVehicles
 
             class 4thmd_b_pac3_med_ar2_r : 4thmd_b_pac3_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (AR-S2/MED) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4700,7 +4895,8 @@ class CfgVehicles
 
             class 4thmd_b_pac3_med_ar3_r : 4thmd_b_pac3_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (AR-S3/MED) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4710,7 +4906,8 @@ class CfgVehicles
 
             class 4thmd_b_pac3_eng_ar0_r : 4thmd_b_pac3_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (Arid/ENG) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4720,7 +4917,8 @@ class CfgVehicles
 
             class 4thmd_b_pac3_eng_ar1_r : 4thmd_b_pac3_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (AR-S1/ENG) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4730,7 +4928,8 @@ class CfgVehicles
 
             class 4thmd_b_pac3_eng_ar2_r : 4thmd_b_pac3_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (AR-S2/ENG) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4740,7 +4939,8 @@ class CfgVehicles
 
             class 4thmd_b_pac3_eng_ar3_r : 4thmd_b_pac3_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (AR-S3/ENG) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4750,7 +4950,8 @@ class CfgVehicles
 
             class 4thmd_b_pac3_eos_ar0_r : 4thmd_b_pac3_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (Arid/EOS) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4760,7 +4961,8 @@ class CfgVehicles
 
             class 4thmd_b_pac3_eos_ar1_r : 4thmd_b_pac3_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (AR-S1/EOS) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4770,7 +4972,8 @@ class CfgVehicles
 
             class 4thmd_b_pac3_eos_ar2_r : 4thmd_b_pac3_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (AR-S2/EOS) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4780,11 +4983,56 @@ class CfgVehicles
 
             class 4thmd_b_pac3_eos_ar3_r : 4thmd_b_pac3_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (AR-S3/EOS) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\pac3_s_ar3.paa"
+                };
+            };
+
+            class 4thmd_b_pac3_ese_ar0_r : 4thmd_b_pac3_rmn_ar0_r
+            {
+                displayName = "[ARMCO] Kitbag (Arid/ESE) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac3_x_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_pac3_ese_ar1_r : 4thmd_b_pac3_rmn_ar0_r
+            {
+                displayName = "[ARMCO] Kitbag (AR-S1/ESE) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac3_x_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_pac3_ese_ar2_r : 4thmd_b_pac3_rmn_ar0_r
+            {
+                displayName = "[ARMCO] Kitbag (AR-S2/ESE) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac3_x_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_pac3_ese_ar3_r : 4thmd_b_pac3_rmn_ar0_r
+            {
+                displayName = "[ARMCO] Kitbag (AR-S3/ESE) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac3_x_ar3.paa"
                 };
             };
 
@@ -4808,6 +5056,7 @@ class CfgVehicles
 
             class 4thmd_b_pac4_rmn_ar1 : 4thmd_b_pac4_rmn_ar0
             {
+                displayName = "[ARMCO] Carry-All (AR-S1)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4818,6 +5067,7 @@ class CfgVehicles
 
             class 4thmd_b_pac4_rmn_ar2 : 4thmd_b_pac4_rmn_ar0
             {
+                displayName = "[ARMCO] Carry-All (AR-S2)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4828,6 +5078,7 @@ class CfgVehicles
 
             class 4thmd_b_pac4_rmn_ar3 : 4thmd_b_pac4_rmn_ar0
             {
+                displayName = "[ARMCO] Carry-All (AR-S3)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4838,6 +5089,7 @@ class CfgVehicles
 
             class 4thmd_b_pac4_med_ar0 : 4thmd_b_pac4_rmn_ar0
             {
+                displayName = "[ARMCO] Carry-All (Arid/MED)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4848,6 +5100,7 @@ class CfgVehicles
 
             class 4thmd_b_pac4_med_ar1 : 4thmd_b_pac4_med_ar0
             {
+                displayName = "[ARMCO] Carry-All (AR-S1/MED)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4858,6 +5111,7 @@ class CfgVehicles
 
             class 4thmd_b_pac4_med_ar2 : 4thmd_b_pac4_med_ar0
             {
+                displayName = "[ARMCO] Carry-All (AR-S2/MED)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4868,6 +5122,7 @@ class CfgVehicles
 
             class 4thmd_b_pac4_med_ar3 : 4thmd_b_pac4_med_ar0
             {
+                displayName = "[ARMCO] Carry-All (AR-S3/MED)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4878,6 +5133,7 @@ class CfgVehicles
 
             class 4thmd_b_pac4_eng_ar0 : 4thmd_b_pac4_rmn_ar0
             {
+                displayName = "[ARMCO] Carry-All (Arid/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4888,6 +5144,7 @@ class CfgVehicles
 
             class 4thmd_b_pac4_eng_ar1 : 4thmd_b_pac4_eng_ar0
             {
+                displayName = "[ARMCO] Carry-All (AR-S1/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4898,6 +5155,7 @@ class CfgVehicles
 
             class 4thmd_b_pac4_eng_ar2 : 4thmd_b_pac4_eng_ar0
             {
+                displayName = "[ARMCO] Carry-All (AR-S2/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4908,6 +5166,7 @@ class CfgVehicles
 
             class 4thmd_b_pac4_eng_ar3 : 4thmd_b_pac4_eng_ar0
             {
+                displayName = "[ARMCO] Carry-All (AR-S3/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -4918,7 +5177,8 @@ class CfgVehicles
 
             class 4thmd_b_pac4_eos_ar0 : 4thmd_b_pac4_rmn_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Carry-All (Arid/EOS)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4928,7 +5188,8 @@ class CfgVehicles
 
             class 4thmd_b_pac4_eos_ar1 : 4thmd_b_pac4_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Carry-All (AR-S1/EOS)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4938,7 +5199,8 @@ class CfgVehicles
 
             class 4thmd_b_pac4_eos_ar2 : 4thmd_b_pac4_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Carry-All (AR-S2/EOS)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4948,17 +5210,64 @@ class CfgVehicles
 
             class 4thmd_b_pac4_eos_ar3 : 4thmd_b_pac4_eos_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Carry-All (AR-S3/EOS)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\pac4_s_ar3.paa"
                 };
             };
+
+            class 4thmd_b_pac4_ese_ar0 : 4thmd_b_pac4_rmn_ar0
+            {
+                displayName = "[ARMCO] Carry-All (Arid/ESE)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac4_x_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_pac4_ese_ar1 : 4thmd_b_pac4_rmn_ar0
+            {
+                displayName = "[ARMCO] Carry-All (AR-S1/ESE)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac4_x_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_pac4_ese_ar2 : 4thmd_b_pac4_rmn_ar0
+            {
+                displayName = "[ARMCO] Carry-All (AR-S2/ESE)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac4_x_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_pac4_ese_ar3 : 4thmd_b_pac4_rmn_ar0
+            {
+                displayName = "[ARMCO] Carry-All (AR-S3/ESE)";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac4_x_ar3.paa"
+                };
+            };
+
         //Radio
             class 4thmd_b_pac4_rmn_ar0_r : 4thmd_b_pac4_rmn_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (Arid) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 mass = 68;
                 maximumLoad = 312;
@@ -4978,7 +5287,8 @@ class CfgVehicles
 
             class 4thmd_b_pac4_rmn_ar1_r : 4thmd_b_pac4_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (AR-S1) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4988,7 +5298,8 @@ class CfgVehicles
 
             class 4thmd_b_pac4_rmn_ar2_r : 4thmd_b_pac4_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (AR-S2) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4998,7 +5309,8 @@ class CfgVehicles
 
             class 4thmd_b_pac4_rmn_ar3_r : 4thmd_b_pac4_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (AR-S3) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -5008,7 +5320,8 @@ class CfgVehicles
 
             class 4thmd_b_pac4_med_ar0_r : 4thmd_b_pac4_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (Arid/MED) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -5018,7 +5331,8 @@ class CfgVehicles
 
             class 4thmd_b_pac4_med_ar1_r : 4thmd_b_pac4_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (AR-S1/MED) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -5028,7 +5342,8 @@ class CfgVehicles
 
             class 4thmd_b_pac4_med_ar2_r : 4thmd_b_pac4_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (AR-S2/MED) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -5038,7 +5353,8 @@ class CfgVehicles
 
             class 4thmd_b_pac4_med_ar3_r : 4thmd_b_pac4_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (AR-S3/MED) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -5048,7 +5364,8 @@ class CfgVehicles
 
             class 4thmd_b_pac4_eng_ar0_r : 4thmd_b_pac4_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (Arid/ENG) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -5058,7 +5375,8 @@ class CfgVehicles
 
             class 4thmd_b_pac4_eng_ar1_r : 4thmd_b_pac4_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (AR-S1/ENG) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -5068,7 +5386,8 @@ class CfgVehicles
 
             class 4thmd_b_pac4_eng_ar2_r : 4thmd_b_pac4_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (AR-S2/ENG) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -5078,7 +5397,8 @@ class CfgVehicles
 
             class 4thmd_b_pac4_eng_ar3_r : 4thmd_b_pac4_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (AR-S3/ENG) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -5088,7 +5408,8 @@ class CfgVehicles
 
             class 4thmd_b_pac4_eos_ar0_r : 4thmd_b_pac4_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (Arid/EOS) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -5098,7 +5419,8 @@ class CfgVehicles
 
             class 4thmd_b_pac4_eos_ar1_r : 4thmd_b_pac4_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (AR-S1/EOS) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -5108,7 +5430,8 @@ class CfgVehicles
 
             class 4thmd_b_pac4_eos_ar2_r : 4thmd_b_pac4_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (AR-S2/EOS) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -5118,11 +5441,56 @@ class CfgVehicles
 
             class 4thmd_b_pac4_eos_ar3_r : 4thmd_b_pac4_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (AR-S3/EOS) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\pac4_s_ar3.paa"
+                };
+            };
+
+            class 4thmd_b_pac4_ese_ar0_r : 4thmd_b_pac4_rmn_ar0_r
+            {
+                displayName = "[ARMCO] Carry-All (Arid/ESE) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac4_x_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_pac4_ese_ar1_r : 4thmd_b_pac4_rmn_ar0_r
+            {
+                displayName = "[ARMCO] Carry-All (AR-S1/ESE) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac4_x_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_pac4_ese_ar2_r : 4thmd_b_pac4_rmn_ar0_r
+            {
+                displayName = "[ARMCO] Carry-All (AR-S2/ESE) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac4_x_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_pac4_ese_ar3_r : 4thmd_b_pac4_rmn_ar0_r
+            {
+                displayName = "[ARMCO] Carry-All (AR-S3/ESE) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\pac4_x_ar3.paa"
                 };
             };
 
@@ -5177,7 +5545,7 @@ class CfgVehicles
         //Radio
             class 4thmd_b_lsb1_rmn_ar0_r : 4thmd_b_lsb1_rmn_ar0
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 mass = 18;
                 maximumLoad = 92;
@@ -5197,7 +5565,7 @@ class CfgVehicles
 
             class 4thmd_b_lsb1_rmn_ar1_r : 4thmd_b_lsb1_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -5207,7 +5575,7 @@ class CfgVehicles
 
             class 4thmd_b_lsb1_rmn_ar2_r : 4thmd_b_lsb1_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -5217,13 +5585,31 @@ class CfgVehicles
 
             class 4thmd_b_lsb1_rmn_ar3_r : 4thmd_b_lsb1_rmn_ar0_r
             {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\lsb1_ar3.paa"
                 };
             };
+
+    //(Bergen) LRP Carrier Pack (pac5)
+        class B_Bergen_mcamo_F;
+
+        class 4thmd_b_pac5_rmn_ar0 : B_Bergen_mcamo_F
+        {
+            author = "Darknesvoid99";
+            displayName = "[ARMCO] Carry-All (Arid)";
+            descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Standard Issue";
+
+            mass = 120;
+            maximumLoad = 580;
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\pac5_b_ar0.paa"
+            };
+        };
 
     //Include Other Patterns 
     #include "wood\CfgV_equ.hpp"
@@ -5235,202 +5621,6 @@ class CfgVehicles
     #include "artc\CfgV_equ.hpp"
     #include "navy\CfgV_equ.hpp"
     */
-
-    //Logistics
-        class Box_NATO_Ammo_F;
-        class 4thmd_cgo_e_1 : Box_NATO_Ammo_F
-        {
-            displayName = "Empty Crate (1)";
-            editorCategory="4thmd_supplies";
-            editorSubcategory="4thmd_crates";
-
-            maximumLoad = 800;
-            ace_cargo_size = 1;
-            class TransportBackpacks{};
-            class TransportItems{};
-            class TransportMagazines{};
-            class TransportWeapons{};
-        };
-
-        class Box_NATO_WpsLaunch_F;
-        class 4thmd_cgo_e_2 : Box_NATO_WpsLaunch_F
-        {
-            displayName = "Empty Crate (1.5)";
-            editorCategory="4thmd_supplies";
-            editorSubcategory="4thmd_crates";
-
-            maximumLoad = 1200;
-            ace_cargo_size = 1.5;
-            class TransportBackpacks{};
-            class TransportItems{};
-            class TransportMagazines{};
-            class TransportWeapons{};
-        };
-
-        class Box_NATO_Wps_F;
-        class 4thmd_cgo_e_3 : Box_NATO_Wps_F
-        {
-            displayName = "Empty Crate (2)";
-            editorCategory="4thmd_supplies";
-            editorSubcategory="4thmd_crates";
-
-            maximumLoad = 1600;
-            ace_cargo_size = 2;
-            class TransportBackpacks{};
-            class TransportItems{};
-            class TransportMagazines{};
-            class TransportWeapons{};
-        };
-
-        class Box_NATO_WpsSpecial_F;
-        class 4thmd_cgo_e_4 : Box_NATO_WpsSpecial_F
-        {
-            displayName = "Empty Crate (3)";
-            editorCategory="4thmd_supplies";
-            editorSubcategory="4thmd_crates";
-
-            maximumLoad = 2400;
-            ace_cargo_size = 3;
-            class TransportBackpacks{};
-            class TransportItems{};
-            class TransportMagazines{};
-            class TransportWeapons{};
-        };
-
-        class Box_NATO_Equip_F;
-        class 4thmd_cgo_e_5 : Box_NATO_Equip_F
-        {
-            displayName = "Empty Crate (4)";
-            editorCategory="4thmd_supplies";
-            editorSubcategory="4thmd_crates";
-
-            maximumLoad = 3200;
-            ace_cargo_size = 4;
-            class TransportBackpacks{};
-            class TransportItems{};
-            class TransportMagazines{};
-            class TransportWeapons{};
-        };
-
-        class B_supplyCrate_F;
-        class 4thmd_cgo_e_6 : B_supplyCrate_F
-        {
-            displayName = "Empty Crate (6)";
-            editorCategory="4thmd_supplies";
-            editorSubcategory="4thmd_crates";
-
-            maximumLoad = 4800;
-            ace_cargo_size = 6;
-            class TransportBackpacks{};
-            class TransportItems{};
-            class TransportMagazines{};
-            class TransportWeapons{};
-            
-        };
-
-        class ACE_medicalSupplyCrate;
-        class 4thmd_cgo_e_med : ACE_medicalSupplyCrate
-        {
-            displayName = "Empty Crate (MED)";
-            editorCategory="4thmd_supplies";
-            editorSubcategory="4thmd_crates";
-
-            maximumLoad = 1200;
-            ace_cargo_size = 1;
-            class TransportBackpacks{};
-            class TransportItems{};
-            class TransportMagazines{};
-            class TransportWeapons{};
-        };
-
-        class Box_IDAP_AmmoOrd_F;
-        class 4thmd_cgo_e_eod : Box_IDAP_AmmoOrd_F
-        {
-            displayName = "Empty Crate (EOD)";
-            editorCategory="4thmd_supplies";
-            editorSubcategory="4thmd_crates";
-
-            maximumLoad = 1200;
-            ace_cargo_size = 1;
-            class TransportBackpacks{};
-            class TransportItems{};
-            class TransportMagazines{};
-            class TransportWeapons{};
-        };
-
-
-        class FlexibleTank_01_forest_F;
-        class 4thmd_s_ft1_forest : FlexibleTank_01_forest_F
-        {
-            editorCategory="4thmd_supplies";
-            editorSubcategory="4thmd_logistics";
-            ace_refuel_fuelCargo = 400;
-        };
-
-        class FlexibleTank_01_sand_F;
-        class 4thmd_s_ft1_sand : FlexibleTank_01_sand_F
-        {
-            editorCategory="4thmd_supplies";
-            editorSubcategory="4thmd_logistics";
-            ace_refuel_fuelCargo = 400;
-        };
-
-        class Constructions_base_F;
-        class Land_WoodenBox_F : Constructions_base_F
-        {
-            class EventHandlers;
-        };
-        class 4thmd_s_val_wood : Land_WoodenBox_F
-        {
-            displayName = "Vehicle Light Ammo";
-            editorCategory="4thmd_supplies";
-            editorSubcategory="4thmd_logistics";
-
-            class EventHandlers : EventHandlers
-            {
-                init="[(_this select 0), 800] call ace_rearm_fnc_makeSource;";
-            };
-
-            ace_cargo_size = 3;
-            //ace_rearm_defaultSupply = 800;
-            ace_cargo_canLoad = 1;
-            ace_dragging_canCarry = 1;
-            ace_dragging_canDrag = 1;
-            ace_cargo_hasCargo = 0;
-            ace_cargo_space = 0;
-            maximumLoad = 0;
-        };
-
-        class Box_NATO_AmmoVeh_F;
-        class 4thmd_s_va1_std : Box_NATO_AmmoVeh_F
-        {
-            ace_cargo_size = 6;
-            editorCategory="4thmd_supplies";
-            editorSubcategory="4thmd_logistics";
-            ace_rearm_defaultSupply = 2000;
-        };
-
-        class ACE_RepairItem_Base;
-        class ACE_Track : ACE_RepairItem_Base
-        {
-            editorCategory="4thmd_supplies";
-            editorSubcategory="4thmd_logistics";
-            ace_cargo_size = 1;
-        };
-
-        class ACE_Wheel : ACE_RepairItem_Base
-        {
-            editorCategory="4thmd_supplies";
-            editorSubcategory="4thmd_logistics";
-            ace_cargo_size = 1;
-        };
-
-        class tbd_mortar_81mm_box_he;
-        class 4thmd_s_tbd_81mm_he : tbd_mortar_81mm_box_he
-        {
-            editorCategory="4thmd_supplies";
-            ace_cargo_size = 1;
-        };
 };
 
 class cfgGlasses
@@ -5843,7 +6033,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -5857,7 +6047,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -6035,7 +6225,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -6049,7 +6239,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -6186,7 +6376,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -6200,7 +6390,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -6311,7 +6501,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -6325,7 +6515,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -6463,7 +6653,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -6477,7 +6667,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -6615,7 +6805,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -6629,7 +6819,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -6767,7 +6957,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -6781,7 +6971,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -6919,7 +7109,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -6933,7 +7123,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -7071,7 +7261,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -7085,7 +7275,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -7222,7 +7412,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -7236,7 +7426,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -7375,7 +7565,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -7389,7 +7579,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -7566,7 +7756,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -7580,7 +7770,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -7690,7 +7880,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -7704,7 +7894,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -7780,7 +7970,8 @@ class XtdGearModels
 					"4thmd_r_rmn",
 					"4thmd_r_med",
 					"4thmd_r_eng",
-                    "4thmd_r_eos"
+                    "4thmd_r_eos",
+                    "4thmd_r_ese"
 				};
 
                 class 4thmd_r_rmn
@@ -7806,6 +7997,13 @@ class XtdGearModels
                     label = "EOS";
                     image = "darkmod_4thmd\data\0icon\aax\icon_r_explosive.paa";
                     description = "Explosive Ordnance Specialist";
+                };
+
+                class 4thmd_r_ese
+                {
+                    label = "ESE";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_r_eosengie.paa";
+                    description = "Explosive Ordnance Engineer, SABRE";
                 };
             };
 
@@ -7859,7 +8057,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -7873,7 +8071,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -7974,7 +8172,8 @@ class XtdGearModels
 					"4thmd_r_rmn",
 					"4thmd_r_med",
 					"4thmd_r_eng",
-                    "4thmd_r_eos"
+                    "4thmd_r_eos",
+                    "4thmd_r_ese"
 				};
 
                 class 4thmd_r_rmn
@@ -8000,6 +8199,13 @@ class XtdGearModels
                     label = "EOS";
                     image = "darkmod_4thmd\data\0icon\aax\icon_r_explosive.paa";
                     description = "Explosive Ordnance Specialist";
+                };
+
+                class 4thmd_r_ese
+                {
+                    label = "ESE";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_r_eosengie.paa";
+                    description = "Explosive Ordnance Engineer, SABRE";
                 };
             };
 
@@ -8053,7 +8259,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -8067,7 +8273,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -8168,7 +8374,8 @@ class XtdGearModels
 					"4thmd_r_rmn",
 					"4thmd_r_med",
 					"4thmd_r_eng",
-                    "4thmd_r_eos"
+                    "4thmd_r_eos",
+                    "4thmd_r_ese"
 				};
 
                 class 4thmd_r_rmn
@@ -8194,6 +8401,13 @@ class XtdGearModels
                     label = "EOS";
                     image = "darkmod_4thmd\data\0icon\aax\icon_r_explosive.paa";
                     description = "Explosive Ordnance Specialist";
+                };
+
+                class 4thmd_r_ese
+                {
+                    label = "ESE";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_r_eosengie.paa";
+                    description = "Explosive Ordnance Engineer, SABRE";
                 };
             };
 
@@ -8247,7 +8461,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -8261,7 +8475,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -8362,7 +8576,8 @@ class XtdGearModels
 					"4thmd_r_rmn",
 					"4thmd_r_med",
 					"4thmd_r_eng",
-                    "4thmd_r_eos"
+                    "4thmd_r_eos",
+                    "4thmd_r_ese"
 				};
 
                 class 4thmd_r_rmn
@@ -8388,6 +8603,13 @@ class XtdGearModels
                     label = "EOS";
                     image = "darkmod_4thmd\data\0icon\aax\icon_r_explosive.paa";
                     description = "Explosive Ordnance Specialist";
+                };
+
+                class 4thmd_r_ese
+                {
+                    label = "ESE";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_r_eosengie.paa";
+                    description = "Explosive Ordnance Engineer, SABRE";
                 };
             };
 
@@ -8441,7 +8663,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -8455,7 +8677,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -8594,7 +8816,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -8608,7 +8830,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -8750,7 +8972,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -8764,7 +8986,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy
@@ -8910,7 +9132,7 @@ class XtdGearModels
                 {
                     label = "Boreal";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
+                    description = "ARMCO APAT3-BO(Boreal) Pattern";
                 };
 
                 class 4thmd_wint
@@ -8924,7 +9146,7 @@ class XtdGearModels
                 {
                     label = "Arctic";
                     image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
+                    description = "ARMCO APTSX-AC(Arctic) Pattern";
                 };
 
                 class 4thmd_navy

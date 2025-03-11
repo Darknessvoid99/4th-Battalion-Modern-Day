@@ -5593,13 +5593,13 @@ class CfgVehicles
                 };
             };
 
-    //(Bergen) LRP Carrier Pack (pac5)
+    //(Bergen) LRRP-Carrier Pack (pac5)
         class B_Bergen_mcamo_F;
 
         class 4thmd_b_pac5_rmn_ar0 : B_Bergen_mcamo_F
         {
             author = "Darknesvoid99";
-            displayName = "[ARMCO] Carry-All (Arid)";
+            displayName = "[ARMCO] LRRP-Carrier (Arid)";
             descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Standard Issue";
 
             mass = 120;

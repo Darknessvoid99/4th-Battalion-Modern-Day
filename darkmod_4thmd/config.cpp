@@ -5596,18 +5596,167 @@ class CfgVehicles
     //(Bergen) LRRP-Carrier Pack (pac5)
         class B_Bergen_mcamo_F;
 
-        class 4thmd_b_pac5_rmn_ar0 : B_Bergen_mcamo_F
+        class 4thmd_b_pac5_alp_ar0 : B_Bergen_mcamo_F
         {
             author = "Darknesvoid99";
-            displayName = "[ARMCO] LRRP-Carrier (Arid)";
-            descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Standard Issue";
+            displayName = "[ARMCO] LRRP-Carrier (Arid/ALPHA)";
 
             mass = 120;
             maximumLoad = 580;
 
             hiddenSelectionsTextures[] = 
             {
-                "darkmod_4thmd\data\arid\pac5_b_ar0.paa"
+                "darkmod_4thmd\data\arid\pac5_a_ar0.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_alp_ar1 : 4thmd_b_pac5_alp_ar0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (AR-S1/ALPHA)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\pac5_a_ar1.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_alp_ar2 : 4thmd_b_pac5_alp_ar0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (AR-S2/ALPHA)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\pac5_a_ar2.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_alp_ar3 : 4thmd_b_pac5_alp_ar0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (AR-S3/ALPHA)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\pac5_a_ar3.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_sab_ar0 : 4thmd_b_pac5_alp_ar0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (Arid/SABRE)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\pac5_s_ar0.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_sab_ar1 : 4thmd_b_pac5_alp_ar0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (AR-S1/SABRE)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\pac5_s_ar1.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_sab_ar2 : 4thmd_b_pac5_alp_ar0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (AR-S2/SABRE)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\pac5_s_ar2.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_sab_ar3 : 4thmd_b_pac5_alp_ar0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (AR-S3/SABRE)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\pac5_s_ar3.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_zul_ar0 : 4thmd_b_pac5_alp_ar0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (Arid/ZULU)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\pac5_z_ar0.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_zul_ar1 : 4thmd_b_pac5_alp_ar0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (AR-S1/ZULU)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\pac5_z_ar1.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_zul_ar2 : 4thmd_b_pac5_alp_ar0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (AR-S2/ZULU)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\pac5_z_ar2.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_zul_ar3 : 4thmd_b_pac5_alp_ar0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (AR-S3/ZULU)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\pac5_z_ar3.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_phx_ar0 : 4thmd_b_pac5_alp_ar0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (Arid/PHX)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\pac5_p_ar0.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_phx_ar1 : 4thmd_b_pac5_alp_ar0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (AR-S1/PHX)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\pac5_p_ar1.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_phx_ar2 : 4thmd_b_pac5_alp_ar0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (AR-S2/PHX)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\pac5_p_ar2.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_phx_ar3 : 4thmd_b_pac5_alp_ar0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (AR-S3/PHX)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\arid\pac5_p_ar3.paa"
             };
         };
 
@@ -6114,25 +6263,25 @@ class XtdGearModels
 
                 class 4thmd_alpha
                 {
-                    label = "Alpha";
+                    label = "";
                     image="darkmod_4thmd\data\0icon\aax\icon_s_alpha.paa";
                 };
 
                 class 4thmd_sabre
                 {
-                    label = "Sabre";
+                    label = "";
                     image="darkmod_4thmd\data\0icon\aax\icon_s_sabre.paa";
                 };
 
                 class 4thmd_zulu
                 {
-                    label = "Zulu";
+                    label = "";
                     image="darkmod_4thmd\data\0icon\aax\icon_s_zulu.paa";
                 };
 
                 class 4thmd_phoenix
                 {
-                    label = "Phoenix";
+                    label = "";
                     image="darkmod_4thmd\data\0icon\aax\icon_s_phoenix.paa";
                 };
             };

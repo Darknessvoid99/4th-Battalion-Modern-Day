@@ -3209,54 +3209,6 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_v_mgv3_eng_ar0 : 4thmd_v_mgv3_rmn_ar0
-            {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Kit";
-
-                hiddenSelectionsTextures[] = 
-                {
-                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar0.paa",
-                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
-                    "darkmod_4thmd_mgp\data\mvg2_notour.paa"
-                };
-            };
-
-            class 4thmd_v_mgv3_eng_ar1 : 4thmd_v_mgv3_eng_ar0
-            {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Kit";
-
-                hiddenSelectionsTextures[] = 
-                {
-                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar1.paa",
-                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
-                    "darkmod_4thmd_mgp\data\mvg2_notour.paa"
-                };
-            };
-
-            class 4thmd_v_mgv3_eng_ar2 : 4thmd_v_mgv3_eng_ar0
-            {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Kit";
-
-                hiddenSelectionsTextures[] = 
-                {
-                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar2.paa",
-                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
-                    "darkmod_4thmd_mgp\data\mvg2_notour.paa"
-                };
-            };
-
-            class 4thmd_v_mgv3_eng_ar3 : 4thmd_v_mgv3_eng_ar0
-            {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Kit";
-
-                hiddenSelectionsTextures[] = 
-                {
-                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar3.paa",
-                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
-                    "darkmod_4thmd_mgp\data\mvg2_notour.paa"
-                };
-            };
-
             class 4thmd_v_mgv3_eos_ar0 : 4thmd_v_mgv3_med_ar0
             {
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Explosive Specialist Kit";
@@ -3569,6 +3521,54 @@ class CfgWeapons
                 };
             };
 
+            class 4thmd_v_mgv3_eng_ar0 : 4thmd_v_mgv3_mkn_ar0
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_eng_ar1 : 4thmd_v_mgv3_eng_ar0
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_eng_ar2 : 4thmd_v_mgv3_eng_ar0
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_eng_ar3 : 4thmd_v_mgv3_eng_ar0
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
             class 4thmd_v_mgv3_lgt_ar0 : 4thmd_v_mgv3_rmn_ar0
             {
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Crewman Kit";
@@ -3766,58 +3766,6 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_v_mgv3_eng_ar0_b : 4thmd_v_mgv3_rmn_ar0_b
-            {
-                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Kit + Battle Belt";
-
-                hiddenSelectionsTextures[] = 
-                {
-                    "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
-                    "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
-                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
-                    "darkmod_4thmd_mgp\data\mvg2_notour.paa"
-                };
-            };
-
-            class 4thmd_v_mgv3_eng_ar1_b : 4thmd_v_mgv3_eng_ar0_b
-            {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Kit + Battle Belt";
-
-                hiddenSelectionsTextures[] = 
-                {
-                    "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
-                    "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
-                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
-                    "darkmod_4thmd_mgp\data\mvg2_notour.paa"
-                };
-            };
-
-            class 4thmd_v_mgv3_eng_ar2_b : 4thmd_v_mgv3_eng_ar0_b
-            {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Kit + Battle Belt";
-
-                hiddenSelectionsTextures[] = 
-                {
-                    "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
-                    "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
-                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
-                    "darkmod_4thmd_mgp\data\mvg2_notour.paa"
-                };
-            };
-
-            class 4thmd_v_mgv3_eng_ar3_b : 4thmd_v_mgv3_eng_ar0_b
-            {
-                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Kit + Battle Belt";
-
-                hiddenSelectionsTextures[] = 
-                {
-                    "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
-                    "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
-                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
-                    "darkmod_4thmd_mgp\data\mvg2_notour.paa"
-                };
-            };
-
             class 4thmd_v_mgv3_eos_ar0_b : 4thmd_v_mgv3_med_ar0_b
             {
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>E.O.S. Kit + Battle Belt";
@@ -3876,7 +3824,7 @@ class CfgWeapons
 
                 hiddenSelectionsTextures[] = 
                 {
-                    "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
                     "milgp_vests\textures\v_gear_02_co.paa"
@@ -3889,7 +3837,7 @@ class CfgWeapons
 
                 hiddenSelectionsTextures[] = 
                 {
-                    "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
                     "milgp_vests\textures\v_gear_02_co.paa"
@@ -3902,7 +3850,7 @@ class CfgWeapons
 
                 hiddenSelectionsTextures[] = 
                 {
-                    "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
                     "milgp_vests\textures\v_gear_02_co.paa"
@@ -3915,7 +3863,7 @@ class CfgWeapons
 
                 hiddenSelectionsTextures[] = 
                 {
-                    "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
                     "milgp_vests\textures\v_gear_02_co.paa"
@@ -4153,6 +4101,59 @@ class CfgWeapons
                     "milgp_vests\textures\v_gear_02_co.paa"
                 };
             };
+
+            class 4thmd_v_mgv3_eng_ar0_b : 4thmd_v_mgv3_mkn_ar0_b
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_eng_ar1_b : 4thmd_v_mgv3_eng_ar0_b
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_eng_ar2_b : 4thmd_v_mgv3_eng_ar0_b
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_eng_ar3_b : 4thmd_v_mgv3_eng_ar0_b
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgv3_e_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
+                    "milgp_vests\textures\v_gear_02_co.paa"
+                };
+            };
+            
     //Battle Belt (mgbb)
         class milgp_v_battle_belt_assaulter_KHK : ItemCore
         {

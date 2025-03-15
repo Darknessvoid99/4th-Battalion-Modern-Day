@@ -707,7 +707,7 @@ class CfgMagazines
             descriptionShort = "M855A1 Enhanced Preformance Rounds<br/>M856A1 Enhanced Tracer Rounds<br/>Tracer every 3, 3 End Tracers";
 
             ammo = "4thmd_a_556x45_epr_y";
-            mass = 45;
+            mass = 40;
             count = 100;
             lastRoundsTracer = 5;
             tracersEvery = 3;

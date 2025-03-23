@@ -29,6 +29,10 @@
             "4thmd_b_mgb1_eos_wd1",
             "4thmd_b_mgb1_eos_wd2",
             "4thmd_b_mgb1_eos_wd3",
+            "4thmd_b_mgb1_ese_wd0",
+            "4thmd_b_mgb1_ese_wd1",
+            "4thmd_b_mgb1_ese_wd2",
+            "4thmd_b_mgb1_ese_wd3",
             "4thmd_b_mgb1_rmn_wd0_r",
             "4thmd_b_mgb1_rmn_wd1_r",
             "4thmd_b_mgb1_rmn_wd2_r",
@@ -45,6 +49,10 @@
             "4thmd_b_mgb1_eos_wd1_r",
             "4thmd_b_mgb1_eos_wd2_r",
             "4thmd_b_mgb1_eos_wd3_r",
+            "4thmd_b_mgb1_ese_wd0_r",
+            "4thmd_b_mgb1_ese_wd1_r",
+            "4thmd_b_mgb1_ese_wd2_r",
+            "4thmd_b_mgb1_ese_wd3_r",
             "4thmd_b_mgbp_a_wd0",
             "4thmd_b_mgbp_a_wd1",
             "4thmd_b_mgbp_a_wd2",
@@ -256,6 +264,51 @@
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa"
                 };
             };
+
+            class 4thmd_b_mgb1_ese_wd0 : 4thmd_b_mgb1_rmn_wd0
+            {
+                displayName = "[ARMCO] Patrol Pack (Woodland/ESE)";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgb1_x_wd0.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa"
+                };
+            };
+
+            class 4thmd_b_mgb1_ese_wd1 : 4thmd_b_mgb1_ese_wd0
+            {
+                displayName = "[ARMCO] Patrol Pack (WD-S1/ESE)";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgb1_x_wd1.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa"
+                };
+            };
+
+            class 4thmd_b_mgb1_ese_wd2 : 4thmd_b_mgb1_ese_wd0
+            {
+                displayName = "[ARMCO] Patrol Pack (WD-S2/ESE)";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgb1_x_wd2.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa"
+                };
+            };
+
+            class 4thmd_b_mgb1_ese_wd3 : 4thmd_b_mgb1_ese_wd0
+            {
+                displayName = "[ARMCO] Patrol Pack (WD-S3/ESE)";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgb1_x_wd3.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa"
+                };
+            };
+
         //Radio
             class 4thmd_b_mgb1_rmn_wd0_r : 4thmd_b_mgb1_rmn_ar0_r
             {
@@ -429,6 +482,50 @@
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd_mgp\data\wood\mgb1_s_wd3.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa"
+                };
+            };
+
+            class 4thmd_b_mgb1_ese_wd0_r : 4thmd_b_mgb1_rmn_wd0_r
+            {
+                displayName = "[ARMCO] Patrol Pack (Woodland/ESE) + Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgb1_x_wd0.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa"
+                };
+            };
+
+            class 4thmd_b_mgb1_ese_wd1_r : 4thmd_b_mgb1_ese_wd0_r
+            {
+                displayName = "[ARMCO] Patrol Pack (WD-S1/ESE) + Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgb1_x_wd1.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa"
+                };
+            };
+
+            class 4thmd_b_mgb1_ese_wd2_r : 4thmd_b_mgb1_ese_wd0_r
+            {
+                displayName = "[ARMCO] Patrol Pack (WD-S2/ESE) + Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgb1_x_wd2.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa"
+                };
+            };
+
+            class 4thmd_b_mgb1_ese_wd3_r : 4thmd_b_mgb1_ese_wd0_r
+            {
+                displayName = "[ARMCO] Patrol Pack (WD-S3/ESE) + Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgb1_x_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa"
                 };
             };

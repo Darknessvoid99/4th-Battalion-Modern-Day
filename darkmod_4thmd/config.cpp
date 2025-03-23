@@ -21,6 +21,10 @@ class CfgPatches
             "4thmd_u_unif1_ar3_s",
             "4thmd_u_unif1_ar3_z",
             "4thmd_u_unif1_ar3_p",
+            "4thmd_u_unif1_ar0_to",
+            "4thmd_u_unif1_ar1_to",
+            "4thmd_u_unif1_ar2_to",
+            "4thmd_u_unif1_ar3_to",
             "4thmd_u_unif1_ru_ar0",
             "4thmd_u_unif1_ru_ar0_a",
             "4thmd_u_unif1_ru_ar0_s",
@@ -183,6 +187,10 @@ class CfgPatches
             "4thmd_u_unif1_wd3_s",
             "4thmd_u_unif1_wd3_z",
             "4thmd_u_unif1_wd3_p",
+            "4thmd_u_unif1_wd0_to",
+            "4thmd_u_unif1_wd1_to",
+            "4thmd_u_unif1_wd2_to",
+            "4thmd_u_unif1_wd3_to",
             "4thmd_u_unif1_ru_wd0",
             "4thmd_u_unif1_ru_wd0_a",
             "4thmd_u_unif1_ru_wd0_s",
@@ -343,6 +351,10 @@ class CfgPatches
             "4thmd_u_unif1_ar3_s_f",
             "4thmd_u_unif1_ar3_z_f",
             "4thmd_u_unif1_ar3_p_f",
+            "4thmd_u_unif1_ar0_to_f",
+            "4thmd_u_unif1_ar1_to_f",
+            "4thmd_u_unif1_ar2_to_f",
+            "4thmd_u_unif1_ar3_to_f",
             "4thmd_u_unif1_ru_ar0_f",
             "4thmd_u_unif1_ru_ar0_a_f",
             "4thmd_u_unif1_ru_ar0_s_f",
@@ -431,6 +443,10 @@ class CfgPatches
             "4thmd_b_pac1_eos_ar1",
             "4thmd_b_pac1_eos_ar2",
             "4thmd_b_pac1_eos_ar3",
+            "4thmd_b_pac1_ese_ar0",
+            "4thmd_b_pac1_ese_ar1",
+            "4thmd_b_pac1_ese_ar2",
+            "4thmd_b_pac1_ese_ar3",
             "4thmd_b_pac1_rmn_ar0_r",
             "4thmd_b_pac1_rmn_ar1_r",
             "4thmd_b_pac1_rmn_ar2_r",
@@ -447,6 +463,10 @@ class CfgPatches
             "4thmd_b_pac1_eos_ar1_r",
             "4thmd_b_pac1_eos_ar2_r",
             "4thmd_b_pac1_eos_ar3_r",
+            "4thmd_b_pac1_ese_ar0_r",
+            "4thmd_b_pac1_ese_ar1_r",
+            "4thmd_b_pac1_ese_ar2_r",
+            "4thmd_b_pac1_ese_ar3_r",
             "4thmd_b_pac2_rmn_ar0",
             "4thmd_b_pac2_rmn_ar1",
             "4thmd_b_pac2_rmn_ar2",
@@ -463,6 +483,10 @@ class CfgPatches
             "4thmd_b_pac2_eos_ar1",
             "4thmd_b_pac2_eos_ar2",
             "4thmd_b_pac2_eos_ar3",
+            "4thmd_b_pac2_ese_ar0",
+            "4thmd_b_pac2_ese_ar1",
+            "4thmd_b_pac2_ese_ar2",
+            "4thmd_b_pac2_ese_ar3",
             "4thmd_b_pac2_rmn_ar0_r",
             "4thmd_b_pac2_rmn_ar1_r",
             "4thmd_b_pac2_rmn_ar2_r",
@@ -479,6 +503,10 @@ class CfgPatches
             "4thmd_b_pac2_eos_ar1_r",
             "4thmd_b_pac2_eos_ar2_r",
             "4thmd_b_pac2_eos_ar3_r",
+            "4thmd_b_pac2_ese_ar0_r",
+            "4thmd_b_pac2_ese_ar1_r",
+            "4thmd_b_pac2_ese_ar2_r",
+            "4thmd_b_pac2_ese_ar3_r",
             "4thmd_b_pac3_rmn_ar0",
             "4thmd_b_pac3_rmn_ar1",
             "4thmd_b_pac3_rmn_ar2",
@@ -495,6 +523,10 @@ class CfgPatches
             "4thmd_b_pac3_eos_ar1",
             "4thmd_b_pac3_eos_ar2",
             "4thmd_b_pac3_eos_ar3",
+            "4thmd_b_pac3_ese_ar0",
+            "4thmd_b_pac3_ese_ar1",
+            "4thmd_b_pac3_ese_ar2",
+            "4thmd_b_pac3_ese_ar3",
             "4thmd_b_pac3_rmn_ar0_r",
             "4thmd_b_pac3_rmn_ar1_r",
             "4thmd_b_pac3_rmn_ar2_r",
@@ -511,6 +543,10 @@ class CfgPatches
             "4thmd_b_pac3_eos_ar1_r",
             "4thmd_b_pac3_eos_ar2_r",
             "4thmd_b_pac3_eos_ar3_r",
+            "4thmd_b_pac3_ese_ar0_r",
+            "4thmd_b_pac3_ese_ar1_r",
+            "4thmd_b_pac3_ese_ar2_r",
+            "4thmd_b_pac3_ese_ar3_r",
             "4thmd_b_pac4_rmn_ar0",
             "4thmd_b_pac4_rmn_ar1",
             "4thmd_b_pac4_rmn_ar2",
@@ -527,6 +563,10 @@ class CfgPatches
             "4thmd_b_pac4_eos_ar1",
             "4thmd_b_pac4_eos_ar2",
             "4thmd_b_pac4_eos_ar3",
+            "4thmd_b_pac4_ese_ar0",
+            "4thmd_b_pac4_ese_ar1",
+            "4thmd_b_pac4_ese_ar2",
+            "4thmd_b_pac4_ese_ar3",
             "4thmd_b_pac4_rmn_ar0_r",
             "4thmd_b_pac4_rmn_ar1_r",
             "4thmd_b_pac4_rmn_ar2_r",
@@ -543,6 +583,10 @@ class CfgPatches
             "4thmd_b_pac4_eos_ar1_r",
             "4thmd_b_pac4_eos_ar2_r",
             "4thmd_b_pac4_eos_ar3_r",
+            "4thmd_b_pac4_ese_ar0_r",
+            "4thmd_b_pac4_ese_ar1_r",
+            "4thmd_b_pac4_ese_ar2_r",
+            "4thmd_b_pac4_ese_ar3_r",
             "4thmd_b_lsb1_rmn_ar0",
             "4thmd_b_lsb1_rmn_ar1",
             "4thmd_b_lsb1_rmn_ar2",
@@ -551,7 +595,116 @@ class CfgPatches
             "4thmd_b_lsb1_rmn_ar1_r",
             "4thmd_b_lsb1_rmn_ar2_r",
             "4thmd_b_lsb1_rmn_ar3_r",
+            "4thmd_b_pac5_alp_ar0",
+            "4thmd_b_pac5_alp_ar1",
+            "4thmd_b_pac5_alp_ar2",
+            "4thmd_b_pac5_alp_ar3",
+            "4thmd_b_pac5_sab_ar0",
+            "4thmd_b_pac5_sab_ar1",
+            "4thmd_b_pac5_sab_ar2",
+            "4thmd_b_pac5_sab_ar3",
+            "4thmd_b_pac5_zul_ar0",
+            "4thmd_b_pac5_zul_ar1",
+            "4thmd_b_pac5_zul_ar2",
+            "4thmd_b_pac5_zul_ar3",
+            "4thmd_b_pac5_phx_ar0",
+            "4thmd_b_pac5_phx_ar1",
+            "4thmd_b_pac5_phx_ar2",
+            "4thmd_b_pac5_phx_ar3",
 
+            "4thmd_u_unif1_wd0_f",
+            "4thmd_u_unif1_wd0_a_f",
+            "4thmd_u_unif1_wd0_s_f",
+            "4thmd_u_unif1_wd0_z_f",
+            "4thmd_u_unif1_wd0_p_f",
+            "4thmd_u_unif1_wd1_a_f",
+            "4thmd_u_unif1_wd1_s_f",
+            "4thmd_u_unif1_wd1_z_f",
+            "4thmd_u_unif1_wd1_p_f",
+            "4thmd_u_unif1_wd2_a_f",
+            "4thmd_u_unif1_wd2_s_f",
+            "4thmd_u_unif1_wd2_z_f",
+            "4thmd_u_unif1_wd2_p_f",
+            "4thmd_u_unif1_wd3_a_f",
+            "4thmd_u_unif1_wd3_s_f",
+            "4thmd_u_unif1_wd3_z_f",
+            "4thmd_u_unif1_wd3_p_f",
+            "4thmd_u_unif1_wd0_to_f",
+            "4thmd_u_unif1_wd1_to_f",
+            "4thmd_u_unif1_wd2_to_f",
+            "4thmd_u_unif1_wd3_to_f",
+            "4thmd_u_unif1_ru_wd0_f",
+            "4thmd_u_unif1_ru_wd0_a_f",
+            "4thmd_u_unif1_ru_wd0_s_f",
+            "4thmd_u_unif1_ru_wd0_z_f",
+            "4thmd_u_unif1_ru_wd0_p_f",
+            "4thmd_u_unif1_ru_wd1_a_f",
+            "4thmd_u_unif1_ru_wd1_s_f",
+            "4thmd_u_unif1_ru_wd1_z_f",
+            "4thmd_u_unif1_ru_wd1_p_f",
+            "4thmd_u_unif1_ru_wd2_a_f",
+            "4thmd_u_unif1_ru_wd2_s_f",
+            "4thmd_u_unif1_ru_wd2_z_f",
+            "4thmd_u_unif1_ru_wd2_p_f",
+            "4thmd_u_unif1_ru_wd3_a_f",
+            "4thmd_u_unif1_ru_wd3_s_f",
+            "4thmd_u_unif1_ru_wd3_z_f",
+            "4thmd_u_unif1_ru_wd3_p_f",
+            "4thmd_u_unif1_tt_wd1_f",
+            "4thmd_u_unif1_tt_wd0_a_f",
+            "4thmd_u_unif1_tt_wd0_s_f",
+            "4thmd_u_unif1_tt_wd0_z_f",
+            "4thmd_u_unif1_tt_wd0_p_f",
+            "4thmd_u_unif1_tt_wd1_a_f",
+            "4thmd_u_unif1_tt_wd1_s_f",
+            "4thmd_u_unif1_tt_wd1_z_f",
+            "4thmd_u_unif1_tt_wd1_p_f",
+            "4thmd_u_unif1_tt_wd2_a_f",
+            "4thmd_u_unif1_tt_wd2_s_f",
+            "4thmd_u_unif1_tt_wd2_z_f",
+            "4thmd_u_unif1_tt_wd2_p_f",
+            "4thmd_u_unif1_tt_wd3_a_f",
+            "4thmd_u_unif1_tt_wd3_s_f",
+            "4thmd_u_unif1_tt_wd3_z_f",
+            "4thmd_u_unif1_tt_wd3_p_f",
+            "4thmd_u_unif1_sw_wd1_f",
+            "4thmd_u_unif1_sw_wd0_a_f",
+            "4thmd_u_unif1_sw_wd0_s_f",
+            "4thmd_u_unif1_sw_wd0_z_f",
+            "4thmd_u_unif1_sw_wd0_p_f",
+            "4thmd_u_unif1_sw_wd1_a_f",
+            "4thmd_u_unif1_sw_wd1_s_f",
+            "4thmd_u_unif1_sw_wd1_z_f",
+            "4thmd_u_unif1_sw_wd1_p_f",
+            "4thmd_u_unif1_sw_wd2_a_f",
+            "4thmd_u_unif1_sw_wd2_s_f",
+            "4thmd_u_unif1_sw_wd2_z_f",
+            "4thmd_u_unif1_sw_wd2_p_f",
+            "4thmd_u_unif1_sw_wd3_a_f",
+            "4thmd_u_unif1_sw_wd3_s_f",
+            "4thmd_u_unif1_sw_wd3_z_f",
+            "4thmd_u_unif1_sw_wd3_p_f",
+            "4thmd_u_unif1_gh_wd0_f",
+            "4thmd_u_unif1_gh_wd0_a_f",
+            "4thmd_u_unif1_gh_wd0_s_f",
+            "4thmd_u_unif1_gh_wd0_z_f",
+            "4thmd_u_unif1_gh_wd0_p_f",
+            "4thmd_u_unif1_gh_wd1_a_f",
+            "4thmd_u_unif1_gh_wd1_s_f",
+            "4thmd_u_unif1_gh_wd1_z_f",
+            "4thmd_u_unif1_gh_wd1_p_f",
+            "4thmd_u_unif1_gh_wd2_a_f",
+            "4thmd_u_unif1_gh_wd2_s_f",
+            "4thmd_u_unif1_gh_wd2_z_f",
+            "4thmd_u_unif1_gh_wd2_p_f",
+            "4thmd_u_unif1_gh_wd3_a_f",
+            "4thmd_u_unif1_gh_wd3_s_f",
+            "4thmd_u_unif1_gh_wd3_z_f",
+            "4thmd_u_unif1_gh_wd3_p_f",
+            "4thmd_u_ghil1_wd1_f",
+            "4thmd_u_ghil1_wd1_a_f",
+            "4thmd_u_ghil1_wd1_b_f",
+            "4thmd_u_ghil1_wd1_c_f",
             "4thmd_u_unif1_wd0_f",
             "4thmd_u_unif1_wd0_a_f",
             "4thmd_u_unif1_wd0_s_f",
@@ -657,6 +810,10 @@ class CfgPatches
             "4thmd_b_pac1_eos_wd1",
             "4thmd_b_pac1_eos_wd2",
             "4thmd_b_pac1_eos_wd3",
+            "4thmd_b_pac1_ese_wd0",
+            "4thmd_b_pac1_ese_wd1",
+            "4thmd_b_pac1_ese_wd2",
+            "4thmd_b_pac1_ese_wd3",
             "4thmd_b_pac1_rmn_wd0_r",
             "4thmd_b_pac1_rmn_wd1_r",
             "4thmd_b_pac1_rmn_wd2_r",
@@ -673,6 +830,10 @@ class CfgPatches
             "4thmd_b_pac1_eos_wd1_r",
             "4thmd_b_pac1_eos_wd2_r",
             "4thmd_b_pac1_eos_wd3_r",
+            "4thmd_b_pac1_ese_wd0_r",
+            "4thmd_b_pac1_ese_wd1_r",
+            "4thmd_b_pac1_ese_wd2_r",
+            "4thmd_b_pac1_ese_wd3_r",
             "4thmd_b_pac2_rmn_wd0",
             "4thmd_b_pac2_rmn_wd1",
             "4thmd_b_pac2_rmn_wd2",
@@ -689,6 +850,10 @@ class CfgPatches
             "4thmd_b_pac2_eos_wd1",
             "4thmd_b_pac2_eos_wd2",
             "4thmd_b_pac2_eos_wd3",
+            "4thmd_b_pac2_ese_wd0",
+            "4thmd_b_pac2_ese_wd1",
+            "4thmd_b_pac2_ese_wd2",
+            "4thmd_b_pac2_ese_wd3",
             "4thmd_b_pac2_rmn_wd0_r",
             "4thmd_b_pac2_rmn_wd1_r",
             "4thmd_b_pac2_rmn_wd2_r",
@@ -705,6 +870,10 @@ class CfgPatches
             "4thmd_b_pac2_eos_wd1_r",
             "4thmd_b_pac2_eos_wd2_r",
             "4thmd_b_pac2_eos_wd3_r",
+            "4thmd_b_pac2_ese_wd0_r",
+            "4thmd_b_pac2_ese_wd1_r",
+            "4thmd_b_pac2_ese_wd2_r",
+            "4thmd_b_pac2_ese_wd3_r",
             "4thmd_b_pac3_rmn_wd0",
             "4thmd_b_pac3_rmn_wd1",
             "4thmd_b_pac3_rmn_wd2",
@@ -721,6 +890,10 @@ class CfgPatches
             "4thmd_b_pac3_eos_wd1",
             "4thmd_b_pac3_eos_wd2",
             "4thmd_b_pac3_eos_wd3",
+            "4thmd_b_pac3_ese_wd0",
+            "4thmd_b_pac3_ese_wd1",
+            "4thmd_b_pac3_ese_wd2",
+            "4thmd_b_pac3_ese_wd3",
             "4thmd_b_pac3_rmn_wd0_r",
             "4thmd_b_pac3_rmn_wd1_r",
             "4thmd_b_pac3_rmn_wd2_r",
@@ -737,6 +910,10 @@ class CfgPatches
             "4thmd_b_pac3_eos_wd1_r",
             "4thmd_b_pac3_eos_wd2_r",
             "4thmd_b_pac3_eos_wd3_r",
+            "4thmd_b_pac3_ese_wd0_r",
+            "4thmd_b_pac3_ese_wd1_r",
+            "4thmd_b_pac3_ese_wd2_r",
+            "4thmd_b_pac3_ese_wd3_r",
             "4thmd_b_pac4_rmn_wd0",
             "4thmd_b_pac4_rmn_wd1",
             "4thmd_b_pac4_rmn_wd2",
@@ -753,6 +930,10 @@ class CfgPatches
             "4thmd_b_pac4_eos_wd1",
             "4thmd_b_pac4_eos_wd2",
             "4thmd_b_pac4_eos_wd3",
+            "4thmd_b_pac4_ese_wd0",
+            "4thmd_b_pac4_ese_wd1",
+            "4thmd_b_pac4_ese_wd2",
+            "4thmd_b_pac4_ese_wd3",
             "4thmd_b_pac4_rmn_wd0_r",
             "4thmd_b_pac4_rmn_wd1_r",
             "4thmd_b_pac4_rmn_wd2_r",
@@ -769,6 +950,10 @@ class CfgPatches
             "4thmd_b_pac4_eos_wd1_r",
             "4thmd_b_pac4_eos_wd2_r",
             "4thmd_b_pac4_eos_wd3_r",
+            "4thmd_b_pac4_ese_wd0_r",
+            "4thmd_b_pac4_ese_wd1_r",
+            "4thmd_b_pac4_ese_wd2_r",
+            "4thmd_b_pac4_ese_wd3_r",
             "4thmd_b_lsb1_rmn_wd0",
             "4thmd_b_lsb1_rmn_wd1",
             "4thmd_b_lsb1_rmn_wd2",
@@ -776,7 +961,23 @@ class CfgPatches
             "4thmd_b_lsb1_rmn_wd0_r",
             "4thmd_b_lsb1_rmn_wd1_r",
             "4thmd_b_lsb1_rmn_wd2_r",
-            "4thmd_b_lsb1_rmn_wd3_r"
+            "4thmd_b_lsb1_rmn_wd3_r",
+            "4thmd_b_pac5_alp_wd0",
+            "4thmd_b_pac5_alp_wd1",
+            "4thmd_b_pac5_alp_wd2",
+            "4thmd_b_pac5_alp_wd3",
+            "4thmd_b_pac5_sab_wd0",
+            "4thmd_b_pac5_sab_wd1",
+            "4thmd_b_pac5_sab_wd2",
+            "4thmd_b_pac5_sab_wd3",
+            "4thmd_b_pac5_zul_wd0",
+            "4thmd_b_pac5_zul_wd1",
+            "4thmd_b_pac5_zul_wd2",
+            "4thmd_b_pac5_zul_wd3",
+            "4thmd_b_pac5_phx_wd0",
+            "4thmd_b_pac5_phx_wd1",
+            "4thmd_b_pac5_phx_wd2",
+            "4thmd_b_pac5_phx_wd3"
         };
         magazines[] = {};
         requiredAddons[] = 
@@ -974,6 +1175,46 @@ class CfgWeapons
                 class ItemInfo : ItemInfo
                 {
                     uniformClass = "4thmd_u_unif1_ar3_p_f";
+                };
+            };
+
+            class 4thmd_u_unif1_ar0_to : 4thmd_u_unif1_ar0
+            {
+                descriptionShort = "Arid APAT4-AR Pattern<br/>Training Officer Uniform";
+
+                class ItemInfo : ItemInfo
+                {
+                    uniformClass = "4thmd_u_unif1_ar0_to_f";
+                };
+            };
+
+            class 4thmd_u_unif1_ar1_to : 4thmd_u_unif1_ar0
+            {
+                descriptionShort = "Arid SOLID-AR Pattern<br/>Training Officer Uniform";
+
+                class ItemInfo : ItemInfo
+                {
+                    uniformClass = "4thmd_u_unif1_ar1_to_f";
+                };
+            };
+
+            class 4thmd_u_unif1_ar2_to : 4thmd_u_unif1_ar0
+            {
+                descriptionShort = "Arid DCAM5-AR Pattern<br/>Training Officer Uniform";
+
+                class ItemInfo : ItemInfo
+                {
+                    uniformClass = "4thmd_u_unif1_ar2_to_f";
+                };
+            };
+
+            class 4thmd_u_unif1_ar3_to : 4thmd_u_unif1_ar0
+            {
+                descriptionShort = "Arid WCM3B-AR Pattern<br/>Training Officer Uniform";
+
+                class ItemInfo : ItemInfo
+                {
+                    uniformClass = "4thmd_u_unif1_ar3_to_f";
                 };
             };
 
@@ -2872,6 +3113,46 @@ class CfgVehicles
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\unif1_ar3_p.paa"
+                };
+            };
+
+            class 4thmd_u_unif1_ar0_to_f : 4thmd_u_unif1_ar0_f
+            {
+                displayName = "[ARMCO] TO Arid Standard";
+                uniformClass = "4thmd_u_unif1_ar0_to";
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\unif1_ar0_to.paa"
+                };
+            };
+
+            class 4thmd_u_unif1_ar1_to_f : 4thmd_u_unif1_ar0_f
+            {
+                displayName = "[ARMCO] TO Arid Solid";
+                uniformClass = "4thmd_u_unif1_ar1_to";
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\unif1_ar1_to.paa"
+                };
+            };
+
+            class 4thmd_u_unif1_ar2_to_f : 4thmd_u_unif1_ar0_f
+            {
+                displayName = "[ARMCO] TO Arid Digicam";
+                uniformClass = "4thmd_u_unif1_ar2_to";
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\unif1_ar2_to.paa"
+                };
+            };
+
+            class 4thmd_u_unif1_ar3_to_f : 4thmd_u_unif1_ar0_f
+            {
+                displayName = "[ARMCO] TO Arid Wildcam";
+                uniformClass = "4thmd_u_unif1_ar3_to";
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\unif1_ar3_to.paa"
                 };
             };
 
@@ -5545,6 +5826,7 @@ class CfgVehicles
         //Radio
             class 4thmd_b_lsb1_rmn_ar0_r : 4thmd_b_lsb1_rmn_ar0
             {
+                displayName = "[ARMCO] Leg Strap Bag (Arid) + Radio";
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 mass = 18;
@@ -5595,7 +5877,6 @@ class CfgVehicles
 
     //(Bergen) LRRP-Carrier Pack (pac5)
         class B_Bergen_mcamo_F;
-
         class 4thmd_b_pac5_alp_ar0 : B_Bergen_mcamo_F
         {
             author = "Darknesvoid99";
@@ -5770,6 +6051,11 @@ class CfgVehicles
     #include "artc\CfgV_equ.hpp"
     #include "navy\CfgV_equ.hpp"
     */
+
+        class 4thmd_u_base_b : I_Soldier_base_F
+        {
+            uniformClass = "4thmd_u_unif1_ar0";
+        };
 };
 
 class cfgGlasses
@@ -6082,8 +6368,266 @@ class cfgGlasses
 
 class XtdGearModels
 {
+    //Base Config
+        class 4thmd_squad_base
+        {
+            alwaysSelectable = 1;
+            changeingame = 0;
+            changedelay = 0;
+            label = "Squad";
+            values[] =
+            {
+                "4thmd_alpha",
+                "4thmd_sabre",
+                "4thmd_zulu",
+                "4thmd_phoenix"
+            };
+
+            class 4thmd_alpha
+            {
+                label = "";
+                image="darkmod_4thmd\data\0icon\aax\icon_s_alpha.paa";
+            };
+
+            class 4thmd_sabre
+            {
+                label = "";
+                image="darkmod_4thmd\data\0icon\aax\icon_s_sabre.paa";
+            };
+
+            class 4thmd_zulu
+            {
+                label = "";
+                image="darkmod_4thmd\data\0icon\aax\icon_s_zulu.paa";
+            };
+
+            class 4thmd_phoenix
+            {
+                label = "";
+                image="darkmod_4thmd\data\0icon\aax\icon_s_phoenix.paa";
+            };
+        };
+
+        class 4thmd_color_base
+        {
+            alwaysSelectable = 1;
+            changeingame = 0;
+            changedelay = 0;
+            label = "Camouflage";
+            values[] =
+            {
+                "4thmd_arid",
+                "4thmd_wood",
+                "4thmd_dest",
+                "4thmd_jung",
+                "4thmd_borl",
+                "4thmd_wint",
+                "4thmd_arct",
+                "4thmd_navy"
+            };
+
+            class 4thmd_arid
+            {
+                label = "Arid";
+                image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
+                description = "ARMCO APAT4-AR(Arid) Pattern";
+            };
+
+            class 4thmd_wood
+            {
+                label = "Woodland";
+                image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
+                description = "ARMCO APAT4-WD(Woodland) Pattern";
+            };
+
+            class 4thmd_dest
+            {
+                label = "Desert";
+                image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
+                description = "ARMCO APAT4-DE(Desert) Pattern";
+            };
+
+            class 4thmd_jung
+            {
+                label = "Jungle";
+                image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
+                description = "ARMCO APAT4-JU(Jungle) Pattern";
+            };
+
+            class 4thmd_borl
+            {
+                label = "Boreal";
+                image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
+                description = "ARMCO APAT3-BO(Boreal) Pattern";
+            };
+
+            class 4thmd_wint
+            {
+                label = "Snow Boreal";
+                image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
+                description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
+            };
+
+            class 4thmd_arct
+            {
+                label = "Arctic";
+                image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
+                description = "ARMCO APTSX-AC(Arctic) Pattern";
+            };
+
+            class 4thmd_navy
+            {
+                label = "Naval";
+                image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
+                description = "ARMCO APAT4-NA(Naval) Pattern";
+            };
+        };
+
+        class 4thmd_camo_base
+        {
+            alwaysSelectable = 1;
+            changeingame = 0;
+            changedelay = 0;
+            label = "Pattern";
+            values[] =
+            {
+                "4thmd_c_standard",
+                "4thmd_c_solid1",
+                "4thmd_c_solid2",
+                "4thmd_c_solid3"
+            };
+
+            class 4thmd_c_standard
+            {
+                label = "Standard";
+                image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
+            };
+
+            class 4thmd_c_solid1
+            {
+                label = "Solid 1";
+                image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
+            };
+
+            class 4thmd_c_solid2
+            {
+                label = "Solid 2";
+                image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
+            };
+
+            class 4thmd_c_solid3
+            {
+                label = "Solid 3";
+                image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
+            };
+        };
+
+        class 4thmd_headset_base
+        {
+            alwaysSelectable = 0;
+            changeingame = 1;
+            changedelay = 8;
+            label = "Headset";
+            values[] =
+            {
+                "4thmd_auxof",
+                "4thmd_auxon"
+            };
+
+            class 4thmd_auxof
+            {
+                label = "None";
+                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                actionlabel = "Remove LiteCOMM";
+            };
+
+            class 4thmd_auxon
+            {
+                label = "LiteCOMM";
+                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                actionlabel = "Wear LiteCOMM";
+            };
+        };
+
+        class 4thmd_role_base
+        {
+            alwaysSelectable = 1;
+            changeingame = 0;
+            changedelay = 0;
+            label = "Role";
+            values[]=
+            {
+                "4thmd_r_med",
+                "4thmd_r_eng",
+                "4thmd_r_eos",
+                "4thmd_r_ese",
+                "4thmd_r_rmn"
+            };
+
+            class 4thmd_r_med
+            {
+                label = "";
+                image = "darkmod_4thmd\data\0icon\aax\icon_r_medical.paa";
+            };
+
+            class 4thmd_r_eng
+            {
+                label = "";
+                image = "darkmod_4thmd\data\0icon\aax\icon_r_engineer.paa";
+            };
+
+            class 4thmd_r_eos
+            {
+                label = "";
+                image = "darkmod_4thmd\data\0icon\aax\icon_r_explosive.paa";
+                description = "Explosive Ordnance Specialist";
+            };
+
+            class 4thmd_r_ese
+            {
+                label = "";
+                image = "darkmod_4thmd\data\0icon\aax\icon_r_eosengie.paa";
+                description = "Explosive Ordnance Engineer, SABRE";
+            };
+
+            class 4thmd_r_rmn
+            {
+                label = "Standard";
+                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+            };
+        };
+
+        class 4thmd_radio_base
+        {
+            alwaysSelectable = 1;
+            changeingame = 1;
+            changedelay = 10;
+            label = "Secondary Radio";
+            values[] =
+            {
+                "4thmd_auxof",
+                "4thmd_auxon"
+            };
+
+            class 4thmd_auxof
+            {
+                label = "None";
+                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                actionlabel = "Remove Secondary Radio";
+            };
+
+            class 4thmd_auxon
+            {
+                label = "AN/PRC-152";
+                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                actionlabel = "Setup Secondary AN/PRC-152";
+                itemingame = "rhsusf_radio_anprc152";
+            };
+        };
+
     class CfgWeapons
     {
+        
         class 4thmd_u_unif1_basic
         {
             label = "[ARMCO] Reservist Uniform";
@@ -6132,80 +6676,7 @@ class XtdGearModels
                 };
             };
 
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
-
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
+            class 4thmd_color : 4thmd_color_base {};
 
             class 4thmd_rollup
             {
@@ -6247,44 +6718,7 @@ class XtdGearModels
                 "4thmd_rollup"
             };
 
-            class 4thmd_squad
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Squad";
-                values[] =
-                {
-                    "4thmd_alpha",
-                    "4thmd_sabre",
-                    "4thmd_zulu",
-                    "4thmd_phoenix"
-                };
-
-                class 4thmd_alpha
-                {
-                    label = "";
-                    image="darkmod_4thmd\data\0icon\aax\icon_s_alpha.paa";
-                };
-
-                class 4thmd_sabre
-                {
-                    label = "";
-                    image="darkmod_4thmd\data\0icon\aax\icon_s_sabre.paa";
-                };
-
-                class 4thmd_zulu
-                {
-                    label = "";
-                    image="darkmod_4thmd\data\0icon\aax\icon_s_zulu.paa";
-                };
-
-                class 4thmd_phoenix
-                {
-                    label = "";
-                    image="darkmod_4thmd\data\0icon\aax\icon_s_phoenix.paa";
-                };
-            };
+            class 4thmd_squad : 4thmd_squad_base {};
 
             class 4thmd_type
             {
@@ -6324,119 +6758,9 @@ class XtdGearModels
                 };
             };
 
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
+            class 4thmd_camo : 4thmd_camo_base {};
 
             class 4thmd_rollup
             {
@@ -6475,80 +6799,7 @@ class XtdGearModels
                 "4thmd_camo"
             };
 
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Environment";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
-
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
+            class 4thmd_color : 4thmd_color_base {};
 
             class 4thmd_camo
             {
@@ -6600,146 +6851,11 @@ class XtdGearModels
                 "4thmd_headset"
             };
 
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
+            class 4thmd_camo : 4thmd_camo_base {};
 
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
-
-            class 4thmd_headset
-            {
-                alwaysSelectable = 0;
-				changeingame = 1;
-				changedelay = 8;
-                label = "Headset";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Remove LiteCOMM";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "LiteCOMM";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Wear LiteCOMM";
-                };
-            };
+            class 4thmd_headset : 4thmd_headset_base {};
         };
 
         class 4thmd_h_hat2
@@ -6752,146 +6868,11 @@ class XtdGearModels
                 "4thmd_headset"
             };
 
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
+            class 4thmd_camo : 4thmd_camo_base {};
 
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
-
-            class 4thmd_headset
-            {
-                alwaysSelectable = 0;
-				changeingame = 1;
-				changedelay = 8;
-                label = "Headset";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Remove LiteCOMM";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "LiteCOMM";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Wear LiteCOMM";
-                };
-            };
+            class 4thmd_headset : 4thmd_headset_base {};
         };
 
         class 4thmd_h_hat3
@@ -6904,146 +6885,11 @@ class XtdGearModels
                 "4thmd_headset"
             };
 
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
+            class 4thmd_camo : 4thmd_camo_base {};
 
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
-
-            class 4thmd_headset
-            {
-                alwaysSelectable = 0;
-				changeingame = 1;
-				changedelay = 8;
-                label = "Headset";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Remove LiteCOMM";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "LiteCOMM";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Wear LiteCOMM";
-                };
-            };
+            class 4thmd_headset : 4thmd_headset_base {};
         };
 
         class 4thmd_h_hat4
@@ -7056,146 +6902,11 @@ class XtdGearModels
                 "4thmd_headset"
             };
 
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
+            class 4thmd_camo : 4thmd_camo_base {};
 
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
-
-            class 4thmd_headset
-            {
-                alwaysSelectable = 0;
-				changeingame = 1;
-				changedelay = 8;
-                label = "Headset";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Remove LiteCOMM";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "LiteCOMM";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Wear LiteCOMM";
-                };
-            };
+            class 4thmd_headset : 4thmd_headset_base {};
         };
 
         class 4thmd_h_hcw1
@@ -7208,146 +6919,11 @@ class XtdGearModels
                 "4thmd_headset"
             };
 
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
+            class 4thmd_camo : 4thmd_camo_base {};
 
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
-
-            class 4thmd_headset
-            {
-                alwaysSelectable = 0;
-				changeingame = 1;
-				changedelay = 8;
-                label = "Headset";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Remove LiteCOMM";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "LiteCOMM";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Wear LiteCOMM";
-                };
-            };
+            class 4thmd_headset : 4thmd_headset_base {};
         };
 
         class 4thmd_h_hcw2
@@ -7360,80 +6936,7 @@ class XtdGearModels
                 "4thmd_headset"
             };
 
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
-
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
+            class 4thmd_color : 4thmd_color_base {};
 
             class 4thmd_camo
             {
@@ -7474,32 +6977,7 @@ class XtdGearModels
                 };
             };
 
-            class 4thmd_headset
-            {
-                alwaysSelectable = 0;
-				changeingame = 1;
-				changedelay = 8;
-                label = "Headset";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Remove LiteCOMM";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "LiteCOMM";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Wear LiteCOMM";
-                };
-            };
+            class 4thmd_headset : 4thmd_headset_base {};
         };
 
         class 4thmd_h_hmc1
@@ -7511,119 +6989,9 @@ class XtdGearModels
                 "4thmd_camo"
             };
 
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
+            class 4thmd_camo : 4thmd_camo_base {};
         };
 
         class 4thmd_h_brt2
@@ -7855,80 +7223,7 @@ class XtdGearModels
                 };
             };
 
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
-
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
+            class 4thmd_color : 4thmd_color_base {};
 
             class 4thmd_camo
             {
@@ -7979,119 +7274,9 @@ class XtdGearModels
                 "4thmd_camo"
             };
 
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
+            class 4thmd_camo : 4thmd_camo_base {};
         };
     };
 
@@ -8108,195 +7293,13 @@ class XtdGearModels
                 "4thmd_radio"
             };
 
-            class 4thmd_role
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-				label = "Role";
-                values[]=
-				{
-					"4thmd_r_rmn",
-					"4thmd_r_med",
-					"4thmd_r_eng",
-                    "4thmd_r_eos",
-                    "4thmd_r_ese"
-				};
+            class 4thmd_role : 4thmd_role_base {};
 
-                class 4thmd_r_rmn
-                {
-                    label = "Rifleman";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_rifleman.paa";
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_r_med
-                {
-                    label = "Medical";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_medical.paa";
-                };
+            class 4thmd_camo : 4thmd_camo_base {};
 
-                class 4thmd_r_eng
-                {
-                    label = "Engineer";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_engineer.paa";
-                };
-
-                class 4thmd_r_eos
-                {
-                    label = "EOS";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_explosive.paa";
-                    description = "Explosive Ordnance Specialist";
-                };
-
-                class 4thmd_r_ese
-                {
-                    label = "ESE";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_eosengie.paa";
-                    description = "Explosive Ordnance Engineer, SABRE";
-                };
-            };
-
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
-
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
-
-            class 4thmd_radio
-            {
-                alwaysSelectable = 1;
-				changeingame = 1;
-				changedelay = 10;
-                label = "Secondary Radio";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Remove Secondary Radio";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "AN/PRC-152";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Setup Secondary AN/PRC-152";
-                    itemingame = "rhsusf_radio_anprc152";
-                };
-            };
+            class 4thmd_radio : 4thmd_radio_base {};
         };
 
         class 4thmd_b_pac2
@@ -8310,195 +7313,13 @@ class XtdGearModels
                 "4thmd_radio"
             };
 
-            class 4thmd_role
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-				label = "Role";
-                values[]=
-				{
-					"4thmd_r_rmn",
-					"4thmd_r_med",
-					"4thmd_r_eng",
-                    "4thmd_r_eos",
-                    "4thmd_r_ese"
-				};
+            class 4thmd_role : 4thmd_role_base {};
 
-                class 4thmd_r_rmn
-                {
-                    label = "Rifleman";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_rifleman.paa";
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_r_med
-                {
-                    label = "Medical";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_medical.paa";
-                };
+            class 4thmd_camo : 4thmd_camo_base {};
 
-                class 4thmd_r_eng
-                {
-                    label = "Engineer";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_engineer.paa";
-                };
-
-                class 4thmd_r_eos
-                {
-                    label = "EOS";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_explosive.paa";
-                    description = "Explosive Ordnance Specialist";
-                };
-
-                class 4thmd_r_ese
-                {
-                    label = "ESE";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_eosengie.paa";
-                    description = "Explosive Ordnance Engineer, SABRE";
-                };
-            };
-
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
-
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
-
-            class 4thmd_radio
-            {
-                alwaysSelectable = 1;
-				changeingame = 1;
-				changedelay = 10;
-                label = "Secondary Radio";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Remove Secondary Radio";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "AN/PRC-152";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Setup Secondary AN/PRC-152";
-                    itemingame = "rhsusf_radio_anprc152";
-                };
-            };
+            class 4thmd_radio : 4thmd_radio_base {};
         };
 
         class 4thmd_b_pac3
@@ -8512,195 +7333,13 @@ class XtdGearModels
                 "4thmd_radio"
             };
 
-            class 4thmd_role
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-				label = "Role";
-                values[]=
-				{
-					"4thmd_r_rmn",
-					"4thmd_r_med",
-					"4thmd_r_eng",
-                    "4thmd_r_eos",
-                    "4thmd_r_ese"
-				};
+            class 4thmd_role : 4thmd_role_base {};
 
-                class 4thmd_r_rmn
-                {
-                    label = "Rifleman";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_rifleman.paa";
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_r_med
-                {
-                    label = "Medical";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_medical.paa";
-                };
+            class 4thmd_camo : 4thmd_camo_base {};
 
-                class 4thmd_r_eng
-                {
-                    label = "Engineer";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_engineer.paa";
-                };
-
-                class 4thmd_r_eos
-                {
-                    label = "EOS";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_explosive.paa";
-                    description = "Explosive Ordnance Specialist";
-                };
-
-                class 4thmd_r_ese
-                {
-                    label = "ESE";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_eosengie.paa";
-                    description = "Explosive Ordnance Engineer, SABRE";
-                };
-            };
-
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
-
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
-
-            class 4thmd_radio
-            {
-                alwaysSelectable = 1;
-				changeingame = 1;
-				changedelay = 10;
-                label = "Secondary Radio";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Remove Secondary Radio";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "AN/PRC-152";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Setup Secondary AN/PRC-152";
-                    itemingame = "rhsusf_radio_anprc152";
-                };
-            };
+            class 4thmd_radio : 4thmd_radio_base {};
         };
 
         class 4thmd_b_pac4
@@ -8714,195 +7353,13 @@ class XtdGearModels
                 "4thmd_radio"
             };
 
-            class 4thmd_role
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-				label = "Role";
-                values[]=
-				{
-					"4thmd_r_rmn",
-					"4thmd_r_med",
-					"4thmd_r_eng",
-                    "4thmd_r_eos",
-                    "4thmd_r_ese"
-				};
+            class 4thmd_role : 4thmd_role_base {};
 
-                class 4thmd_r_rmn
-                {
-                    label = "Rifleman";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_rifleman.paa";
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_r_med
-                {
-                    label = "Medical";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_medical.paa";
-                };
+            class 4thmd_camo : 4thmd_camo_base {};
 
-                class 4thmd_r_eng
-                {
-                    label = "Engineer";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_engineer.paa";
-                };
-
-                class 4thmd_r_eos
-                {
-                    label = "EOS";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_explosive.paa";
-                    description = "Explosive Ordnance Specialist";
-                };
-
-                class 4thmd_r_ese
-                {
-                    label = "ESE";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_eosengie.paa";
-                    description = "Explosive Ordnance Engineer, SABRE";
-                };
-            };
-
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
-
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
-
-            class 4thmd_radio
-            {
-                alwaysSelectable = 1;
-				changeingame = 1;
-				changedelay = 10;
-                label = "Secondary Radio";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Remove Secondary Radio";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "AN/PRC-152";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Setup Secondary AN/PRC-152";
-                    itemingame = "rhsusf_radio_anprc152";
-                };
-            };
+            class 4thmd_radio : 4thmd_radio_base {};
         };
 
         class 4thmd_b_lsb1
@@ -8915,147 +7372,28 @@ class XtdGearModels
                 "4thmd_radio"
             };
 
-            class 4thmd_color
+            class 4thmd_color : 4thmd_color_base {};
+
+            class 4thmd_camo : 4thmd_camo_base {};
+
+            class 4thmd_radio : 4thmd_radio_base {};
+        };
+
+        class 4thmd_b_pac5
+        {
+            label = "[ARMCO] LRRP-Carrier Pack";
+            options[]=
             {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
-
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
+                "4thmd_squad",
+                "4thmd_color",
+                "4thmd_camo"
             };
 
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
+            class 4thmd_squad : 4thmd_squad_base {};
 
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
-
-            class 4thmd_radio
-            {
-                alwaysSelectable = 1;
-				changeingame = 1;
-				changedelay = 10;
-                label = "Secondary Radio";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Remove Secondary Radio";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "AN/PRC-152";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Setup Secondary AN/PRC-152";
-                    itemingame = "rhsusf_radio_anprc152";
-                };
-            };
+            class 4thmd_camo : 4thmd_camo_base {};
         };
     };
 
@@ -9071,119 +7409,9 @@ class XtdGearModels
                 "4thmd_facewear"
             };
 
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
+            class 4thmd_camo : 4thmd_camo_base {};
 
             class 4thmd_facewear
             {
@@ -9231,119 +7459,9 @@ class XtdGearModels
                 "4thmd_facewear"
             };
 
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
+            class 4thmd_camo : 4thmd_camo_base {};
 
             class 4thmd_facewear
             {
@@ -11001,6 +9119,42 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_radio = "4thmd_auxof";
                 };
+
+                class 4thmd_b_pac1_ese_ar0
+                {
+                    Model = "4thmd_b_pac1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_pac1_ese_ar1
+                {
+                    Model = "4thmd_b_pac1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_pac1_ese_ar2
+                {
+                    Model = "4thmd_b_pac1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_pac1_ese_ar3
+                {
+                    Model = "4thmd_b_pac1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_radio = "4thmd_auxof";
+                };
             //Radio
                 class 4thmd_b_pac1_rmn_ar0_r
                 {
@@ -11141,6 +9295,42 @@ class XtdGearInfos
                 {
                     Model = "4thmd_b_pac1";
                     4thmd_role = "4thmd_r_eos";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_pac1_ese_ar0_r
+                {
+                    Model = "4thmd_b_pac1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_pac1_ese_ar1_r
+                {
+                    Model = "4thmd_b_pac1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_pac1_ese_ar2_r
+                {
+                    Model = "4thmd_b_pac1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_pac1_ese_ar3_r
+                {
+                    Model = "4thmd_b_pac1";
+                    4thmd_role = "4thmd_r_ese";
                     4thmd_color = "4thmd_arid";
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_radio = "4thmd_auxon";
@@ -11291,6 +9481,42 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_radio = "4thmd_auxof";
                 };
+
+                class 4thmd_b_pac2_ese_ar0
+                {
+                    Model = "4thmd_b_pac2";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_pac2_ese_ar1
+                {
+                    Model = "4thmd_b_pac2";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_pac2_ese_ar2
+                {
+                    Model = "4thmd_b_pac2";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_pac2_ese_ar3
+                {
+                    Model = "4thmd_b_pac2";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_radio = "4thmd_auxof";
+                };
             //Radio
                 class 4thmd_b_pac2_rmn_ar0_r
                 {
@@ -11431,6 +9657,42 @@ class XtdGearInfos
                 {
                     Model = "4thmd_b_pac2";
                     4thmd_role = "4thmd_r_eos";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_pac2_ese_ar0_r
+                {
+                    Model = "4thmd_b_pac2";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_pac2_ese_ar1_r
+                {
+                    Model = "4thmd_b_pac2";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_pac2_ese_ar2_r
+                {
+                    Model = "4thmd_b_pac2";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_pac2_ese_ar3_r
+                {
+                    Model = "4thmd_b_pac2";
+                    4thmd_role = "4thmd_r_ese";
                     4thmd_color = "4thmd_arid";
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_radio = "4thmd_auxon";
@@ -11581,6 +9843,42 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_radio = "4thmd_auxof";
                 };
+
+                class 4thmd_b_pac3_ese_ar0
+                {
+                    Model = "4thmd_b_pac3";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_pac3_ese_ar1
+                {
+                    Model = "4thmd_b_pac3";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_pac3_ese_ar2
+                {
+                    Model = "4thmd_b_pac3";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_pac3_ese_ar3
+                {
+                    Model = "4thmd_b_pac3";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_radio = "4thmd_auxof";
+                };
             //Radio
                 class 4thmd_b_pac3_rmn_ar0_r
                 {
@@ -11726,6 +10024,42 @@ class XtdGearInfos
                     4thmd_radio = "4thmd_auxon";
                 };
 
+                class 4thmd_b_pac3_ese_ar0_r
+                {
+                    Model = "4thmd_b_pac3";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_pac3_ese_ar1_r
+                {
+                    Model = "4thmd_b_pac3";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_pac3_ese_ar2_r
+                {
+                    Model = "4thmd_b_pac3";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_pac3_ese_ar3_r
+                {
+                    Model = "4thmd_b_pac3";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
         //Carry-All Backpack (pac4)
             //Standard
                 class 4thmd_b_pac4_rmn_ar0
@@ -11736,7 +10070,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_standard";
                     4thmd_radio = "4thmd_auxof";
                 };
-        
+
                 class 4thmd_b_pac4_rmn_ar1
                 {
                     Model = "4thmd_b_pac4";
@@ -11745,7 +10079,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid1";
                     4thmd_radio = "4thmd_auxof";
                 };
-        
+
                 class 4thmd_b_pac4_rmn_ar2
                 {
                     Model = "4thmd_b_pac4";
@@ -11754,7 +10088,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid2";
                     4thmd_radio = "4thmd_auxof";
                 };
-        
+
                 class 4thmd_b_pac4_rmn_ar3
                 {
                     Model = "4thmd_b_pac4";
@@ -11763,7 +10097,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_radio = "4thmd_auxof";
                 };
-        
+
                 class 4thmd_b_pac4_med_ar0
                 {
                     Model = "4thmd_b_pac4";
@@ -11772,7 +10106,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_standard";
                     4thmd_radio = "4thmd_auxof";
                 };
-        
+
                 class 4thmd_b_pac4_med_ar1
                 {
                     Model = "4thmd_b_pac4";
@@ -11781,7 +10115,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid1";
                     4thmd_radio = "4thmd_auxof";
                 };
-        
+
                 class 4thmd_b_pac4_med_ar2
                 {
                     Model = "4thmd_b_pac4";
@@ -11790,7 +10124,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid2";
                     4thmd_radio = "4thmd_auxof";
                 };
-        
+
                 class 4thmd_b_pac4_med_ar3
                 {
                     Model = "4thmd_b_pac4";
@@ -11799,7 +10133,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_radio = "4thmd_auxof";
                 };
-        
+
                 class 4thmd_b_pac4_eng_ar0
                 {
                     Model = "4thmd_b_pac4";
@@ -11808,7 +10142,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_standard";
                     4thmd_radio = "4thmd_auxof";
                 };
-        
+
                 class 4thmd_b_pac4_eng_ar1
                 {
                     Model = "4thmd_b_pac4";
@@ -11817,7 +10151,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid1";
                     4thmd_radio = "4thmd_auxof";
                 };
-        
+
                 class 4thmd_b_pac4_eng_ar2
                 {
                     Model = "4thmd_b_pac4";
@@ -11826,7 +10160,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid2";
                     4thmd_radio = "4thmd_auxof";
                 };
-        
+
                 class 4thmd_b_pac4_eng_ar3
                 {
                     Model = "4thmd_b_pac4";
@@ -11835,7 +10169,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_radio = "4thmd_auxof";
                 };
-        
+
                 class 4thmd_b_pac4_eos_ar0
                 {
                     Model = "4thmd_b_pac4";
@@ -11844,7 +10178,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_standard";
                     4thmd_radio = "4thmd_auxof";
                 };
-        
+
                 class 4thmd_b_pac4_eos_ar1
                 {
                     Model = "4thmd_b_pac4";
@@ -11853,7 +10187,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid1";
                     4thmd_radio = "4thmd_auxof";
                 };
-        
+
                 class 4thmd_b_pac4_eos_ar2
                 {
                     Model = "4thmd_b_pac4";
@@ -11862,11 +10196,47 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid2";
                     4thmd_radio = "4thmd_auxof";
                 };
-        
+
                 class 4thmd_b_pac4_eos_ar3
                 {
                     Model = "4thmd_b_pac4";
                     4thmd_role = "4thmd_r_eos";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_pac4_ese_ar0
+                {
+                    Model = "4thmd_b_pac4";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_pac4_ese_ar1
+                {
+                    Model = "4thmd_b_pac4";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_pac4_ese_ar2
+                {
+                    Model = "4thmd_b_pac4";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_pac4_ese_ar3
+                {
+                    Model = "4thmd_b_pac4";
+                    4thmd_role = "4thmd_r_ese";
                     4thmd_color = "4thmd_arid";
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_radio = "4thmd_auxof";
@@ -11880,7 +10250,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_standard";
                     4thmd_radio = "4thmd_auxon";
                 };
-        
+
                 class 4thmd_b_pac4_rmn_ar1_r
                 {
                     Model = "4thmd_b_pac4";
@@ -11889,7 +10259,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid1";
                     4thmd_radio = "4thmd_auxon";
                 };
-        
+
                 class 4thmd_b_pac4_rmn_ar2_r
                 {
                     Model = "4thmd_b_pac4";
@@ -11898,7 +10268,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid2";
                     4thmd_radio = "4thmd_auxon";
                 };
-        
+
                 class 4thmd_b_pac4_rmn_ar3_r
                 {
                     Model = "4thmd_b_pac4";
@@ -11907,7 +10277,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_radio = "4thmd_auxon";
                 };
-        
+
                 class 4thmd_b_pac4_med_ar0_r
                 {
                     Model = "4thmd_b_pac4";
@@ -11916,7 +10286,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_standard";
                     4thmd_radio = "4thmd_auxon";
                 };
-        
+
                 class 4thmd_b_pac4_med_ar1_r
                 {
                     Model = "4thmd_b_pac4";
@@ -11925,7 +10295,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid1";
                     4thmd_radio = "4thmd_auxon";
                 };
-        
+
                 class 4thmd_b_pac4_med_ar2_r
                 {
                     Model = "4thmd_b_pac4";
@@ -11934,7 +10304,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid2";
                     4thmd_radio = "4thmd_auxon";
                 };
-        
+
                 class 4thmd_b_pac4_med_ar3_r
                 {
                     Model = "4thmd_b_pac4";
@@ -11943,7 +10313,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_radio = "4thmd_auxon";
                 };
-        
+
                 class 4thmd_b_pac4_eng_ar0_r
                 {
                     Model = "4thmd_b_pac4";
@@ -11952,7 +10322,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_standard";
                     4thmd_radio = "4thmd_auxon";
                 };
-        
+
                 class 4thmd_b_pac4_eng_ar1_r
                 {
                     Model = "4thmd_b_pac4";
@@ -11961,7 +10331,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid1";
                     4thmd_radio = "4thmd_auxon";
                 };
-        
+
                 class 4thmd_b_pac4_eng_ar2_r
                 {
                     Model = "4thmd_b_pac4";
@@ -11970,7 +10340,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid2";
                     4thmd_radio = "4thmd_auxon";
                 };
-        
+
                 class 4thmd_b_pac4_eng_ar3_r
                 {
                     Model = "4thmd_b_pac4";
@@ -11979,7 +10349,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_radio = "4thmd_auxon";
                 };
-        
+
                 class 4thmd_b_pac4_eos_ar0_r
                 {
                     Model = "4thmd_b_pac4";
@@ -11988,7 +10358,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_standard";
                     4thmd_radio = "4thmd_auxon";
                 };
-        
+
                 class 4thmd_b_pac4_eos_ar1_r
                 {
                     Model = "4thmd_b_pac4";
@@ -11997,7 +10367,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid1";
                     4thmd_radio = "4thmd_auxon";
                 };
-        
+
                 class 4thmd_b_pac4_eos_ar2_r
                 {
                     Model = "4thmd_b_pac4";
@@ -12006,11 +10376,47 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid2";
                     4thmd_radio = "4thmd_auxon";
                 };
-        
+
                 class 4thmd_b_pac4_eos_ar3_r
                 {
                     Model = "4thmd_b_pac4";
                     4thmd_role = "4thmd_r_eos";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_pac4_ese_ar0_r
+                {
+                    Model = "4thmd_b_pac4";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_pac4_ese_ar1_r
+                {
+                    Model = "4thmd_b_pac4";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_pac4_ese_ar2_r
+                {
+                    Model = "4thmd_b_pac4";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_pac4_ese_ar3_r
+                {
+                    Model = "4thmd_b_pac4";
+                    4thmd_role = "4thmd_r_ese";
                     4thmd_color = "4thmd_arid";
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_radio = "4thmd_auxon";
@@ -12082,6 +10488,135 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_radio = "4thmd_auxon";
                 };
+
+        //(Bergen) LRRP-Carrier Pack (pac5)
+            class 4thmd_b_pac5_alp_ar0
+            {
+                Model = "4thmd_b_pac5";
+                4thmd_squad = "4thmd_alpha";
+                4thmd_color = "4thmd_arid";
+                4thmd_camo = "4thmd_c_standard";
+            };
+
+            class 4thmd_b_pac5_alp_ar1
+            {
+                Model = "4thmd_b_pac5";
+                4thmd_squad = "4thmd_alpha";
+                4thmd_color = "4thmd_arid";
+                4thmd_camo = "4thmd_c_solid1";
+            };
+
+            class 4thmd_b_pac5_alp_ar2
+            {
+                Model = "4thmd_b_pac5";
+                4thmd_squad = "4thmd_alpha";
+                4thmd_color = "4thmd_arid";
+                4thmd_camo = "4thmd_c_solid2";
+            };
+
+            class 4thmd_b_pac5_alp_ar3
+            {
+                Model = "4thmd_b_pac5";
+                4thmd_squad = "4thmd_alpha";
+                4thmd_color = "4thmd_arid";
+                4thmd_camo = "4thmd_c_solid3";
+            };
+
+            class 4thmd_b_pac5_sab_ar0
+            {
+                Model = "4thmd_b_pac5";
+                4thmd_squad = "4thmd_sabre";
+                4thmd_color = "4thmd_arid";
+                4thmd_camo = "4thmd_c_standard";
+            };
+
+            class 4thmd_b_pac5_sab_ar1
+            {
+                Model = "4thmd_b_pac5";
+                4thmd_squad = "4thmd_sabre";
+                4thmd_color = "4thmd_arid";
+                4thmd_camo = "4thmd_c_solid1";
+            };
+
+            class 4thmd_b_pac5_sab_ar2
+            {
+                Model = "4thmd_b_pac5";
+                4thmd_squad = "4thmd_sabre";
+                4thmd_color = "4thmd_arid";
+                4thmd_camo = "4thmd_c_solid2";
+            };
+
+            class 4thmd_b_pac5_sab_ar3
+            {
+                Model = "4thmd_b_pac5";
+                4thmd_squad = "4thmd_sabre";
+                4thmd_color = "4thmd_arid";
+                4thmd_camo = "4thmd_c_solid3";
+            };
+
+            class 4thmd_b_pac5_zul_ar0
+            {
+                Model = "4thmd_b_pac5";
+                4thmd_squad = "4thmd_zulu";
+                4thmd_color = "4thmd_arid";
+                4thmd_camo = "4thmd_c_standard";
+            };
+
+            class 4thmd_b_pac5_zul_ar1
+            {
+                Model = "4thmd_b_pac5";
+                4thmd_squad = "4thmd_zulu";
+                4thmd_color = "4thmd_arid";
+                4thmd_camo = "4thmd_c_solid1";
+            };
+
+            class 4thmd_b_pac5_zul_ar2
+            {
+                Model = "4thmd_b_pac5";
+                4thmd_squad = "4thmd_zulu";
+                4thmd_color = "4thmd_arid";
+                4thmd_camo = "4thmd_c_solid2";
+            };
+
+            class 4thmd_b_pac5_zul_ar3
+            {
+                Model = "4thmd_b_pac5";
+                4thmd_squad = "4thmd_zulu";
+                4thmd_color = "4thmd_arid";
+                4thmd_camo = "4thmd_c_solid3";
+            };
+
+            class 4thmd_b_pac5_phx_ar0
+            {
+                Model = "4thmd_b_pac5";
+                4thmd_squad = "4thmd_phoenix";
+                4thmd_color = "4thmd_arid";
+                4thmd_camo = "4thmd_c_standard";
+            };
+
+            class 4thmd_b_pac5_phx_ar1
+            {
+                Model = "4thmd_b_pac5";
+                4thmd_squad = "4thmd_phoenix";
+                4thmd_color = "4thmd_arid";
+                4thmd_camo = "4thmd_c_solid1";
+            };
+
+            class 4thmd_b_pac5_phx_ar2
+            {
+                Model = "4thmd_b_pac5";
+                4thmd_squad = "4thmd_phoenix";
+                4thmd_color = "4thmd_arid";
+                4thmd_camo = "4thmd_c_solid2";
+            };
+
+            class 4thmd_b_pac5_phx_ar3
+            {
+                Model = "4thmd_b_pac5";
+                4thmd_squad = "4thmd_phoenix";
+                4thmd_color = "4thmd_arid";
+                4thmd_camo = "4thmd_c_solid3";
+            };
 
         //Include Other Patterns
         #include "wood\XtdI_CfgV_equ.hpp"

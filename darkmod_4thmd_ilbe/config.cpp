@@ -13,6 +13,10 @@ class CfgPatches
             "4thmd_rad1_DD_ar1m",
             "4thmd_rad1_DD_ar2m",
             "4thmd_rad1_DD_ar3m",
+            "4thmd_rad1_DD_ar0t",
+            "4thmd_rad1_DD_ar1t",
+            "4thmd_rad1_DD_ar2t",
+            "4thmd_rad1_DD_ar3t",
             "4thmd_rad1_blade_ar0",
             "4thmd_rad1_blade_ar1",
             "4thmd_rad1_blade_ar2",
@@ -21,6 +25,10 @@ class CfgPatches
             "4thmd_rad1_blade_ar1m",
             "4thmd_rad1_blade_ar2m",
             "4thmd_rad1_blade_ar3m",
+            "4thmd_rad1_blade_ar0t",
+            "4thmd_rad1_blade_ar1t",
+            "4thmd_rad1_blade_ar2t",
+            "4thmd_rad1_blade_ar3t",
             "4thmd_rad1_whip_ar0",
             "4thmd_rad1_whip_ar1",
             "4thmd_rad1_whip_ar2",
@@ -29,6 +37,10 @@ class CfgPatches
             "4thmd_rad1_whip_ar1m",
             "4thmd_rad1_whip_ar2m",
             "4thmd_rad1_whip_ar3m",
+            "4thmd_rad1_whip_ar0t",
+            "4thmd_rad1_whip_ar1t",
+            "4thmd_rad1_whip_ar2t",
+            "4thmd_rad1_whip_ar3t",
             "4thmd_rad1_whipext_ar0",
             "4thmd_rad1_whipext_ar1",
             "4thmd_rad1_whipext_ar2",
@@ -37,6 +49,10 @@ class CfgPatches
             "4thmd_rad1_whipext_ar1m",
             "4thmd_rad1_whipext_ar2m",
             "4thmd_rad1_whipext_ar3m",
+            "4thmd_rad1_whipext_ar0t",
+            "4thmd_rad1_whipext_ar1t",
+            "4thmd_rad1_whipext_ar2t",
+            "4thmd_rad1_whipext_ar3t",
 
             "4thmd_rad1_DD_wd0",
             "4thmd_rad1_DD_wd1",
@@ -46,6 +62,10 @@ class CfgPatches
             "4thmd_rad1_DD_wd1m",
             "4thmd_rad1_DD_wd2m",
             "4thmd_rad1_DD_wd3m",
+            "4thmd_rad1_DD_wd0t",
+            "4thmd_rad1_DD_wd1t",
+            "4thmd_rad1_DD_wd2t",
+            "4thmd_rad1_DD_wd3t",
             "4thmd_rad1_blade_wd0",
             "4thmd_rad1_blade_wd1",
             "4thmd_rad1_blade_wd2",
@@ -54,6 +74,10 @@ class CfgPatches
             "4thmd_rad1_blade_wd1m",
             "4thmd_rad1_blade_wd2m",
             "4thmd_rad1_blade_wd3m",
+            "4thmd_rad1_blade_wd0t",
+            "4thmd_rad1_blade_wd1t",
+            "4thmd_rad1_blade_wd2t",
+            "4thmd_rad1_blade_wd3t",
             "4thmd_rad1_whip_wd0",
             "4thmd_rad1_whip_wd1",
             "4thmd_rad1_whip_wd2",
@@ -62,6 +86,10 @@ class CfgPatches
             "4thmd_rad1_whip_wd1m",
             "4thmd_rad1_whip_wd2m",
             "4thmd_rad1_whip_wd3m",
+            "4thmd_rad1_whip_wd0t",
+            "4thmd_rad1_whip_wd1t",
+            "4thmd_rad1_whip_wd2t",
+            "4thmd_rad1_whip_wd3t",
             "4thmd_rad1_whipext_wd0",
             "4thmd_rad1_whipext_wd1",
             "4thmd_rad1_whipext_wd2",
@@ -69,7 +97,11 @@ class CfgPatches
             "4thmd_rad1_whipext_wd0m",
             "4thmd_rad1_whipext_wd1m",
             "4thmd_rad1_whipext_wd2m",
-            "4thmd_rad1_whipext_wd3m"
+            "4thmd_rad1_whipext_wd3m",
+            "4thmd_rad1_whipext_wd0t",
+            "4thmd_rad1_whipext_wd1t",
+            "4thmd_rad1_whipext_wd2t",
+            "4thmd_rad1_whipext_wd3t"
         };
 
         magazines[] = {};
@@ -186,6 +218,56 @@ class CfgVehicles
             };
         };
 
+        class 4thmd_rad1_DD_ar0t : 4thmd_rad1_DD_ar0
+        {
+            displayName="[ARMCO] ILBE R-UHF Pack (Arid/TO)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\arid\rad1_t_ar0.paa"
+            };
+        };
+
+        class 4thmd_rad1_DD_ar1t : 4thmd_rad1_DD_ar0
+        {
+            displayName="[ARMCO] ILBE R-UHF Pack (AR-S1/TO)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\arid\rad1_t_ar1.paa"
+            };
+        };
+
+        class 4thmd_rad1_DD_ar2t : 4thmd_rad1_DD_ar0
+        {
+            displayName="[ARMCO] ILBE R-UHF Pack (AR-S2/TO)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\arid\rad1_t_ar2.paa"
+            };
+        };
+
+        class 4thmd_rad1_DD_ar3t : 4thmd_rad1_DD_ar0
+        {
+            displayName="[ARMCO] ILBE R-UHF Pack (AR-S3/TO)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\arid\rad1_t_ar3.paa"
+            };
+        };
+
+        class 4thmd_rad1_DD_toy : 4thmd_rad1_DD_ar0
+        {
+            displayName="[ARMCO] ILBE R-UHF Pack (Training Officer)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\rad1_toy.paa"
+            };
+        };
+
     //VHF
         class 4thmd_rad1_blade_ar0 : tfw_ilbe_blade_Base
         {
@@ -271,6 +353,56 @@ class CfgVehicles
             hiddenSelectionsTextures[]=
             {
                 "darkmod_4thmd_ilbe\data\arid\rad1_m_ar3.paa"
+            };
+        };
+
+        class 4thmd_rad1_blade_ar0t : 4thmd_rad1_blade_ar0
+        {
+            displayName="[ARMCO] ILBE R-VHF Pack (Arid/TO)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\arid\rad1_t_ar0.paa"
+            };
+        };
+
+        class 4thmd_rad1_blade_ar1t : 4thmd_rad1_blade_ar0
+        {
+            displayName="[ARMCO] ILBE R-VHF Pack (AR-S1/TO)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\arid\rad1_t_ar1.paa"
+            };
+        };
+
+        class 4thmd_rad1_blade_ar2t : 4thmd_rad1_blade_ar0
+        {
+            displayName="[ARMCO] ILBE R-VHF Pack (AR-S2/TO)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\arid\rad1_t_ar2.paa"
+            };
+        };
+
+        class 4thmd_rad1_blade_ar3t : 4thmd_rad1_blade_ar0
+        {
+            displayName="[ARMCO] ILBE R-VHF Pack (AR-S3/TO)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\arid\rad1_t_ar3.paa"
+            };
+        };
+
+        class 4thmd_rad1_blade_toy : 4thmd_rad1_blade_ar0
+        {
+            displayName="[ARMCO] ILBE R-VHF Pack (Training Officer)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\rad1_toy.paa"
             };
         };
     
@@ -362,6 +494,56 @@ class CfgVehicles
             };
         };
 
+        class 4thmd_rad1_whip_ar0t : 4thmd_rad1_whip_ar0
+        {
+            displayName="[ARMCO] ILBE R-Whip Pack (Arid/TO)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\arid\rad1_t_ar0.paa"
+            };
+        };
+
+        class 4thmd_rad1_whip_ar1t : 4thmd_rad1_whip_ar0
+        {
+            displayName="[ARMCO] ILBE R-Whip Pack (AR-S1/TO)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\arid\rad1_t_ar1.paa"
+            };
+        };
+
+        class 4thmd_rad1_whip_ar2t : 4thmd_rad1_whip_ar0
+        {
+            displayName="[ARMCO] ILBE R-Whip Pack (AR-S2/TO)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\arid\rad1_t_ar2.paa"
+            };
+        };
+
+        class 4thmd_rad1_whip_ar3t : 4thmd_rad1_whip_ar0
+        {
+            displayName="[ARMCO] ILBE R-Whip Pack (AR-S3/TO)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\arid\rad1_t_ar3.paa"
+            };
+        };
+
+        class 4thmd_rad1_whip_toy : 4thmd_rad1_whip_ar0
+        {
+            displayName="[ARMCO] ILBE R-Whip Pack (Training Officer)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\rad1_toy.paa"
+            };
+        };
+
     //WHIP(Extended)
         class 4thmd_rad1_whipext_ar0 : tfw_ilbe_whipext_Base
         {
@@ -450,6 +632,56 @@ class CfgVehicles
             };
         };
 
+        class 4thmd_rad1_whipext_ar0t : 4thmd_rad1_whipext_ar0
+        {
+            displayName="[ARMCO] ILBE R-Whip Pack (Arid/TO)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\arid\rad1_t_ar0.paa"
+            };
+        };
+
+        class 4thmd_rad1_whipext_ar1t : 4thmd_rad1_whipext_ar0
+        {
+            displayName="[ARMCO] ILBE R-Whip Pack (AR-S1/TO)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\arid\rad1_t_ar1.paa"
+            };
+        };
+
+        class 4thmd_rad1_whipext_ar2t : 4thmd_rad1_whipext_ar0
+        {
+            displayName="[ARMCO] ILBE R-Whip Pack (AR-S2/TO)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\arid\rad1_t_ar2.paa"
+            };
+        };
+
+        class 4thmd_rad1_whipext_ar3t : 4thmd_rad1_whipext_ar0
+        {
+            displayName="[ARMCO] ILBE R-Whip Pack (AR-S3/TO)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\arid\rad1_t_ar3.paa"
+            };
+        };
+
+        class 4thmd_rad1_whipext_toy : 4thmd_rad1_whipext_ar0
+        {
+            displayName="[ARMCO] ILBE R-Whip Pack (Training Officer)";
+
+            hiddenSelectionsTextures[]=
+            {
+                "darkmod_4thmd_ilbe\data\rad1_toy.paa"
+            };
+        };
+
     //Include Other Patterns 
     #include "wood\CfgV_equ.hpp"
     /*
@@ -464,6 +696,9 @@ class CfgVehicles
 
 class XtdGearModels
 {
+    class 4thmd_color_base;
+    class 4thmd_camo_base;
+
     class CfgVehicles
     {
         class 4thmd_b_rad1
@@ -525,133 +760,78 @@ class XtdGearModels
                 values[]=
 				{
 					"4thmd_r_rmn",
-					"4thmd_r_med"
+					"4thmd_r_med",
+                    "4thmd_r_to"
 				};
 
                 class 4thmd_r_rmn
                 {
-                    label = "Rifleman";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_rifleman.paa";
+                    label = "Standard";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
                 };
 
                 class 4thmd_r_med
                 {
-                    label = "Medical";
+                    label = "";
                     image = "darkmod_4thmd\data\0icon\aax\icon_r_medical.paa";
                 };
+
+                class 4thmd_r_to
+                {
+                    label = "";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_r_trainer.paa";
+                };
             };
 
-            class 4thmd_color
+            class 4thmd_color : 4thmd_color_base {};
+
+            class 4thmd_camo : 4thmd_camo_base {};
+        };
+
+        class 4thmd_b_rad1_toy
+        {
+            label = "[ARMCO] ILBE Pack (TO)";
+            options[]=
+            {
+                "4thmd_type"
+            };
+
+            class 4thmd_type
             {
                 alwaysSelectable = 1;
 				changeingame = 0;
 				changedelay = 0;
-                label = "Camouflage";
-                values[] =
+				label = "Radio Model";
+                values[]=
+				{
+					"4thmd_t_uhf",
+					"4thmd_t_vhf",
+					"4thmd_t_whp",
+                    "4thmd_t_wex"
+				};
+
+                class 4thmd_t_uhf
                 {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
+                    label = "UHF";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
                 };
 
-                class 4thmd_arid
+                class 4thmd_t_vhf
                 {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
+                    label = "VHF";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
                 };
 
-                class 4thmd_wood
+                class 4thmd_t_whp
                 {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
+                    label = "Whip";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
                 };
 
-                class 4thmd_dest
+                class 4thmd_t_wex
                 {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
+                    label = "Whip(Ext.)";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
                 };
             };
         };
@@ -735,6 +915,43 @@ class XtdGearInfos
                     4thmd_color = "4thmd_arid";
                     4thmd_camo = "4thmd_c_solid3";
                 };
+
+                class 4thmd_rad1_DD_ar0t
+                {
+                    Model = "4thmd_b_rad1";
+                    4thmd_type = "4thmd_t_uhf";
+                    4thmd_role = "4thmd_r_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                };
+
+                class 4thmd_rad1_DD_ar1t
+                {
+                    Model = "4thmd_b_rad1";
+                    4thmd_type = "4thmd_t_uhf";
+                    4thmd_role = "4thmd_r_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                };
+
+                class 4thmd_rad1_DD_ar2t
+                {
+                    Model = "4thmd_b_rad1";
+                    4thmd_type = "4thmd_t_uhf";
+                    4thmd_role = "4thmd_r_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                };
+
+                class 4thmd_rad1_DD_ar3t
+                {
+                    Model = "4thmd_b_rad1";
+                    4thmd_type = "4thmd_t_uhf";
+                    4thmd_role = "4thmd_r_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                };
+
             //VHF
                 class 4thmd_rad1_blade_ar0
                 {
@@ -807,6 +1024,43 @@ class XtdGearInfos
                     4thmd_color = "4thmd_arid";
                     4thmd_camo = "4thmd_c_solid3";
                 };
+
+                class 4thmd_rad1_blade_ar0t
+                {
+                    Model = "4thmd_b_rad1";
+                    4thmd_type = "4thmd_t_vhf";
+                    4thmd_role = "4thmd_r_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                };
+
+                class 4thmd_rad1_blade_ar1t
+                {
+                    Model = "4thmd_b_rad1";
+                    4thmd_type = "4thmd_t_vhf";
+                    4thmd_role = "4thmd_r_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                };
+
+                class 4thmd_rad1_blade_ar2t
+                {
+                    Model = "4thmd_b_rad1";
+                    4thmd_type = "4thmd_t_vhf";
+                    4thmd_role = "4thmd_r_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                };
+
+                class 4thmd_rad1_blade_ar3t
+                {
+                    Model = "4thmd_b_rad1";
+                    4thmd_type = "4thmd_t_vhf";
+                    4thmd_role = "4thmd_r_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                };
+
             //WHIP
                 class 4thmd_rad1_whip_ar0
                 {
@@ -879,6 +1133,43 @@ class XtdGearInfos
                     4thmd_color = "4thmd_arid";
                     4thmd_camo = "4thmd_c_solid3";
                 };
+
+                class 4thmd_rad1_whip_ar0t
+                {
+                    Model = "4thmd_b_rad1";
+                    4thmd_type = "4thmd_t_whp";
+                    4thmd_role = "4thmd_r_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                };
+
+                class 4thmd_rad1_whip_ar1t
+                {
+                    Model = "4thmd_b_rad1";
+                    4thmd_type = "4thmd_t_whp";
+                    4thmd_role = "4thmd_r_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                };
+
+                class 4thmd_rad1_whip_ar2t
+                {
+                    Model = "4thmd_b_rad1";
+                    4thmd_type = "4thmd_t_whp";
+                    4thmd_role = "4thmd_r_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                };
+
+                class 4thmd_rad1_whip_ar3t
+                {
+                    Model = "4thmd_b_rad1";
+                    4thmd_type = "4thmd_t_whp";
+                    4thmd_role = "4thmd_r_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                };
+
             //WHIP(Extended)
                 class 4thmd_rad1_whipext_ar0
                 {
@@ -951,6 +1242,68 @@ class XtdGearInfos
                     4thmd_color = "4thmd_arid";
                     4thmd_camo = "4thmd_c_solid3";
                 };
+
+                class 4thmd_rad1_whipext_ar0t
+                {
+                    Model = "4thmd_b_rad1";
+                    4thmd_type = "4thmd_t_wex";
+                    4thmd_role = "4thmd_r_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                };
+
+                class 4thmd_rad1_whipext_ar1t
+                {
+                    Model = "4thmd_b_rad1";
+                    4thmd_type = "4thmd_t_wex";
+                    4thmd_role = "4thmd_r_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                };
+
+                class 4thmd_rad1_whipext_ar2t
+                {
+                    Model = "4thmd_b_rad1";
+                    4thmd_type = "4thmd_t_wex";
+                    4thmd_role = "4thmd_r_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                };
+
+                class 4thmd_rad1_whipext_ar3t
+                {
+                    Model = "4thmd_b_rad1";
+                    4thmd_type = "4thmd_t_wex";
+                    4thmd_role = "4thmd_r_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                };
+
+            //TO Yellow
+                class 4thmd_rad1_DD_toy
+                {
+                    Model = "4thmd_b_rad1_toy";
+                    4thmd_type = "4thmd_t_uhf";
+                };
+
+                class 4thmd_rad1_Blade_toy
+                {
+                    Model = "4thmd_b_rad1_toy";
+                    4thmd_type = "4thmd_t_vhf";
+                };
+
+                class 4thmd_rad1_whip_toy
+                {
+                    Model = "4thmd_b_rad1_toy";
+                    4thmd_type = "4thmd_t_whp";
+                };
+
+                class 4thmd_rad1_whipext_toy
+                {
+                    Model = "4thmd_b_rad1_toy";
+                    4thmd_type = "4thmd_t_wex";
+                };
+
         //Include Other Patterns
         #include "wood\XtdI_CfgV_equ.hpp"
         /*

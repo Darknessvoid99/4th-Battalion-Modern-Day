@@ -20,6 +20,10 @@ class CfgPatches
             "4thmd_v_mgv1_eos_ar1",
             "4thmd_v_mgv1_eos_ar2",
             "4thmd_v_mgv1_eos_ar3",
+            "4thmd_v_mgv1_ese_ar0",
+            "4thmd_v_mgv1_ese_ar1",
+            "4thmd_v_mgv1_ese_ar2",
+            "4thmd_v_mgv1_ese_ar3",
             "4thmd_v_mgv1_ldr_ar0",
             "4thmd_v_mgv1_ldr_ar1",
             "4thmd_v_mgv1_ldr_ar2",
@@ -56,6 +60,10 @@ class CfgPatches
             "4thmd_v_mgv1_eos_ar1_b",
             "4thmd_v_mgv1_eos_ar2_b",
             "4thmd_v_mgv1_eos_ar3_b",
+            "4thmd_v_mgv1_ese_ar0_b",
+            "4thmd_v_mgv1_ese_ar1_b",
+            "4thmd_v_mgv1_ese_ar2_b",
+            "4thmd_v_mgv1_ese_ar3_b",
             "4thmd_v_mgv1_ldr_ar0_b",
             "4thmd_v_mgv1_ldr_ar1_b",
             "4thmd_v_mgv1_ldr_ar2_b",
@@ -88,6 +96,10 @@ class CfgPatches
             "4thmd_v_mgv2_eos_ar1",
             "4thmd_v_mgv2_eos_ar2",
             "4thmd_v_mgv2_eos_ar3",
+            "4thmd_v_mgv2_ese_ar0",
+            "4thmd_v_mgv2_ese_ar1",
+            "4thmd_v_mgv2_ese_ar2",
+            "4thmd_v_mgv2_ese_ar3",
             "4thmd_v_mgv2_ldr_ar0",
             "4thmd_v_mgv2_ldr_ar1",
             "4thmd_v_mgv2_ldr_ar2",
@@ -124,6 +136,10 @@ class CfgPatches
             "4thmd_v_mgv2_eos_ar1_b",
             "4thmd_v_mgv2_eos_ar2_b",
             "4thmd_v_mgv2_eos_ar3_b",
+            "4thmd_v_mgv2_ese_ar0_b",
+            "4thmd_v_mgv2_ese_ar1_b",
+            "4thmd_v_mgv2_ese_ar2_b",
+            "4thmd_v_mgv2_ese_ar3_b",
             "4thmd_v_mgv2_ldr_ar0_b",
             "4thmd_v_mgv2_ldr_ar1_b",
             "4thmd_v_mgv2_ldr_ar2_b",
@@ -156,6 +172,10 @@ class CfgPatches
             "4thmd_v_mgv3_eos_ar1",
             "4thmd_v_mgv3_eos_ar2",
             "4thmd_v_mgv3_eos_ar3",
+            "4thmd_v_mgv3_ese_ar0",
+            "4thmd_v_mgv3_ese_ar1",
+            "4thmd_v_mgv3_ese_ar2",
+            "4thmd_v_mgv3_ese_ar3",
             "4thmd_v_mgv3_ldr_ar0",
             "4thmd_v_mgv3_ldr_ar1",
             "4thmd_v_mgv3_ldr_ar2",
@@ -192,6 +212,10 @@ class CfgPatches
             "4thmd_v_mgv3_eos_ar1_b",
             "4thmd_v_mgv3_eos_ar2_b",
             "4thmd_v_mgv3_eos_ar3_b",
+            "4thmd_v_mgv3_ese_ar0_b",
+            "4thmd_v_mgv3_ese_ar1_b",
+            "4thmd_v_mgv3_ese_ar2_b",
+            "4thmd_v_mgv3_ese_ar3_b",
             "4thmd_v_mgv3_ldr_ar0_b",
             "4thmd_v_mgv3_ldr_ar1_b",
             "4thmd_v_mgv3_ldr_ar2_b",
@@ -360,6 +384,39 @@ class CfgPatches
             "4thmd_h_mgbc_f_c_ar1_g",
             "4thmd_h_mgbc_f_c_ar2_g",
             "4thmd_h_mgbc_f_c_ar3_g",
+            "4thmd_v_mgv2_lgt_to",
+            "4thmd_h_mgh1_a_ar0_to",
+            "4thmd_h_mgh1_a_ar1_to",
+            "4thmd_h_mgh1_a_ar2_to",
+            "4thmd_h_mgh1_a_ar3_to",
+            "4thmd_h_mgh1_a_ar0_to_g",
+            "4thmd_h_mgh1_a_ar1_to_g",
+            "4thmd_h_mgh1_a_ar2_to_g",
+            "4thmd_h_mgh1_a_ar3_to_g",
+            "4thmd_h_mgh2_a_ar0_to",
+            "4thmd_h_mgh2_a_ar1_to",
+            "4thmd_h_mgh2_a_ar2_to",
+            "4thmd_h_mgh2_a_ar3_to",
+            "4thmd_h_mgh2_a_ar0_to_g",
+            "4thmd_h_mgh2_a_ar1_to_g",
+            "4thmd_h_mgh2_a_ar2_to_g",
+            "4thmd_h_mgh2_a_ar3_to_g",
+            "4thmd_h_mgbc_b_b_ar0_to",
+            "4thmd_h_mgbc_b_b_ar1_to",
+            "4thmd_h_mgbc_b_b_ar2_to",
+            "4thmd_h_mgbc_b_b_ar3_to",
+            "4thmd_h_mgbc_b_b_ar0_to_g",
+            "4thmd_h_mgbc_b_b_ar1_to_g",
+            "4thmd_h_mgbc_b_b_ar2_to_g",
+            "4thmd_h_mgbc_b_b_ar3_to_g",
+            "4thmd_h_mgbc_f_b_ar0_to",
+            "4thmd_h_mgbc_f_b_ar1_to",
+            "4thmd_h_mgbc_f_b_ar2_to",
+            "4thmd_h_mgbc_f_b_ar3_to",
+            "4thmd_h_mgbc_f_b_ar0_to_g",
+            "4thmd_h_mgbc_f_b_ar1_to_g",
+            "4thmd_h_mgbc_f_b_ar2_to_g",
+            "4thmd_h_mgbc_f_b_ar3_to_g",
 
             "4thmd_v_mgv1_rmn_wd0",
             "4thmd_v_mgv1_rmn_wd1",
@@ -377,6 +434,10 @@ class CfgPatches
             "4thmd_v_mgv1_eos_wd1",
             "4thmd_v_mgv1_eos_wd2",
             "4thmd_v_mgv1_eos_wd3",
+            "4thmd_v_mgv1_ese_wd0",
+            "4thmd_v_mgv1_ese_wd1",
+            "4thmd_v_mgv1_ese_wd2",
+            "4thmd_v_mgv1_ese_wd3",
             "4thmd_v_mgv1_ldr_wd0",
             "4thmd_v_mgv1_ldr_wd1",
             "4thmd_v_mgv1_ldr_wd2",
@@ -413,6 +474,10 @@ class CfgPatches
             "4thmd_v_mgv1_eos_wd1_b",
             "4thmd_v_mgv1_eos_wd2_b",
             "4thmd_v_mgv1_eos_wd3_b",
+            "4thmd_v_mgv1_ese_wd0_b",
+            "4thmd_v_mgv1_ese_wd1_b",
+            "4thmd_v_mgv1_ese_wd2_b",
+            "4thmd_v_mgv1_ese_wd3_b",
             "4thmd_v_mgv1_ldr_wd0_b",
             "4thmd_v_mgv1_ldr_wd1_b",
             "4thmd_v_mgv1_ldr_wd2_b",
@@ -445,6 +510,10 @@ class CfgPatches
             "4thmd_v_mgv2_eos_wd1",
             "4thmd_v_mgv2_eos_wd2",
             "4thmd_v_mgv2_eos_wd3",
+            "4thmd_v_mgv2_ese_wd0",
+            "4thmd_v_mgv2_ese_wd1",
+            "4thmd_v_mgv2_ese_wd2",
+            "4thmd_v_mgv2_ese_wd3",
             "4thmd_v_mgv2_ldr_wd0",
             "4thmd_v_mgv2_ldr_wd1",
             "4thmd_v_mgv2_ldr_wd2",
@@ -481,6 +550,10 @@ class CfgPatches
             "4thmd_v_mgv2_eos_wd1_b",
             "4thmd_v_mgv2_eos_wd2_b",
             "4thmd_v_mgv2_eos_wd3_b",
+            "4thmd_v_mgv2_ese_wd0_b",
+            "4thmd_v_mgv2_ese_wd1_b",
+            "4thmd_v_mgv2_ese_wd2_b",
+            "4thmd_v_mgv2_ese_wd3_b",
             "4thmd_v_mgv2_ldr_wd0_b",
             "4thmd_v_mgv2_ldr_wd1_b",
             "4thmd_v_mgv2_ldr_wd2_b",
@@ -513,6 +586,10 @@ class CfgPatches
             "4thmd_v_mgv3_eos_wd1",
             "4thmd_v_mgv3_eos_wd2",
             "4thmd_v_mgv3_eos_wd3",
+            "4thmd_v_mgv3_ese_wd0",
+            "4thmd_v_mgv3_ese_wd1",
+            "4thmd_v_mgv3_ese_wd2",
+            "4thmd_v_mgv3_ese_wd3",
             "4thmd_v_mgv3_ldr_wd0",
             "4thmd_v_mgv3_ldr_wd1",
             "4thmd_v_mgv3_ldr_wd2",
@@ -549,6 +626,10 @@ class CfgPatches
             "4thmd_v_mgv3_eos_wd1_b",
             "4thmd_v_mgv3_eos_wd2_b",
             "4thmd_v_mgv3_eos_wd3_b",
+            "4thmd_v_mgv3_ese_wd0_b",
+            "4thmd_v_mgv3_ese_wd1_b",
+            "4thmd_v_mgv3_ese_wd2_b",
+            "4thmd_v_mgv3_ese_wd3_b",
             "4thmd_v_mgv3_ldr_wd0_b",
             "4thmd_v_mgv3_ldr_wd1_b",
             "4thmd_v_mgv3_ldr_wd2_b",
@@ -716,7 +797,39 @@ class CfgPatches
             "4thmd_h_mgbc_f_c_wd0_g",
             "4thmd_h_mgbc_f_c_wd1_g",
             "4thmd_h_mgbc_f_c_wd2_g",
-            "4thmd_h_mgbc_f_c_wd3_g"
+            "4thmd_h_mgbc_f_c_wd3_g",
+            "4thmd_h_mgh1_a_wd0_to",
+            "4thmd_h_mgh1_a_wd1_to",
+            "4thmd_h_mgh1_a_wd2_to",
+            "4thmd_h_mgh1_a_wd3_to",
+            "4thmd_h_mgh1_a_wd0_to_g",
+            "4thmd_h_mgh1_a_wd1_to_g",
+            "4thmd_h_mgh1_a_wd2_to_g",
+            "4thmd_h_mgh1_a_wd3_to_g",
+            "4thmd_h_mgh2_a_wd0_to",
+            "4thmd_h_mgh2_a_wd1_to",
+            "4thmd_h_mgh2_a_wd2_to",
+            "4thmd_h_mgh2_a_wd3_to",
+            "4thmd_h_mgh2_a_wd0_to_g",
+            "4thmd_h_mgh2_a_wd1_to_g",
+            "4thmd_h_mgh2_a_wd2_to_g",
+            "4thmd_h_mgh2_a_wd3_to_g",
+            "4thmd_h_mgbc_b_b_wd0_to",
+            "4thmd_h_mgbc_b_b_wd1_to",
+            "4thmd_h_mgbc_b_b_wd2_to",
+            "4thmd_h_mgbc_b_b_wd3_to",
+            "4thmd_h_mgbc_b_b_wd0_to_g",
+            "4thmd_h_mgbc_b_b_wd1_to_g",
+            "4thmd_h_mgbc_b_b_wd2_to_g",
+            "4thmd_h_mgbc_b_b_wd3_to_g",
+            "4thmd_h_mgbc_f_b_wd0_to",
+            "4thmd_h_mgbc_f_b_wd1_to",
+            "4thmd_h_mgbc_f_b_wd2_to",
+            "4thmd_h_mgbc_f_b_wd3_to",
+            "4thmd_h_mgbc_f_b_wd0_to_g",
+            "4thmd_h_mgbc_f_b_wd1_to_g",
+            "4thmd_h_mgbc_f_b_wd2_to_g",
+            "4thmd_h_mgbc_f_b_wd3_to_g"
         };
         units[] = 
         {
@@ -801,6 +914,10 @@ class CfgPatches
             "4thmd_b_mgb1_eos_wd1",
             "4thmd_b_mgb1_eos_wd2",
             "4thmd_b_mgb1_eos_wd3",
+            "4thmd_b_mgb1_ese_wd0",
+            "4thmd_b_mgb1_ese_wd1",
+            "4thmd_b_mgb1_ese_wd2",
+            "4thmd_b_mgb1_ese_wd3",
             "4thmd_b_mgb1_rmn_wd0_r",
             "4thmd_b_mgb1_rmn_wd1_r",
             "4thmd_b_mgb1_rmn_wd2_r",
@@ -817,6 +934,10 @@ class CfgPatches
             "4thmd_b_mgb1_eos_wd1_r",
             "4thmd_b_mgb1_eos_wd2_r",
             "4thmd_b_mgb1_eos_wd3_r",
+            "4thmd_b_mgb1_ese_wd0_r",
+            "4thmd_b_mgb1_ese_wd1_r",
+            "4thmd_b_mgb1_ese_wd2_r",
+            "4thmd_b_mgb1_ese_wd3_r",
             "4thmd_b_mgbp_a_wd0",
             "4thmd_b_mgbp_a_wd1",
             "4thmd_b_mgbp_a_wd2",
@@ -852,16 +973,16 @@ class CfgPatches
         };
         magazines[] = {};
         requiredAddons[] = 
-            {   
-                "darkmod_4thmd",
-                "milgp_data",
-                "milgp_headgear",
-                "milgp_headgear_cfg",
-                "milgp_uniforms",
-                "milgp_uniforms_cfg",
-                "milgp_vests",
-                "milgp_vests_cfg"
-            };
+        {   
+            "darkmod_4thmd",
+            "milgp_data",
+            "milgp_headgear",
+            "milgp_headgear_cfg",
+            "milgp_uniforms",
+            "milgp_uniforms_cfg",
+            "milgp_vests",
+            "milgp_vests_cfg"
+        };
         skipWhenMissingDependencies = 1;
         author = "Darknessvoid99";
         version = "0.1.0.2402120156";
@@ -892,7 +1013,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -938,7 +1059,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -950,7 +1071,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -962,7 +1083,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -975,7 +1096,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
                 class ItemInfo : ItemInfo
                 {
@@ -991,7 +1112,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1003,7 +1124,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1015,7 +1136,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1027,7 +1148,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1039,7 +1160,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1051,7 +1172,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1063,7 +1184,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1075,7 +1196,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1087,7 +1208,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1099,7 +1220,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1111,7 +1232,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1123,7 +1244,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1135,7 +1256,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1147,7 +1268,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1159,7 +1280,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1172,7 +1293,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -1189,7 +1310,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1201,7 +1322,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1213,7 +1334,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1226,7 +1347,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -1243,7 +1364,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1255,7 +1376,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1267,7 +1388,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1280,7 +1401,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -1297,7 +1418,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1309,7 +1430,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1321,7 +1442,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1334,7 +1455,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -1351,7 +1472,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1363,7 +1484,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1375,7 +1496,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1460,7 +1581,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -1488,7 +1609,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1501,7 +1622,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1514,7 +1635,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1528,7 +1649,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -1546,7 +1667,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1559,7 +1680,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1572,7 +1693,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1585,7 +1706,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1598,7 +1719,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1611,7 +1732,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1624,7 +1745,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1637,7 +1758,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1650,7 +1771,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1663,7 +1784,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1676,7 +1797,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1689,7 +1810,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1702,7 +1823,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1715,7 +1836,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1728,7 +1849,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1742,7 +1863,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -1760,7 +1881,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1773,7 +1894,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1786,7 +1907,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1800,7 +1921,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -1818,7 +1939,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1831,7 +1952,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1844,7 +1965,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1858,7 +1979,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -1876,7 +1997,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1889,7 +2010,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1902,7 +2023,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1916,7 +2037,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -1934,7 +2055,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1947,7 +2068,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1960,7 +2081,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv1_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
     //MarCiras Vests (mgv2)
@@ -1981,7 +2102,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -2038,7 +2159,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2050,7 +2171,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2062,7 +2183,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2075,7 +2196,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
                 class ItemInfo : ItemInfo
                 {
@@ -2091,7 +2212,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2103,7 +2224,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2115,7 +2236,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2127,7 +2248,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2139,7 +2260,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2151,7 +2272,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2163,7 +2284,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2175,7 +2296,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2187,7 +2308,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2199,7 +2320,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2211,7 +2332,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2223,7 +2344,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2235,7 +2356,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2247,7 +2368,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2259,7 +2380,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2272,7 +2393,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -2289,7 +2410,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2301,7 +2422,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2313,7 +2434,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2326,7 +2447,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -2343,7 +2464,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2355,7 +2476,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2367,7 +2488,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2380,7 +2501,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -2397,7 +2518,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2409,7 +2530,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2421,7 +2542,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2434,7 +2555,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -2451,7 +2572,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2463,7 +2584,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2475,7 +2596,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2560,7 +2681,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -2588,7 +2709,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2601,7 +2722,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2614,7 +2735,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2628,7 +2749,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -2646,7 +2767,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2659,7 +2780,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2672,7 +2793,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2685,7 +2806,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2698,7 +2819,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2711,7 +2832,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2724,7 +2845,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2737,7 +2858,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2750,7 +2871,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2763,7 +2884,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2776,7 +2897,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2789,7 +2910,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2802,7 +2923,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2815,7 +2936,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2828,7 +2949,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2842,7 +2963,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -2860,7 +2981,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2873,7 +2994,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2886,7 +3007,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2900,7 +3021,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -2918,7 +3039,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2931,7 +3052,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2944,7 +3065,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2958,7 +3079,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -2976,7 +3097,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2989,7 +3110,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3002,7 +3123,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3016,7 +3137,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -3034,7 +3155,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3047,7 +3168,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3060,10 +3181,9 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv2_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
-
     //MMAC Vests (mgv3)
         //Standard
             class milgp_v_mmac_assaulter_khk : ItemCore
@@ -3082,7 +3202,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -3128,7 +3248,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3140,7 +3260,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3152,7 +3272,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3165,7 +3285,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
                 class ItemInfo : ItemInfo
                 {
@@ -3181,7 +3301,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3193,7 +3313,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3205,7 +3325,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3217,7 +3337,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3229,7 +3349,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3241,7 +3361,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3253,7 +3373,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3265,7 +3385,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_e_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3277,7 +3397,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_e_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3289,7 +3409,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_e_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3301,7 +3421,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_e_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3314,7 +3434,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -3331,7 +3451,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3343,7 +3463,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3355,7 +3475,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3368,7 +3488,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -3385,7 +3505,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3397,7 +3517,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3409,7 +3529,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3422,7 +3542,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -3439,7 +3559,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3451,7 +3571,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3463,7 +3583,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3476,7 +3596,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -3493,7 +3613,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3505,7 +3625,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3517,7 +3637,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3529,7 +3649,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_e_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3541,7 +3661,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_e_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3553,7 +3673,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_e_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3565,7 +3685,7 @@ class CfgWeapons
                 {
                     "darkmod_4thmd_mgp\data\arid\mgv3_e_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3650,7 +3770,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -3678,7 +3798,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3691,7 +3811,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3704,7 +3824,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3718,7 +3838,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -3736,7 +3856,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3749,7 +3869,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3762,7 +3882,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_m_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3775,7 +3895,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3788,7 +3908,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3801,7 +3921,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3814,7 +3934,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3827,7 +3947,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_e_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3840,7 +3960,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_e_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3853,7 +3973,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_e_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3866,7 +3986,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_e_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3880,7 +4000,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -3898,7 +4018,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3911,7 +4031,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3924,7 +4044,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3938,7 +4058,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -3956,7 +4076,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3969,7 +4089,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3982,7 +4102,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3996,7 +4116,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -4014,7 +4134,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -4027,7 +4147,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -4040,7 +4160,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -4054,7 +4174,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
 
                 class ItemInfo : ItemInfo
@@ -4072,7 +4192,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -4085,7 +4205,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -4098,7 +4218,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -4111,7 +4231,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_e_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -4124,7 +4244,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_e_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -4137,7 +4257,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_e_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -4150,7 +4270,7 @@ class CfgWeapons
                     "darkmod_4thmd_mgp\data\arid\mgv3_e_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_e_ar3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
             
@@ -4171,7 +4291,7 @@ class CfgWeapons
             {
                 "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                 "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                "milgp_vests\textures\v_gear_02_co.paa"
+                "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
             };
 
             class ItemInfo : ItemInfo
@@ -4189,7 +4309,7 @@ class CfgWeapons
             {
                 "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                 "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                "milgp_vests\textures\v_gear_02_co.paa"
+                "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
             };
         };
 
@@ -4201,7 +4321,7 @@ class CfgWeapons
             {
                 "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                 "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                "milgp_vests\textures\v_gear_02_co.paa"
+                "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
             };
         };
 
@@ -4213,7 +4333,7 @@ class CfgWeapons
             {
                 "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                 "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                "milgp_vests\textures\v_gear_02_co.paa"
+                "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
             };
         };
 
@@ -4233,7 +4353,7 @@ class CfgWeapons
             {
                 "darkmod_4thmd_mgp\data\arid\mgbb_ar0.paa",
                 "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa",
-                "milgp_vests\textures\v_gear_02_co.paa"
+                "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
             };
 
             class ItemInfo : ItemInfo
@@ -4251,7 +4371,7 @@ class CfgWeapons
             {
                 "darkmod_4thmd_mgp\data\arid\mgbb_ar1.paa",
                 "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa",
-                "milgp_vests\textures\v_gear_02_co.paa"
+                "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
             };
         };
 
@@ -4263,7 +4383,7 @@ class CfgWeapons
             {
                 "darkmod_4thmd_mgp\data\arid\mgbb_ar2.paa",
                 "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa",
-                "milgp_vests\textures\v_gear_02_co.paa"
+                "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
             };
         };
 
@@ -4275,7 +4395,7 @@ class CfgWeapons
             {
                 "darkmod_4thmd_mgp\data\arid\mgbb_ar3.paa",
                 "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa",
-                "milgp_vests\textures\v_gear_02_co.paa"
+                "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
             };
         };
 
@@ -6288,6 +6408,399 @@ class CfgWeapons
                 };
 
 
+    // Training Officer Gear
+        // MarCiras Vests (mgv2)
+                class 4thmd_v_mgv2_lgt_to : 4thmd_v_mgv2_lgt_ar0
+                {
+                    displayName = "[ARMCO] MarCiras Vest (Training Officer)";
+                    descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Training Officer Kit";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\mgv2_toy.paa",
+                        "darkmod_4thmd_mgp\data\mvg1_toy.paa"
+                    };
+                };
+        //Opscore Helmet (mgh1)
+            //Standard
+                class 4thmd_h_mgh1_a_ar0_to : 4thmd_h_mgh1_a_ar0
+                {
+                    displayName = "[ARMCO] Opscore Helmet (TO/AR)";
+                    descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>No Attachments";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgh1_ar0.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh1_a_ar1_to : 4thmd_h_mgh1_a_ar0
+                {
+                    descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>No Attachments";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgh1_ar1.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh1_a_ar2_to : 4thmd_h_mgh1_a_ar0
+                {
+                    descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>No Attachments";
+                    
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgh1_ar2.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh1_a_ar3_to : 4thmd_h_mgh1_a_ar0
+                {
+                    descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>No Attachments";
+                    
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgh1_ar3.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+            //Goggles
+                class 4thmd_h_mgh1_a_ar0_to_g : 4thmd_h_mgh1_a_ar0_g
+                {
+                    displayName = "[ARMCO] Opscore Helmet (TO/AR)";
+                    descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>No Attachments";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgh1_ar0.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh1_a_ar1_to_g : 4thmd_h_mgh1_a_ar0_g
+                {
+                    descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>No Attachments + ESS";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgh1_ar1.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh1_a_ar2_to_g : 4thmd_h_mgh1_a_ar0_g
+                {
+                    descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>No Attachments + ESS";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgh1_ar2.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh1_a_ar3_to_g : 4thmd_h_mgh1_a_ar0_g
+                {
+                    descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>No Attachments + ESS";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgh1_ar3.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+        //Airframe Helmet (mgh2)
+            //Standard
+                class 4thmd_h_mgh2_a_ar0_to : 4thmd_h_mgh2_a_ar0
+                {
+                    displayName = "[ARMCO] Airframe Helmet (TO/AR)";
+                    descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>No Attachments";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgh2_ar0.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgh1_ar0.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh2_a_ar1_to : 4thmd_h_mgh2_a_ar0
+                {
+                    descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>No Attachments";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgh2_ar1.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgh1_ar1.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh2_a_ar2_to : 4thmd_h_mgh2_a_ar0
+                {
+                    descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>No Attachments";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgh2_ar2.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgh1_ar2.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh2_a_ar3_to : 4thmd_h_mgh2_a_ar0
+                {
+                    descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>No Attachments";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgh2_ar3.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgh1_ar3.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+            //Goggles
+                class 4thmd_h_mgh2_a_ar0_to_g : 4thmd_h_mgh2_a_ar0_g
+                {
+                    displayName = "[ARMCO] Airframe Helmet (TO/AR)";
+                    descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>No Attachments + ESS";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgh2_ar0.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgh1_ar0.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh2_a_ar1_to_g : 4thmd_h_mgh2_a_ar0_g
+                {
+                    descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>No Attachments + ESS";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgh2_ar1.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgh1_ar1.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh2_a_ar2_to_g : 4thmd_h_mgh2_a_ar0_g
+                {
+                    descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>No Attachments + ESS";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgh2_ar2.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgh1_ar2.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh2_a_ar3_to_g : 4thmd_h_mgh2_a_ar0_g
+                {
+                    descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>No Attachments + ESS";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\arid\mgh2_ar3.paa",
+                        "darkmod_4thmd_mgp\data\arid\mgh1_ar3.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+        //Advanced Cap (mgbc)
+            //Backwards Cap
+                //Standard
+                    class 4thmd_h_mgbc_b_b_ar0_to : 4thmd_h_mgbc_b_b_ar0
+                    {
+                        displayName = "[ARMCO] Cap Backwards (TO/AR)";
+                        descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Peltor Headset";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\arid\mgbc_ar0.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_b_b_ar1_to : 4thmd_h_mgbc_b_b_ar0
+                    {
+                        descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Peltor Headset";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\arid\mgbc_ar1.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_b_b_ar2_to : 4thmd_h_mgbc_b_b_ar0
+                    {
+                        descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Peltor Headset";
+                        
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\arid\mgbc_ar2.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_b_b_ar3_to : 4thmd_h_mgbc_b_b_ar0
+                    {
+                        descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Peltor Headset";
+                        
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\arid\mgbc_ar3.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                //Goggles
+                    class 4thmd_h_mgbc_b_b_ar0_to_g : 4thmd_h_mgbc_b_b_ar0_g
+                    {
+                        displayName = "[ARMCO] Cap Backwards (TO/AR)";
+                        descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Peltor Headset + ESS";
+                        
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\arid\mgbc_ar0.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_b_b_ar1_to_g : 4thmd_h_mgbc_b_b_ar0_g
+                    {
+                        descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Peltor Headset + ESS";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\arid\mgbc_ar1.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_b_b_ar2_to_g : 4thmd_h_mgbc_b_b_ar0_g
+                    {
+                        descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Peltor Headset + ESS";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\arid\mgbc_ar2.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_b_b_ar3_to_g : 4thmd_h_mgbc_b_b_ar0_g
+                    {
+                        descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Peltor Headset + ESS";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\arid\mgbc_ar3.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+            //Forward Cap
+                //Standard
+                    class 4thmd_h_mgbc_f_b_ar0_to : 4thmd_h_mgbc_f_b_ar0
+                    {
+                        displayName = "[ARMCO] Cap (TO/AR)";
+                        descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Peltor Headset";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\arid\mgbc_ar0.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_f_b_ar1_to : 4thmd_h_mgbc_f_b_ar0
+                    {
+                        descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Peltor Headset";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\arid\mgbc_ar1.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_f_b_ar2_to : 4thmd_h_mgbc_f_b_ar0
+                    {
+                        descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Peltor Headset";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\arid\mgbc_ar2.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_f_b_ar3_to : 4thmd_h_mgbc_f_b_ar0
+                    {
+                        descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Peltor Headset";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\arid\mgbc_ar3.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                //Goggles
+                    class 4thmd_h_mgbc_f_b_ar0_to_g : 4thmd_h_mgbc_f_b_ar0_g
+                    {
+                        displayName = "[ARMCO] Cap (TO/AR)";
+                        descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Peltor Headset + ESS";
+                        
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\arid\mgbc_ar0.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_f_b_ar1_to_g : 4thmd_h_mgbc_f_b_ar0_g
+                    {
+                        descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Peltor Headset + ESS";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\arid\mgbc_ar1.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_f_b_ar2_to_g : 4thmd_h_mgbc_f_b_ar0_g
+                    {
+                        descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Peltor Headset + ESS";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\arid\mgbc_ar2.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_f_b_ar3_to_g : 4thmd_h_mgbc_f_b_ar0_g
+                    {
+                        descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Peltor Headset + ESS";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\arid\mgbc_ar3.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
     //Include Other Patterns 
     #include "wood\CfgW_equ.hpp"
     /*
@@ -6498,6 +7011,51 @@ class CfgVehicles
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa"
                 };
             };
+
+            class 4thmd_b_mgb1_ese_ar0 : 4thmd_b_mgb1_rmn_ar0
+            {
+                displayName = "[ARMCO] Patrol Pack (Arid/ESE)";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgb1_x_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_mgb1_ese_ar1 : 4thmd_b_mgb1_ese_ar0
+            {
+                displayName = "[ARMCO] Patrol Pack (AR-S1/ESE)";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgb1_x_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_mgb1_ese_ar2 : 4thmd_b_mgb1_ese_ar0
+            {
+                displayName = "[ARMCO] Patrol Pack (AR-S2/ESE)";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgb1_x_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_mgb1_ese_ar3 : 4thmd_b_mgb1_ese_ar0
+            {
+                displayName = "[ARMCO] Patrol Pack (AR-S3/ESE)";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgb1_x_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa"
+                };
+            };
+
         //Radio
             class 4thmd_b_mgb1_rmn_ar0_r : 4thmd_b_mgb1_rmn_ar0
             {
@@ -6681,6 +7239,50 @@ class CfgVehicles
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd_mgp\data\arid\mgb1_s_ar3.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa"
+                };
+            };
+
+            class 4thmd_b_mgb1_ese_ar0_r : 4thmd_b_mgb1_rmn_ar0_r
+            {
+                displayName = "[ARMCO] Patrol Pack (Arid/ESE) + Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgb1_x_ar0.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_mgb1_ese_ar1_r : 4thmd_b_mgb1_ese_ar0_r
+            {
+                displayName = "[ARMCO] Patrol Pack (AR-S1/ESE) + Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgb1_x_ar1.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_mgb1_ese_ar2_r : 4thmd_b_mgb1_ese_ar0_r
+            {
+                displayName = "[ARMCO] Patrol Pack (AR-S2/ESE) + Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgb1_x_ar2.paa",
+                    "darkmod_4thmd_mgp\data\arid\mvg1_b_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_mgb1_ese_ar3_r : 4thmd_b_mgb1_ese_ar0_r
+            {
+                displayName = "[ARMCO] Patrol Pack (AR-S3/ESE) + Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\arid\mgb1_x_ar3.paa",
                     "darkmod_4thmd_mgp\data\arid\mvg1_b_ar3.paa"
                 };
             };
@@ -8262,6 +8864,173 @@ class cfgGlasses
 
 class XtdGearModels
 {
+    //Base Config
+        class 4thmd_color_base;
+        class 4thmd_camo_base;
+        class 4thmd_radio_base;
+        class 4thmd_role_base;
+        class 4thmd_mgv_role_base : 4thmd_role_base
+        {
+            alwaysSelectable = 1;
+            changeingame = 0;
+            changedelay = 0;
+            label = "Role";
+            values[]=
+            {
+                "4thmd_r_med",
+                "4thmd_r_eng",
+                "4thmd_r_eos",
+                "4thmd_r_ese",
+                "4thmd_r_rmn",
+                "4thmd_r_gdr",
+                "4thmd_r_mgs",
+                "4thmd_r_mkn",
+                "4thmd_r_ldr",
+                "4thmd_r_lgt",
+            };
+
+            class 4thmd_r_rmn
+            {
+                label = "";
+                image = "darkmod_4thmd\data\0icon\aax\icon_r_rifleman.paa";
+            };
+
+            class 4thmd_r_gdr
+            {
+                label = "";
+                image = "darkmod_4thmd\data\0icon\aax\icon_r_grenadier.paa";
+            };
+
+            class 4thmd_r_mgs
+            {
+                label = "";
+                image = "darkmod_4thmd\data\0icon\aax\icon_r_gunner.paa";
+            };
+
+            class 4thmd_r_mkn
+            {
+                label = "";
+                image = "darkmod_4thmd\data\0icon\aax\icon_r_marksman.paa";
+            };
+
+            class 4thmd_r_ldr
+            {
+                label = "";
+                image = "darkmod_4thmd\data\0icon\aax\icon_r_leader.paa";
+            };
+
+            class 4thmd_r_lgt
+            {
+                label = "";
+                image = "darkmod_4thmd\data\0icon\aax\icon_r_crew.paa";
+            };
+        };
+
+        class 4thmd_belt_base
+        {
+            alwaysSelectable = 0;
+            changeingame = 0;
+            changedelay = 3;
+            label = "Battle Belt";
+            values[] =
+            {
+                "4thmd_auxof",
+                "4thmd_auxon"
+            };
+
+            class 4thmd_auxof
+            {
+                label = "None";
+                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+            };
+
+            class 4thmd_auxon
+            {
+                label = "Belt";
+                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+            };
+        };
+
+        class 4thmd_ess_base
+        {
+            alwaysSelectable = 0;
+            changeingame = 1;
+            changedelay = 2;
+            label = "ESS Goggles";
+            values[] =
+            {
+                "4thmd_auxof",
+                "4thmd_auxon"
+            };
+
+            class 4thmd_auxof
+            {
+                label = "None";
+                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                actionlabel = "Remove ESS Goggles";
+            };
+
+            class 4thmd_auxon
+            {
+                label = "ESS";
+                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                actionlabel = "Add ESS Goggles";
+            };
+        };
+
+        class 4thmd_mgh_type_base
+        {
+            alwaysSelectable = 1;
+            changeingame = 0;
+            changedelay = 0;
+            label = "Attachments";
+            values[]=
+            {
+                "4thmd_t_mda",
+                "4thmd_t_mdb",
+                "4thmd_t_mdc",
+                "4thmd_t_mdd",
+                "4thmd_t_mde",
+                "4thmd_t_mdf"
+            };
+
+            class 4thmd_t_mda
+            {
+                label = "None";
+                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+            };
+
+            class 4thmd_t_mdb
+            {
+                label = "MSM/HL-1";
+                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+            };
+
+            class 4thmd_t_mdc
+            {
+                label = "MSM/Chem.";
+                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+            };
+
+            class 4thmd_t_mdd
+            {
+                label = "MSM/RGS";
+                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+            };
+
+            class 4thmd_t_mde
+            {
+                label = "TIR/RGS";
+                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+            };
+
+            class 4thmd_t_mdf
+            {
+                label = "TIR/CHD";
+                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+            };
+        };
+
     class CfgWeapons
     {
         class 4thmd_v_mgv1
@@ -8275,227 +9044,13 @@ class XtdGearModels
                 "4thmd_belt"
             };
 
-            class 4thmd_role
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-				label = "Role";
-                values[]=
-                {
-                    "4thmd_r_rmn",
-                    "4thmd_r_med",
-                    "4thmd_r_eng",
-                    "4thmd_r_eos",
-                    "4thmd_r_ldr",
-                    "4thmd_r_gdr",
-                    "4thmd_r_mgs",
-                    "4thmd_r_mkn",
-                    "4thmd_r_lgt",
-                    "4thmd_r_ese"
-                };
+            class 4thmd_role : 4thmd_mgv_role_base {};
 
-                class 4thmd_r_rmn
-                {
-                    label = "Rifleman";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_rifleman.paa";
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_r_med
-                {
-                    label = "Medical";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_medical.paa";
-                };
+            class 4thmd_camo : 4thmd_camo_base {};
 
-                class 4thmd_r_eng
-                {
-                    label = "Engineer";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_engineer.paa";
-                };
-
-                class 4thmd_r_eos
-                {
-                    label = "EOS";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_explosive.paa";
-                    description = "Explosive Ordnance Specialist";
-                };
-
-                class 4thmd_r_ldr
-                {
-                    label = "Leader";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_leader.paa";
-                };
-
-                class 4thmd_r_gdr
-                {
-                    label = "Grenadier";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_grenadier.paa";
-                };
-
-                class 4thmd_r_mgs
-                {
-                    label = "Gunner";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_gunner.paa";
-                };
-
-                class 4thmd_r_mkn
-                {
-                    label = "Marksman";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_marksman.paa";
-                };
-
-                class 4thmd_r_lgt
-                {
-                    label = "Light";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_crew.paa";
-                };
-
-                class 4thmd_r_ese
-                {
-                    label = "ESE";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_eosengie.paa";
-                    description = "Explosive Ordnance Engineer, SABRE";
-                };
-            };
-
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
-
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
-
-            class 4thmd_belt
-            {
-                alwaysSelectable = 0;
-				changeingame = 0;
-				changedelay = 3;
-                label = "Add Battle Belt";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "Belt";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                };
-            };
+            class 4thmd_belt : 4thmd_belt_base {};
         };
 
         class 4thmd_v_mgv2
@@ -8509,227 +9064,13 @@ class XtdGearModels
                 "4thmd_belt"
             };
 
-            class 4thmd_role
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-				label = "Role";
-                values[]=
-                {
-                    "4thmd_r_rmn",
-                    "4thmd_r_med",
-                    "4thmd_r_eng",
-                    "4thmd_r_eos",
-                    "4thmd_r_ldr",
-                    "4thmd_r_gdr",
-                    "4thmd_r_mgs",
-                    "4thmd_r_mkn",
-                    "4thmd_r_lgt",
-                    "4thmd_r_ese"
-                };
+            class 4thmd_role : 4thmd_mgv_role_base {};
 
-                class 4thmd_r_rmn
-                {
-                    label = "Rifleman";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_rifleman.paa";
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_r_med
-                {
-                    label = "Medical";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_medical.paa";
-                };
+            class 4thmd_camo : 4thmd_camo_base {};
 
-                class 4thmd_r_eng
-                {
-                    label = "Engineer";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_engineer.paa";
-                };
-
-                class 4thmd_r_eos
-                {
-                    label = "EOS";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_explosive.paa";
-                    description = "Explosive Ordnance Specialist";
-                };
-
-                class 4thmd_r_ldr
-                {
-                    label = "Leader";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_leader.paa";
-                };
-
-                class 4thmd_r_gdr
-                {
-                    label = "Grenadier";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_grenadier.paa";
-                };
-
-                class 4thmd_r_mgs
-                {
-                    label = "Gunner";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_gunner.paa";
-                };
-
-                class 4thmd_r_mkn
-                {
-                    label = "Marksman";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_marksman.paa";
-                };
-
-                class 4thmd_r_lgt
-                {
-                    label = "Light";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_crew.paa";
-                };
-
-                class 4thmd_r_ese
-                {
-                    label = "ESE";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_eosengie.paa";
-                    description = "Explosive Ordnance Engineer, SABRE";
-                };
-            };
-
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
-
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
-
-            class 4thmd_belt
-            {
-                alwaysSelectable = 0;
-				changeingame = 0;
-				changedelay = 3;
-                label = "Add Battle Belt";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "Belt";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                };
-            };
+            class 4thmd_belt : 4thmd_belt_base {};
         };
 
         class 4thmd_v_mgv3
@@ -8743,227 +9084,13 @@ class XtdGearModels
                 "4thmd_belt"
             };
 
-            class 4thmd_role
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-				label = "Role";
-                values[]=
-                {
-                    "4thmd_r_rmn",
-                    "4thmd_r_med",
-                    "4thmd_r_eng",
-                    "4thmd_r_eos",
-                    "4thmd_r_ldr",
-                    "4thmd_r_gdr",
-                    "4thmd_r_mgs",
-                    "4thmd_r_mkn",
-                    "4thmd_r_lgt",
-                    "4thmd_r_ese"
-                };
+            class 4thmd_role : 4thmd_mgv_role_base {};
 
-                class 4thmd_r_rmn
-                {
-                    label = "Rifleman";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_rifleman.paa";
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_r_med
-                {
-                    label = "Medical";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_medical.paa";
-                };
+            class 4thmd_camo : 4thmd_camo_base {};
 
-                class 4thmd_r_eng
-                {
-                    label = "Engineer";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_engineer.paa";
-                };
-
-                class 4thmd_r_eos
-                {
-                    label = "EOS";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_explosive.paa";
-                    description = "Explosive Ordnance Specialist";
-                };
-
-                class 4thmd_r_ldr
-                {
-                    label = "Leader";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_leader.paa";
-                };
-
-                class 4thmd_r_gdr
-                {
-                    label = "Grenadier";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_grenadier.paa";
-                };
-
-                class 4thmd_r_mgs
-                {
-                    label = "Gunner";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_gunner.paa";
-                };
-
-                class 4thmd_r_mkn
-                {
-                    label = "Marksman";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_marksman.paa";
-                };
-
-                class 4thmd_r_lgt
-                {
-                    label = "Light";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_crew.paa";
-                };
-
-                class 4thmd_r_ese
-                {
-                    label = "ESE";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_eosengie.paa";
-                    description = "Explosive Ordnance Engineer, SABRE";
-                };
-            };
-
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
-
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
-
-            class 4thmd_belt
-            {
-                alwaysSelectable = 0;
-				changeingame = 0;
-				changedelay = 3;
-                label = "Add Battle Belt";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "Belt";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                };
-            };
+            class 4thmd_belt : 4thmd_belt_base {};
         };
 
         class 4thmd_v_mgbb
@@ -9001,119 +9128,9 @@ class XtdGearModels
                 };
             };
 
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
+            class 4thmd_camo : 4thmd_camo_base {};
         };
 
         class 4thmd_h_mgh1
@@ -9127,199 +9144,13 @@ class XtdGearModels
                 "4thmd_ess"
             };
 
-            class 4thmd_type
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-				label = "Attachments";
-                values[]=
-                {
-                    "4thmd_t_mda",
-                    "4thmd_t_mdb",
-                    "4thmd_t_mdc",
-                    "4thmd_t_mdd",
-                    "4thmd_t_mde",
-                    "4thmd_t_mdf"
-                };
+            class 4thmd_type : 4thmd_mgh_type_base {};
 
-                class 4thmd_t_mda
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_t_mdb
-                {
-                    label = "MSM/HL-1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                };
+            class 4thmd_camo : 4thmd_camo_base {};
 
-                class 4thmd_t_mdc
-                {
-                    label = "MSM/Chem.";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                };
-
-                class 4thmd_t_mdd
-                {
-                    label = "MSM/RGS";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                };
-
-                class 4thmd_t_mde
-                {
-                    label = "TIR/RGS";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                };
-
-                class 4thmd_t_mdf
-                {
-                    label = "TIR/CHD";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                };
-            };
-
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
-
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
-
-            class 4thmd_ess
-            {
-                alwaysSelectable = 1;
-				changeingame = 1;
-				changedelay = 2;
-                label = "Add Goggles";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Remove ESS Goggles";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "ESS";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Add ESS Goggles";
-                };
-            };
+            class 4thmd_ess : 4thmd_ess_base {};
         };
 
         class 4thmd_h_mgh2
@@ -9333,199 +9164,13 @@ class XtdGearModels
                 "4thmd_ess"
             };
 
-            class 4thmd_type
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-				label = "Attachments";
-                values[]=
-                {
-                    "4thmd_t_mda",
-                    "4thmd_t_mdb",
-                    "4thmd_t_mdc",
-                    "4thmd_t_mdd",
-                    "4thmd_t_mde",
-                    "4thmd_t_mdf"
-                };
+            class 4thmd_type : 4thmd_mgh_type_base {};
 
-                class 4thmd_t_mda
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_t_mdb
-                {
-                    label = "MSM/HL-1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                };
+            class 4thmd_camo : 4thmd_camo_base {};
 
-                class 4thmd_t_mdc
-                {
-                    label = "MSM/Chem.";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                };
-
-                class 4thmd_t_mdd
-                {
-                    label = "MSM/RGS";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                };
-
-                class 4thmd_t_mde
-                {
-                    label = "TIR/RGS";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                };
-
-                class 4thmd_t_mdf
-                {
-                    label = "TIR/CHD";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                };
-            };
-
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
-
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
-
-            class 4thmd_ess
-            {
-                alwaysSelectable = 1;
-				changeingame = 1;
-				changedelay = 2;
-                label = "Add Goggles";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Remove ESS Goggles";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "ESS";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Add ESS Goggles";
-                };
-            };
+            class 4thmd_ess : 4thmd_ess_base {};
         };
 
         class 4thmd_h_mgbc
@@ -9565,119 +9210,9 @@ class XtdGearModels
                 };
             };
 
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
+            class 4thmd_camo : 4thmd_camo_base {};
 
             class 4thmd_headset
             {
@@ -9714,32 +9249,7 @@ class XtdGearModels
                 };
             };
 
-            class 4thmd_ess
-            {
-                alwaysSelectable = 0;
-				changeingame = 1;
-				changedelay = 2;
-                label = "Goggles";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Remove ESS Goggles";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "ESS";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Add ESS Goggles";
-                };
-            };
+            class 4thmd_ess : 4thmd_ess_base {};
         };
     };
 
@@ -9756,195 +9266,13 @@ class XtdGearModels
                 "4thmd_radio"
             };
 
-            class 4thmd_role
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-				label = "Role";
-                values[]=
-				{
-					"4thmd_r_rmn",
-					"4thmd_r_med",
-					"4thmd_r_eng",
-                    "4thmd_r_eos",
-                    "4thmd_r_ese"
-				};
+            class 4thmd_role : 4thmd_role_base {};
 
-                class 4thmd_r_rmn
-                {
-                    label = "Rifleman";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_rifleman.paa";
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_r_med
-                {
-                    label = "Medical";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_medical.paa";
-                };
+            class 4thmd_camo : 4thmd_camo_base {};
 
-                class 4thmd_r_eng
-                {
-                    label = "Engineer";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_engineer.paa";
-                };
-
-                class 4thmd_r_eos
-                {
-                    label = "EOS";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_explosive.paa";
-                    description = "Explosive Ordnance Specialist";
-                };
-
-                class 4thmd_r_ese
-                {
-                    label = "ESE";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_r_eosengie.paa";
-                    description = "Explosive Ordnance Engineer, SABRE";
-                };
-            };
-
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
-
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
-
-            class 4thmd_radio
-            {
-                alwaysSelectable = 1;
-				changeingame = 1;
-				changedelay = 10;
-                label = "Secondary Radio";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Remove Secondary Radio";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "AN/PRC-152";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Setup Secondary AN/PRC-152";
-                    itemingame = "rhsusf_radio_anprc152";
-                };
-            };
+            class 4thmd_radio : 4thmd_radio_base {};
         };
 
         class 4thmd_b_mgbp
@@ -9997,147 +9325,11 @@ class XtdGearModels
                 };
             };
 
-            class 4thmd_color
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
+            class 4thmd_color : 4thmd_color_base {};
 
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
+            class 4thmd_camo : 4thmd_camo_base {};
 
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
-            };
-
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-            };
-
-            class 4thmd_radio
-            {
-                alwaysSelectable = 1;
-				changeingame = 1;
-				changedelay = 10;
-                label = "Secondary Radio";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
-                class 4thmd_auxof
-                {
-                    label = "None";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Remove Secondary Radio";
-                };
-
-                class 4thmd_auxon
-                {
-                    label = "AN/PRC-152";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                    actionlabel = "Setup Secondary AN/PRC-152";
-                    itemingame = "rhsusf_radio_anprc152";
-                };
-            };
+            class 4thmd_radio : 4thmd_radio_base {};
         };
     };
 
@@ -10183,118 +9375,14 @@ class XtdGearModels
                 };
             };
 
-            class 4thmd_color
+            class 4thmd_color : 4thmd_color_base
             {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
                 label = "Face Shield : Camouflage";
-                values[] =
-                {
-                    "4thmd_arid",
-                    "4thmd_wood",
-                    "4thmd_dest",
-                    "4thmd_jung",
-                    "4thmd_borl",
-                    "4thmd_wint",
-                    "4thmd_arct",
-                    "4thmd_navy"
-                };
-
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT4-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APAT4-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
             };
 
-            class 4thmd_camo
+            class 4thmd_camo : 4thmd_camo_base
             {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
                 label = "Face Shield : Pattern";
-                values[] =
-                {
-                    "4thmd_c_standard",
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3"
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Standard";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_camo.paa";
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
             };
 
             class 4thmd_shemagh
@@ -10324,43 +9412,9 @@ class XtdGearModels
                 };
             };
 
-            class 4thmd_camo2
+            class 4thmd_camo2 : 4thmd_camo_base
             {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
                 label = "Shemagh : Pattern";
-                values[] =
-                {
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3",
-                    "4thmd_c_standard"
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Solid 4";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid4.paa";
-                };
             };
 
             class 4thmd_facewear
@@ -10546,6 +9600,42 @@ class XtdGearInfos
                 {
                     Model = "4thmd_v_mgv1";
                     4thmd_role = "4thmd_r_eos";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_belt = "4thmd_auxof";
+                };
+
+                class 4thmd_v_mgv1_ese_ar0
+                {
+                    Model = "4thmd_v_mgv1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_belt = "4thmd_auxof";
+                };
+
+                class 4thmd_v_mgv1_ese_ar1
+                {
+                    Model = "4thmd_v_mgv1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_belt = "4thmd_auxof";
+                };
+
+                class 4thmd_v_mgv1_ese_ar2
+                {
+                    Model = "4thmd_v_mgv1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_belt = "4thmd_auxof";
+                };
+
+                class 4thmd_v_mgv1_ese_ar3
+                {
+                    Model = "4thmd_v_mgv1";
+                    4thmd_role = "4thmd_r_ese";
                     4thmd_color = "4thmd_arid";
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_belt = "4thmd_auxof";
@@ -10875,6 +9965,42 @@ class XtdGearInfos
                     4thmd_belt = "4thmd_auxon";
                 };
 
+                class 4thmd_v_mgv1_ese_ar0_b
+                {
+                    Model = "4thmd_v_mgv1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_belt = "4thmd_auxon";
+                };
+
+                class 4thmd_v_mgv1_ese_ar1_b
+                {
+                    Model = "4thmd_v_mgv1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_belt = "4thmd_auxon";
+                };
+
+                class 4thmd_v_mgv1_ese_ar2_b
+                {
+                    Model = "4thmd_v_mgv1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_belt = "4thmd_auxon";
+                };
+
+                class 4thmd_v_mgv1_ese_ar3_b
+                {
+                    Model = "4thmd_v_mgv1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_belt = "4thmd_auxon";
+                };
+
                 class 4thmd_v_mgv1_ldr_ar0_b
                 {
                     Model = "4thmd_v_mgv1";
@@ -11159,6 +10285,42 @@ class XtdGearInfos
                 {
                     Model = "4thmd_v_mgv2";
                     4thmd_role = "4thmd_r_eos";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_belt = "4thmd_auxof";
+                };
+
+                class 4thmd_v_mgv2_ese_ar0
+                {
+                    Model = "4thmd_v_mgv2";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_belt = "4thmd_auxof";
+                };
+
+                class 4thmd_v_mgv2_ese_ar1
+                {
+                    Model = "4thmd_v_mgv2";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_belt = "4thmd_auxof";
+                };
+
+                class 4thmd_v_mgv2_ese_ar2
+                {
+                    Model = "4thmd_v_mgv2";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_belt = "4thmd_auxof";
+                };
+
+                class 4thmd_v_mgv2_ese_ar3
+                {
+                    Model = "4thmd_v_mgv2";
+                    4thmd_role = "4thmd_r_ese";
                     4thmd_color = "4thmd_arid";
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_belt = "4thmd_auxof";
@@ -11488,6 +10650,42 @@ class XtdGearInfos
                     4thmd_belt = "4thmd_auxon";
                 };
 
+                class 4thmd_v_mgv2_ese_ar0_b
+                {
+                    Model = "4thmd_v_mgv2";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_belt = "4thmd_auxon";
+                };
+
+                class 4thmd_v_mgv2_ese_ar1_b
+                {
+                    Model = "4thmd_v_mgv2";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_belt = "4thmd_auxon";
+                };
+
+                class 4thmd_v_mgv2_ese_ar2_b
+                {
+                    Model = "4thmd_v_mgv2";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_belt = "4thmd_auxon";
+                };
+
+                class 4thmd_v_mgv2_ese_ar3_b
+                {
+                    Model = "4thmd_v_mgv2";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_belt = "4thmd_auxon";
+                };
+
                 class 4thmd_v_mgv2_ldr_ar0_b
                 {
                     Model = "4thmd_v_mgv2";
@@ -11772,6 +10970,42 @@ class XtdGearInfos
                 {
                     Model = "4thmd_v_mgv3";
                     4thmd_role = "4thmd_r_eos";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_belt = "4thmd_auxof";
+                };
+
+                class 4thmd_v_mgv3_ese_ar0
+                {
+                    Model = "4thmd_v_mgv3";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_belt = "4thmd_auxof";
+                };
+
+                class 4thmd_v_mgv3_ese_ar1
+                {
+                    Model = "4thmd_v_mgv3";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_belt = "4thmd_auxof";
+                };
+
+                class 4thmd_v_mgv3_ese_ar2
+                {
+                    Model = "4thmd_v_mgv3";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_belt = "4thmd_auxof";
+                };
+
+                class 4thmd_v_mgv3_ese_ar3
+                {
+                    Model = "4thmd_v_mgv3";
+                    4thmd_role = "4thmd_r_ese";
                     4thmd_color = "4thmd_arid";
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_belt = "4thmd_auxof";
@@ -12101,6 +11335,42 @@ class XtdGearInfos
                     4thmd_belt = "4thmd_auxon";
                 };
 
+                class 4thmd_v_mgv3_ese_ar0_b
+                {
+                    Model = "4thmd_v_mgv3";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_belt = "4thmd_auxon";
+                };
+
+                class 4thmd_v_mgv3_ese_ar1_b
+                {
+                    Model = "4thmd_v_mgv3";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_belt = "4thmd_auxon";
+                };
+
+                class 4thmd_v_mgv3_ese_ar2_b
+                {
+                    Model = "4thmd_v_mgv3";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_belt = "4thmd_auxon";
+                };
+
+                class 4thmd_v_mgv3_ese_ar3_b
+                {
+                    Model = "4thmd_v_mgv3";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_belt = "4thmd_auxon";
+                };
+
                 class 4thmd_v_mgv3_ldr_ar0_b
                 {
                     Model = "4thmd_v_mgv3";
@@ -12244,6 +11514,7 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_belt = "4thmd_auxon";
                 };
+
         //Battle Belts (mgbb)
             class 4thmd_v_mgbb_rmn_ar0
             {
@@ -13818,6 +13089,42 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_radio = "4thmd_auxof";
                 };
+
+                class 4thmd_b_mgb1_ese_ar0
+                {
+                    Model = "4thmd_b_mgb1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_mgb1_ese_ar1
+                {
+                    Model = "4thmd_b_mgb1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_mgb1_ese_ar2
+                {
+                    Model = "4thmd_b_mgb1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_mgb1_ese_ar3
+                {
+                    Model = "4thmd_b_mgb1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_radio = "4thmd_auxof";
+                };
             //Radio
                 class 4thmd_b_mgb1_rmn_ar0_r
                 {
@@ -13962,6 +13269,43 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_radio = "4thmd_auxon";
                 };
+
+                class 4thmd_b_mgb1_ese_ar0_r
+                {
+                    Model = "4thmd_b_mgb1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_mgb1_ese_ar1_r
+                {
+                    Model = "4thmd_b_mgb1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_mgb1_ese_ar2_r
+                {
+                    Model = "4thmd_b_mgb1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_mgb1_ese_ar3_r
+                {
+                    Model = "4thmd_b_mgb1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
         //Back Panels (mgbp)
             //Standard
                 class 4thmd_b_mgbp_a_ar0

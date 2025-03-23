@@ -14,6 +14,8 @@ class CfgPatches
             "4thmd_s_pod4_fuel_ar1",
             "4thmd_s_pod4_medevac_ar1",
             "4thmd_s_pod4_repair_ar1",
+            "4thmd_s_pod4_repair_eb_ar1",
+            "4thmd_s_pod4_repair_es_ar1",
             "4thmd_v_lt1_ca_ar1",
             "4thmd_v_lt1_ca_e_ar1",
             "4thmd_v_lt1_ca_eb_ar1",
@@ -66,6 +68,8 @@ class CfgPatches
             "4thmd_s_pod4_medevac_wd1",
             "4thmd_s_pod4_repair_wd1",
             "4thmd_s_pod4_repair_ar1",
+            "4thmd_s_pod4_repair_eb_ar1",
+            "4thmd_s_pod4_repair_es_ar1",
             "4thmd_v_lt1_ca_wd1",
             "4thmd_v_lt1_ca_e_wd1",
             "4thmd_v_lt1_ca_eb_wd1",
@@ -188,34 +192,9 @@ class cfgMagazines
 
 class CfgEditorSubcategories
 {
-    class 4thmd_ar_containers
+    class 4thmd_containers
     {
-        displayName = "Taru Pods (Arid)";
-    };
-
-    class 4thmd_wd_containers
-    {
-        displayName = "Taru Pods (Woodland)";
-    };
-
-    class 4thmd_de_containers
-    {
-        displayName = "Taru Pods (Desert)";
-    };
-
-    class 4thmd_bl_containers
-    {
-        displayName = "Taru Pods (Boreal)";
-    };
-
-    class 4thmd_ac_containers
-    {
-        displayName = "Taru Pods (Artic)";
-    };
-
-    class 4thmd_ju_containers
-    {
-        displayName = "Taru Pods (Jungle)";
+        displayName = "Taru Pods";
     };
 
     class 4thmd_tankettes
@@ -528,6 +507,8 @@ class CfgVehicles
             };
         */
         };
+
+        ace_refuel_fuelCapacity = 1080;
     };
 
     class O_Heli_Transport_04_F;
@@ -639,8 +620,8 @@ class CfgVehicles
         scope = 2;
         scopeCurator = 2;
         faction = "4thmd_ar_faction";
-        editorCategory="4thmd_supplies";
-		editorSubcategory="4thmd_ar_containers";
+        editorCategory="4thmd_ar_supplies";
+		editorSubcategory="4thmd_containers";
         displayName = "Taru Bench Pod";
         hiddenSelectionsTextures[] = 
         {
@@ -672,8 +653,8 @@ class CfgVehicles
         scope = 2;
         scopeCurator = 2;
         faction = "4thmd_ar_faction";
-        editorCategory="4thmd_supplies";
-		editorSubcategory="4thmd_ar_containers";
+        editorCategory="4thmd_ar_supplies";
+		editorSubcategory="4thmd_containers";
         displayName = "Taru Transport Pod";
         hiddenSelectionsTextures[] = 
         {
@@ -707,8 +688,8 @@ class CfgVehicles
         scope = 2;
         scopeCurator = 2;
         faction = "4thmd_ar_faction";
-        editorCategory="4thmd_supplies";
-		editorSubcategory="4thmd_ar_containers";
+        editorCategory="4thmd_ar_supplies";
+		editorSubcategory="4thmd_containers";
         displayName = "Taru Cargo Pod";
         hiddenSelectionsTextures[] = 
         {
@@ -745,8 +726,8 @@ class CfgVehicles
         scope = 2;
         scopeCurator = 2;
         faction = "4thmd_ar_faction";
-        editorCategory="4thmd_supplies";
-		editorSubcategory="4thmd_ar_containers";
+        editorCategory="4thmd_ar_supplies";
+		editorSubcategory="4thmd_containers";
         displayName = "Taru Ammo Pod";
         hiddenSelectionsTextures[] = 
         {
@@ -782,8 +763,8 @@ class CfgVehicles
         scope = 2;
         scopeCurator = 2;
         faction = "4thmd_ar_faction";
-        editorCategory="4thmd_supplies";
-		editorSubcategory="4thmd_ar_containers";
+        editorCategory="4thmd_ar_supplies";
+		editorSubcategory="4thmd_containers";
         displayName = "Taru Fuel Pod";
         hiddenSelectionsTextures[] = 
         {
@@ -817,8 +798,8 @@ class CfgVehicles
         scope = 2;
         scopeCurator = 2;
         faction = "4thmd_ar_faction";
-        editorCategory="4thmd_supplies";
-		editorSubcategory="4thmd_ar_containers";
+        editorCategory="4thmd_ar_supplies";
+		editorSubcategory="4thmd_containers";
         displayName = "Taru Medevac Pod";
         hiddenSelectionsTextures[] = 
         {
@@ -846,15 +827,16 @@ class CfgVehicles
     class Land_Pod_Heli_Transport_04_repair_F;
     class 4thmd_s_pod4_repair_ar1 : Land_Pod_Heli_Transport_04_repair_F // ALPHA Texture
     {
+        scope = DEBUG;
+        scopeCurator = DEBUG;
+
         _generalMacro = "4thmd_s_pod4_repair_ar1";
         author = "Darknessvoid99";
         side = 3;
-        scope = 2;
-        scopeCurator = 2;
         faction = "4thmd_ar_faction";
-        editorCategory="4thmd_supplies";
-		editorSubcategory="4thmd_ar_containers";
-        displayName = "Taru Repair Pod";
+        editorCategory="4thmd_ar_supplies";
+		editorSubcategory="4thmd_containers";
+        displayName = "Taru Engineering Pod";
         hiddenSelectionsTextures[] = 
         {
             "darkmod_4thmd_veh\data\arid\dm_pod4_a_ar1.paa",
@@ -862,9 +844,10 @@ class CfgVehicles
         };
         textureList[] = {"Arid_4th",1,};
 
-        ace_cargo_space = 12;
-        ace_refuel_fuelCargo = 3000;
-        ace_rearm_defaultSupply = 4000;
+        ace_rearm_defaultSupply = 5000;
+        ace_cargo_space = 20;
+        ace_repair_spareWheels = 8;
+        ace_repair_spareTracks = 4;
 
         class TextureSources
         {
@@ -880,6 +863,23 @@ class CfgVehicles
                 };
             };
         };
+
+        class EventHandlers;
+    };
+
+    class 4thmd_s_pod4_repair_eb_ar1 : 4thmd_s_pod4_repair_ar1 // ALPHA Texture
+    {
+        scope = 2;
+        scopeCurator = 2;
+
+        displayName = "Taru Repair Pod";
+
+        ace_refuel_fuelCargo = 2400;
+    };
+
+    class 4thmd_s_pod4_repair_es_ar1 : 4thmd_s_pod4_repair_ar1 // ALPHA Texture
+    {
+        class EventHandlers;
     };
 
     class I_LT_01_cannon_F;
@@ -946,7 +946,7 @@ class CfgVehicles
         };
 
         class EventHandlers;
-        ace_refuel_fuelCapacity = 120;
+        ace_refuel_fuelCapacity = 150;
         //ace_cargo_space = 0;
     };
 
@@ -956,7 +956,7 @@ class CfgVehicles
         displayName = "AEV-2 Weasel II (Engineer)";
 
         ace_repair_canRepair = 1;
-        ace_rearm_defaultSupply = 3000;
+        ace_rearm_defaultSupply = 2000;
         ace_cargo_space = 8;
         ace_repair_spareWheels = 0;
         ace_repair_spareTracks = 4;
@@ -1045,7 +1045,6 @@ class CfgVehicles
             };
 		};
 
-        ace_refuel_fuelCapacity = 120;
         //ace_cargo_space = 0;
     };
 
@@ -1135,7 +1134,7 @@ class CfgVehicles
             };
         };
 
-        ace_refuel_fuelCapacity = 120;
+        ace_refuel_fuelCapacity = 150;
         //ace_cargo_space = 0;
     };
 
@@ -1203,7 +1202,7 @@ class CfgVehicles
             };
         };
 
-        ace_refuel_fuelCapacity = 120;
+        ace_refuel_fuelCapacity = 150;
         //ace_cargo_space = 0;
     };
 
@@ -1272,7 +1271,7 @@ class CfgVehicles
         };
 
         class HitPoints;
-        ace_refuel_fuelCapacity = 120;
+        ace_refuel_fuelCapacity = 150;
         //ace_cargo_space = 0;
     };
 
@@ -1416,7 +1415,7 @@ class CfgVehicles
             };
         };
 
-        ace_refuel_fuelCapacity = 400;
+        ace_refuel_fuelCapacity = 605;
     };
 
     class B_AFV_Wheeled_01_up_cannon_F;
@@ -1494,7 +1493,7 @@ class CfgVehicles
             };
         };
 
-        ace_refuel_fuelCapacity = 400;
+        ace_refuel_fuelCapacity = 605;
     };
 
     class I_APC_Wheeled_03_cannon_F;
@@ -1569,7 +1568,7 @@ class CfgVehicles
             };
         };
 
-        ace_refuel_fuelCapacity = 300;
+        ace_refuel_fuelCapacity = 550;
     };
 
     class 4thmd_v_apc3w_u_ar1 : 4thmd_v_apc3w_ar1
@@ -1732,9 +1731,9 @@ class CfgVehicles
         displayName = "WEV-9 Pandur II (Engineer)";
         
         ace_repair_canRepair = 1;
-        ace_rearm_defaultSupply = 4000;
+        ace_rearm_defaultSupply = 3500;
         ace_cargo_space = 12;
-        ace_repair_spareWheels = 8;
+        ace_repair_spareWheels = 6;
         ace_repair_spareTracks = 2;
 
         class EventHandlers : EventHandlers
@@ -1811,7 +1810,7 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "WPC-9 Pandur II (Engineer)";
-        ace_refuel_fuelCargo = 1200;
+        ace_refuel_fuelCargo = 1400;
         ace_refuel_hooks[] = {{-0.801,-0.920,-0.55},{1.536,-0.920,-0.55}};
     };
 
@@ -1875,7 +1874,9 @@ class CfgVehicles
         faction = "4thmd_ar_faction";
         editorSubcategory = "4thmd_armoredtrack";
         displayName = "TFV-2T Stalker";
+
         class EventHandlers;
+
         hiddenSelectionsTextures[] = 
         {
             "darkmod_4thmd_veh\data\arid\dm_apc2t_body_ar1.paa",
@@ -1885,7 +1886,6 @@ class CfgVehicles
             "darkmod_4thmd_veh\data\slat\dm_slat_ar1.paa"
         };
         textureList[] = {"Arid_4th",1,};
-
         class TextureSources
         {
             class Arid_4th
@@ -1933,8 +1933,8 @@ class CfgVehicles
                 };
             };
         };
-
-        ace_refuel_fuelCapacity = 450;
+        
+        ace_refuel_fuelCapacity = 810;
     };
 
     class 4thmd_v_apc2t_u_ar1 : 4thmd_v_apc2t_ar1
@@ -2093,7 +2093,7 @@ class CfgVehicles
         ace_repair_canRepair = 1;
         ace_rearm_defaultSupply = 4000;
         ace_cargo_space = 14;
-        ace_repair_spareWheels = 6;
+        ace_repair_spareWheels = 4;
         ace_repair_spareTracks = 4;
 
         hiddenSelectionsTextures[] = 
@@ -2165,7 +2165,7 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "TPC-2 Stalker (Engineer)";
-        ace_refuel_fuelCargo = 1600;
+        ace_refuel_fuelCargo = 1800;
         ace_refuel_hooks[] = {{-0.845,-0.980,-0.55},{0.845,-0.980,-0.55}};
     };
 
@@ -2361,7 +2361,7 @@ class CfgVehicles
             };
         };
 
-        ace_refuel_fuelCapacity = 450;
+        ace_refuel_fuelCapacity = 810;
     };
 
     class O_Heli_Attack_02_dynamicLoadout_F;
@@ -2864,7 +2864,7 @@ class CfgVehicles
         displayName = "Fuel Valve";
         editorSubcategory = "4thmd_attachment";
 
-        ace_refuel_fuelCargo = 600;
+        ace_refuel_fuelCargo = 700;
         ace_cargo_canLoad = 0;
         ace_dragging_canCarry = 0;
         ace_dragging_canDrag = 0;
@@ -2872,12 +2872,17 @@ class CfgVehicles
 
     class 4thmd_s_ft1_apc2t_ar1 : 4thmd_s_ft1_apc3w_ar1
     {
-        ace_refuel_fuelCargo = 800;
+        ace_refuel_fuelCargo = 900;
     };
 
     class 4thmd_s_ft1_lt1_ar1 : 4thmd_s_ft1_apc3w_ar1
     {
         displayName = "External Fuel Tank";
         ace_refuel_fuelCargo = 450;
+    };
+
+    class 4thmd_s_ft1_pod1r_ar1 : 4thmd_s_ft1_apc3w_ar1
+    {
+        ace_refuel_fuelCargo = 600;
     };
 };

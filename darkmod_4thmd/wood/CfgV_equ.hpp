@@ -10,10 +10,104 @@
             class 4thmd_b_pac4_rmn_ar0_r;
             class 4thmd_b_lsb1_rmn_ar0;
             class 4thmd_b_lsb1_rmn_ar0_r;
+            class 4thmd_b_pac5_alp_ar0;
 
 */
 
 /*  //units[] =
+            "4thmd_u_unif1_wd0_f",
+            "4thmd_u_unif1_wd0_a_f",
+            "4thmd_u_unif1_wd0_s_f",
+            "4thmd_u_unif1_wd0_z_f",
+            "4thmd_u_unif1_wd0_p_f",
+            "4thmd_u_unif1_wd1_a_f",
+            "4thmd_u_unif1_wd1_s_f",
+            "4thmd_u_unif1_wd1_z_f",
+            "4thmd_u_unif1_wd1_p_f",
+            "4thmd_u_unif1_wd2_a_f",
+            "4thmd_u_unif1_wd2_s_f",
+            "4thmd_u_unif1_wd2_z_f",
+            "4thmd_u_unif1_wd2_p_f",
+            "4thmd_u_unif1_wd3_a_f",
+            "4thmd_u_unif1_wd3_s_f",
+            "4thmd_u_unif1_wd3_z_f",
+            "4thmd_u_unif1_wd3_p_f",
+            "4thmd_u_unif1_wd0_to_f",
+            "4thmd_u_unif1_wd1_to_f",
+            "4thmd_u_unif1_wd2_to_f",
+            "4thmd_u_unif1_wd3_to_f",
+            "4thmd_u_unif1_ru_wd0_f",
+            "4thmd_u_unif1_ru_wd0_a_f",
+            "4thmd_u_unif1_ru_wd0_s_f",
+            "4thmd_u_unif1_ru_wd0_z_f",
+            "4thmd_u_unif1_ru_wd0_p_f",
+            "4thmd_u_unif1_ru_wd1_a_f",
+            "4thmd_u_unif1_ru_wd1_s_f",
+            "4thmd_u_unif1_ru_wd1_z_f",
+            "4thmd_u_unif1_ru_wd1_p_f",
+            "4thmd_u_unif1_ru_wd2_a_f",
+            "4thmd_u_unif1_ru_wd2_s_f",
+            "4thmd_u_unif1_ru_wd2_z_f",
+            "4thmd_u_unif1_ru_wd2_p_f",
+            "4thmd_u_unif1_ru_wd3_a_f",
+            "4thmd_u_unif1_ru_wd3_s_f",
+            "4thmd_u_unif1_ru_wd3_z_f",
+            "4thmd_u_unif1_ru_wd3_p_f",
+            "4thmd_u_unif1_tt_wd1_f",
+            "4thmd_u_unif1_tt_wd0_a_f",
+            "4thmd_u_unif1_tt_wd0_s_f",
+            "4thmd_u_unif1_tt_wd0_z_f",
+            "4thmd_u_unif1_tt_wd0_p_f",
+            "4thmd_u_unif1_tt_wd1_a_f",
+            "4thmd_u_unif1_tt_wd1_s_f",
+            "4thmd_u_unif1_tt_wd1_z_f",
+            "4thmd_u_unif1_tt_wd1_p_f",
+            "4thmd_u_unif1_tt_wd2_a_f",
+            "4thmd_u_unif1_tt_wd2_s_f",
+            "4thmd_u_unif1_tt_wd2_z_f",
+            "4thmd_u_unif1_tt_wd2_p_f",
+            "4thmd_u_unif1_tt_wd3_a_f",
+            "4thmd_u_unif1_tt_wd3_s_f",
+            "4thmd_u_unif1_tt_wd3_z_f",
+            "4thmd_u_unif1_tt_wd3_p_f",
+            "4thmd_u_unif1_sw_wd1_f",
+            "4thmd_u_unif1_sw_wd0_a_f",
+            "4thmd_u_unif1_sw_wd0_s_f",
+            "4thmd_u_unif1_sw_wd0_z_f",
+            "4thmd_u_unif1_sw_wd0_p_f",
+            "4thmd_u_unif1_sw_wd1_a_f",
+            "4thmd_u_unif1_sw_wd1_s_f",
+            "4thmd_u_unif1_sw_wd1_z_f",
+            "4thmd_u_unif1_sw_wd1_p_f",
+            "4thmd_u_unif1_sw_wd2_a_f",
+            "4thmd_u_unif1_sw_wd2_s_f",
+            "4thmd_u_unif1_sw_wd2_z_f",
+            "4thmd_u_unif1_sw_wd2_p_f",
+            "4thmd_u_unif1_sw_wd3_a_f",
+            "4thmd_u_unif1_sw_wd3_s_f",
+            "4thmd_u_unif1_sw_wd3_z_f",
+            "4thmd_u_unif1_sw_wd3_p_f",
+            "4thmd_u_unif1_gh_wd0_f",
+            "4thmd_u_unif1_gh_wd0_a_f",
+            "4thmd_u_unif1_gh_wd0_s_f",
+            "4thmd_u_unif1_gh_wd0_z_f",
+            "4thmd_u_unif1_gh_wd0_p_f",
+            "4thmd_u_unif1_gh_wd1_a_f",
+            "4thmd_u_unif1_gh_wd1_s_f",
+            "4thmd_u_unif1_gh_wd1_z_f",
+            "4thmd_u_unif1_gh_wd1_p_f",
+            "4thmd_u_unif1_gh_wd2_a_f",
+            "4thmd_u_unif1_gh_wd2_s_f",
+            "4thmd_u_unif1_gh_wd2_z_f",
+            "4thmd_u_unif1_gh_wd2_p_f",
+            "4thmd_u_unif1_gh_wd3_a_f",
+            "4thmd_u_unif1_gh_wd3_s_f",
+            "4thmd_u_unif1_gh_wd3_z_f",
+            "4thmd_u_unif1_gh_wd3_p_f",
+            "4thmd_u_ghil1_wd1_f",
+            "4thmd_u_ghil1_wd1_a_f",
+            "4thmd_u_ghil1_wd1_b_f",
+            "4thmd_u_ghil1_wd1_c_f",
             "4thmd_u_unif1_wd0_f",
             "4thmd_u_unif1_wd0_a_f",
             "4thmd_u_unif1_wd0_s_f",
@@ -119,6 +213,10 @@
             "4thmd_b_pac1_eos_wd1",
             "4thmd_b_pac1_eos_wd2",
             "4thmd_b_pac1_eos_wd3",
+            "4thmd_b_pac1_ese_wd0",
+            "4thmd_b_pac1_ese_wd1",
+            "4thmd_b_pac1_ese_wd2",
+            "4thmd_b_pac1_ese_wd3",
             "4thmd_b_pac1_rmn_wd0_r",
             "4thmd_b_pac1_rmn_wd1_r",
             "4thmd_b_pac1_rmn_wd2_r",
@@ -135,6 +233,10 @@
             "4thmd_b_pac1_eos_wd1_r",
             "4thmd_b_pac1_eos_wd2_r",
             "4thmd_b_pac1_eos_wd3_r",
+            "4thmd_b_pac1_ese_wd0_r",
+            "4thmd_b_pac1_ese_wd1_r",
+            "4thmd_b_pac1_ese_wd2_r",
+            "4thmd_b_pac1_ese_wd3_r",
             "4thmd_b_pac2_rmn_wd0",
             "4thmd_b_pac2_rmn_wd1",
             "4thmd_b_pac2_rmn_wd2",
@@ -151,6 +253,10 @@
             "4thmd_b_pac2_eos_wd1",
             "4thmd_b_pac2_eos_wd2",
             "4thmd_b_pac2_eos_wd3",
+            "4thmd_b_pac2_ese_wd0",
+            "4thmd_b_pac2_ese_wd1",
+            "4thmd_b_pac2_ese_wd2",
+            "4thmd_b_pac2_ese_wd3",
             "4thmd_b_pac2_rmn_wd0_r",
             "4thmd_b_pac2_rmn_wd1_r",
             "4thmd_b_pac2_rmn_wd2_r",
@@ -167,6 +273,10 @@
             "4thmd_b_pac2_eos_wd1_r",
             "4thmd_b_pac2_eos_wd2_r",
             "4thmd_b_pac2_eos_wd3_r",
+            "4thmd_b_pac2_ese_wd0_r",
+            "4thmd_b_pac2_ese_wd1_r",
+            "4thmd_b_pac2_ese_wd2_r",
+            "4thmd_b_pac2_ese_wd3_r",
             "4thmd_b_pac3_rmn_wd0",
             "4thmd_b_pac3_rmn_wd1",
             "4thmd_b_pac3_rmn_wd2",
@@ -183,6 +293,10 @@
             "4thmd_b_pac3_eos_wd1",
             "4thmd_b_pac3_eos_wd2",
             "4thmd_b_pac3_eos_wd3",
+            "4thmd_b_pac3_ese_wd0",
+            "4thmd_b_pac3_ese_wd1",
+            "4thmd_b_pac3_ese_wd2",
+            "4thmd_b_pac3_ese_wd3",
             "4thmd_b_pac3_rmn_wd0_r",
             "4thmd_b_pac3_rmn_wd1_r",
             "4thmd_b_pac3_rmn_wd2_r",
@@ -199,6 +313,10 @@
             "4thmd_b_pac3_eos_wd1_r",
             "4thmd_b_pac3_eos_wd2_r",
             "4thmd_b_pac3_eos_wd3_r",
+            "4thmd_b_pac3_ese_wd0_r",
+            "4thmd_b_pac3_ese_wd1_r",
+            "4thmd_b_pac3_ese_wd2_r",
+            "4thmd_b_pac3_ese_wd3_r",
             "4thmd_b_pac4_rmn_wd0",
             "4thmd_b_pac4_rmn_wd1",
             "4thmd_b_pac4_rmn_wd2",
@@ -215,6 +333,10 @@
             "4thmd_b_pac4_eos_wd1",
             "4thmd_b_pac4_eos_wd2",
             "4thmd_b_pac4_eos_wd3",
+            "4thmd_b_pac4_ese_wd0",
+            "4thmd_b_pac4_ese_wd1",
+            "4thmd_b_pac4_ese_wd2",
+            "4thmd_b_pac4_ese_wd3",
             "4thmd_b_pac4_rmn_wd0_r",
             "4thmd_b_pac4_rmn_wd1_r",
             "4thmd_b_pac4_rmn_wd2_r",
@@ -231,6 +353,10 @@
             "4thmd_b_pac4_eos_wd1_r",
             "4thmd_b_pac4_eos_wd2_r",
             "4thmd_b_pac4_eos_wd3_r",
+            "4thmd_b_pac4_ese_wd0_r",
+            "4thmd_b_pac4_ese_wd1_r",
+            "4thmd_b_pac4_ese_wd2_r",
+            "4thmd_b_pac4_ese_wd3_r",
             "4thmd_b_lsb1_rmn_wd0",
             "4thmd_b_lsb1_rmn_wd1",
             "4thmd_b_lsb1_rmn_wd2",
@@ -239,6 +365,22 @@
             "4thmd_b_lsb1_rmn_wd1_r",
             "4thmd_b_lsb1_rmn_wd2_r",
             "4thmd_b_lsb1_rmn_wd3_r",
+            "4thmd_b_pac5_alp_wd0",
+            "4thmd_b_pac5_alp_wd1",
+            "4thmd_b_pac5_alp_wd2",
+            "4thmd_b_pac5_alp_wd3",
+            "4thmd_b_pac5_sab_wd0",
+            "4thmd_b_pac5_sab_wd1",
+            "4thmd_b_pac5_sab_wd2",
+            "4thmd_b_pac5_sab_wd3",
+            "4thmd_b_pac5_zul_wd0",
+            "4thmd_b_pac5_zul_wd1",
+            "4thmd_b_pac5_zul_wd2",
+            "4thmd_b_pac5_zul_wd3",
+            "4thmd_b_pac5_phx_wd0",
+            "4thmd_b_pac5_phx_wd1",
+            "4thmd_b_pac5_phx_wd2",
+            "4thmd_b_pac5_phx_wd3",
 */
     
     //Massif Uniform (unif1)
@@ -415,6 +557,46 @@
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\wood\unif1_wd3_p.paa"
+                };
+            };
+
+            class 4thmd_u_unif1_wd0_to_f : 4thmd_u_unif1_wd0_f
+            {
+                displayName = "[ARMCO] TO Woodland Standard";
+                uniformClass = "4thmd_u_unif1_wd0_to";
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\unif1_wd0_to.paa"
+                };
+            };
+
+            class 4thmd_u_unif1_wd1_to_f : 4thmd_u_unif1_wd0_f
+            {
+                displayName = "[ARMCO] TO Woodland Solid";
+                uniformClass = "4thmd_u_unif1_wd1_to";
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\unif1_wd1_to.paa"
+                };
+            };
+
+            class 4thmd_u_unif1_wd2_to_f : 4thmd_u_unif1_wd0_f
+            {
+                displayName = "[ARMCO] TO Woodland Digicam";
+                uniformClass = "4thmd_u_unif1_wd2_to";
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\unif1_wd2_to.paa"
+                };
+            };
+
+            class 4thmd_u_unif1_wd3_to_f : 4thmd_u_unif1_wd0_f
+            {
+                displayName = "[ARMCO] TO Woodland Wildcam";
+                uniformClass = "4thmd_u_unif1_wd3_to";
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\unif1_wd3_to.paa"
                 };
             };
 
@@ -1220,6 +1402,7 @@
 
             class 4thmd_b_pac1_rmn_wd1 : 4thmd_b_pac1_rmn_wd0
             {
+                displayName = "[ARMCO] Assault Pack (WD-S1)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1230,6 +1413,7 @@
 
             class 4thmd_b_pac1_rmn_wd2 : 4thmd_b_pac1_rmn_wd0
             {
+                displayName = "[ARMCO] Assault Pack (WD-S2)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1240,6 +1424,7 @@
 
             class 4thmd_b_pac1_rmn_wd3 : 4thmd_b_pac1_rmn_wd0
             {
+                displayName = "[ARMCO] Assault Pack (WD-S3)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1250,6 +1435,7 @@
 
             class 4thmd_b_pac1_med_wd0 : 4thmd_b_pac1_rmn_wd0
             {
+                displayName = "[ARMCO] Assault Pack (Woodland/MED)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1260,6 +1446,7 @@
 
             class 4thmd_b_pac1_med_wd1 : 4thmd_b_pac1_med_wd0
             {
+                displayName = "[ARMCO] Assault Pack (WD-S1/MED)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1270,6 +1457,7 @@
 
             class 4thmd_b_pac1_med_wd2 : 4thmd_b_pac1_med_wd0
             {
+                displayName = "[ARMCO] Assault Pack (WD-S2/MED)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1280,6 +1468,7 @@
 
             class 4thmd_b_pac1_med_wd3 : 4thmd_b_pac1_med_wd0
             {
+                displayName = "[ARMCO] Assault Pack (WD-S3/MED)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1290,6 +1479,7 @@
 
             class 4thmd_b_pac1_eng_wd0 : 4thmd_b_pac1_rmn_wd0
             {
+                displayName = "[ARMCO] Assault Pack (Woodland/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1300,6 +1490,7 @@
 
             class 4thmd_b_pac1_eng_wd1 : 4thmd_b_pac1_eng_wd0
             {
+                displayName = "[ARMCO] Assault Pack (WD-S1/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1310,6 +1501,7 @@
 
             class 4thmd_b_pac1_eng_wd2 : 4thmd_b_pac1_eng_wd0
             {
+                displayName = "[ARMCO] Assault Pack (WD-S2/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1320,6 +1512,7 @@
 
             class 4thmd_b_pac1_eng_wd3 : 4thmd_b_pac1_eng_wd0
             {
+                displayName = "[ARMCO] Assault Pack (WD-S3/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1330,7 +1523,8 @@
 
             class 4thmd_b_pac1_eos_wd0 : 4thmd_b_pac1_rmn_wd0
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Assault Pack (Woodland/EOS)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1340,7 +1534,8 @@
 
             class 4thmd_b_pac1_eos_wd1 : 4thmd_b_pac1_eos_wd0
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Assault Pack (WD-S1/EOS)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1350,7 +1545,8 @@
 
             class 4thmd_b_pac1_eos_wd2 : 4thmd_b_pac1_eos_wd0
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Assault Pack (WD-S2/EOS)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1360,18 +1556,64 @@
 
             class 4thmd_b_pac1_eos_wd3 : 4thmd_b_pac1_eos_wd0
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Assault Pack (WD-S3/EOS)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\wood\pac1_s_wd3.paa"
                 };
             };
+
+            class 4thmd_b_pac1_ese_wd0 : 4thmd_b_pac1_rmn_wd0
+            {
+                displayName = "[ARMCO] Assault Pack (Woodland/ESE)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac1_x_wd0.paa"
+                };
+            };
+
+            class 4thmd_b_pac1_ese_wd1 : 4thmd_b_pac1_rmn_wd0
+            {
+                displayName = "[ARMCO] Assault Pack (WD-S1/ESE)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac1_x_wd1.paa"
+                };
+            };
+
+            class 4thmd_b_pac1_ese_wd2 : 4thmd_b_pac1_rmn_wd0
+            {
+                displayName = "[ARMCO] Assault Pack (WD-S2/ESE)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac1_x_wd2.paa"
+                };
+            };
+
+            class 4thmd_b_pac1_ese_wd3 : 4thmd_b_pac1_rmn_wd0
+            {
+                displayName = "[ARMCO] Assault Pack (WD-S3/ESE)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac1_x_wd3.paa"
+                };
+            };
+
         //Radio
             class 4thmd_b_pac1_rmn_wd0_r : 4thmd_b_pac1_rmn_ar0_r
             {
-                displayName = "[ARMCO] Assault Pack (Woodland)";
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (Woodland) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1381,7 +1623,8 @@
 
             class 4thmd_b_pac1_rmn_wd1_r : 4thmd_b_pac1_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (WD-S1) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1391,7 +1634,8 @@
 
             class 4thmd_b_pac1_rmn_wd2_r : 4thmd_b_pac1_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (WD-S2) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1401,7 +1645,8 @@
 
             class 4thmd_b_pac1_rmn_wd3_r : 4thmd_b_pac1_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (WD-S3) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1411,7 +1656,8 @@
 
             class 4thmd_b_pac1_med_wd0_r : 4thmd_b_pac1_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (Woodland/MED) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1421,7 +1667,8 @@
 
             class 4thmd_b_pac1_med_wd1_r : 4thmd_b_pac1_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (WD-S1/MED) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1431,7 +1678,8 @@
 
             class 4thmd_b_pac1_med_wd2_r : 4thmd_b_pac1_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (WD-S2/MED) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1441,7 +1689,8 @@
 
             class 4thmd_b_pac1_med_wd3_r : 4thmd_b_pac1_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (WD-S3/MED) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1451,7 +1700,8 @@
 
             class 4thmd_b_pac1_eng_wd0_r : 4thmd_b_pac1_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (Woodland/ENG) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1461,7 +1711,8 @@
 
             class 4thmd_b_pac1_eng_wd1_r : 4thmd_b_pac1_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (WD-S1/ENG) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1471,7 +1722,8 @@
 
             class 4thmd_b_pac1_eng_wd2_r : 4thmd_b_pac1_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (WD-S2/ENG) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1481,7 +1733,8 @@
 
             class 4thmd_b_pac1_eng_wd3_r : 4thmd_b_pac1_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (WD-S3/ENG) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1491,7 +1744,8 @@
 
             class 4thmd_b_pac1_eos_wd0_r : 4thmd_b_pac1_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (Woodland/EOS) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1501,7 +1755,8 @@
 
             class 4thmd_b_pac1_eos_wd1_r : 4thmd_b_pac1_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (WD-S1/EOS) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1511,7 +1766,8 @@
 
             class 4thmd_b_pac1_eos_wd2_r : 4thmd_b_pac1_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (WD-S2/EOS) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1521,7 +1777,8 @@
 
             class 4thmd_b_pac1_eos_wd3_r : 4thmd_b_pac1_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Assault Pack (WD-S3/EOS) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1529,10 +1786,55 @@
                 };
             };
 
+            class 4thmd_b_pac1_ese_wd0_r : 4thmd_b_pac1_rmn_wd0_r
+            {
+                displayName = "[ARMCO] Assault Pack (Woodland/ESE) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac1_x_wd0.paa"
+                };
+            };
+
+            class 4thmd_b_pac1_ese_wd1_r : 4thmd_b_pac1_rmn_wd0_r
+            {
+                displayName = "[ARMCO] Assault Pack (WD-S1/ESE) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac1_x_wd1.paa"
+                };
+            };
+
+            class 4thmd_b_pac1_ese_wd2_r : 4thmd_b_pac1_rmn_wd0_r
+            {
+                displayName = "[ARMCO] Assault Pack (WD-S2/ESE) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac1_x_wd2.paa"
+                };
+            };
+
+            class 4thmd_b_pac1_ese_wd3_r : 4thmd_b_pac1_rmn_wd0_r
+            {
+                displayName = "[ARMCO] Assault Pack (WD-S3/ESE) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac1_x_wd3.paa"
+                };
+            };
+
     //Field Pack Backpack (pac2)
         //Standard
             class 4thmd_b_pac2_rmn_wd0 : 4thmd_b_pac2_rmn_ar0
             {
+                author = "Darknesvoid99";
                 displayName = "[ARMCO] Field Pack (Woodland)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Standard Issue";
 
@@ -1544,6 +1846,7 @@
 
             class 4thmd_b_pac2_rmn_wd1 : 4thmd_b_pac2_rmn_wd0
             {
+                displayName = "[ARMCO] Field Pack (WD-S1)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1554,6 +1857,7 @@
 
             class 4thmd_b_pac2_rmn_wd2 : 4thmd_b_pac2_rmn_wd0
             {
+                displayName = "[ARMCO] Field Pack (WD-S2)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1564,6 +1868,7 @@
 
             class 4thmd_b_pac2_rmn_wd3 : 4thmd_b_pac2_rmn_wd0
             {
+                displayName = "[ARMCO] Field Pack (WD-S3)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1574,6 +1879,7 @@
 
             class 4thmd_b_pac2_med_wd0 : 4thmd_b_pac2_rmn_wd0
             {
+                displayName = "[ARMCO] Field Pack (Woodland/MED)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1584,6 +1890,7 @@
 
             class 4thmd_b_pac2_med_wd1 : 4thmd_b_pac2_med_wd0
             {
+                displayName = "[ARMCO] Field Pack (WD-S1/MED)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1594,6 +1901,7 @@
 
             class 4thmd_b_pac2_med_wd2 : 4thmd_b_pac2_med_wd0
             {
+                displayName = "[ARMCO] Field Pack (WD-S2/MED)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1604,6 +1912,7 @@
 
             class 4thmd_b_pac2_med_wd3 : 4thmd_b_pac2_med_wd0
             {
+                displayName = "[ARMCO] Field Pack (WD-S3/MED)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1614,6 +1923,7 @@
 
             class 4thmd_b_pac2_eng_wd0 : 4thmd_b_pac2_rmn_wd0
             {
+                displayName = "[ARMCO] Field Pack (Woodland/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1624,6 +1934,7 @@
 
             class 4thmd_b_pac2_eng_wd1 : 4thmd_b_pac2_eng_wd0
             {
+                displayName = "[ARMCO] Field Pack (WD-S1/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1634,6 +1945,7 @@
 
             class 4thmd_b_pac2_eng_wd2 : 4thmd_b_pac2_eng_wd0
             {
+                displayName = "[ARMCO] Field Pack (WD-S2/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1644,6 +1956,7 @@
 
             class 4thmd_b_pac2_eng_wd3 : 4thmd_b_pac2_eng_wd0
             {
+                displayName = "[ARMCO] Field Pack (WD-S3/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1654,7 +1967,8 @@
 
             class 4thmd_b_pac2_eos_wd0 : 4thmd_b_pac2_rmn_wd0
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Field Pack (Woodland/EOS)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1664,7 +1978,8 @@
 
             class 4thmd_b_pac2_eos_wd1 : 4thmd_b_pac2_eos_wd0
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Field Pack (WD-S1/EOS)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1674,7 +1989,8 @@
 
             class 4thmd_b_pac2_eos_wd2 : 4thmd_b_pac2_eos_wd0
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Field Pack (WD-S2/EOS)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1684,18 +2000,64 @@
 
             class 4thmd_b_pac2_eos_wd3 : 4thmd_b_pac2_eos_wd0
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Field Pack (WD-S3/EOS)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\wood\pac2_s_wd3.paa"
                 };
             };
+
+            class 4thmd_b_pac2_ese_wd0 : 4thmd_b_pac2_rmn_wd0
+            {
+                displayName = "[ARMCO] Field Pack (Woodland/ESE)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac2_x_wd0.paa"
+                };
+            };
+
+            class 4thmd_b_pac2_ese_wd1 : 4thmd_b_pac2_rmn_wd0
+            {
+                displayName = "[ARMCO] Field Pack (WD-S1/ESE)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac2_x_wd1.paa"
+                };
+            };
+
+            class 4thmd_b_pac2_ese_wd2 : 4thmd_b_pac2_rmn_wd0
+            {
+                displayName = "[ARMCO] Field Pack (WD-S2/ESE)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac2_x_wd2.paa"
+                };
+            };
+
+            class 4thmd_b_pac2_ese_wd3 : 4thmd_b_pac2_rmn_wd0
+            {
+                displayName = "[ARMCO] Field Pack (WD-S3/ESE)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac2_x_wd3.paa"
+                };
+            };
+
         //Radio
             class 4thmd_b_pac2_rmn_wd0_r : 4thmd_b_pac2_rmn_ar0_r
             {
-                displayName = "[ARMCO] Field Pack (Woodland)";
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (Woodland) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1705,7 +2067,8 @@
 
             class 4thmd_b_pac2_rmn_wd1_r : 4thmd_b_pac2_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (WD-S1) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1715,7 +2078,8 @@
 
             class 4thmd_b_pac2_rmn_wd2_r : 4thmd_b_pac2_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (WD-S2) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1725,7 +2089,8 @@
 
             class 4thmd_b_pac2_rmn_wd3_r : 4thmd_b_pac2_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (WD-S3) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1735,7 +2100,8 @@
 
             class 4thmd_b_pac2_med_wd0_r : 4thmd_b_pac2_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (Woodland/MED) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1745,7 +2111,8 @@
 
             class 4thmd_b_pac2_med_wd1_r : 4thmd_b_pac2_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (WD-S1/MED) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1755,7 +2122,8 @@
 
             class 4thmd_b_pac2_med_wd2_r : 4thmd_b_pac2_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (WD-S2/MED) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1765,7 +2133,8 @@
 
             class 4thmd_b_pac2_med_wd3_r : 4thmd_b_pac2_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (WD-S3/MED) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1775,7 +2144,8 @@
 
             class 4thmd_b_pac2_eng_wd0_r : 4thmd_b_pac2_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (Woodland/ENG) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1785,7 +2155,8 @@
 
             class 4thmd_b_pac2_eng_wd1_r : 4thmd_b_pac2_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (WD-S1/ENG) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1795,7 +2166,8 @@
 
             class 4thmd_b_pac2_eng_wd2_r : 4thmd_b_pac2_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (WD-S2/ENG) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1805,7 +2177,8 @@
 
             class 4thmd_b_pac2_eng_wd3_r : 4thmd_b_pac2_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (WD-S3/ENG) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1815,7 +2188,8 @@
 
             class 4thmd_b_pac2_eos_wd0_r : 4thmd_b_pac2_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (Woodland/EOS) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1825,7 +2199,8 @@
 
             class 4thmd_b_pac2_eos_wd1_r : 4thmd_b_pac2_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (WD-S1/EOS) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1835,7 +2210,8 @@
 
             class 4thmd_b_pac2_eos_wd2_r : 4thmd_b_pac2_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (WD-S2/EOS) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1845,11 +2221,56 @@
 
             class 4thmd_b_pac2_eos_wd3_r : 4thmd_b_pac2_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Field Pack (WD-S3/EOS) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\wood\pac2_s_wd3.paa"
+                };
+            };
+
+            class 4thmd_b_pac2_ese_wd0_r : 4thmd_b_pac2_rmn_wd0_r
+            {
+                displayName = "[ARMCO] Field Pack (Woodland/ESE) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac2_x_wd0.paa"
+                };
+            };
+
+            class 4thmd_b_pac2_ese_wd1_r : 4thmd_b_pac2_rmn_wd0_r
+            {
+                displayName = "[ARMCO] Field Pack (WD-S1/ESE) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac2_x_wd1.paa"
+                };
+            };
+
+            class 4thmd_b_pac2_ese_wd2_r : 4thmd_b_pac2_rmn_wd0_r
+            {
+                displayName = "[ARMCO] Field Pack (WD-S2/ESE) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac2_x_wd2.paa"
+                };
+            };
+
+            class 4thmd_b_pac2_ese_wd3_r : 4thmd_b_pac2_rmn_wd0_r
+            {
+                displayName = "[ARMCO] Field Pack (WD-S3/ESE) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac2_x_wd3.paa"
                 };
             };
 
@@ -1868,6 +2289,7 @@
 
             class 4thmd_b_pac3_rmn_wd1 : 4thmd_b_pac3_rmn_wd0
             {
+                displayName = "[ARMCO] Kitbag (WD-S1)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1878,6 +2300,7 @@
 
             class 4thmd_b_pac3_rmn_wd2 : 4thmd_b_pac3_rmn_wd0
             {
+                displayName = "[ARMCO] Kitbag (WD-S2)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1888,6 +2311,7 @@
 
             class 4thmd_b_pac3_rmn_wd3 : 4thmd_b_pac3_rmn_wd0
             {
+                displayName = "[ARMCO] Kitbag (WD-S3)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1898,6 +2322,7 @@
 
             class 4thmd_b_pac3_med_wd0 : 4thmd_b_pac3_rmn_wd0
             {
+                displayName = "[ARMCO] Kitbag (Woodland/MED)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1908,6 +2333,7 @@
 
             class 4thmd_b_pac3_med_wd1 : 4thmd_b_pac3_med_wd0
             {
+                displayName = "[ARMCO] Kitbag (WD-S1/MED)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1918,6 +2344,7 @@
 
             class 4thmd_b_pac3_med_wd2 : 4thmd_b_pac3_med_wd0
             {
+                displayName = "[ARMCO] Kitbag (WD-S2/MED)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1928,6 +2355,7 @@
 
             class 4thmd_b_pac3_med_wd3 : 4thmd_b_pac3_med_wd0
             {
+                displayName = "[ARMCO] Kitbag (WD-S3/MED)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1938,6 +2366,7 @@
 
             class 4thmd_b_pac3_eng_wd0 : 4thmd_b_pac3_rmn_wd0
             {
+                displayName = "[ARMCO] Kitbag (Woodland/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1948,6 +2377,7 @@
 
             class 4thmd_b_pac3_eng_wd1 : 4thmd_b_pac3_eng_wd0
             {
+                displayName = "[ARMCO] Kitbag (WD-S1/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1958,6 +2388,7 @@
 
             class 4thmd_b_pac3_eng_wd2 : 4thmd_b_pac3_eng_wd0
             {
+                displayName = "[ARMCO] Kitbag (WD-S2/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1968,6 +2399,7 @@
 
             class 4thmd_b_pac3_eng_wd3 : 4thmd_b_pac3_eng_wd0
             {
+                displayName = "[ARMCO] Kitbag (WD-S3/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -1978,7 +2410,8 @@
 
             class 4thmd_b_pac3_eos_wd0 : 4thmd_b_pac3_rmn_wd0
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Kitbag (Woodland/EOS)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1988,7 +2421,8 @@
 
             class 4thmd_b_pac3_eos_wd1 : 4thmd_b_pac3_eos_wd0
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Kitbag (WD-S1/EOS)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -1998,7 +2432,8 @@
 
             class 4thmd_b_pac3_eos_wd2 : 4thmd_b_pac3_eos_wd0
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Kitbag (WD-S2/EOS)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2008,18 +2443,64 @@
 
             class 4thmd_b_pac3_eos_wd3 : 4thmd_b_pac3_eos_wd0
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Kitbag (WD-S3/EOS)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\wood\pac3_s_wd3.paa"
                 };
             };
+
+            class 4thmd_b_pac3_ese_wd0 : 4thmd_b_pac3_rmn_wd0
+            {
+                displayName = "[ARMCO] Kitbag (Woodland/ESE)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac3_x_wd0.paa"
+                };
+            };
+
+            class 4thmd_b_pac3_ese_wd1 : 4thmd_b_pac3_rmn_wd0
+            {
+                displayName = "[ARMCO] Kitbag (WD-S1/ESE)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac3_x_wd1.paa"
+                };
+            };
+
+            class 4thmd_b_pac3_ese_wd2 : 4thmd_b_pac3_rmn_wd0
+            {
+                displayName = "[ARMCO] Kitbag (WD-S2/ESE)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac3_x_wd2.paa"
+                };
+            };
+
+            class 4thmd_b_pac3_ese_wd3 : 4thmd_b_pac3_rmn_wd0
+            {
+                displayName = "[ARMCO] Kitbag (WD-S3/ESE)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac3_x_wd3.paa"
+                };
+            };
+
         //Radio
             class 4thmd_b_pac3_rmn_wd0_r : 4thmd_b_pac3_rmn_ar0_r
             {
-                displayName = "[ARMCO] Kitbag (Woodland)";
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (Woodland) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2029,7 +2510,8 @@
 
             class 4thmd_b_pac3_rmn_wd1_r : 4thmd_b_pac3_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (WD-S1) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2039,7 +2521,8 @@
 
             class 4thmd_b_pac3_rmn_wd2_r : 4thmd_b_pac3_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (WD-S2) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2049,7 +2532,8 @@
 
             class 4thmd_b_pac3_rmn_wd3_r : 4thmd_b_pac3_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (WD-S3) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2059,7 +2543,8 @@
 
             class 4thmd_b_pac3_med_wd0_r : 4thmd_b_pac3_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (Woodland/MED) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2069,7 +2554,8 @@
 
             class 4thmd_b_pac3_med_wd1_r : 4thmd_b_pac3_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (WD-S1/MED) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2079,7 +2565,8 @@
 
             class 4thmd_b_pac3_med_wd2_r : 4thmd_b_pac3_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (WD-S2/MED) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2089,7 +2576,8 @@
 
             class 4thmd_b_pac3_med_wd3_r : 4thmd_b_pac3_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (WD-S3/MED) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2099,7 +2587,8 @@
 
             class 4thmd_b_pac3_eng_wd0_r : 4thmd_b_pac3_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (Woodland/ENG) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2109,7 +2598,8 @@
 
             class 4thmd_b_pac3_eng_wd1_r : 4thmd_b_pac3_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (WD-S1/ENG) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2119,7 +2609,8 @@
 
             class 4thmd_b_pac3_eng_wd2_r : 4thmd_b_pac3_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (WD-S2/ENG) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2129,7 +2620,8 @@
 
             class 4thmd_b_pac3_eng_wd3_r : 4thmd_b_pac3_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (WD-S3/ENG) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2139,7 +2631,8 @@
 
             class 4thmd_b_pac3_eos_wd0_r : 4thmd_b_pac3_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (Woodland/EOS) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2149,7 +2642,8 @@
 
             class 4thmd_b_pac3_eos_wd1_r : 4thmd_b_pac3_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (WD-S1/EOS) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2159,7 +2653,8 @@
 
             class 4thmd_b_pac3_eos_wd2_r : 4thmd_b_pac3_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (WD-S2/EOS) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2169,11 +2664,56 @@
 
             class 4thmd_b_pac3_eos_wd3_r : 4thmd_b_pac3_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Kitbag (WD-S3/EOS) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\wood\pac3_s_wd3.paa"
+                };
+            };
+
+            class 4thmd_b_pac3_ese_wd0_r : 4thmd_b_pac3_rmn_wd0_r
+            {
+                displayName = "[ARMCO] Kitbag (Woodland/ESE) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac3_x_wd0.paa"
+                };
+            };
+
+            class 4thmd_b_pac3_ese_wd1_r : 4thmd_b_pac3_rmn_wd0_r
+            {
+                displayName = "[ARMCO] Kitbag (WD-S1/ESE) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac3_x_wd1.paa"
+                };
+            };
+
+            class 4thmd_b_pac3_ese_wd2_r : 4thmd_b_pac3_rmn_wd0_r
+            {
+                displayName = "[ARMCO] Kitbag (WD-S2/ESE) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac3_x_wd2.paa"
+                };
+            };
+
+            class 4thmd_b_pac3_ese_wd3_r : 4thmd_b_pac3_rmn_wd0_r
+            {
+                displayName = "[ARMCO] Kitbag (WD-S3/ESE) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac3_x_wd3.paa"
                 };
             };
 
@@ -2192,6 +2732,7 @@
 
             class 4thmd_b_pac4_rmn_wd1 : 4thmd_b_pac4_rmn_wd0
             {
+                displayName = "[ARMCO] Carry-All (WD-S1)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -2202,6 +2743,7 @@
 
             class 4thmd_b_pac4_rmn_wd2 : 4thmd_b_pac4_rmn_wd0
             {
+                displayName = "[ARMCO] Carry-All (WD-S2)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -2212,6 +2754,7 @@
 
             class 4thmd_b_pac4_rmn_wd3 : 4thmd_b_pac4_rmn_wd0
             {
+                displayName = "[ARMCO] Carry-All (WD-S3)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -2222,6 +2765,7 @@
 
             class 4thmd_b_pac4_med_wd0 : 4thmd_b_pac4_rmn_wd0
             {
+                displayName = "[ARMCO] Carry-All (Woodland/MED)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -2232,6 +2776,7 @@
 
             class 4thmd_b_pac4_med_wd1 : 4thmd_b_pac4_med_wd0
             {
+                displayName = "[ARMCO] Carry-All (WD-S1/MED)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -2242,6 +2787,7 @@
 
             class 4thmd_b_pac4_med_wd2 : 4thmd_b_pac4_med_wd0
             {
+                displayName = "[ARMCO] Carry-All (WD-S2/MED)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -2252,6 +2798,7 @@
 
             class 4thmd_b_pac4_med_wd3 : 4thmd_b_pac4_med_wd0
             {
+                displayName = "[ARMCO] Carry-All (WD-S3/MED)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -2262,6 +2809,7 @@
 
             class 4thmd_b_pac4_eng_wd0 : 4thmd_b_pac4_rmn_wd0
             {
+                displayName = "[ARMCO] Carry-All (Woodland/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -2272,6 +2820,7 @@
 
             class 4thmd_b_pac4_eng_wd1 : 4thmd_b_pac4_eng_wd0
             {
+                displayName = "[ARMCO] Carry-All (WD-S1/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -2282,6 +2831,7 @@
 
             class 4thmd_b_pac4_eng_wd2 : 4thmd_b_pac4_eng_wd0
             {
+                displayName = "[ARMCO] Carry-All (WD-S2/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -2292,6 +2842,7 @@
 
             class 4thmd_b_pac4_eng_wd3 : 4thmd_b_pac4_eng_wd0
             {
+                displayName = "[ARMCO] Carry-All (WD-S3/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue";
 
                 hiddenSelectionsTextures[] = 
@@ -2302,7 +2853,8 @@
 
             class 4thmd_b_pac4_eos_wd0 : 4thmd_b_pac4_rmn_wd0
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Carry-All (Woodland/EOS)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2312,7 +2864,8 @@
 
             class 4thmd_b_pac4_eos_wd1 : 4thmd_b_pac4_eos_wd0
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Carry-All (WD-S1/EOS)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2322,7 +2875,8 @@
 
             class 4thmd_b_pac4_eos_wd2 : 4thmd_b_pac4_eos_wd0
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Carry-All (WD-S2/EOS)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2332,18 +2886,64 @@
 
             class 4thmd_b_pac4_eos_wd3 : 4thmd_b_pac4_eos_wd0
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Issue";
+                displayName = "[ARMCO] Carry-All (WD-S3/EOS)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Issue";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\wood\pac4_s_wd3.paa"
                 };
             };
+
+            class 4thmd_b_pac4_ese_wd0 : 4thmd_b_pac4_rmn_wd0
+            {
+                displayName = "[ARMCO] Carry-All (Woodland/ESE)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac4_x_wd0.paa"
+                };
+            };
+
+            class 4thmd_b_pac4_ese_wd1 : 4thmd_b_pac4_rmn_wd0
+            {
+                displayName = "[ARMCO] Carry-All (WD-S1/ESE)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac4_x_wd1.paa"
+                };
+            };
+
+            class 4thmd_b_pac4_ese_wd2 : 4thmd_b_pac4_rmn_wd0
+            {
+                displayName = "[ARMCO] Carry-All (WD-S2/ESE)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac4_x_wd2.paa"
+                };
+            };
+
+            class 4thmd_b_pac4_ese_wd3 : 4thmd_b_pac4_rmn_wd0
+            {
+                displayName = "[ARMCO] Carry-All (WD-S3/ESE)";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Issue";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac4_x_wd3.paa"
+                };
+            };
+
         //Radio
             class 4thmd_b_pac4_rmn_wd0_r : 4thmd_b_pac4_rmn_ar0_r
             {
-                displayName = "[ARMCO] Carry-All (Woodland)";
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (Woodland) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2353,7 +2953,8 @@
 
             class 4thmd_b_pac4_rmn_wd1_r : 4thmd_b_pac4_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (WD-S1) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2363,7 +2964,8 @@
 
             class 4thmd_b_pac4_rmn_wd2_r : 4thmd_b_pac4_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (WD-S2) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2373,7 +2975,8 @@
 
             class 4thmd_b_pac4_rmn_wd3_r : 4thmd_b_pac4_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (WD-S3) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2383,7 +2986,8 @@
 
             class 4thmd_b_pac4_med_wd0_r : 4thmd_b_pac4_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (Woodland/MED) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2393,7 +2997,8 @@
 
             class 4thmd_b_pac4_med_wd1_r : 4thmd_b_pac4_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (WD-S1/MED) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2403,7 +3008,8 @@
 
             class 4thmd_b_pac4_med_wd2_r : 4thmd_b_pac4_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (WD-S2/MED) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2413,7 +3019,8 @@
 
             class 4thmd_b_pac4_med_wd3_r : 4thmd_b_pac4_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (WD-S3/MED) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Medical Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2423,7 +3030,8 @@
 
             class 4thmd_b_pac4_eng_wd0_r : 4thmd_b_pac4_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (Woodland/ENG) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2433,7 +3041,8 @@
 
             class 4thmd_b_pac4_eng_wd1_r : 4thmd_b_pac4_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (WD-S1/ENG) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2443,7 +3052,8 @@
 
             class 4thmd_b_pac4_eng_wd2_r : 4thmd_b_pac4_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (WD-S2/ENG) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2453,7 +3063,8 @@
 
             class 4thmd_b_pac4_eng_wd3_r : 4thmd_b_pac4_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (WD-S3/ENG) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2463,7 +3074,8 @@
 
             class 4thmd_b_pac4_eos_wd0_r : 4thmd_b_pac4_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (Woodland/EOS) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2473,7 +3085,8 @@
 
             class 4thmd_b_pac4_eos_wd1_r : 4thmd_b_pac4_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (WD-S1/EOS) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2483,7 +3096,8 @@
 
             class 4thmd_b_pac4_eos_wd2_r : 4thmd_b_pac4_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (WD-S2/EOS) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2493,11 +3107,56 @@
 
             class 4thmd_b_pac4_eos_wd3_r : 4thmd_b_pac4_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Spec. Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Carry-All (WD-S3/EOS) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Specialist Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\wood\pac4_s_wd3.paa"
+                };
+            };
+
+            class 4thmd_b_pac4_ese_wd0_r : 4thmd_b_pac4_rmn_wd0_r
+            {
+                displayName = "[ARMCO] Carry-All (Woodland/ESE) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac4_x_wd0.paa"
+                };
+            };
+
+            class 4thmd_b_pac4_ese_wd1_r : 4thmd_b_pac4_rmn_wd0_r
+            {
+                displayName = "[ARMCO] Carry-All (WD-S1/ESE) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac4_x_wd1.paa"
+                };
+            };
+
+            class 4thmd_b_pac4_ese_wd2_r : 4thmd_b_pac4_rmn_wd0_r
+            {
+                displayName = "[ARMCO] Carry-All (WD-S2/ESE) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac4_x_wd2.paa"
+                };
+            };
+
+            class 4thmd_b_pac4_ese_wd3_r : 4thmd_b_pac4_rmn_wd0_r
+            {
+                displayName = "[ARMCO] Carry-All (WD-S3/ESE) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\pac4_x_wd3.paa"
                 };
             };
 
@@ -2547,8 +3206,8 @@
         //Radio
             class 4thmd_b_lsb1_rmn_wd0_r : 4thmd_b_lsb1_rmn_ar0_r
             {
-                displayName = "[ARMCO] Leg Strap Bag (Woodland)";
-                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                displayName = "[ARMCO] Leg Strap Bag (Woodland) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2558,7 +3217,7 @@
 
             class 4thmd_b_lsb1_rmn_wd1_r : 4thmd_b_lsb1_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2568,7 +3227,7 @@
 
             class 4thmd_b_lsb1_rmn_wd2_r : 4thmd_b_lsb1_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -2578,10 +3237,171 @@
 
             class 4thmd_b_lsb1_rmn_wd3_r : 4thmd_b_lsb1_rmn_wd0_r
             {
-                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue + AN/PRC-152 Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\wood\lsb1_wd3.paa"
                 };
             };
+
+    //(Bergen) LRRP-Carrier Pack (pac5)
+        class 4thmd_b_pac5_alp_wd0 : 4thmd_b_pac5_alp_ar0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (Woodland/ALPHA)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\wood\pac5_a_wd0.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_alp_wd1 : 4thmd_b_pac5_alp_wd0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (WD-S1/ALPHA)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\wood\pac5_a_wd1.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_alp_wd2 : 4thmd_b_pac5_alp_wd0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (WD-S2/ALPHA)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\wood\pac5_a_wd2.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_alp_wd3 : 4thmd_b_pac5_alp_wd0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (WD-S3/ALPHA)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\wood\pac5_a_wd3.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_sab_wd0 : 4thmd_b_pac5_alp_wd0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (Woodland/SABRE)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\wood\pac5_s_wd0.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_sab_wd1 : 4thmd_b_pac5_alp_wd0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (WD-S1/SABRE)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\wood\pac5_s_wd1.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_sab_wd2 : 4thmd_b_pac5_alp_wd0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (WD-S2/SABRE)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\wood\pac5_s_wd2.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_sab_wd3 : 4thmd_b_pac5_alp_wd0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (WD-S3/SABRE)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\wood\pac5_s_wd3.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_zul_wd0 : 4thmd_b_pac5_alp_wd0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (Woodland/ZULU)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\wood\pac5_z_wd0.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_zul_wd1 : 4thmd_b_pac5_alp_wd0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (WD-S1/ZULU)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\wood\pac5_z_wd1.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_zul_wd2 : 4thmd_b_pac5_alp_wd0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (WD-S2/ZULU)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\wood\pac5_z_wd2.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_zul_wd3 : 4thmd_b_pac5_alp_wd0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (WD-S3/ZULU)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\wood\pac5_z_wd3.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_phx_wd0 : 4thmd_b_pac5_alp_wd0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (Woodland/PHX)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\wood\pac5_p_wd0.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_phx_wd1 : 4thmd_b_pac5_alp_wd0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (WD-S1/PHX)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\wood\pac5_p_wd1.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_phx_wd2 : 4thmd_b_pac5_alp_wd0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (WD-S2/PHX)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\wood\pac5_p_wd2.paa"
+            };
+        };
+
+        class 4thmd_b_pac5_phx_wd3 : 4thmd_b_pac5_alp_wd0
+        {
+            displayName = "[ARMCO] LRRP-Carrier (WD-S3/PHX)";
+
+            hiddenSelectionsTextures[] = 
+            {
+                "darkmod_4thmd\data\wood\pac5_p_wd3.paa"
+            };
+        };

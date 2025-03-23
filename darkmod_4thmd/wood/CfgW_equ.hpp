@@ -38,6 +38,10 @@
             "4thmd_u_unif1_wd3_s",
             "4thmd_u_unif1_wd3_z",
             "4thmd_u_unif1_wd3_p",
+            "4thmd_u_unif1_wd0_to",
+            "4thmd_u_unif1_wd1_to",
+            "4thmd_u_unif1_wd2_to",
+            "4thmd_u_unif1_wd3_to",
             "4thmd_u_unif1_ru_wd0",
             "4thmd_u_unif1_ru_wd0_a",
             "4thmd_u_unif1_ru_wd0_s",
@@ -350,6 +354,46 @@
                 class ItemInfo : ItemInfo
                 {
                     uniformClass = "4thmd_u_unif1_wd3_p_f";
+                };
+            };
+
+            class 4thmd_u_unif1_wd0_to : 4thmd_u_unif1_wd0
+            {
+                descriptionShort = "Arid APAT4-AR Pattern<br/>Training Officer Uniform";
+
+                class ItemInfo : ItemInfo
+                {
+                    uniformClass = "4thmd_u_unif1_wd0_to_f";
+                };
+            };
+
+            class 4thmd_u_unif1_wd1_to : 4thmd_u_unif1_wd0
+            {
+                descriptionShort = "Arid SOLID-AR Pattern<br/>Training Officer Uniform";
+
+                class ItemInfo : ItemInfo
+                {
+                    uniformClass = "4thmd_u_unif1_wd1_to_f";
+                };
+            };
+
+            class 4thmd_u_unif1_wd2_to : 4thmd_u_unif1_wd0
+            {
+                descriptionShort = "Arid DCAM5-AR Pattern<br/>Training Officer Uniform";
+
+                class ItemInfo : ItemInfo
+                {
+                    uniformClass = "4thmd_u_unif1_wd2_to_f";
+                };
+            };
+
+            class 4thmd_u_unif1_wd3_to : 4thmd_u_unif1_wd0
+            {
+                descriptionShort = "Arid WCM3B-AR Pattern<br/>Training Officer Uniform";
+
+                class ItemInfo : ItemInfo
+                {
+                    uniformClass = "4thmd_u_unif1_wd3_to_f";
                 };
             };
 

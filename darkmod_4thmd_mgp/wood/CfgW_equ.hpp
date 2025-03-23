@@ -101,6 +101,10 @@
             "4thmd_v_mgv1_eos_wd1",
             "4thmd_v_mgv1_eos_wd2",
             "4thmd_v_mgv1_eos_wd3",
+            "4thmd_v_mgv1_ese_wd0",
+            "4thmd_v_mgv1_ese_wd1",
+            "4thmd_v_mgv1_ese_wd2",
+            "4thmd_v_mgv1_ese_wd3",
             "4thmd_v_mgv1_ldr_wd0",
             "4thmd_v_mgv1_ldr_wd1",
             "4thmd_v_mgv1_ldr_wd2",
@@ -137,6 +141,10 @@
             "4thmd_v_mgv1_eos_wd1_b",
             "4thmd_v_mgv1_eos_wd2_b",
             "4thmd_v_mgv1_eos_wd3_b",
+            "4thmd_v_mgv1_ese_wd0_b",
+            "4thmd_v_mgv1_ese_wd1_b",
+            "4thmd_v_mgv1_ese_wd2_b",
+            "4thmd_v_mgv1_ese_wd3_b",
             "4thmd_v_mgv1_ldr_wd0_b",
             "4thmd_v_mgv1_ldr_wd1_b",
             "4thmd_v_mgv1_ldr_wd2_b",
@@ -169,6 +177,10 @@
             "4thmd_v_mgv2_eos_wd1",
             "4thmd_v_mgv2_eos_wd2",
             "4thmd_v_mgv2_eos_wd3",
+            "4thmd_v_mgv2_ese_wd0",
+            "4thmd_v_mgv2_ese_wd1",
+            "4thmd_v_mgv2_ese_wd2",
+            "4thmd_v_mgv2_ese_wd3",
             "4thmd_v_mgv2_ldr_wd0",
             "4thmd_v_mgv2_ldr_wd1",
             "4thmd_v_mgv2_ldr_wd2",
@@ -205,6 +217,10 @@
             "4thmd_v_mgv2_eos_wd1_b",
             "4thmd_v_mgv2_eos_wd2_b",
             "4thmd_v_mgv2_eos_wd3_b",
+            "4thmd_v_mgv2_ese_wd0_b",
+            "4thmd_v_mgv2_ese_wd1_b",
+            "4thmd_v_mgv2_ese_wd2_b",
+            "4thmd_v_mgv2_ese_wd3_b",
             "4thmd_v_mgv2_ldr_wd0_b",
             "4thmd_v_mgv2_ldr_wd1_b",
             "4thmd_v_mgv2_ldr_wd2_b",
@@ -237,6 +253,10 @@
             "4thmd_v_mgv3_eos_wd1",
             "4thmd_v_mgv3_eos_wd2",
             "4thmd_v_mgv3_eos_wd3",
+            "4thmd_v_mgv3_ese_wd0",
+            "4thmd_v_mgv3_ese_wd1",
+            "4thmd_v_mgv3_ese_wd2",
+            "4thmd_v_mgv3_ese_wd3",
             "4thmd_v_mgv3_ldr_wd0",
             "4thmd_v_mgv3_ldr_wd1",
             "4thmd_v_mgv3_ldr_wd2",
@@ -273,6 +293,10 @@
             "4thmd_v_mgv3_eos_wd1_b",
             "4thmd_v_mgv3_eos_wd2_b",
             "4thmd_v_mgv3_eos_wd3_b",
+            "4thmd_v_mgv3_ese_wd0_b",
+            "4thmd_v_mgv3_ese_wd1_b",
+            "4thmd_v_mgv3_ese_wd2_b",
+            "4thmd_v_mgv3_ese_wd3_b",
             "4thmd_v_mgv3_ldr_wd0_b",
             "4thmd_v_mgv3_ldr_wd1_b",
             "4thmd_v_mgv3_ldr_wd2_b",
@@ -441,6 +465,38 @@
             "4thmd_h_mgbc_f_c_wd1_g",
             "4thmd_h_mgbc_f_c_wd2_g",
             "4thmd_h_mgbc_f_c_wd3_g",
+            "4thmd_h_mgh1_a_wd0_to",
+            "4thmd_h_mgh1_a_wd1_to",
+            "4thmd_h_mgh1_a_wd2_to",
+            "4thmd_h_mgh1_a_wd3_to",
+            "4thmd_h_mgh1_a_wd0_to_g",
+            "4thmd_h_mgh1_a_wd1_to_g",
+            "4thmd_h_mgh1_a_wd2_to_g",
+            "4thmd_h_mgh1_a_wd3_to_g",
+            "4thmd_h_mgh2_a_wd0_to",
+            "4thmd_h_mgh2_a_wd1_to",
+            "4thmd_h_mgh2_a_wd2_to",
+            "4thmd_h_mgh2_a_wd3_to",
+            "4thmd_h_mgh2_a_wd0_to_g",
+            "4thmd_h_mgh2_a_wd1_to_g",
+            "4thmd_h_mgh2_a_wd2_to_g",
+            "4thmd_h_mgh2_a_wd3_to_g",
+            "4thmd_h_mgbc_b_b_wd0_to",
+            "4thmd_h_mgbc_b_b_wd1_to",
+            "4thmd_h_mgbc_b_b_wd2_to",
+            "4thmd_h_mgbc_b_b_wd3_to",
+            "4thmd_h_mgbc_b_b_wd0_to_g",
+            "4thmd_h_mgbc_b_b_wd1_to_g",
+            "4thmd_h_mgbc_b_b_wd2_to_g",
+            "4thmd_h_mgbc_b_b_wd3_to_g",
+            "4thmd_h_mgbc_f_b_wd0_to",
+            "4thmd_h_mgbc_f_b_wd1_to",
+            "4thmd_h_mgbc_f_b_wd2_to",
+            "4thmd_h_mgbc_f_b_wd3_to",
+            "4thmd_h_mgbc_f_b_wd0_to_g",
+            "4thmd_h_mgbc_f_b_wd1_to_g",
+            "4thmd_h_mgbc_f_b_wd2_to_g",
+            "4thmd_h_mgbc_f_b_wd3_to_g",
 */
 
     //JPC Vests (mgv1)
@@ -454,7 +510,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -466,7 +522,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -478,7 +534,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -490,7 +546,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -503,7 +559,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -515,7 +571,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -527,7 +583,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -539,7 +595,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -551,7 +607,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -563,7 +619,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -575,7 +631,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -587,7 +643,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -599,7 +655,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -611,7 +667,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -623,7 +679,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -635,7 +691,55 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv1_ese_wd0 : 4thmd_v_mgv1_med_wd0
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Explosive Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv1_wd0.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_e_wd0.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv1_ese_wd1 : 4thmd_v_mgv1_ese_wd0
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Explosive Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv1_wd1.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_e_wd1.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv1_ese_wd2 : 4thmd_v_mgv1_ese_wd0
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Explosive Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv1_wd2.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_e_wd2.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv1_ese_wd3 : 4thmd_v_mgv1_ese_wd0
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Explosive Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv1_wd3.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_e_wd3.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -648,7 +752,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -660,7 +764,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -672,7 +776,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -684,7 +788,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -697,7 +801,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -709,7 +813,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -721,7 +825,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -733,7 +837,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -746,7 +850,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -758,7 +862,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -770,7 +874,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -782,7 +886,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -795,7 +899,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -807,7 +911,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -819,7 +923,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -831,7 +935,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -891,7 +995,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -904,7 +1008,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -917,7 +1021,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -930,7 +1034,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -944,7 +1048,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -957,7 +1061,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -970,7 +1074,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -983,7 +1087,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -996,7 +1100,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1009,7 +1113,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1022,7 +1126,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1035,7 +1139,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1048,7 +1152,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1061,7 +1165,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1074,7 +1178,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1087,7 +1191,59 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv1_ese_wd0_b : 4thmd_v_mgv1_med_wd0_b
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>E.O.S. Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv1_wd0.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_e_wd0.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv1_ese_wd1_b : 4thmd_v_mgv1_ese_wd0_b
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>E.O.S. Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv1_wd1.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_e_wd1.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv1_ese_wd2_b : 4thmd_v_mgv1_ese_wd0_b
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>E.O.S. Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv1_wd2.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_e_wd2.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv1_ese_wd3_b : 4thmd_v_mgv1_ese_wd0_b
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>E.O.S. Engineer Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv1_wd3.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_e_wd3.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1101,7 +1257,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1114,7 +1270,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1127,7 +1283,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1140,7 +1296,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1154,7 +1310,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1167,7 +1323,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1180,7 +1336,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1193,7 +1349,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1207,7 +1363,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1220,7 +1376,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1233,7 +1389,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1246,7 +1402,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1260,7 +1416,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1273,7 +1429,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1286,7 +1442,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1299,7 +1455,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv1_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
     //MarCiras Vests (mgv2)
@@ -1313,7 +1469,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1325,7 +1481,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1337,7 +1493,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1349,7 +1505,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1362,7 +1518,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1374,7 +1530,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1386,7 +1542,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1398,7 +1554,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1410,7 +1566,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1422,7 +1578,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1434,7 +1590,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1446,7 +1602,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1458,7 +1614,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1470,7 +1626,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1482,7 +1638,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1494,7 +1650,55 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv2_ese_wd0 : 4thmd_v_mgv2_med_wd0
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>E.O.S. / Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv2_wd0.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_e_wd0.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv2_ese_wd1 : 4thmd_v_mgv2_ese_wd0
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>E.O.S. / Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv2_wd1.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_e_wd1.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv2_ese_wd2 : 4thmd_v_mgv2_ese_wd0
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>E.O.S. / Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv2_wd2.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_e_wd2.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv2_ese_wd3 : 4thmd_v_mgv2_ese_wd0
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>E.O.S. / Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv2_wd3.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_e_wd3.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1507,7 +1711,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1519,7 +1723,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1531,7 +1735,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1543,7 +1747,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1556,7 +1760,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1568,7 +1772,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1580,7 +1784,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1592,7 +1796,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1605,7 +1809,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1617,7 +1821,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1629,7 +1833,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1641,7 +1845,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1654,7 +1858,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1666,7 +1870,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1678,7 +1882,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1690,7 +1894,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1750,7 +1954,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1763,7 +1967,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1776,7 +1980,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1789,7 +1993,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1803,7 +2007,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1816,7 +2020,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1829,7 +2033,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1842,7 +2046,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1855,7 +2059,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1868,7 +2072,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1881,7 +2085,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1894,7 +2098,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1907,7 +2111,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1920,7 +2124,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1933,7 +2137,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1946,7 +2150,59 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv2_ese_wd0_b : 4thmd_v_mgv2_med_wd0_b
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>E.S.E. Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv2_wd0.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_e_wd0.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv2_ese_wd1_b : 4thmd_v_mgv2_ese_wd0_b
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>E.S.E. Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv2_wd1.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_e_wd1.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv2_ese_wd2_b : 4thmd_v_mgv2_ese_wd0_b
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>E.S.E. Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv2_wd2.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_e_wd2.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv2_ese_wd3_b : 4thmd_v_mgv2_ese_wd0_b
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>E.S.E. Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv2_wd3.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_e_wd3.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1960,7 +2216,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1973,7 +2229,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1986,7 +2242,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -1999,7 +2255,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2013,7 +2269,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2026,7 +2282,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2039,7 +2295,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2052,7 +2308,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2066,7 +2322,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2079,7 +2335,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2092,7 +2348,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2105,7 +2361,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2119,7 +2375,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2132,7 +2388,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2145,7 +2401,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2158,7 +2414,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv2_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2173,7 +2429,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2185,7 +2441,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2197,7 +2453,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2209,7 +2465,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2222,7 +2478,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2234,7 +2490,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2246,7 +2502,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2258,19 +2514,19 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
-            class 4thmd_v_mgv3_eng_wd0 : 4thmd_v_mgv3_med_wd0
+            class 4thmd_v_mgv3_eng_wd0 : 4thmd_v_mgv3_mkn_ar0
             {
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Kit";
 
                 hiddenSelectionsTextures[] = 
                 {
-                    "darkmod_4thmd_mgp\data\wood\mgv3_wd0.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgv3_e_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2280,9 +2536,9 @@
 
                 hiddenSelectionsTextures[] = 
                 {
-                    "darkmod_4thmd_mgp\data\wood\mgv3_wd1.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgv3_e_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2292,9 +2548,9 @@
 
                 hiddenSelectionsTextures[] = 
                 {
-                    "darkmod_4thmd_mgp\data\wood\mgv3_wd2.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgv3_e_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2304,9 +2560,9 @@
 
                 hiddenSelectionsTextures[] = 
                 {
-                    "darkmod_4thmd_mgp\data\wood\mgv3_wd3.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgv3_e_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2318,7 +2574,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2330,7 +2586,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2342,7 +2598,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2354,7 +2610,55 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_ese_wd0 : 4thmd_v_mgv3_med_wd0
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>E.O.S. / Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv3_e_wd0.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_ese_wd1 : 4thmd_v_mgv3_ese_wd0
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>E.O.S. / Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv3_e_wd1.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_ese_wd2 : 4thmd_v_mgv3_ese_wd0
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>E.O.S. / Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv3_e_wd2.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_ese_wd3 : 4thmd_v_mgv3_ese_wd0
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>E.O.S. / Engineer Kit";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv3_e_wd3.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2367,7 +2671,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2379,7 +2683,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2391,7 +2695,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2403,7 +2707,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2416,7 +2720,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2428,7 +2732,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2440,7 +2744,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2452,7 +2756,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2465,7 +2769,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2477,7 +2781,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2489,7 +2793,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2501,7 +2805,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2514,7 +2818,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2526,7 +2830,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2538,7 +2842,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2550,7 +2854,7 @@
                 {
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2610,7 +2914,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2623,7 +2927,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2636,7 +2940,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2649,7 +2953,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2663,7 +2967,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2676,7 +2980,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2689,7 +2993,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2702,20 +3006,20 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_m_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
-            class 4thmd_v_mgv3_eng_wd0_b : 4thmd_v_mgv3_med_wd0_b
+            class 4thmd_v_mgv3_eng_wd0_b : 4thmd_v_mgv3_mkn_ar0_b
             {
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Kit + Battle Belt";
 
                 hiddenSelectionsTextures[] = 
                 {
-                    "darkmod_4thmd_mgp\data\wood\mgv3_wd0.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgv3_e_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2725,10 +3029,10 @@
 
                 hiddenSelectionsTextures[] = 
                 {
-                    "darkmod_4thmd_mgp\data\wood\mgv3_wd1.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgv3_e_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2738,10 +3042,10 @@
 
                 hiddenSelectionsTextures[] = 
                 {
-                    "darkmod_4thmd_mgp\data\wood\mgv3_wd2.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgv3_e_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2751,10 +3055,10 @@
 
                 hiddenSelectionsTextures[] = 
                 {
-                    "darkmod_4thmd_mgp\data\wood\mgv3_wd3.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgv3_e_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_e_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2767,7 +3071,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2780,7 +3084,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2793,7 +3097,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2806,7 +3110,59 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_ese_wd0_b : 4thmd_v_mgv3_med_wd0_b
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>E.S.E. Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv3_e_wd0.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_ese_wd1_b : 4thmd_v_mgv3_ese_wd0_b
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>E.S.E. Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv3_e_wd1.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_ese_wd2_b : 4thmd_v_mgv3_ese_wd0_b
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>E.S.E. Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv3_e_wd2.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
+                };
+            };
+
+            class 4thmd_v_mgv3_ese_wd3_b : 4thmd_v_mgv3_ese_wd0_b
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>E.S.E. Kit + Battle Belt";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd_mgp\data\wood\mgv3_e_wd3.paa",
+                    "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
+                    "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2820,7 +3176,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2833,7 +3189,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2846,7 +3202,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2859,7 +3215,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2873,7 +3229,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2886,7 +3242,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2899,7 +3255,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2912,7 +3268,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2926,7 +3282,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2939,7 +3295,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2952,7 +3308,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2965,7 +3321,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2979,7 +3335,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -2992,7 +3348,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3005,7 +3361,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
 
@@ -3018,7 +3374,7 @@
                     "darkmod_4thmd_mgp\data\wood\mgv3_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                     "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                    "milgp_vests\textures\v_gear_02_co.paa"
+                    "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
                 };
             };
     //Battle Belt (mgbb)
@@ -3031,7 +3387,7 @@
             {
                 "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                 "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                "milgp_vests\textures\v_gear_02_co.paa"
+                "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
             };
         };
 
@@ -3043,7 +3399,7 @@
             {
                 "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                 "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                "milgp_vests\textures\v_gear_02_co.paa"
+                "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
             };
         };
 
@@ -3055,7 +3411,7 @@
             {
                 "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                 "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                "milgp_vests\textures\v_gear_02_co.paa"
+                "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
             };
         };
 
@@ -3067,7 +3423,7 @@
             {
                 "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                 "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                "milgp_vests\textures\v_gear_02_co.paa"
+                "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
             };
         };
         
@@ -3080,7 +3436,7 @@
             {
                 "darkmod_4thmd_mgp\data\wood\mgbb_wd0.paa",
                 "darkmod_4thmd_mgp\data\wood\mvg1_b_wd0.paa",
-                "milgp_vests\textures\v_gear_02_co.paa"
+                "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
             };
         };
 
@@ -3092,7 +3448,7 @@
             {
                 "darkmod_4thmd_mgp\data\wood\mgbb_wd1.paa",
                 "darkmod_4thmd_mgp\data\wood\mvg1_b_wd1.paa",
-                "milgp_vests\textures\v_gear_02_co.paa"
+                "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
             };
         };
 
@@ -3104,7 +3460,7 @@
             {
                 "darkmod_4thmd_mgp\data\wood\mgbb_wd2.paa",
                 "darkmod_4thmd_mgp\data\wood\mvg1_b_wd2.paa",
-                "milgp_vests\textures\v_gear_02_co.paa"
+                "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
             };
         };
 
@@ -3116,7 +3472,7 @@
             {
                 "darkmod_4thmd_mgp\data\wood\mgbb_wd3.paa",
                 "darkmod_4thmd_mgp\data\wood\mvg1_b_wd3.paa",
-                "milgp_vests\textures\v_gear_02_co.paa"
+                "darkmod_4thmd_mgp\data\mvg2_b_blk.paa"
             };
         };
 
@@ -4800,3 +5156,385 @@
                         "darkmod_4thmd_mgp\data\wood\mhg1_wd3.paa"
                     };
                 };
+
+    //Training Officer Gear
+        //Opscore Helmet (mgh1)
+            //Standard
+                class 4thmd_h_mgh1_a_wd0_to : 4thmd_h_mgh1_a_wd0
+                {
+                    displayName = "[ARMCO] Opscore Helmet (TO/WD)";
+                    descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>No Attachments";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\wood\mgh1_wd0.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh1_a_wd1_to : 4thmd_h_mgh1_a_wd0_to
+                {
+                    descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>No Attachments";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\wood\mgh1_wd1.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh1_a_wd2_to : 4thmd_h_mgh1_a_wd0_to
+                {
+                    descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>No Attachments";
+                    
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\wood\mgh1_wd2.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh1_a_wd3_to : 4thmd_h_mgh1_a_wd0_to
+                {
+                    descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>No Attachments";
+                    
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\wood\mgh1_wd3.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+            //Goggles
+                class 4thmd_h_mgh1_a_wd0_to_g : 4thmd_h_mgh1_a_wd0_g
+                {
+                    displayName = "[ARMCO] Opscore Helmet (TO/WD)";
+                    descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>No Attachments";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\wood\mgh1_wd0.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh1_a_wd1_to_g : 4thmd_h_mgh1_a_wd0_to_g
+                {
+                    descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>No Attachments + ESS";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\wood\mgh1_wd1.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh1_a_wd2_to_g : 4thmd_h_mgh1_a_wd0_to_g
+                {
+                    descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>No Attachments + ESS";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\wood\mgh1_wd2.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh1_a_wd3_to_g : 4thmd_h_mgh1_a_wd0_to_g
+                {
+                    descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>No Attachments + ESS";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\wood\mgh1_wd3.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+        //Airframe Helmet (mgh2)
+            //Standard
+                class 4thmd_h_mgh2_a_wd0_to : 4thmd_h_mgh2_a_wd0
+                {
+                    displayName = "[ARMCO] Airframe Helmet (TO/WD)";
+                    descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>No Attachments";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\wood\mgh2_wd0.paa",
+                        "darkmod_4thmd_mgp\data\wood\mgh1_wd0.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh2_a_wd1_to : 4thmd_h_mgh2_a_wd0_to
+                {
+                    descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>No Attachments";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\wood\mgh2_wd1.paa",
+                        "darkmod_4thmd_mgp\data\wood\mgh1_wd1.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh2_a_wd2_to : 4thmd_h_mgh2_a_wd0_to
+                {
+                    descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>No Attachments";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\wood\mgh2_wd2.paa",
+                        "darkmod_4thmd_mgp\data\wood\mgh1_wd2.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh2_a_wd3_to : 4thmd_h_mgh2_a_wd0_to
+                {
+                    descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>No Attachments";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\wood\mgh2_wd3.paa",
+                        "darkmod_4thmd_mgp\data\wood\mgh1_wd3.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+            //Goggles
+                class 4thmd_h_mgh2_a_wd0_to_g : 4thmd_h_mgh2_a_wd0_g
+                {
+                    displayName = "[ARMCO] Airframe Helmet (TO/WD)";
+                    descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>No Attachments + ESS";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\wood\mgh2_wd0.paa",
+                        "darkmod_4thmd_mgp\data\wood\mgh1_wd0.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh2_a_wd1_to_g : 4thmd_h_mgh2_a_wd0_to_g
+                {
+                    descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>No Attachments + ESS";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\wood\mgh2_wd1.paa",
+                        "darkmod_4thmd_mgp\data\wood\mgh1_wd1.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh2_a_wd2_to_g : 4thmd_h_mgh2_a_wd0_to_g
+                {
+                    descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>No Attachments + ESS";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\wood\mgh2_wd2.paa",
+                        "darkmod_4thmd_mgp\data\wood\mgh1_wd2.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+                class 4thmd_h_mgh2_a_wd3_to_g : 4thmd_h_mgh2_a_wd0_to_g
+                {
+                    descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>No Attachments + ESS";
+
+                    hiddenSelectionsTextures[] = 
+                    {
+                        "darkmod_4thmd_mgp\data\wood\mgh2_wd3.paa",
+                        "darkmod_4thmd_mgp\data\wood\mgh1_wd3.paa",
+                        "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                    };
+                };
+
+        //Advanced Cap (mgbc)
+            //Backwards Cap
+                //Standard
+                    class 4thmd_h_mgbc_b_b_wd0_to : 4thmd_h_mgbc_b_b_wd0
+                    {
+                        displayName = "[ARMCO] Cap Backwards (TO/WD)";
+                        descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Peltor Headset";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\wood\mgbc_wd0.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_b_b_wd1_to : 4thmd_h_mgbc_b_b_wd0_to
+                    {
+                        descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Peltor Headset";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\wood\mgbc_wd1.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_b_b_wd2_to : 4thmd_h_mgbc_b_b_wd0_to
+                    {
+                        descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Peltor Headset";
+                        
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\wood\mgbc_wd2.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_b_b_wd3_to : 4thmd_h_mgbc_b_b_wd0_to
+                    {
+                        descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Peltor Headset";
+                        
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\wood\mgbc_wd3.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                //Goggles
+                    class 4thmd_h_mgbc_b_b_wd0_to_g : 4thmd_h_mgbc_b_b_wd0_g
+                    {
+                        displayName = "[ARMCO] Cap Backwards (TO/WD)";
+                        descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Peltor Headset + ESS";
+                        
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\wood\mgbc_wd0.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_b_b_wd1_to_g : 4thmd_h_mgbc_b_b_wd0_to_g
+                    {
+                        descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Peltor Headset + ESS";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\wood\mgbc_wd1.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_b_b_wd2_to_g : 4thmd_h_mgbc_b_b_wd0_to_g
+                    {
+                        descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Peltor Headset + ESS";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\wood\mgbc_wd2.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_b_b_wd3_to_g : 4thmd_h_mgbc_b_b_wd0_to_g
+                    {
+                        descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Peltor Headset + ESS";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\wood\mgbc_wd3.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+            //Forward Cap
+                //Standard
+                    class 4thmd_h_mgbc_f_b_wd0_to : 4thmd_h_mgbc_f_b_wd0
+                    {
+                        displayName = "[ARMCO] Cap (TO/WD)";
+                        descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Peltor Headset";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\wood\mgbc_wd0.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_f_b_wd1_to : 4thmd_h_mgbc_f_b_wd0_to
+                    {
+                        descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Peltor Headset";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\wood\mgbc_wd1.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_f_b_wd2_to : 4thmd_h_mgbc_f_b_wd0_to
+                    {
+                        descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Peltor Headset";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\wood\mgbc_wd2.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_f_b_wd3_to : 4thmd_h_mgbc_f_b_wd0_to
+                    {
+                        descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Peltor Headset";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\wood\mgbc_wd3.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                //Goggles
+                    class 4thmd_h_mgbc_f_b_wd0_to_g : 4thmd_h_mgbc_f_b_wd0_g
+                    {
+                        displayName = "[ARMCO] Cap (TO/WD)";
+                        descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Peltor Headset + ESS";
+                        
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\wood\mgbc_wd0.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_f_b_wd1_to_g : 4thmd_h_mgbc_f_b_wd0_to_g
+                    {
+                        descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Peltor Headset + ESS";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\wood\mgbc_wd1.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_f_b_wd2_to_g : 4thmd_h_mgbc_f_b_wd0_to_g
+                    {
+                        descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Peltor Headset + ESS";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\wood\mgbc_wd2.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };
+
+                    class 4thmd_h_mgbc_f_b_wd3_to_g : 4thmd_h_mgbc_f_b_wd0_to_g
+                    {
+                        descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Peltor Headset + ESS";
+
+                        hiddenSelectionsTextures[] = 
+                        {
+                            "darkmod_4thmd_mgp\data\wood\mgbc_wd3.paa",
+                            "darkmod_4thmd_mgp\data\mhg1_toy.paa"
+                        };
+                    };

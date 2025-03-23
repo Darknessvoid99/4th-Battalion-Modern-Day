@@ -145,6 +145,42 @@
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_radio = "4thmd_auxof";
                 };
+
+                class 4thmd_b_mgb1_ese_wd0
+                {
+                    Model = "4thmd_b_mgb1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_wood";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_mgb1_ese_wd1
+                {
+                    Model = "4thmd_b_mgb1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_wood";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_mgb1_ese_wd2
+                {
+                    Model = "4thmd_b_mgb1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_wood";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_radio = "4thmd_auxof";
+                };
+
+                class 4thmd_b_mgb1_ese_wd3
+                {
+                    Model = "4thmd_b_mgb1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_wood";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_radio = "4thmd_auxof";
+                };
             //Radio
                 class 4thmd_b_mgb1_rmn_wd0_r
                 {
@@ -289,6 +325,43 @@
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_radio = "4thmd_auxon";
                 };
+
+                class 4thmd_b_mgb1_ese_wd0_r
+                {
+                    Model = "4thmd_b_mgb1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_wood";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_mgb1_ese_wd1_r
+                {
+                    Model = "4thmd_b_mgb1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_wood";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_mgb1_ese_wd2_r
+                {
+                    Model = "4thmd_b_mgb1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_wood";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_radio = "4thmd_auxon";
+                };
+
+                class 4thmd_b_mgb1_ese_wd3_r
+                {
+                    Model = "4thmd_b_mgb1";
+                    4thmd_role = "4thmd_r_ese";
+                    4thmd_color = "4thmd_wood";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_radio = "4thmd_auxon";
+                };
+                
         //Back Panels (mgbp)
             //Standard
                 class 4thmd_b_mgbp_a_wd0

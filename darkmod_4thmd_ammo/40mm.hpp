@@ -50,7 +50,7 @@
             descriptionShort = "Standard Issue Blue Smoke Round<br/>Intended Use: High Visibility Signals<br/>Mark: Friendly Units & Positions / LZs";
         };
 
-        class 4thmd_u_40x46_1_smk_grn : 1Rnd_SmokeBlue_Grenade_shell
+        class 4thmd_u_40x46_1_smk_grn : 1Rnd_SmokeGreen_Grenade_shell
         {
             displayName = "40mm 1rnd Smoke (Green)";
             displayNameShort = "SMK-G";
@@ -108,7 +108,7 @@
 
         class 4thmd_u_40x46_1_flr_ylw : UGL_FlareYellow_F
         {
-            displayName = "40mm 1rnd Flare (White)";
+            displayName = "40mm 1rnd Flare (Yellow)";
             displayNameShort = "FLR-W";
             descriptionShort = "Yellow Signal Flare Round<br/>Intended Use: Low Visibility / Night Signals<br/>Mark: Universal - Designation Via Radio Required";
         };

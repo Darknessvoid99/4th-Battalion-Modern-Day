@@ -848,6 +848,36 @@
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_rollup = "4thmd_auxof";
                 };
+            //TO Uniforms
+                class 4thmd_u_unif1_wd0_to
+                {
+                    Model = "4thmd_u_unif1_to";
+                    4thmd_color = "4thmd_wood";
+                    4thmd_camo = "4thmd_c_standard";
+                    //4thmd_rollup = "4thmd_auxof";
+                };
+                class 4thmd_u_unif1_wd1_to
+                {
+                    Model = "4thmd_u_unif1_to";
+                    4thmd_color = "4thmd_wood";
+                    4thmd_camo = "4thmd_c_solid1";
+                    //4thmd_rollup = "4thmd_auxof";
+                };
+                class 4thmd_u_unif1_wd2_to
+                {
+                    Model = "4thmd_u_unif1_to";
+                    4thmd_color = "4thmd_wood";
+                    4thmd_camo = "4thmd_c_solid2";
+                    //4thmd_rollup = "4thmd_auxof";
+                };
+                class 4thmd_u_unif1_wd3_to
+                {
+                    Model = "4thmd_u_unif1_to";
+                    4thmd_color = "4thmd_wood";
+                    4thmd_camo = "4thmd_c_solid3";
+                    //4thmd_rollup = "4thmd_auxof";
+                };
+
         //Ghillie Suits
             class 4thmd_u_ghil1_wd1
             {

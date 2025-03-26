@@ -86,7 +86,7 @@
     class 4thmd_s_pod4_ammo_wd1 : 4thmd_s_pod4_ammo_ar1
     {
         faction = "4thmd_wd_faction";
-		editorSubcategory="4thmd_wd_containers";
+        editorCategory="4thmd_wd_supplies";
         hiddenSelectionsTextures[] = 
         {
             "darkmod_4thmd_veh\data\woodland\dm_pod4_a_wd1.paa",
@@ -98,7 +98,7 @@
     class 4thmd_s_pod4_fuel_wd1 : 4thmd_s_pod4_fuel_ar1
     {
         faction = "4thmd_wd_faction";
-		editorSubcategory="4thmd_wd_containers";
+        editorCategory="4thmd_wd_supplies";
         hiddenSelectionsTextures[] = 
         {
             "darkmod_4thmd_veh\data\woodland\dm_pod4_fuel_wd1.paa"
@@ -109,7 +109,7 @@
     class 4thmd_s_pod4_medevac_wd1 : 4thmd_s_pod4_medevac_ar1
     {
         faction = "4thmd_wd_faction";
-		editorSubcategory="4thmd_wd_containers";
+        editorCategory="4thmd_wd_supplies";
         hiddenSelectionsTextures[] = 
         {
             "darkmod_4thmd_veh\data\woodland\dm_pod4_a_wd1.paa",
@@ -121,7 +121,7 @@
     class 4thmd_s_pod4_repair_wd1 : 4thmd_s_pod4_repair_ar1
     {
         faction = "4thmd_wd_faction";
-		editorSubcategory="4thmd_wd_containers";
+        editorCategory="4thmd_wd_supplies";
         hiddenSelectionsTextures[] = 
         {
             "darkmod_4thmd_veh\data\woodland\dm_pod4_a_wd1.paa",
@@ -133,7 +133,7 @@
     class 4thmd_s_pod4_repair_eb_wd1 : 4thmd_s_pod4_repair_eb_ar1
     {
         faction = "4thmd_wd_faction";
-		editorSubcategory="4thmd_wd_containers";
+        editorCategory="4thmd_wd_supplies";
         hiddenSelectionsTextures[] = 
         {
             "darkmod_4thmd_veh\data\woodland\dm_pod4_a_wd1.paa",
@@ -145,7 +145,7 @@
     class 4thmd_s_pod4_repair_es_wd1 : 4thmd_s_pod4_repair_es_ar1
     {
         faction = "4thmd_wd_faction";
-		editorSubcategory="4thmd_wd_containers";
+        editorCategory="4thmd_wd_supplies";
         hiddenSelectionsTextures[] = 
         {
             "darkmod_4thmd_veh\data\woodland\dm_pod4_a_wd1.paa",

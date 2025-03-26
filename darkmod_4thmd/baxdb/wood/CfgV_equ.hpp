@@ -3,7 +3,26 @@
     class 4thmd_b_pac5_alp_ar0;
 */
 
-            //Static Versions
+/*  //weapons[] = 
+            "4thmd_b_pac5_alp_wd0_s",
+            "4thmd_b_pac5_alp_wd1_s",
+            "4thmd_b_pac5_alp_wd2_s",
+            "4thmd_b_pac5_alp_wd3_s",
+            "4thmd_b_pac5_sab_wd0_s",
+            "4thmd_b_pac5_sab_wd1_s",
+            "4thmd_b_pac5_sab_wd2_s",
+            "4thmd_b_pac5_sab_wd3_s",
+            "4thmd_b_pac5_zul_wd0_s",
+            "4thmd_b_pac5_zul_wd1_s",
+            "4thmd_b_pac5_zul_wd2_s",
+            "4thmd_b_pac5_zul_wd3_s",
+            "4thmd_b_pac5_phx_wd0_s",
+            "4thmd_b_pac5_phx_wd1_s",
+            "4thmd_b_pac5_phx_wd2_s",
+            "4thmd_b_pac5_phx_wd3_s",
+*/
+
+    //Static Versions
         class 4thmd_b_pac5_alp_wd0_s : 4thmd_b_pac5_alp_ar0_s
         {
             displayName = "[ARMCO] LRRP-Carrier (Woodland/ALPHA)";

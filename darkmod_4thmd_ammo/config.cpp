@@ -2231,4 +2231,44 @@ class CfgWeapons
     {
         magazineWell[] = {"UGL_40x36","CBA_40mm_M203","CBA_40mm_EGLM","CBA_40mm_M203_6rnds"};
     };
+
+    class rhs_weap_m32;
+    class rhs_weap_m32_bcsewpn : rhs_weap_m32
+    {
+        scope = 2;
+        scopeArsenal = 2;
+    };
+
+    class rhs_weap_M590_8RD;
+    class rhs_weap_M590_8RD_bcsewpn : rhs_weap_M590_8RD
+    {
+        scope = 2;
+        scopeArsenal = 2;
+    };
+
+    class rhs_weap_M590_5RD;
+    class rhs_weap_M590_5RD_bcsewpn : rhs_weap_M590_5RD
+    {
+        scope = 2;
+        scopeArsenal = 2;
+    };
+
+    class hlc_lmg_mg3kws;
+    class hlc_lmg_mg3kws_100rnd : hlc_lmg_mg3kws
+    {
+        scopeArsenal = 2;
+    };
+
+    class hlc_lmg_mg3kws_b;
+    class hlc_lmg_mg3kws_b_100rnd : hlc_lmg_mg3kws_b
+    {
+        scopeArsenal = 2;
+    };
+
+    class hlc_lmg_mg3kws_g;
+    class hlc_lmg_mg3kws_g_100rnd : hlc_lmg_mg3kws_g
+    {
+        scopeArsenal = 2;
+    };
+
 };

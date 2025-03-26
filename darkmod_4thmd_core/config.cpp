@@ -540,6 +540,8 @@ class CfgVehicles
 
             maximumLoad = 800;
             ace_cargo_size = 1;
+            ace_dragging_ignoreWeight = 1;
+            ace_dragging_ignoreWeightCarry = 1;
             class TransportBackpacks{};
             class TransportItems{};
             class TransportMagazines{};
@@ -555,6 +557,8 @@ class CfgVehicles
 
             maximumLoad = 1200;
             ace_cargo_size = 1.5;
+            ace_dragging_ignoreWeight = 1;
+            ace_dragging_ignoreWeightCarry = 1;
             class TransportBackpacks{};
             class TransportItems{};
             class TransportMagazines{};
@@ -570,6 +574,8 @@ class CfgVehicles
 
             maximumLoad = 1600;
             ace_cargo_size = 2;
+            ace_dragging_ignoreWeight = 1;
+            ace_dragging_ignoreWeightCarry = 1;
             class TransportBackpacks{};
             class TransportItems{};
             class TransportMagazines{};
@@ -585,6 +591,7 @@ class CfgVehicles
 
             maximumLoad = 2400;
             ace_cargo_size = 3;
+            ace_dragging_ignoreWeight = 1;
             class TransportBackpacks{};
             class TransportItems{};
             class TransportMagazines{};
@@ -600,6 +607,7 @@ class CfgVehicles
 
             maximumLoad = 3200;
             ace_cargo_size = 4;
+            ace_dragging_ignoreWeight = 1;
             class TransportBackpacks{};
             class TransportItems{};
             class TransportMagazines{};
@@ -615,11 +623,12 @@ class CfgVehicles
 
             maximumLoad = 4800;
             ace_cargo_size = 6;
+            ace_dragging_canDrag = 1;
+            ace_dragging_ignoreWeight = 1;
             class TransportBackpacks{};
             class TransportItems{};
             class TransportMagazines{};
             class TransportWeapons{};
-            
         };
 
         class ACE_medicalSupplyCrate;
@@ -631,6 +640,8 @@ class CfgVehicles
 
             maximumLoad = 1200;
             ace_cargo_size = 1;
+            ace_dragging_ignoreWeight = 1;
+            ace_dragging_ignoreWeightCarry = 1;
             class TransportBackpacks{};
             class TransportItems{};
             class TransportMagazines{};
@@ -646,6 +657,8 @@ class CfgVehicles
 
             maximumLoad = 1200;
             ace_cargo_size = 1;
+            ace_dragging_ignoreWeight = 1;
+            ace_dragging_ignoreWeightCarry = 1;
             class TransportBackpacks{};
             class TransportItems{};
             class TransportMagazines{};
@@ -682,6 +695,7 @@ class CfgVehicles
             editorCategory="4thmd_supplies";
             editorSubcategory="4thmd_logistics";
             ace_refuel_fuelCargo = 450;
+            ace_dragging_ignoreWeight = 1;
             ace_dragging_ignoreWeightCarry = 1;
         };
 
@@ -692,6 +706,7 @@ class CfgVehicles
             editorCategory="4thmd_supplies";
             editorSubcategory="4thmd_logistics";
             ace_refuel_fuelCargo = 450;
+            ace_dragging_ignoreWeight = 1;
             ace_dragging_ignoreWeightCarry = 1;
         };
 
@@ -714,6 +729,7 @@ class CfgVehicles
             ace_cargo_hasCargo = 0;
             ace_cargo_space = 0;
             //maximumLoad = 0;
+            aace_dragging_ignoreWeight = 1;
             ace_dragging_ignoreWeightCarry = 1;
         };
 
@@ -729,6 +745,7 @@ class CfgVehicles
             ace_dragging_canDrag = 1;
             ace_cargo_hasCargo = 0;
             ace_cargo_space = 0;
+            ace_dragging_ignoreWeight = 1;
             ace_dragging_ignoreWeightCarry = 1;
         };
 
@@ -786,9 +803,6 @@ class CfgVehicles
         class Land_ClutterCutter_small_F;
         class 4thmd_s_ccs_kpl : Land_ClutterCutter_small_F
         {
-            scope = DEBUG;
-            scopeCurator = DEBUG;
-
             displayName = "Logistics Spawnpoint";
 
             editorCategory="4thmd_supplies";

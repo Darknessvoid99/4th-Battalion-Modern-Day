@@ -7715,7 +7715,7 @@ class cfgGlasses
             {
                 scope = 2;
                 author = "Darknesvoid99";
-                displayName = "[ARMCO] None";
+                displayName = "[ARMCO] None (Face Shield)";
                 descriptionShort = "Something was meant to be here, right...?";
 
                 mass = 2;
@@ -7750,7 +7750,7 @@ class cfgGlasses
 
             class 4thmd_g_mgfs_t_ar0 : 4thmd_g_mgfs_b_ar0
             {
-                displayName = "[ARMCO] Tactical Glasses";
+                displayName = "[ARMCO] Tactical Glasses (FS)";
                 descriptionShort = "Black Tactical Glasses";
 
                 hiddenSelections[] =
@@ -7780,7 +7780,7 @@ class cfgGlasses
 
             class 4thmd_g_mgfs_g_ar0 : 4thmd_g_mgfs_b_ar0
             {
-                displayName = "[ARMCO] Ballistic Goggles";
+                displayName = "[ARMCO] Ballistic Goggles (FS)";
                 descriptionShort = "ESS Ballistic Goggles";
 
                 hiddenSelections[] =
@@ -8851,15 +8851,13 @@ class cfgGlasses
             };
 
     //Include Other Patterns 
-    #include "wood\CfgG_equ.hpp"
-    /*
-    #include "dest\CfgG_equ.hpp"
-    #include "jung\CfgG_equ.hpp"
-    #include "borl\CfgG_equ.hpp"
-    #include "snbl\CfgG_equ.hpp"
-    #include "artc\CfgG_equ.hpp"
-    #include "navy\CfgG_equ.hpp"
-    */
+        #include "wood\CfgG_equ.hpp"
+        //#include "dest\CfgG_equ.hpp"
+        //#include "jung\CfgG_equ.hpp"
+        //#include "borl\CfgG_equ.hpp"
+        //#include "snbl\CfgG_equ.hpp"
+        //#include "artc\CfgG_equ.hpp"
+        //#include "navy\CfgG_equ.hpp"
 };
 
 class XtdGearModels
@@ -8867,6 +8865,8 @@ class XtdGearModels
     //Base Config
         class 4thmd_color_base;
         class 4thmd_camo_base;
+        class 4thmd_nocamo_base;
+        class 4thmd_ess_base;
         class 4thmd_radio_base;
         class 4thmd_role_base;
         class 4thmd_mgv_role_base : 4thmd_role_base
@@ -8948,33 +8948,6 @@ class XtdGearModels
             {
                 label = "Belt";
                 image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-            };
-        };
-
-        class 4thmd_ess_base
-        {
-            alwaysSelectable = 0;
-            changeingame = 1;
-            changedelay = 2;
-            label = "ESS Goggles";
-            values[] =
-            {
-                "4thmd_auxof",
-                "4thmd_auxon"
-            };
-
-            class 4thmd_auxof
-            {
-                label = "None";
-                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                actionlabel = "Remove ESS Goggles";
-            };
-
-            class 4thmd_auxon
-            {
-                label = "ESS";
-                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
-                actionlabel = "Add ESS Goggles";
             };
         };
 
@@ -9251,6 +9224,63 @@ class XtdGearModels
 
             class 4thmd_ess : 4thmd_ess_base {};
         };
+
+        class 4thmd_h_tohg
+        {
+            label = "[ARMCO] TO Headgear";
+            options[]=
+            {
+                "4thmd_type",
+                "4thmd_color",
+                "4thmd_camo",
+                "4thmd_ess"
+            };
+
+            class 4thmd_type
+            {
+                alwaysSelectable = 1;
+				changeingame = 0;
+				changedelay = 2;
+                label = "Headwear Type";
+                values[] =
+                {
+                    "4thmd_t_och",
+                    "4thmd_t_afh",
+                    "4thmd_t_bcf",
+                    "4thmd_t_bcb"
+                };
+
+                class 4thmd_t_afh
+                {
+                    label = "Airframe";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                };
+
+                class 4thmd_t_och
+                {
+                    label = "Opscore";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                };
+
+                class 4thmd_t_bcf
+                {
+                    label = "Cap(Fwd)";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                };
+
+                class 4thmd_t_bcb
+                {
+                    label = "Cap(Bwd)";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                };
+            };
+
+            class 4thmd_color : 4thmd_color_base {};
+
+            class 4thmd_camo : 4thmd_camo_base {};
+
+            class 4thmd_ess : 4thmd_ess_base {};
+        };
     };
 
     class CfgVehicles
@@ -9352,7 +9382,7 @@ class XtdGearModels
             {
                 alwaysSelectable = 1;
 				changeingame = 1;
-				changedelay = 5;
+				changedelay = 3;
                 label = "Wear Face Shield";
                 values[] =
                 {
@@ -9375,10 +9405,7 @@ class XtdGearModels
                 };
             };
 
-            class 4thmd_color : 4thmd_color_base
-            {
-                label = "Face Shield : Camouflage";
-            };
+            class 4thmd_color : 4thmd_color_base {};
 
             class 4thmd_camo : 4thmd_camo_base
             {
@@ -9389,7 +9416,7 @@ class XtdGearModels
             {
                 alwaysSelectable = 1;
 				changeingame = 1;
-				changedelay = 5;
+				changedelay = 3;
                 label = "Wear Shemagh";
                 values[] =
                 {
@@ -9412,7 +9439,7 @@ class XtdGearModels
                 };
             };
 
-            class 4thmd_camo2 : 4thmd_camo_base
+            class 4thmd_camo2 : 4thmd_nocamo_base
             {
                 label = "Shemagh : Pattern";
             };
@@ -12929,6 +12956,272 @@ class XtdGearInfos
                         4thmd_headset = "4thmd_pltmsm";
                         4thmd_ess = "4thmd_auxon";
                     };
+
+        // Training Officer Gear
+            //Opscore Helmet (mgh1)
+                class 4thmd_h_mgh1_a_ar0_to
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_och";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_ess = "4thmd_auxof";
+                };
+                class 4thmd_h_mgh1_a_ar1_to
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_och";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_ess = "4thmd_auxof";
+                };
+                class 4thmd_h_mgh1_a_ar2_to
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_och";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_ess = "4thmd_auxof";
+                };
+                class 4thmd_h_mgh1_a_ar3_to
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_och";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_ess = "4thmd_auxof";
+                };
+
+                class 4thmd_h_mgh1_a_ar0_to_g
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_och";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_ess = "4thmd_auxon";
+                };
+                class 4thmd_h_mgh1_a_ar1_to_g
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_och";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_ess = "4thmd_auxon";
+                };
+                class 4thmd_h_mgh1_a_ar2_to_g
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_och";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_ess = "4thmd_auxon";
+                };
+                class 4thmd_h_mgh1_a_ar3_to_g
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_och";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_ess = "4thmd_auxon";
+                };
+            //Airframe Helmet (mgh2)
+                class 4thmd_h_mgh2_a_ar0_to
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_afh";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_ess = "4thmd_auxof";
+                };
+                class 4thmd_h_mgh2_a_ar1_to
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_afh";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_ess = "4thmd_auxof";
+                };
+                class 4thmd_h_mgh2_a_ar2_to
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_afh";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_ess = "4thmd_auxof";
+                };
+                class 4thmd_h_mgh2_a_ar3_to
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_afh";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_ess = "4thmd_auxof";
+                };
+
+                class 4thmd_h_mgh2_a_ar0_to_g
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_afh";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_ess = "4thmd_auxon";
+                };
+                class 4thmd_h_mgh2_a_ar1_to_g
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_afh";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_ess = "4thmd_auxon";
+                };
+                class 4thmd_h_mgh2_a_ar2_to_g
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_afh";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_ess = "4thmd_auxon";
+                };
+                class 4thmd_h_mgh2_a_ar3_to_g
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_afh";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_ess = "4thmd_auxon";
+                };
+            //Baseball Cap (Forward)
+                class 4thmd_h_mgbc_b_b_ar0_to
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_bcb";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_ess = "4thmd_auxof";
+                };
+                class 4thmd_h_mgbc_b_b_ar1_to
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_bcb";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_ess = "4thmd_auxof";
+                };
+                class 4thmd_h_mgbc_b_b_ar2_to
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_bcb";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_ess = "4thmd_auxof";
+                };
+                class 4thmd_h_mgbc_b_b_ar3_to
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_bcb";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_ess = "4thmd_auxof";
+                };
+
+                class 4thmd_h_mgbc_b_b_ar0_to_g
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_bcb";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_ess = "4thmd_auxon";
+                };
+                class 4thmd_h_mgbc_b_b_ar1_to_g
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_bcb";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_ess = "4thmd_auxon";
+                };
+                class 4thmd_h_mgbc_b_b_ar2_to_g
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_bcb";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_ess = "4thmd_auxon";
+                };
+                class 4thmd_h_mgbc_b_b_ar3_to_g
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_bcb";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_ess = "4thmd_auxon";
+                };
+            //Baseball Cap (Backwards)
+                class 4thmd_h_mgbc_f_b_ar0_to
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_bcf";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_ess = "4thmd_auxof";
+                };
+                class 4thmd_h_mgbc_f_b_ar1_to
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_bcf";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_ess = "4thmd_auxof";
+                };
+                class 4thmd_h_mgbc_f_b_ar2_to
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_bcf";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_ess = "4thmd_auxof";
+                };
+                class 4thmd_h_mgbc_f_b_ar3_to
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_bcf";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_ess = "4thmd_auxof";
+                };
+
+                class 4thmd_h_mgbc_f_b_ar0_to_g
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_bcf";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    4thmd_ess = "4thmd_auxon";
+                };
+                class 4thmd_h_mgbc_f_b_ar1_to_g
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_bcf";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    4thmd_ess = "4thmd_auxon";
+                };
+                class 4thmd_h_mgbc_f_b_ar2_to_g
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_bcf";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    4thmd_ess = "4thmd_auxon";
+                };
+                class 4thmd_h_mgbc_f_b_ar3_to_g
+                {
+                    Model = "4thmd_h_tohg";
+                    4thmd_type = "4thmd_t_bcf";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    4thmd_ess = "4thmd_auxon";
+                };
 
         //Include Other Patterns
         #include "wood\XtdI_CfgW_equ.hpp"

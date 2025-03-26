@@ -5,7 +5,7 @@
             class 4thmd_h_brt2_wd0_hs : 4thmd_h_brt2_alp_hs
             {
                 displayName = "[ARMCO] Beret (Woodland)";
-                descriptionShort = "APAT4-WD Solid Type 4 Pattern<br/>Bowman Elite II Headset";
+                descriptionShort = "APAT4-WD Solid Type A Pattern<br/>Bowman Elite II Headset";
 
                 hiddenSelectionsTextures[] = 
                 {

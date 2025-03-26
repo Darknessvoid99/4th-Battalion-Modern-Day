@@ -595,6 +595,10 @@ class CfgPatches
             "4thmd_b_lsb1_rmn_ar1_r",
             "4thmd_b_lsb1_rmn_ar2_r",
             "4thmd_b_lsb1_rmn_ar3_r",
+            "4thmd_b_lsb1_rmn_ar0_r_to",
+            "4thmd_b_lsb1_rmn_ar1_r_to",
+            "4thmd_b_lsb1_rmn_ar2_r_to",
+            "4thmd_b_lsb1_rmn_ar3_r_to",
             "4thmd_b_pac5_alp_ar0",
             "4thmd_b_pac5_alp_ar1",
             "4thmd_b_pac5_alp_ar2",
@@ -962,6 +966,10 @@ class CfgPatches
             "4thmd_b_lsb1_rmn_wd1_r",
             "4thmd_b_lsb1_rmn_wd2_r",
             "4thmd_b_lsb1_rmn_wd3_r",
+            "4thmd_b_lsb1_rmn_wd0_r_to",
+            "4thmd_b_lsb1_rmn_wd1_r_to",
+            "4thmd_b_lsb1_rmn_wd2_r_to",
+            "4thmd_b_lsb1_rmn_wd3_r_to",
             "4thmd_b_pac5_alp_wd0",
             "4thmd_b_pac5_alp_wd1",
             "4thmd_b_pac5_alp_wd2",
@@ -1180,6 +1188,7 @@ class CfgWeapons
 
             class 4thmd_u_unif1_ar0_to : 4thmd_u_unif1_ar0
             {
+                displayName = "[ARMCO] Massif Uniform (AR/TO)";
                 descriptionShort = "Arid APAT4-AR Pattern<br/>Training Officer Uniform";
 
                 class ItemInfo : ItemInfo
@@ -1188,7 +1197,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_u_unif1_ar1_to : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar1_to : 4thmd_u_unif1_ar0_to
             {
                 descriptionShort = "Arid SOLID-AR Pattern<br/>Training Officer Uniform";
 
@@ -1198,7 +1207,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_u_unif1_ar2_to : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar2_to : 4thmd_u_unif1_ar0_to
             {
                 descriptionShort = "Arid DCAM5-AR Pattern<br/>Training Officer Uniform";
 
@@ -1208,7 +1217,7 @@ class CfgWeapons
                 };
             };
 
-            class 4thmd_u_unif1_ar3_to : 4thmd_u_unif1_ar0
+            class 4thmd_u_unif1_ar3_to : 4thmd_u_unif1_ar0_to
             {
                 descriptionShort = "Arid WCM3B-AR Pattern<br/>Training Officer Uniform";
 
@@ -2918,15 +2927,13 @@ class CfgWeapons
         };
 
     //Include Other Patterns 
-    #include "wood\CfgW_equ.hpp"
-    /*
-    #include "dest\CfgW_equ.hpp"
-    #include "jung\CfgW_equ.hpp"
-    #include "borl\CfgW_equ.hpp"
-    #include "snbl\CfgW_equ.hpp"
-    #include "artc\CfgW_equ.hpp"
-    #include "navy\CfgW_equ.hpp"
-    */
+        #include "wood\CfgW_equ.hpp"
+        //#include "dest\CfgW_equ.hpp"
+        //#include "jung\CfgW_equ.hpp"
+        //#include "borl\CfgW_equ.hpp"
+        //#include "snbl\CfgW_equ.hpp"
+        //#include "artc\CfgW_equ.hpp"
+        //#include "navy\CfgW_equ.hpp"
 };
 
 class CfgVehicles
@@ -4043,6 +4050,8 @@ class CfgVehicles
                 displayName = "[ARMCO] Assault Pack (Arid/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue";
 
+                ace_logistics_wirecutter_hasWirecutter = 1;
+
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\pac1_e_ar0.paa"
@@ -4274,13 +4283,15 @@ class CfgVehicles
                 displayName = "[ARMCO] Assault Pack (Arid/ENG) + Radio";
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
+                ace_logistics_wirecutter_hasWirecutter = 1;
+
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\pac1_e_ar0.paa"
                 };
             };
 
-            class 4thmd_b_pac1_eng_ar1_r : 4thmd_b_pac1_rmn_ar0_r
+            class 4thmd_b_pac1_eng_ar1_r : 4thmd_b_pac1_eng_ar0_r
             {
                 displayName = "[ARMCO] Assault Pack (AR-S1/ENG) + Radio";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -4291,7 +4302,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_eng_ar2_r : 4thmd_b_pac1_rmn_ar0_r
+            class 4thmd_b_pac1_eng_ar2_r : 4thmd_b_pac1_eng_ar0_r
             {
                 displayName = "[ARMCO] Assault Pack (AR-S2/ENG) + Radio";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -4302,7 +4313,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac1_eng_ar3_r : 4thmd_b_pac1_rmn_ar0_r
+            class 4thmd_b_pac1_eng_ar3_r : 4thmd_b_pac1_eng_ar0_r
             {
                 displayName = "[ARMCO] Assault Pack (AR-S3/ENG) + Radio";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -4500,6 +4511,8 @@ class CfgVehicles
             {
                 displayName = "[ARMCO] Field Pack (Arid/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue";
+
+                ace_logistics_wirecutter_hasWirecutter = 1;
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -4732,13 +4745,15 @@ class CfgVehicles
                 displayName = "[ARMCO] Field Pack (Arid/ENG) + Radio";
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
+                ace_logistics_wirecutter_hasWirecutter = 1;
+
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\pac2_e_ar0.paa"
                 };
             };
 
-            class 4thmd_b_pac2_eng_ar1_r : 4thmd_b_pac2_rmn_ar0_r
+            class 4thmd_b_pac2_eng_ar1_r : 4thmd_b_pac2_eng_ar0_r
             {
                 displayName = "[ARMCO] Field Pack (AR-S1/ENG) + Radio";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -4749,7 +4764,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac2_eng_ar2_r : 4thmd_b_pac2_rmn_ar0_r
+            class 4thmd_b_pac2_eng_ar2_r : 4thmd_b_pac2_eng_ar0_r
             {
                 displayName = "[ARMCO] Field Pack (AR-S2/ENG) + Radio";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -4760,7 +4775,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac2_eng_ar3_r : 4thmd_b_pac2_rmn_ar0_r
+            class 4thmd_b_pac2_eng_ar3_r : 4thmd_b_pac2_eng_ar0_r
             {
                 displayName = "[ARMCO] Field Pack (AR-S3/ENG) + Radio";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -4958,6 +4973,8 @@ class CfgVehicles
             {
                 displayName = "[ARMCO] Kitbag (Arid/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue";
+
+                ace_logistics_wirecutter_hasWirecutter = 1;
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -5190,13 +5207,15 @@ class CfgVehicles
                 displayName = "[ARMCO] Kitbag (Arid/ENG) + Radio";
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
+                ace_logistics_wirecutter_hasWirecutter = 1;
+
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\pac3_e_ar0.paa"
                 };
             };
 
-            class 4thmd_b_pac3_eng_ar1_r : 4thmd_b_pac3_rmn_ar0_r
+            class 4thmd_b_pac3_eng_ar1_r : 4thmd_b_pac3_eng_ar0_r
             {
                 displayName = "[ARMCO] Kitbag (AR-S1/ENG) + Radio";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -5207,7 +5226,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_eng_ar2_r : 4thmd_b_pac3_rmn_ar0_r
+            class 4thmd_b_pac3_eng_ar2_r : 4thmd_b_pac3_eng_ar0_r
             {
                 displayName = "[ARMCO] Kitbag (AR-S2/ENG) + Radio";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -5218,7 +5237,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac3_eng_ar3_r : 4thmd_b_pac3_rmn_ar0_r
+            class 4thmd_b_pac3_eng_ar3_r : 4thmd_b_pac3_eng_ar0_r
             {
                 displayName = "[ARMCO] Kitbag (AR-S3/ENG) + Radio";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -5416,6 +5435,8 @@ class CfgVehicles
             {
                 displayName = "[ARMCO] Carry-All (Arid/ENG)";
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue";
+
+                ace_logistics_wirecutter_hasWirecutter = 1;
 
                 hiddenSelectionsTextures[] = 
                 {
@@ -5648,13 +5669,15 @@ class CfgVehicles
                 displayName = "[ARMCO] Carry-All (Arid/ENG) + Radio";
                 descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
 
+                ace_logistics_wirecutter_hasWirecutter = 1;
+
                 hiddenSelectionsTextures[] = 
                 {
                     "darkmod_4thmd\data\arid\pac4_e_ar0.paa"
                 };
             };
 
-            class 4thmd_b_pac4_eng_ar1_r : 4thmd_b_pac4_rmn_ar0_r
+            class 4thmd_b_pac4_eng_ar1_r : 4thmd_b_pac4_eng_ar0_r
             {
                 displayName = "[ARMCO] Carry-All (AR-S1/ENG) + Radio";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -5665,7 +5688,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_eng_ar2_r : 4thmd_b_pac4_rmn_ar0_r
+            class 4thmd_b_pac4_eng_ar2_r : 4thmd_b_pac4_eng_ar0_r
             {
                 displayName = "[ARMCO] Carry-All (AR-S2/ENG) + Radio";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -5676,7 +5699,7 @@ class CfgVehicles
                 };
             };
 
-            class 4thmd_b_pac4_eng_ar3_r : 4thmd_b_pac4_rmn_ar0_r
+            class 4thmd_b_pac4_eng_ar3_r : 4thmd_b_pac4_eng_ar0_r
             {
                 displayName = "[ARMCO] Carry-All (AR-S3/ENG) + Radio";
                 descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -5874,6 +5897,52 @@ class CfgVehicles
                     "darkmod_4thmd\data\arid\lsb1_ar3.paa"
                 };
             };
+        //Radio TO / Zeus / Admin Usage
+            class 4thmd_b_lsb1_rmn_ar0_r_to : 4thmd_b_lsb1_rmn_ar0_r
+            {
+                displayName = "[ZEUS] Leg Strap Bag (Arid) + Radio";
+                descriptionShort = "APAT4-AR Camouflage<br/>Standard Pattern<br/>Standard Issue<br/>+ EXLR-ZEUS Radio";
+
+                maximumLoad = 300;
+
+                tf_dialog = "anprc152_radio_dialog";
+                tf_range = 99999;
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\lsb1_ar0.paa"
+                };
+            };
+
+            class 4thmd_b_lsb1_rmn_ar1_r_to : 4thmd_b_lsb1_rmn_ar0_r_to
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue<br/>+ EXLR-ZEUS Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\lsb1_ar1.paa"
+                };
+            };
+
+            class 4thmd_b_lsb1_rmn_ar2_r_to : 4thmd_b_lsb1_rmn_ar0_r_to
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue<br/>+ EXLR-ZEUS Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\lsb1_ar2.paa"
+                };
+            };
+
+            class 4thmd_b_lsb1_rmn_ar3_r_to : 4thmd_b_lsb1_rmn_ar0_r_to
+            {
+                descriptionShort = "APAT4-AR Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue<br/>+ EXLR-ZEUS Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\arid\lsb1_ar3.paa"
+                };
+            };
 
     //(Bergen) LRRP-Carrier Pack (pac5)
         class B_Bergen_mcamo_F;
@@ -6042,15 +6111,13 @@ class CfgVehicles
         };
 
     //Include Other Patterns 
-    #include "wood\CfgV_equ.hpp"
-    /*
-    #include "dest\CfgV_equ.hpp"
-    #include "jung\CfgV_equ.hpp"
-    #include "borl\CfgV_equ.hpp"
-    #include "snbl\CfgV_equ.hpp"
-    #include "artc\CfgV_equ.hpp"
-    #include "navy\CfgV_equ.hpp"
-    */
+        #include "wood\CfgV_equ.hpp"
+        //#include "dest\CfgV_equ.hpp"
+        //#include "jung\CfgV_equ.hpp"
+        //#include "borl\CfgV_equ.hpp"
+        //#include "snbl\CfgV_equ.hpp"
+        //#include "artc\CfgV_equ.hpp"
+        //#include "navy\CfgV_equ.hpp"
 
         class 4thmd_u_base_b : I_Soldier_base_F
         {
@@ -6522,6 +6589,42 @@ class XtdGearModels
             };
         };
 
+        class 4thmd_nocamo_base : 4thmd_camo_base
+        {
+            class 4thmd_c_standard
+            {
+                label = "Solid A";
+                image = "darkmod_4thmd\data\0icon\aax\icon_p_solid0.paa";
+            };
+        };
+
+        class 4thmd_ess_base
+        {
+            alwaysSelectable = 0;
+            changeingame = 1;
+            changedelay = 2;
+            label = "ESS Goggles";
+            values[] =
+            {
+                "4thmd_auxof",
+                "4thmd_auxon"
+            };
+
+            class 4thmd_auxof
+            {
+                label = "None";
+                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                actionlabel = "Remove ESS Goggles";
+            };
+
+            class 4thmd_auxon
+            {
+                label = "ESS";
+                image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                actionlabel = "Add ESS Goggles";
+            };
+        };
+
         class 4thmd_headset_base
         {
             alwaysSelectable = 0;
@@ -6790,6 +6893,47 @@ class XtdGearModels
             };
         };
 
+        class 4thmd_u_unif1_to
+        {
+            label = "[ARMCO] Massif Uniform (TO)";
+            options[]=
+            {
+                "4thmd_color",
+                "4thmd_camo"
+            };
+
+            class 4thmd_color : 4thmd_color_base {};
+
+            class 4thmd_camo : 4thmd_camo_base {};
+
+            class 4thmd_rollup
+            {
+                alwaysSelectable = 0;
+				changeingame = 1;
+				changedelay = 3;
+                label = "Roll-Up Sleeves";
+                values[] =
+                {
+                    "4thmd_auxof",
+                    "4thmd_auxon"
+                };
+
+                class 4thmd_auxof
+                {
+                    label = "Down";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    actionlabel = "Roll Sleeves Down";
+                };
+
+                class 4thmd_auxon
+                {
+                    label = "Up";
+                    image = "darkmod_4thmd\data\0icon\aax\icon_z_standard.paa";
+                    actionlabel = "Roll Sleeves Up";
+                };
+            };
+        };
+
         class 4thmd_u_ghil1
         {
             label = "[ARMCO] Ghillie Suit";
@@ -6938,51 +7082,14 @@ class XtdGearModels
 
             class 4thmd_color : 4thmd_color_base {};
 
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3",
-                    "4thmd_c_standard"
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Solid 4";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid4.paa";
-                };
-            };
+            class 4thmd_camo : 4thmd_nocamo_base {};
 
             class 4thmd_headset : 4thmd_headset_base {};
         };
 
         class 4thmd_h_hmc1
         {
-            label = "[ARMCO] Crew Helmet";
+            label = "[ARMCO] ACPS/H";
             options[]=
             {
                 "4thmd_color",
@@ -7004,11 +7111,8 @@ class XtdGearModels
                 "4thmd_headset"
             };
 
-            class 4thmd_color
+            class 4thmd_color : 4thmd_color_base
             {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
                 label = "Squad / Camouflage";
                 values[] =
                 {
@@ -7049,115 +7153,12 @@ class XtdGearModels
                     label = "Phoenix";
                     image="darkmod_4thmd\data\0icon\aax\icon_s_phoenix.paa";
                 };
-
-                class 4thmd_arid
-                {
-                    label = "Arid";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_aridapat.paa";
-                    description = "ARMCO APAT4-AR(Arid) Pattern";
-                };
-
-                class 4thmd_wood
-                {
-                    label = "Woodland";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_woodapat.paa";
-                    description = "ARMCO APAT4-WD(Woodland) Pattern";
-                };
-
-                class 4thmd_dest
-                {
-                    label = "Desert";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_destapat.paa";
-                    description = "ARMCO APAT4-DE(Desert) Pattern";
-                };
-
-                class 4thmd_jung
-                {
-                    label = "Jungle";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_jungapat.paa";
-                    description = "ARMCO APAT4-JU(Jungle) Pattern";
-                };
-
-                class 4thmd_borl
-                {
-                    label = "Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_borlapat.paa";
-                    description = "ARMCO APAT3-BO(Boreal) Pattern";
-                };
-
-                class 4thmd_wint
-                {
-                    label = "Snow Boreal";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_wintapat.paa";
-                    description = "ARMCO APAT4-SB(Snow Boreal) Pattern";
-                };
-
-                class 4thmd_arct
-                {
-                    label = "Arctic";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_arctapat.paa";
-                    description = "ARMCO APTSX-AC(Arctic) Pattern";
-                };
-
-                class 4thmd_navy
-                {
-                    label = "Naval";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_c_navyapat.paa";
-                    description = "ARMCO APAT4-NA(Naval) Pattern";
-                };
             };
 
-            class 4thmd_camo
+            class 4thmd_camo : 4thmd_nocamo_base {};
+
+            class 4thmd_headset : 4thmd_headset_base
             {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3",
-                    "4thmd_c_standard"
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Solid 4";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid4.paa";
-                };
-            };
-
-            class 4thmd_headset
-            {
-                alwaysSelectable = 0;
-				changeingame = 1;
-				changedelay = 8;
-                label = "Headset";
-                values[] =
-                {
-                    "4thmd_auxof",
-                    "4thmd_auxon"
-                };
-
                 class 4thmd_auxof
                 {
                     label = "None";
@@ -7184,85 +7185,11 @@ class XtdGearModels
                 "4thmd_camo"
             };
 
-            class 4thmd_squad
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Squad";
-                values[] =
-                {
-                    "4thmd_alpha",
-                    "4thmd_sabre",
-                    "4thmd_zulu",
-                    "4thmd_phoenix"
-                };
-
-                class 4thmd_alpha
-                {
-                    label = "Alpha";
-                    image="darkmod_4thmd\data\0icon\aax\icon_s_alpha.paa";
-                };
-
-                class 4thmd_sabre
-                {
-                    label = "Sabre";
-                    image="darkmod_4thmd\data\0icon\aax\icon_s_sabre.paa";
-                };
-
-                class 4thmd_zulu
-                {
-                    label = "Zulu";
-                    image="darkmod_4thmd\data\0icon\aax\icon_s_zulu.paa";
-                };
-
-                class 4thmd_phoenix
-                {
-                    label = "Phoenix";
-                    image="darkmod_4thmd\data\0icon\aax\icon_s_phoenix.paa";
-                };
-            };
+            class 4thmd_squad : 4thmd_squad_base {};
 
             class 4thmd_color : 4thmd_color_base {};
 
-            class 4thmd_camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 0;
-				changedelay = 0;
-                label = "Pattern";
-                values[] =
-                {
-                    "4thmd_c_solid1",
-                    "4thmd_c_solid2",
-                    "4thmd_c_solid3",
-                    "4thmd_c_standard"
-                };
-
-                class 4thmd_c_solid1
-                {
-                    label = "Solid 1";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid1.paa";
-                };
-
-                class 4thmd_c_solid2
-                {
-                    label = "Solid 2";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid2.paa";
-                };
-
-                class 4thmd_c_solid3
-                {
-                    label = "Solid 3";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid3.paa";
-                };
-
-                class 4thmd_c_standard
-                {
-                    label = "Solid 4";
-                    image = "darkmod_4thmd\data\0icon\aax\icon_p_solid4.paa";
-                };
-            };
+            class 4thmd_camo : 4thmd_nocamo_base {};
         };
 
         class 4thmd_v_lsb1
@@ -8351,6 +8278,36 @@ class XtdGearInfos
                     4thmd_camo = "4thmd_c_solid3";
                     4thmd_rollup = "4thmd_auxof";
                 };
+            //TO Uniforms
+                class 4thmd_u_unif1_ar0_to
+                {
+                    Model = "4thmd_u_unif1_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_standard";
+                    //4thmd_rollup = "4thmd_auxof";
+                };
+                class 4thmd_u_unif1_ar1_to
+                {
+                    Model = "4thmd_u_unif1_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid1";
+                    //4thmd_rollup = "4thmd_auxof";
+                };
+                class 4thmd_u_unif1_ar2_to
+                {
+                    Model = "4thmd_u_unif1_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid2";
+                    //4thmd_rollup = "4thmd_auxof";
+                };
+                class 4thmd_u_unif1_ar3_to
+                {
+                    Model = "4thmd_u_unif1_to";
+                    4thmd_color = "4thmd_arid";
+                    4thmd_camo = "4thmd_c_solid3";
+                    //4thmd_rollup = "4thmd_auxof";
+                };
+
         //Ghillie Suits
             class 4thmd_u_ghil1_ar1
             {

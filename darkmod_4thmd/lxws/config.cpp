@@ -143,15 +143,13 @@ class CfgWeapons
             };
 
     //Include Other Patterns
-        #include "wood\XtdI_CfgW_equ.hpp"
-        /*
-        #include "dest\XtdI_CfgW_equ.hpp"
-        #include "jung\XtdI_CfgW_equ.hpp"
-        #include "borl\XtdI_CfgW_equ.hpp"
-        #include "snbl\XtdI_CfgW_equ.hpp"
-        #include "artc\XtdI_CfgW_equ.hpp"
-        #include "navy\XtdI_CfgW_equ.hpp"
-        */
+            #include "wood\CfgW_equ.hpp"
+            //#include "dest\XtdI_CfgW_equ.hpp"
+            //#include "jung\XtdI_CfgW_equ.hpp"
+            //#include "borl\XtdI_CfgW_equ.hpp"
+            //#include "snbl\XtdI_CfgW_equ.hpp"
+            //#include "artc\XtdI_CfgW_equ.hpp"
+            //#include "navy\XtdI_CfgW_equ.hpp"
 };
 
 class XtdGearInfos
@@ -224,14 +222,12 @@ class XtdGearInfos
             };
 
         //Include Other Patterns
-        #include "wood\XtdI_CfgW_equ.hpp"
-        /*
-        #include "dest\XtdI_CfgW_equ.hpp"
-        #include "jung\XtdI_CfgW_equ.hpp"
-        #include "borl\XtdI_CfgW_equ.hpp"
-        #include "snbl\XtdI_CfgW_equ.hpp"
-        #include "artc\XtdI_CfgW_equ.hpp"
-        #include "navy\XtdI_CfgW_equ.hpp"
-        */
+            #include "wood\XtdI_CfgW_equ.hpp"
+            //#include "dest\XtdI_CfgW_equ.hpp"
+            //#include "jung\XtdI_CfgW_equ.hpp"
+            //#include "borl\XtdI_CfgW_equ.hpp"
+            //#include "snbl\XtdI_CfgW_equ.hpp"
+            //#include "artc\XtdI_CfgW_equ.hpp"
+            //#include "navy\XtdI_CfgW_equ.hpp"
     };
 };

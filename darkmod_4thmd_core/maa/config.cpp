@@ -4,15 +4,67 @@ class CfgPatches
 	{
         weapons[] = 
         {
-            //"greenmag_ammo_9x19_basic_15Rnd"
+            "4thmd_w_ld_lhrM1_hedp_od",
+            "4thmd_w_ld_lhrM1_hedp_od_loaded",
+            "4thmd_w_ld_lhrM1_hedp_od_used",
+            "4thmd_w_ld_lhrM1_hedp_sd",
+            "4thmd_w_ld_lhrM1_hedp_sd_loaded",
+            "4thmd_w_ld_lhrM1_hedp_sd_used",
+            "4thmd_w_ld_lhrM1_hedp_dg",
+            "4thmd_w_ld_lhrM1_hedp_dg_loaded",
+            "4thmd_w_ld_lhrM1_hedp_dg_used",
+            "4thmd_w_ld_lhrM0_hedp_od",
+            "4thmd_w_ld_lhrM0_hedp_od_loaded",
+            "4thmd_w_ld_lhrM0_hedp_od_used",
+            "4thmd_w_ld_lhrM0_hedp_sd",
+            "4thmd_w_ld_lhrM0_hedp_sd_loaded",
+            "4thmd_w_ld_lhrM0_hedp_sd_used",
+            "4thmd_w_ld_lhrM0_hedp_dg",
+            "4thmd_w_ld_lhrM0_hedp_dg_loaded",
+            "4thmd_w_ld_lhrM0_hedp_dg_used",
+
+            "4thmd_w_ld_lhrM1_asm5_od",
+            "4thmd_w_ld_lhrM1_asm5_od_loaded",
+            "4thmd_w_ld_lhrM1_asm5_od_used",
+            "4thmd_w_ld_lhrM1_asm5_sd",
+            "4thmd_w_ld_lhrM1_asm5_sd_loaded",
+            "4thmd_w_ld_lhrM1_asm5_sd_used",
+            "4thmd_w_ld_lhrM1_asm5_dg",
+            "4thmd_w_ld_lhrM1_asm5_dg_loaded",
+            "4thmd_w_ld_lhrM1_asm5_dg_used",
+            "4thmd_w_ld_lhrM0_asm5_od",
+            "4thmd_w_ld_lhrM0_asm5_od_loaded",
+            "4thmd_w_ld_lhrM0_asm5_od_used",
+            "4thmd_w_ld_lhrM0_asm5_sd",
+            "4thmd_w_ld_lhrM0_asm5_sd_loaded",
+            "4thmd_w_ld_lhrM0_asm5_sd_used",
+            "4thmd_w_ld_lhrM0_asm5_dg",
+            "4thmd_w_ld_lhrM0_asm5_dg_loaded",
+            "4thmd_w_ld_lhrM0_asm5_dg_used",
+
+            "4thmd_w_ld_lhrM1_atgm_od",
+            "4thmd_w_ld_lhrM1_atgm_od_loaded",
+            "4thmd_w_ld_lhrM1_atgm_od_used",
+            "4thmd_w_ld_lhrM1_atgm_sd",
+            "4thmd_w_ld_lhrM1_atgm_sd_loaded",
+            "4thmd_w_ld_lhrM1_atgm_sd_used",
+            "4thmd_w_ld_lhrM1_atgm_dg",
+            "4thmd_w_ld_lhrM1_atgm_dg_loaded",
+            "4thmd_w_ld_lhrM1_atgm_dg_used",
+            "4thmd_w_ld_lhrM0_atgm_od",
+            "4thmd_w_ld_lhrM0_atgm_od_loaded",
+            "4thmd_w_ld_lhrM0_atgm_od_used",
+            "4thmd_w_ld_lhrM0_atgm_sd",
+            "4thmd_w_ld_lhrM0_atgm_sd_loaded",
+            "4thmd_w_ld_lhrM0_atgm_sd_used",
+            "4thmd_w_ld_lhrM0_atgm_dg",
+            "4thmd_w_ld_lhrM0_atgm_dg_loaded",
+            "4thmd_w_ld_lhrM0_atgm_dg_used",
         };
         units[] = {};
-        magazines[] = 
-        {
-            //"4thmd_m_762x51_dm50_drum_sby_t3_rb"
-        };
         requiredAddons[] = 
         {   
+            "darkmod_4thmd_core",
             "MAAMod"
         };
 

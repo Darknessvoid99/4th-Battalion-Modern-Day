@@ -359,7 +359,8 @@
 
             class 4thmd_u_unif1_wd0_to : 4thmd_u_unif1_wd0
             {
-                descriptionShort = "Arid APAT4-AR Pattern<br/>Training Officer Uniform";
+                displayName = "[ARMCO] Massif Uniform (WD/TO)";
+                descriptionShort = "Arid APAT4-WD Pattern<br/>Training Officer Uniform";
 
                 class ItemInfo : ItemInfo
                 {
@@ -367,9 +368,9 @@
                 };
             };
 
-            class 4thmd_u_unif1_wd1_to : 4thmd_u_unif1_wd0
+            class 4thmd_u_unif1_wd1_to : 4thmd_u_unif1_wd0_to
             {
-                descriptionShort = "Arid SOLID-AR Pattern<br/>Training Officer Uniform";
+                descriptionShort = "Arid SOLID-WD Pattern<br/>Training Officer Uniform";
 
                 class ItemInfo : ItemInfo
                 {
@@ -377,9 +378,9 @@
                 };
             };
 
-            class 4thmd_u_unif1_wd2_to : 4thmd_u_unif1_wd0
+            class 4thmd_u_unif1_wd2_to : 4thmd_u_unif1_wd0_to
             {
-                descriptionShort = "Arid DCAM5-AR Pattern<br/>Training Officer Uniform";
+                descriptionShort = "Arid DCAM5-WD Pattern<br/>Training Officer Uniform";
 
                 class ItemInfo : ItemInfo
                 {
@@ -387,9 +388,9 @@
                 };
             };
 
-            class 4thmd_u_unif1_wd3_to : 4thmd_u_unif1_wd0
+            class 4thmd_u_unif1_wd3_to : 4thmd_u_unif1_wd0_to
             {
-                descriptionShort = "Arid WCM3B-AR Pattern<br/>Training Officer Uniform";
+                descriptionShort = "Arid WCM3A-WD Pattern<br/>Training Officer Uniform";
 
                 class ItemInfo : ItemInfo
                 {

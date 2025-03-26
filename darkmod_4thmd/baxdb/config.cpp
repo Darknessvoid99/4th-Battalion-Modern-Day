@@ -4,7 +4,39 @@ class CfgPatches
 	{
         weapons[] = 
         {
-            "Bax_DuffelBags_Duffel_Base"
+            "4thmd_b_pac5_alp_ar0_s",
+            "4thmd_b_pac5_alp_ar1_s",
+            "4thmd_b_pac5_alp_ar2_s",
+            "4thmd_b_pac5_alp_ar3_s",
+            "4thmd_b_pac5_sab_ar0_s",
+            "4thmd_b_pac5_sab_ar1_s",
+            "4thmd_b_pac5_sab_ar2_s",
+            "4thmd_b_pac5_sab_ar3_s",
+            "4thmd_b_pac5_zul_ar0_s",
+            "4thmd_b_pac5_zul_ar1_s",
+            "4thmd_b_pac5_zul_ar2_s",
+            "4thmd_b_pac5_zul_ar3_s",
+            "4thmd_b_pac5_phx_ar0_s",
+            "4thmd_b_pac5_phx_ar1_s",
+            "4thmd_b_pac5_phx_ar2_s",
+            "4thmd_b_pac5_phx_ar3_s",
+
+            "4thmd_b_pac5_alp_wd0_s",
+            "4thmd_b_pac5_alp_wd1_s",
+            "4thmd_b_pac5_alp_wd2_s",
+            "4thmd_b_pac5_alp_wd3_s",
+            "4thmd_b_pac5_sab_wd0_s",
+            "4thmd_b_pac5_sab_wd1_s",
+            "4thmd_b_pac5_sab_wd2_s",
+            "4thmd_b_pac5_sab_wd3_s",
+            "4thmd_b_pac5_zul_wd0_s",
+            "4thmd_b_pac5_zul_wd1_s",
+            "4thmd_b_pac5_zul_wd2_s",
+            "4thmd_b_pac5_zul_wd3_s",
+            "4thmd_b_pac5_phx_wd0_s",
+            "4thmd_b_pac5_phx_wd1_s",
+            "4thmd_b_pac5_phx_wd2_s",
+            "4thmd_b_pac5_phx_wd3_s"
         };
         units[] = {};
         magazines[] = {};
@@ -446,4 +478,13 @@ class CfgVehicles
                 assembleTo = "4thmd_b_pac5_phx_ar3_s";
             };
         };
+    
+    //Include Other Patterns 
+        #include "wood\CfgV_equ.hpp"
+        //#include "dest\CfgV_equ.hpp"
+        //#include "jung\CfgV_equ.hpp"
+        //#include "borl\CfgV_equ.hpp"
+        //#include "snbl\CfgV_equ.hpp"
+        //#include "artc\CfgV_equ.hpp"
+        //#include "navy\CfgV_equ.hpp"
 };

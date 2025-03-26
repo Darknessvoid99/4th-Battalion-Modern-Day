@@ -1,13 +1,21 @@
 /*  //Base Classes
             class 4thmd_u_unif1_ar0_f;
             class 4thmd_b_pac1_rmn_ar0;
+            class 4thmd_b_pac1_eng_ar0;
             class 4thmd_b_pac1_rmn_ar0_r;
+            class 4thmd_b_pac1_eng_ar0_r;
             class 4thmd_b_pac2_rmn_ar0;
+            class 4thmd_b_pac2_eng_ar0;
             class 4thmd_b_pac2_rmn_ar0_r;
+            class 4thmd_b_pac2_eng_ar0_r;
             class 4thmd_b_pac3_rmn_ar0;
+            class 4thmd_b_pac3_eng_ar0;
             class 4thmd_b_pac3_rmn_ar0_r;
+            class 4thmd_b_pac3_eng_ar0_r;
             class 4thmd_b_pac4_rmn_ar0;
+            class 4thmd_b_pac4_eng_ar0;
             class 4thmd_b_pac4_rmn_ar0_r;
+            class 4thmd_b_pac4_eng_ar0_r;
             class 4thmd_b_lsb1_rmn_ar0;
             class 4thmd_b_lsb1_rmn_ar0_r;
             class 4thmd_b_pac5_alp_ar0;
@@ -1477,7 +1485,7 @@
                 };
             };
 
-            class 4thmd_b_pac1_eng_wd0 : 4thmd_b_pac1_rmn_wd0
+            class 4thmd_b_pac1_eng_wd0 : 4thmd_b_pac1_eng_ar0
             {
                 displayName = "[ARMCO] Assault Pack (Woodland/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue";
@@ -1698,7 +1706,7 @@
                 };
             };
 
-            class 4thmd_b_pac1_eng_wd0_r : 4thmd_b_pac1_rmn_wd0_r
+            class 4thmd_b_pac1_eng_wd0_r : 4thmd_b_pac1_eng_ar0_r
             {
                 displayName = "[ARMCO] Assault Pack (Woodland/ENG) + Radio";
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -1709,7 +1717,7 @@
                 };
             };
 
-            class 4thmd_b_pac1_eng_wd1_r : 4thmd_b_pac1_rmn_wd0_r
+            class 4thmd_b_pac1_eng_wd1_r : 4thmd_b_pac1_eng_wd0_r
             {
                 displayName = "[ARMCO] Assault Pack (WD-S1/ENG) + Radio";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -1720,7 +1728,7 @@
                 };
             };
 
-            class 4thmd_b_pac1_eng_wd2_r : 4thmd_b_pac1_rmn_wd0_r
+            class 4thmd_b_pac1_eng_wd2_r : 4thmd_b_pac1_eng_wd0_r
             {
                 displayName = "[ARMCO] Assault Pack (WD-S2/ENG) + Radio";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -1731,7 +1739,7 @@
                 };
             };
 
-            class 4thmd_b_pac1_eng_wd3_r : 4thmd_b_pac1_rmn_wd0_r
+            class 4thmd_b_pac1_eng_wd3_r : 4thmd_b_pac1_eng_wd0_r
             {
                 displayName = "[ARMCO] Assault Pack (WD-S3/ENG) + Radio";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -1921,7 +1929,7 @@
                 };
             };
 
-            class 4thmd_b_pac2_eng_wd0 : 4thmd_b_pac2_rmn_wd0
+            class 4thmd_b_pac2_eng_wd0 : 4thmd_b_pac2_eng_ar0
             {
                 displayName = "[ARMCO] Field Pack (Woodland/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue";
@@ -2142,7 +2150,7 @@
                 };
             };
 
-            class 4thmd_b_pac2_eng_wd0_r : 4thmd_b_pac2_rmn_wd0_r
+            class 4thmd_b_pac2_eng_wd0_r : 4thmd_b_pac2_eng_ar0_r
             {
                 displayName = "[ARMCO] Field Pack (Woodland/ENG) + Radio";
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -2153,7 +2161,7 @@
                 };
             };
 
-            class 4thmd_b_pac2_eng_wd1_r : 4thmd_b_pac2_rmn_wd0_r
+            class 4thmd_b_pac2_eng_wd1_r : 4thmd_b_pac2_eng_wd0_r
             {
                 displayName = "[ARMCO] Field Pack (WD-S1/ENG) + Radio";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -2164,7 +2172,7 @@
                 };
             };
 
-            class 4thmd_b_pac2_eng_wd2_r : 4thmd_b_pac2_rmn_wd0_r
+            class 4thmd_b_pac2_eng_wd2_r : 4thmd_b_pac2_eng_wd0_r
             {
                 displayName = "[ARMCO] Field Pack (WD-S2/ENG) + Radio";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -2175,7 +2183,7 @@
                 };
             };
 
-            class 4thmd_b_pac2_eng_wd3_r : 4thmd_b_pac2_rmn_wd0_r
+            class 4thmd_b_pac2_eng_wd3_r : 4thmd_b_pac2_eng_wd0_r
             {
                 displayName = "[ARMCO] Field Pack (WD-S3/ENG) + Radio";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -2364,7 +2372,7 @@
                 };
             };
 
-            class 4thmd_b_pac3_eng_wd0 : 4thmd_b_pac3_rmn_wd0
+            class 4thmd_b_pac3_eng_wd0 : 4thmd_b_pac3_eng_ar0
             {
                 displayName = "[ARMCO] Kitbag (Woodland/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue";
@@ -2585,7 +2593,7 @@
                 };
             };
 
-            class 4thmd_b_pac3_eng_wd0_r : 4thmd_b_pac3_rmn_wd0_r
+            class 4thmd_b_pac3_eng_wd0_r : 4thmd_b_pac3_eng_ar0_r
             {
                 displayName = "[ARMCO] Kitbag (Woodland/ENG) + Radio";
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -2596,7 +2604,7 @@
                 };
             };
 
-            class 4thmd_b_pac3_eng_wd1_r : 4thmd_b_pac3_rmn_wd0_r
+            class 4thmd_b_pac3_eng_wd1_r : 4thmd_b_pac3_eng_wd0_r
             {
                 displayName = "[ARMCO] Kitbag (WD-S1/ENG) + Radio";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -2607,7 +2615,7 @@
                 };
             };
 
-            class 4thmd_b_pac3_eng_wd2_r : 4thmd_b_pac3_rmn_wd0_r
+            class 4thmd_b_pac3_eng_wd2_r : 4thmd_b_pac3_eng_wd0_r
             {
                 displayName = "[ARMCO] Kitbag (WD-S2/ENG) + Radio";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -2618,7 +2626,7 @@
                 };
             };
 
-            class 4thmd_b_pac3_eng_wd3_r : 4thmd_b_pac3_rmn_wd0_r
+            class 4thmd_b_pac3_eng_wd3_r : 4thmd_b_pac3_eng_wd0_r
             {
                 displayName = "[ARMCO] Kitbag (WD-S3/ENG) + Radio";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -2807,7 +2815,7 @@
                 };
             };
 
-            class 4thmd_b_pac4_eng_wd0 : 4thmd_b_pac4_rmn_wd0
+            class 4thmd_b_pac4_eng_wd0 : 4thmd_b_pac4_eng_ar0
             {
                 displayName = "[ARMCO] Carry-All (Woodland/ENG)";
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue";
@@ -3028,7 +3036,7 @@
                 };
             };
 
-            class 4thmd_b_pac4_eng_wd0_r : 4thmd_b_pac4_rmn_wd0_r
+            class 4thmd_b_pac4_eng_wd0_r : 4thmd_b_pac4_eng_ar0_r
             {
                 displayName = "[ARMCO] Carry-All (Woodland/ENG) + Radio";
                 descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -3039,7 +3047,7 @@
                 };
             };
 
-            class 4thmd_b_pac4_eng_wd1_r : 4thmd_b_pac4_rmn_wd0_r
+            class 4thmd_b_pac4_eng_wd1_r : 4thmd_b_pac4_eng_wd0_r
             {
                 displayName = "[ARMCO] Carry-All (WD-S1/ENG) + Radio";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -3050,7 +3058,7 @@
                 };
             };
 
-            class 4thmd_b_pac4_eng_wd2_r : 4thmd_b_pac4_rmn_wd0_r
+            class 4thmd_b_pac4_eng_wd2_r : 4thmd_b_pac4_eng_wd0_r
             {
                 displayName = "[ARMCO] Carry-All (WD-S2/ENG) + Radio";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -3061,7 +3069,7 @@
                 };
             };
 
-            class 4thmd_b_pac4_eng_wd3_r : 4thmd_b_pac4_rmn_wd0_r
+            class 4thmd_b_pac4_eng_wd3_r : 4thmd_b_pac4_eng_wd0_r
             {
                 displayName = "[ARMCO] Carry-All (WD-S3/ENG) + Radio";
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Engineer Issue<br/>+ AN/PRC-152 Radio";
@@ -3238,6 +3246,48 @@
             class 4thmd_b_lsb1_rmn_wd3_r : 4thmd_b_lsb1_rmn_wd0_r
             {
                 descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue<br/>+ AN/PRC-152 Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\lsb1_wd3.paa"
+                };
+            };
+
+        //Radio TO / Zeus / Admin Usage
+            class 4thmd_b_lsb1_rmn_wd0_r_to : 4thmd_b_lsb1_rmn_ar0_r_to
+            {
+                displayName = "[ZEUS] Leg Strap Bag (Woodland) + Radio";
+                descriptionShort = "APAT4-WD Camouflage<br/>Standard Pattern<br/>Standard Issue<br/>+ EXLR-ZEUS Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\lsb1_wd0.paa"
+                };
+            };
+
+            class 4thmd_b_lsb1_rmn_wd1_r_to : 4thmd_b_lsb1_rmn_wd0_r_to
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 1 Pattern<br/>Standard Issue<br/>+ EXLR-ZEUS Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\lsb1_wd1.paa"
+                };
+            };
+
+            class 4thmd_b_lsb1_rmn_wd2_r_to : 4thmd_b_lsb1_rmn_wd0_r_to
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 2 Pattern<br/>Standard Issue<br/>+ EXLR-ZEUS Radio";
+
+                hiddenSelectionsTextures[] = 
+                {
+                    "darkmod_4thmd\data\wood\lsb1_wd2.paa"
+                };
+            };
+
+            class 4thmd_b_lsb1_rmn_wd3_r_to : 4thmd_b_lsb1_rmn_wd0_r_to
+            {
+                descriptionShort = "APAT4-WD Camouflage<br/>Solid Type 3 Pattern<br/>Standard Issue<br/>+ EXLR-ZEUS Radio";
 
                 hiddenSelectionsTextures[] = 
                 {
